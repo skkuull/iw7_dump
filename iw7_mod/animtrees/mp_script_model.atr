@@ -1,0 +1,177 @@
+
+//mp rivet
+	mp_rivet_drone01
+	mp_rivet_drone02
+	mp_rivet_dronewall
+
+	mp_rivet_hanging_gun
+
+	mp_rivet_turbine_engine_off
+	mp_rivet_turbine_engine_start
+	mp_rivet_turbine_engine_loop
+	mp_rivet_turbine_engine_end
+
+	mp_rivet_drone_path_01
+	mp_rivet_drone_path_02
+	mp_rivet_drone_path_03
+	mp_rivet_drone_path_04
+	mp_rivet_drone_path_05
+	mp_rivet_drone_path_06
+	mp_rivet_drone_path_07
+	mp_rivet_drone_path_08
+	mp_rivet_drone_path_09
+	mp_rivet_drone_path_10
+	mp_rivet_drone_path_11
+	mp_rivet_drone_path_12
+	mp_rivet_drone_path_13
+	mp_rivet_drone_path_14
+	
+//mp_breakneck
+	mp_breakneck_stern_spawn
+	mp_breakneck_bridge_spawn
+	mp_breakneck_enlisted_floating_01
+	mp_breakneck_enlisted_floating_02
+	mp_breakneck_escapepod_floating_01
+	mp_breakneck_floating_01
+	mp_breakneck_officers_floating_01
+	mp_breakneck_floating_captains_01
+	mp_breakneck_bridge_girder_anim_01
+	mp_breakneck_bridge_girder_anim_02
+	mp_breakneck_hull_girder_anim_01
+	mp_breakneck_lf_girder_anim_01
+	mp_breakneck_lf_girder_anim_02
+	mp_breakneck_maintenance_anim_01
+	mp_breakneck_rf_panel_escapepod_anim_01
+	mp_breakneck_rf_panel_officersq_01
+	mp_breakneck_rf_screen_anim_01
+
+	// IW7 Hoff Anims
+	IW7_cp_zom_hoff_intro
+	IW7_cp_zom_hoff_dj_window_open
+	IW7_cp_zom_hoff_dj_idle_01
+	IW7_cp_zom_hoff_dj_vo_01
+	IW7_cp_zom_hoff_dj_vo_02
+	IW7_cp_zom_hoff_dj_vo_03
+	IW7_cp_zom_hoff_dj_vo_04
+	IW7_cp_zom_hoff_dj_vo_05
+	IW7_cp_zom_hoff_dj_vo_06
+	IW7_cp_zom_hoff_dj_desk_01
+	IW7_cp_zom_hoff_dj_desk_02
+	IW7_cp_zom_hoff_dj_desk_03
+	IW7_cp_zom_hoff_dj_desk_04
+	IW7_cp_zom_hoff_dj_desk_05
+	IW7_cp_zom_hoff_dj_desk_06
+	IW7_cp_zom_hoff_dj_window_close
+	IW7_cp_zom_hoff_outro
+	IW7_cp_zom_hoff_dj_vo_06_enter
+	IW7_cp_zom_hoff_dj_vo_06_exit
+	
+	IW7_cp_zom_hoff_melee_attack_01
+	IW7_cp_zom_hoff_melee_attack_02
+	IW7_cp_zom_hoff_melee_attack_03
+	
+	// IW7 Surivor Anims
+	IW7_cp_survivor_cabin_idle_01
+	IW7_cp_survivor_cabin_idle_02
+	IW7_cp_survivor_boat_idle
+	IW7_cp_survivor_boat_fall
+	IW7_cp_super_taunt_intro
+	
+	// Wyler ALA Anims
+	IW7_cp_wyler_afterlife_idle_01
+	IW7_cp_wyler_afterlife_idle_02
+	IW7_cp_wyler_afterlife_idle_03
+	IW7_cp_wyler_afterlife_idle_04
+	IW7_cp_wyler_afterlife_idle_05
+	IW7_cp_wyler_afterlife_idle_06
+	IW7_cp_wyler_afterlife_idle_07
+	IW7_cp_wyler_afterlife_idle_08
+	IW7_cp_wyler_afterlife_idle_09
+	IW7_cp_wyler_afterlife_idle_10
+
+	// broshot Taunt Prop anims
+	IW7_mp_taunt_killstreak_apex01_apex	
+	iw7_mp_taunt_killstreak_thor_prop
+	iw7_mp_taunt_killstreak_thor_missile_sdf 
+	iw7_mp_taunt_killstreak_thor_missile01
+	iw7_mp_taunt_killstreak_thor_missile02
+	iw7_mp_taunt_killstreak_thor_missile03
+	iw7_mp_taunt_killstreak_thor_missile04
+	iw7_mp_taunt_killstreak_thor_missile05
+	iw7_mp_taunt_super_shootdown_uav 
+	iw7_mp_taunt_super_shield_prop
+	iw7_mp_taunt_super_shield_prop_no_gun
+	iw7_mp_taunt_killstreak_c8_robot
+	iw7_mp_taunt_killstreak_scorcher_scorcher01
+	iw7_mp_taunt_killstreak_scorcher_scorcher02
+	iw7_mp_taunt_killstreak_scorcher_scorcher03
+	IW7_mp_taunt_adrenaline_nano
+	IW7_mp_taunt_drone_crush_04_carepackage
+	IW7_mp_taunt_drone_crush_05_carepackage
+	IW7_mp_taunt_drone_crush_06_carepackage
+	IW7_mp_taunt_drone_crush_07_carepackage
+	iw7_mp_taunt_flag_plant_flag
+	
+
+	//rave door buys
+	iw7_cp_rave_doorbuy_door
+	iw7_cp_rave_doorbuy_lake_med
+	iw7_cp_rave_doorbuy_lake_sm
+	iw7_cp_rave_doorbuy_large
+	iw7_cp_rave_doorbuy_mine
+	iw7_cp_rave_doorbuy_pipe
+	iw7_cp_rave_doorbuy_sm
+	
+	//log swing trap
+	IW7_cp_log_swing	
+	
+	//PAM GRIER ANIMS
+	IW7_cp_pam_lotus_idle_01
+	IW7_cp_pam_lotus_idle_02
+	IW7_cp_pam_lotus_idle_03
+	IW7_cp_pam_lotus_idle_04
+	IW7_cp_pam_lotus_idle_05
+	
+	// Escort vehicle
+	cp_town_bomb_delivery_vehicle_driving_idle_forward
+	iw7_cp_bosscrab_emerge_slingshot_01
+	
+	//ROBOT
+	iw7_cp_robot_death
+	iw7_cp_robot_idle
+	iw7_cp_robot_launch
+	iw7_cp_robot_spin
+	
+	//ELVIRA
+	IW7_cp_elvira_idle_01
+	IW7_cp_elvira_idle_02
+	IW7_cp_elvira_talk_01
+	IW7_cp_elvira_talk_02
+	IW7_cp_elvira_talk_03
+	IW7_cp_elvira_talk_04
+	IW7_cp_elvira_snap_01
+
+	//SEISMIC DEVICE
+	IW7_cp_seismic_idle
+	IW7_cp_seismic_pound
+	
+	//barrels
+	IW7_cp_barrel_horizontal_01
+	IW7_cp_barrel_horizontal_02
+	IW7_cp_barrel_vertical_01
+	IW7_cp_barrel_vertical_02
+
+	//TANKER
+	IW7_cp_bosscrab_search_food_boat
+	IW7_cp_bosscrab_search_food_boat_idle
+	
+	//ASTEROIDS
+	IW7_cp_asteroid_03
+	IW7_cp_asteroid_04
+	IW7_cp_asteroid_05
+	IW7_cp_asteroid_06
+	IW7_cp_asteroid_07
+	
+	alien_drone_on_autopsy_table
+
+	iw7_cp_chain_swing_01

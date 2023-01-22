@@ -1,0 +1,578 @@
+body
+{
+	//---------------------------------
+	// scripted sequences
+	//---------------------------------
+	scripted
+	{
+		// IW7
+		titan
+		{
+			titan_c12_fight_alliedC12_dropoff
+			titan_c12_fight_alliedC12_event01
+			titan_c12_fight_alliedC12_event01_idle
+			titan_c12_fight_alliedC12_event01_fail
+			titan_c12_fight_alliedC12_event01_success
+			titan_c12_fight_alliedC12_event01_getup
+			titan_c12_fight_alliedC12_event02
+			titan_c12_fight_alliedC12_event02_getup
+			titan_c12_fight_alliedC12_event03
+			titan_c12_fight_alliedC12_event03_exit
+			titan_c12_fight_alliedC12_event03_loop
+			
+			
+			titan_c12_fight_enemyC12_dropoff
+			titan_c12_fight_enemyC12_event01
+			titan_c12_fight_enemyC12_event01_fail
+			titan_c12_fight_enemyC12_event01_success
+			titan_c12_fight_enemyC12_event02
+			titan_c12_fight_enemyC12_event03
+			titan_c12_fight_enemyC12_event03_exit
+			titan_c12_fight_enemyC12_event03_loop
+			
+			titan_hill_refinery_C12_hill_slide
+			titan_hill_refinery_C12_jeep_toss
+			
+			titan_first_gate_breakthrough_c12
+			titan_second_gate_breakthrough_c12
+			titan_third_gate_breakthrough_c12_enter
+			titan_third_gate_breakthrough_c12_closed_idle
+			titan_third_gate_breakthrough_c12_push
+			titan_third_gate_breakthrough_c12_idle
+			titan_third_gate_breakthrough_c12_exit
+			
+			titan_mons_intro_c12_pickup
+			titan_bunker_bombardment_c12_getin
+			
+			titan_apc_dropoff_scene_c12
+			
+			titan_bunker_crash_c12
+			
+			// Temp rodeo - will need to be moved
+			titan_c12_rodeo_c12
+			titan_c12_rodeo_c12rail_dismount
+			
+			titan_LZ_land_c12_enter
+			titan_LZ_land_c12_idle
+			titan_LZ_land_c12_exit
+		}
+		
+		mars
+		{
+			
+			mars_yard_space_suction_C12
+			
+		}
+
+		yard
+		{
+			
+			yard_spaced_airlock_c12
+			
+		}	
+	
+		prisoner
+		{
+		}
+		
+		europa
+		{
+			
+			europa_labs_C12_01_hanging_idle
+			europa_labs_C12_02_hanging_idle
+			europa_labs_C12_03_hanging_idle
+			europa_armory_C12_C12_reveal_turn_on
+			c12_grnd_org_unfold_01
+		}
+		
+		gravity
+		{
+		}
+		
+		rogue_asteroid
+		{
+		}
+		
+		prototypes
+		{
+			c12_melee
+			{
+			}
+			retractable_shield
+			{
+			}
+		}
+		
+		shipcrib_rogue
+		{
+			shipcrib_hangar_c12_event_c12_poweron
+			shipcrib_hangar_c12_event_c12_idle
+			shipcrib_hangar_c12_event_c12_scare
+		}
+	}
+
+	stand
+	{
+		stand_stationary
+		{
+			c12_grnd_org_exposed_idle_alert01
+			c12_grnd_org_exposed_idle_alert02
+			c12_grnd_org_exposed_idle_alert03
+			titan_stealth_street_c12_idle
+			
+			c12_grnd_org_exposed_dismember_idle_leg_r
+			c12_grnd_org_exposed_dismember_idle_leg_l
+
+			stand_turn
+			{
+				c12_grnd_org_exposed_turn_1
+				c12_grnd_org_exposed_turn_2l
+				c12_grnd_org_exposed_turn_2r
+				c12_grnd_org_exposed_turn_3
+				c12_grnd_org_exposed_turn_4
+				c12_grnd_org_exposed_turn_5
+				c12_grnd_org_exposed_turn_6
+				c12_grnd_org_exposed_turn_7
+				c12_grnd_org_exposed_turn_9
+			}
+		}
+		
+		
+		stand_move
+		{
+			run
+			{
+				
+				run_loop : loopsync
+				{
+					c12_grnd_org_run_forward
+					c12_grnd_org_run_twitch01
+					c12_grnd_org_run_twitch02
+					c12_grnd_org_run_twitch03
+				}
+				
+				run_turn
+				{
+					c12_grnd_org_run_turn_1l
+					c12_grnd_org_run_turn_1r
+					c12_grnd_org_run_turn_2l
+					c12_grnd_org_run_turn_2r
+					c12_grnd_org_run_turn_3l
+					c12_grnd_org_run_turn_3r
+					c12_grnd_org_run_turn_4l
+					c12_grnd_org_run_turn_4r
+					c12_grnd_org_run_turn_6l
+					c12_grnd_org_run_turn_6r
+					c12_grnd_org_run_turn_7l
+					c12_grnd_org_run_turn_7r
+					c12_grnd_org_run_turn_8l
+					c12_grnd_org_run_turn_8r
+					c12_grnd_org_run_turn_9l
+					c12_grnd_org_run_turn_9r
+				}
+
+				run_arrival
+				{
+					c12_grnd_org_exposed_arrival_l_1
+					c12_grnd_org_exposed_arrival_l_2
+					c12_grnd_org_exposed_arrival_l_3
+					c12_grnd_org_exposed_arrival_l_4
+					c12_grnd_org_exposed_arrival_l_6
+					c12_grnd_org_exposed_arrival_l_7
+					c12_grnd_org_exposed_arrival_l_8
+					c12_grnd_org_exposed_arrival_l_9
+
+					c12_grnd_org_exposed_arrival_r_1
+					c12_grnd_org_exposed_arrival_r_2
+					c12_grnd_org_exposed_arrival_r_3
+					c12_grnd_org_exposed_arrival_r_4
+					c12_grnd_org_exposed_arrival_r_6
+					c12_grnd_org_exposed_arrival_r_7
+					c12_grnd_org_exposed_arrival_r_8
+					c12_grnd_org_exposed_arrival_r_9
+				}
+
+				run_exit
+				{
+					c12_grnd_org_exposed_exit_1
+					c12_grnd_org_exposed_exit_2
+					c12_grnd_org_exposed_exit_3
+					c12_grnd_org_exposed_exit_4
+					c12_grnd_org_exposed_exit_6
+					c12_grnd_org_exposed_exit_7
+					c12_grnd_org_exposed_exit_8
+					c12_grnd_org_exposed_exit_9
+				}
+			}
+
+			walk
+			{
+				c12_grnd_org_walk_forward
+				c12_grnd_org_walk_backward
+
+				walk_arrival
+				{
+					c12_grnd_org_exposed_walk_arrival_l_1
+					c12_grnd_org_exposed_walk_arrival_l_2
+					c12_grnd_org_exposed_walk_arrival_l_3
+					c12_grnd_org_exposed_walk_arrival_l_4
+					c12_grnd_org_exposed_walk_arrival_l_6
+					c12_grnd_org_exposed_walk_arrival_l_7
+					c12_grnd_org_exposed_walk_arrival_l_8
+					c12_grnd_org_exposed_walk_arrival_l_9
+
+					c12_grnd_org_exposed_walk_arrival_r_1
+					c12_grnd_org_exposed_walk_arrival_r_2
+					c12_grnd_org_exposed_walk_arrival_r_3
+					c12_grnd_org_exposed_walk_arrival_r_4
+					c12_grnd_org_exposed_walk_arrival_r_6
+					c12_grnd_org_exposed_walk_arrival_r_7
+					c12_grnd_org_exposed_walk_arrival_r_8
+					c12_grnd_org_exposed_walk_arrival_r_9
+
+					c12_grnd_org_exposed_walk_arrival_backward_l_8
+					c12_grnd_org_exposed_walk_arrival_backward_r_8
+				}
+
+				walk_exit
+				{
+					c12_grnd_org_exposed_walk_exit_1
+					c12_grnd_org_exposed_walk_exit_2
+					c12_grnd_org_exposed_walk_exit_3
+					c12_grnd_org_exposed_walk_exit_4
+					c12_grnd_org_exposed_walk_exit_6
+					c12_grnd_org_exposed_walk_exit_7
+					c12_grnd_org_exposed_walk_exit_8
+					c12_grnd_org_exposed_walk_exit_9
+
+					c12_grnd_org_exposed_walk_backward_exit_2
+				}
+			}
+
+			dodge
+			{
+				c12_grnd_org_exposed_dodge_l
+				c12_grnd_org_exposed_dodge_r
+			}
+		}
+
+		stand_hitrxn
+		{
+			c12_grnd_org_exposed_pain_front
+			c12_grnd_org_exposed_pain_back
+			c12_grnd_org_exposed_pain_l
+			c12_grnd_org_exposed_pain_r
+			c12_grnd_org_exposed_pain_stay
+
+			c12_grnd_org_exposed_pain_small_front
+			c12_grnd_org_exposed_pain_small_back
+			c12_grnd_org_exposed_pain_small_l
+			c12_grnd_org_exposed_pain_small_r
+			
+			c12_grnd_org_exposed_dismember_arm_l
+			c12_grnd_org_exposed_dismember_arm_r
+			
+			c12_grnd_org_exposed_dismember_leg_l
+			c12_grnd_org_exposed_dismember_leg_r
+			
+			c12_grnd_org_exposed_dismember_arm_l_enter
+			c12_grnd_org_exposed_dismember_arm_l_loop
+			c12_grnd_org_exposed_dismember_arm_l_exit
+			c12_grnd_org_exposed_dismember_arm_r_enter
+			c12_grnd_org_exposed_dismember_arm_r_loop
+			c12_grnd_org_exposed_dismember_arm_r_exit
+		}
+
+		stand_power
+		{
+			c12_grnd_org_exposed_powerdown_01
+			c12_grnd_org_exposed_powerdown_02
+			c12_grnd_org_exposed_powerdown_emp_01
+			c12_grnd_org_exposed_powerdown_emp_02
+			c12_grnd_org_exposed_poweron_01
+			c12_grnd_org_exposed_poweron_02
+			c12_grnd_org_exposed_poweron_emp_01
+			c12_grnd_org_exposed_poweron_emp_2
+			c12_grnd_org_exposed_poweron_storage
+		}
+
+		stand_melee
+		{
+			c12_grnd_org_exposed_melee_punch
+			c12_grnd_org_exposed_melee_stomp
+			c12_grnd_org_exposed_melee_swing_l
+			c12_grnd_org_exposed_melee_swing_r
+			
+			c12_grnd_org_exposed_melee_grab_range_far
+			c12_grnd_org_exposed_melee_grab_range_near
+			c12_grnd_org_exposed_melee_grab_throw_back
+			c12_grnd_org_exposed_melee_grab_throw_front
+			c12_grnd_org_exposed_melee_grab_throw_ground
+			c12_grnd_org_exposed_melee_grab_throw_l
+			c12_grnd_org_exposed_melee_grab_throw_r
+		}
+
+		stand_death
+		{
+			c12_grnd_org_exposed_death_back_01
+			c12_grnd_org_exposed_death_back_02
+			c12_grnd_org_exposed_death_forward_01
+			c12_grnd_org_exposed_death_forward_02
+			c12_grnd_org_exposed_death_left
+			c12_grnd_org_exposed_death_right
+			
+			
+			c12_grnd_org_exposed_dismember_death_leg_l
+			c12_grnd_org_exposed_dismember_death_leg_r
+			
+			c12_grnd_org_exposed_dismember_destruct_leg_l
+			c12_grnd_org_exposed_dismember_destruct_leg_r
+		}
+	}
+	
+	ground
+	{
+		ground_hitrxn
+		{
+			c12_grnd_org_exposed_dismember_arm_l_with_leg_l_enter
+			c12_grnd_org_exposed_dismember_arm_l_with_leg_l_loop
+			c12_grnd_org_exposed_dismember_arm_l_with_leg_l_exit
+			c12_grnd_org_exposed_dismember_arm_l_with_leg_r_enter
+			c12_grnd_org_exposed_dismember_arm_l_with_leg_r_loop
+			c12_grnd_org_exposed_dismember_arm_l_with_leg_r_exit
+			c12_grnd_org_exposed_dismember_arm_r_with_leg_l_enter
+			c12_grnd_org_exposed_dismember_arm_r_with_leg_l_loop
+			c12_grnd_org_exposed_dismember_arm_r_with_leg_l_exit
+			c12_grnd_org_exposed_dismember_arm_r_with_leg_r_enter
+			c12_grnd_org_exposed_dismember_arm_r_with_leg_r_loop
+			c12_grnd_org_exposed_dismember_arm_r_with_leg_r_exit
+		}
+	}
+
+	stand_and_crouch	// standing and crouching, not crawling
+	{
+		
+		walk_and_run_loops : loopsync
+		{
+			crouchrun
+			{
+			}
+			
+			combatrun
+			{
+				combatrun_forward
+				{
+					run_n_gun
+					{
+					}
+				}
+				
+				combatrun_backward
+				{				
+				}
+				
+				combatrun_left
+				{				
+				}
+				
+				combatrun_right
+				{				
+				}
+			}
+		}
+		
+		w_aim_2 : additive
+		{
+		}
+		
+		w_aim_4 : additive
+		{
+		}
+		
+		w_aim_6 : additive
+		{
+		}
+		
+		w_aim_8 : additive
+		{
+		}
+		
+		w_aim_5 : additive
+		{
+		}
+		
+	}
+	
+	exposed_modern
+	{
+		exposed_aiming
+		{
+			aim_u : additive
+			{
+			}
+			
+			aim_4 : additive
+			{
+			}
+			
+			aim_6 : additive
+			{
+			}
+			
+			aim_2 : additive
+			{
+			}
+			
+			aim_8 : additive
+			{
+			}
+			
+			turn
+			{
+			}
+			
+			add_idle : additive
+			{
+			}
+		}
+		
+		reload
+		{
+		}
+		
+		
+		readystand_behavior
+		{
+		}
+	}
+	
+	flashed
+	{
+	}
+	
+	add_fire : additive
+	{
+	}
+	
+	melee
+	{
+	}
+	
+	death
+	{
+	}
+
+	dismember
+	{
+	}
+	
+	pain
+	{
+	}
+}
+
+head
+{
+}
+
+scripted_talking
+{
+	default_talking
+	{
+	}
+}
+
+stand_aim	// all relative/partial anims except minigun aims
+{
+	stand_aim_minigun
+	{
+		c12_grnd_org_exposed_aim_minigun_5
+
+		stand_aim_minigun_28 : additive
+		{
+			c12_grnd_org_exposed_aim_minigun_2
+			c12_grnd_org_exposed_aim_minigun_8
+		}
+		stand_aim_minigun_46 : additive
+		{
+			c12_grnd_org_exposed_aim_minigun_4
+			c12_grnd_org_exposed_aim_minigun_6
+		}
+
+		stand_fire_minigun_add : additive 
+		{
+			c12_grnd_org_exposed_shoot_minigun_loop
+		}
+	}
+
+	stand_aim_add
+	{
+		c12_grnd_org_exposed_aim_hexapod_range
+	}
+
+	stand_aim_left_rail
+	{
+		c12_grnd_org_exposed_aim_rail_l
+	}
+	stand_aim_left_pitch
+	{
+		c12_grnd_org_exposed_aim_pitch_l
+	}
+
+	stand_aim_right_rail
+	{
+		c12_grnd_org_exposed_aim_rail_r
+	}
+	stand_aim_right_pitch
+	{
+		c12_grnd_org_exposed_aim_pitch_r
+	}
+	
+	rodeo
+	{
+		titan_c12_rodeo_c12_jump_front
+		titan_c12_rodeo_c12_jump_left
+		titan_c12_rodeo_c12_jump_rear
+		titan_c12_rodeo_c12_jump_right
+		
+		titan_c12_rodeo_gun_c12_jump_front
+		titan_c12_rodeo_gun_c12_jump_left
+		titan_c12_rodeo_gun_c12_jump_rear
+		titan_c12_rodeo_gun_c12_jump_right
+		
+		titan_c12_rodeo_c12_mount
+		titan_c12_rodeo_c12_idle
+		titan_c12_rodeo_c12_hit
+		titan_c12_rodeo_c12_miss
+		titan_c12_rodeo_c12_miss_knockoff
+		titan_c12_rodeo_c12_miss_quick
+		titan_c12_rodeo_c12_dismount		
+		
+		titan_c12_rodeo_gun_c12_mount
+		titan_c12_rodeo_gun_c12_idle
+		titan_c12_rodeo_gun_c12_miss
+		titan_c12_rodeo_gun_c12_miss_knockoff
+		titan_c12_rodeo_gun_c12_miss_quick
+		titan_c12_rodeo_gun_c12_hit
+		titan_c12_rodeo_gun_c12_dismount
+		titan_c12_rodeo_gun_c12_struggle
+		
+		rodeo_fire_minigun_add : additive
+		{
+			titan_c12_rodeo_gun_c12_minigun_loop
+		}
+	}
+}
+
+stand_fire_rocket_add : additive
+{
+	c12_grnd_org_exposed_shoot_rocket_one_r
+	c12_grnd_org_exposed_shoot_rocket_one_l
+	c12_grnd_org_exposed_shoot_rocket_four_r
+	c12_grnd_org_exposed_shoot_rocket_four_l
+}
+
+stand_fire_minigun_add_full : additive
+{
+	c12_grnd_org_exposed_shoot_minigun_recoil
+}

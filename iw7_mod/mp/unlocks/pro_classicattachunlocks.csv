@@ -1,0 +1,16 @@
+iw7_cheytacc+oscope,,,,system,gamemode,!=,MP
+iw7_cheytacc+silencer,,,,system,gamemode,!=,MP
+iw7_g18c+akimbo,,,,system,gamemode,!=,MP
+iw7_g18c+highcal,,,,system,gamemode,!=,MP
+iw7_g18c+phase,,,,system,gamemode,!=,MP
+iw7_g18c+silencer,,,,system,gamemode,!=,MP
+iw7_arclassic+highcal,,,,system,gamemode,!=,MP
+iw7_arclassic+phase,,,,system,gamemode,!=,MP
+iw7_arclassic+silencer,,,,system,gamemode,!=,MP
+iw7_m1c+highcal,,,,system,gamemode,!=,MP
+iw7_m1c+phase,,,,system,gamemode,!=,MP
+iw7_m1c+silencer,,,,system,gamemode,!=,MP
+iw7_spasc+phase,,,,system,gamemode,!=,MP
+iw7_spasc+silencer,,,,system,gamemode,!=,MP
+iw7_ump45c+phase,,,,system,gamemode,!=,MP
+iw7_ump45c+silencer,,,,system,gamemode,!=,MP

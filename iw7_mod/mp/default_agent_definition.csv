@@ -1,0 +1,12 @@
+1,#C6 - Scripted Agent,c6,c6,,cp_fullbody_synaptic_1,c6_animclass,350,100,100,c6_mp,c6_mp,15,70
+2,# Zombie,generic_zombie,zombie,zombie,zom_civ_urban_male_torso_slice,zombie_asm_animclass,200,50,60,zombie,zombie,15,65
+3,# Traversal Zombie,traversal_zombie,humanoid,zombie,zom_civ_urban_male_torso_slice,zombie_animclass,200,50,50,,,15,65
+4,# Fast Zombie,fast_zombie,humanoid,zombie,zom_civ_urban_male_torso_slice,zombie_animclass,200,50,50,,,15,65
+5,# Soldier,soldier_agent,human,human,body_us_rangers_assault_a,soldier_animclass,100,50,50,soldier_agent,soldier_mp,15,70
+6,# Zombie brute,zombie_brute,zombie_brute,c12,zom_civ_urban_male_torso_slice,zombie_brute_animclass,5000,500,60,zombie_brute,zombie_brute,15,50
+7,# Zombie ghost,zombie_ghost,zombie_ghost,zombie,zom_civ_urban_male_torso_slice,zombie_ghost_animclass,5000,50,60,zombie_ghost,zombie_ghost,15,50
+8,# Zombie grey,zombie_grey,zombie_grey,zombie,park_alien_gray,zombie_grey_animclass,350000,1000,100,zombie_grey,zombie_grey,15,50
+9,# Seeker,seeker,seeker,,seeker_grenade_agent_mp,seeker_animclass,15,0,25,seeker_mp,seeker_mp,15,50
+10,# TheHoff,the_hoff,the_hoff,c6,cp_fullbody_synaptic_1,the_hoff_animclass,350,100,100,c6_mp,c6_mp,15,70
+11,# Zombie cop,zombie_cop,zombie,zombie,zom_civ_urban_male_torso_slice,zombie_asm_animclass,200,50,60,zombie,zombie,15,65
+12,# Zombie clown,zombie_clown,zombie,zombie,park_clown_zombie,zombie_asm_animclass,200,50,60,zombie,zombie,15,65

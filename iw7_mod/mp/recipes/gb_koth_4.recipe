@@ -1,0 +1,37 @@
+gametype = koth
+commonOption.timeLimit = 5.000000
+commonOption.scoreLimit = 250
+commonOption.roundLimit = 1
+commonOption.winLimit = 0
+commonOption.roundSwitch = 1
+
+commonOption.allowKillstreaks = 1
+commonOption.allowPerks = 1
+commonOption.allowSupers = 1
+commonOption.superFastChargeRate = 0
+commonOption.superPointsMod = 1
+commonOption.doubleJumpEnabled = 1
+commonOption.wallRunEnabled = 1
+commonOption.forceRespawn = 1
+commonOption.showKillcam = 1
+commonOption.healthRegen = 3.000000
+commonOption.maxHealth = 100.000000
+commonOption.respawnDelay = 0
+commonOption.spectateModeAllowed = 1
+commonOption.codcasterEnabled = 1
+commonOption.friendlyFire = 0
+commonOption.ffPunishLimit = 2
+commonOption.spectate3rdAllowed = 0
+commonOption.teamAssignmentAllowed = 1
+commonOption.tacticalMode = 0
+commonOption.bulletBounce = 0
+commonOption.radarAlwaysOn = 1
+
+kothData.zoneLifetime = 60.000000
+kothData.zoneCaptureTime = 0.000000
+kothData.zoneActivationDelay = 0.000000
+kothData.randomLocationOrder = 0
+kothData.additiveScoring = 0
+kothData.pauseTime = 1
+kothData.delayPlayer = 0
+kothData.useHQRules = 0

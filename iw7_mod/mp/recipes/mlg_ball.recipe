@@ -1,0 +1,39 @@
+gametype = ball
+commonOption.timeLimit = 5.000000
+commonOption.scoreLimit = 0
+commonOption.roundLimit = 2
+commonOption.winLimit = 0
+commonOption.roundSwitch = 1
+
+commonOption.allowKillstreaks = 1
+commonOption.allowPerks = 1
+commonOption.allowSupers = 1
+commonOption.superFastChargeRate = 0
+commonOption.superPointsMod = 1
+commonOption.doubleJumpEnabled = 1
+commonOption.wallRunEnabled = 1
+commonOption.forceRespawn = 1
+commonOption.showKillcam = 1
+commonOption.healthRegen = 3.000000
+commonOption.maxHealth = 100.000000
+commonOption.respawnDelay = 5.000000
+commonOption.spectateModeAllowed = 1
+commonOption.codcasterEnabled = 1
+commonOption.friendlyFire = 1
+commonOption.ffPunishLimit = -1
+commonOption.spectate3rdAllowed = 0
+commonOption.teamAssignmentAllowed = 1
+commonOption.tacticalMode = 0
+commonOption.bulletBounce = 1
+
+ballData.scoreCarry = 2
+ballData.scoreThrow = 1
+ballData.satelliteCount = 1
+ballData.practiceMode = 0
+
+ballCommonData.possessionResetCondition = 0
+ballCommonData.possessionResetTime = 0
+ballCommonData.idleResetTime = 15.000000
+ballCommonData.explodeOnExpire = 0
+ballCommonData.armorMod = 0.75
+ballCommonData.showEnemyCarrier = 5

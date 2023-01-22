@@ -1,0 +1,15 @@
+wallRun_minZVel,-400,-400,-400,-400,-400,-400,-400
+wallRun_minTriggerSpeed,150,150,150,150,150,150,150
+wallRun_minMaintainSpeed,100,100,100,100,100,100,100
+wallRun_delayPeriodMs,100,100,100,100,100,100,100
+wallRun_minJumpHeight,28,28,28,28,28,28,28
+wallRun_fallStageTimeMs,750,750,1500,750,750,750,750
+wallRun_minHeightOffGround,10,10,10,10,10,10,10
+wallRun_weaponBobFrequency,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+wallRun_maxTimeMs,2200,1500,2800,1500,1500,1500,1500
+wallRun_maxHeight,35,35,35,35,35,35,35
+wallRun_jumpHeight,35,35,35,35,35,35,35
+wallRun_jumpVelocity,30,30,30,30,30,30,30
+wallRun_frictionScale,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+wallRun_speedScale,1.45,1.45,1.45,1.45,1.45,1.45,1.45
+wallRun_speedScaleADS,1.4,1.4,1.4,1.4,1.4,1.4,1.4

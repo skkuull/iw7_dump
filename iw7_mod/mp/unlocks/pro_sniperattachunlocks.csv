@@ -1,0 +1,14 @@
+iw7_kbs+oscope,,,,system,gamemode,!=,MP
+iw7_kbs+silencer,,,,system,gamemode,!=,MP
+iw7_cheytac+oscope,,,,system,gamemode,!=,MP
+iw7_cheytac+silencer,,,,system,gamemode,!=,MP
+iw7_m1+oscope,,,,system,gamemode,!=,MP
+iw7_m1+silencer,,,,system,gamemode,!=,MP
+iw7_m8+oscope,,,,system,gamemode,!=,MP
+iw7_m8+silencer,,,,system,gamemode,!=,MP
+iw7_m8+reflect,,,,system,gamemode,!=,MP
+iw7_m8+xmagse,,,,system,gamemode,!=,MP
+iw7_ba50cal+oscope,,,,system,gamemode,!=,MP
+iw7_ba50cal+silencer,,,,system,gamemode,!=,MP
+iw7_longshot+oscope,,,,system,gamemode,!=,MP
+iw7_longshot+silencer,,,,system,gamemode,!=,MP

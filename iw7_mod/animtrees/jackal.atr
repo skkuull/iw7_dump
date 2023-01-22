@@ -1,0 +1,753 @@
+
+//
+// Vignette Anims
+//
+jackal_pilot_dismount_01_port
+jackal_pilot_mount_01_port
+jackal_pilot_mount_01_starboard
+jackal_pilot_mount_02_starboard
+jackal_pilot_zg_dismount_01
+jackal_pilot_zg_mount_01
+jackal_pilot_zg_mount_01_front
+jackal_pilot_zg_mount_01_port
+jackal_pilot_zg_mount_01_starboard
+Jackal_vehicle_dismount_01_port
+Jackal_vehicle_mount_01_port
+Jackal_vehicle_mount_01_starboard
+Jackal_vehicle_mount_02_starboard
+jackal_vehicle_zg_dismount_01
+jackal_vehicle_zg_mount_01
+jackal_vehicle_zg_mount_01_front
+jackal_vehicle_zg_mount_01_port
+jackal_vehicle_zg_mount_01_starboard
+titan_jackal_plr_board
+titan_jackal_jackal_board
+//SH_MN_1_2_RETURN_DECK_jackal_exit
+
+jackal_dismount_01_port
+jackal_mount_01_port
+titan_turbinelockrelease_salter_jackal
+titan_hot_landing_player_jackal
+titan_hot_landing_player_jackal_pilot
+
+titan_bunker_crash_jackal
+mars_intro_jackal_oxygen
+mars_intro_jackal_climbout
+
+jackal_pilot_missle_hit
+jackal_vehicle_missle_hit
+jackal_pilot_destabilized_idle
+jackal_vehicle_destabilized_idle
+jackal_pilot_assault_death
+jackal_vehicle_assault_death
+jackal_pilot_strike_death
+jackal_vehicle_strike_death
+jackal_pilot_assault_death01
+jackal_vehicle_assault_death01
+jackal_pilot_assault_death02
+jackal_vehicle_assault_death02
+jackal_pilot_assault_death03
+jackal_vehicle_assault_death03
+jackal_pilot_assault_death04
+jackal_vehicle_assault_death04
+
+
+titan_ow_enemy_jack01_strafe
+titan_ow_enemy_jack02_strafe
+titan_ow_enemy_jack03_strafe
+titan_ow_enemy_jack04_strafe
+titan_ow_enemy_jack05_strafe
+titan_ow_enemy_jack06_strafe
+titan_ow_enemy_jack07_strafe
+titan_ow_slt_jack_dropoff_enter
+titan_ow_slt_jack_dropoff_idle
+titan_ow_plr_jack_dropoff_enter
+titan_ow_plr_jack_dropoff_idle
+titan_ow_ally_jack01_flyby
+titan_ow_ally_jack02_flyby
+titan_ow_ally_jack03_flyby
+titan_ow_ally_jack04_flyby
+titan_ow_ally_jack05_flyby
+titan_ow_ally_jack06_flyby
+titan_ow_ally_jack07_flyby
+
+Titan_jackal_reveal_salter
+Titan_jackal_reveal_vehicle
+Titan_jackal_reveal_vehicle_idle
+
+titan_ending_jackal
+titan_ending_jackal_crash
+
+pearlharbor
+{
+	//pearlharbor anims
+	
+	ph_parade_jackal_land
+	ph_parade_jackal_land_idle
+	
+	ph_tower_jackal_jackal_board
+	ph_tower_jackal_plr_board
+	
+	ph_parade_attack_jackal_crash
+	
+	ph_ccd_jump_over_wall_jackal01
+	ph_ccd_jump_over_wall_jackal02
+	
+	ph_jackals_landing_jackal01
+	ph_jackals_landing_jackal01_dps
+	ph_jackals_landing_jackal02
+	ph_jackals_landing_jackal02_dps
+	ph_jackals_landing_jackal02_idle
+	ph_jackals_landing_jackal02_idle_dps
+	
+	ph_jackals_c6i_climb_back_seat_jackal
+	ph_jackals_xo_climb_front_seat_jackal
+	
+	ph_jackals_launch_space_salter_jackal
+	ph_jackals_launch_space_3rd_jackal
+	ph_jackals_launch_space_plr_jackal_boost
+	ph_jackals_launch_space_plr_jackal_dps
+	ph_jackals_launch_space_plr_jackal_boost_dps
+
+	ph_jackals_launch_space_plr_starboard_dps
+	ph_jackals_launch_space_jackal_starboard_dps
+	ph_jackals_weapons_out_plr_dps
+	ph_jackals_weapons_out_jackal_dps
+}
+
+ph_hill400_jackal_support_jackal
+
+//gravity anims
+gravity
+{
+	grav_spotlight_test_jackal
+	
+	grav_intro_jackal_suckout
+	grav_intro_jackal_strafe_1
+	grav_intro_jackal_strafe_2
+	grav_intro_jackal_strafe_3
+	grav_intro_jackal_strafe_4
+	grav_intro_jackal_strafe_5
+	grav_intro_jackal_strafe_6
+	grav_intro_jackal_strafe_7
+	grav_intro_jackal_strafe_8
+	grav_intro_jackal_strafe_9
+	grav_intro_jackal_strafe_10
+
+	grav_debrisdodge_jackal
+	grav_flyby_jackal	
+	grav_spacewalk_atommeet_jackal_end
+	grav_gungrab_jackal_dropoff
+	
+	//new jackal rodeo
+	grav_jackal_rodeo_plr_cockpit_enter
+	
+	grav_jackal_rodeo_jackal_idle
+	grav_jackal_fight_jackal_enter
+	grav_jackal_fight_jackal_explode
+	grav_jackal_fight_jackal_explode_zero_trans
+	grav_jackal_rodeo_jackal_attach
+	grav_jackal_rodeo_jackal_cockpit_open
+	grav_jackal_rodeo_jackal_cockpit_enter
+	grav_jackal_rodeo_jackal_cockpit_idle
+	grav_jackal_fight_jackal_power_on_lose
+	grav_jackal_fight_jackal_power_on_win
+	
+	grav_jackal_rodeo_jackal_crash
+
+	
+	//oldjackal rodeo
+	grav_jackal_rodeo_jackal_handle_pull
+	grav_jackal_rodeo_jackal_handle_idle
+	grav_jackal_rodeo_jackal_spacejump
+	grav_jackal_rodeo_jackal_jump_on
+	grav_jackal_rodeo_jackal_jump_on_idle
+}
+
+//moon anims
+moon
+{
+	moon_suckout_hallway_jackal
+	moon_suckout_knockback_jackal
+	moon_suckout_scene_jackal
+	moon_suckout_run_jackal
+	
+	
+	//infil
+	moon_infil_drive_jack1
+	moon_infil_drive_jack2
+	moon_infil_drive_jack3
+	moon_infil_drive_jack4
+	moon_infil_drive_jack5
+	moon_infil_drive_jack6
+	
+	//moon arena
+	moon_arena_launch_space_salter_jackal
+	
+	//moon window tutorial
+	moon_window_tutorial_jackal
+
+	//moon hangar raise
+	moon_2_32_jackal_raise_1
+	moon_2_32_jackal_raise_2
+	moon_2_32_jackal_raise_3
+	moon_2_32_jackal_raise_4
+	
+	moon_2_32_jackal_raise_1_idle
+	moon_2_32_jackal_raise_2_idle
+	moon_2_32_jackal_raise_3_idle
+	moon_2_32_jackal_raise_4_idle
+	
+	moon_jackal_flyby_1
+	moon_jackal_flyby_2
+	moon_jackal_flyby_1_enter
+	moon_jackal_flyby_1_idle
+	moon_jackal_flyby_1_exit
+	moon_jackal_flyby_2_enter
+	moon_jackal_flyby_2_idle
+	moon_jackal_flyby_2_exit
+	
+	moon_jackal_plr_board
+	moon_jackal_jackal_board
+}
+
+shipcrib_pilot
+{
+	//Shipcrib Global
+	jackal_pilot_camo_change
+	jackal_pilot_engine_off
+	
+	//shipcrib moon
+	SH_MN_1_1C_JACKAL_EXIT_PLR_intro
+	SH_MN_1_1C_JACKAL_EXIT_PLR_intro_idle
+	SH_MN_1_1C_JACKAL_EXIT_PLR_decend
+	SH_MN_1_1C_JACKAL_EXIT_PLR_deck_idle
+	SH_MN_1_1C_JACKAL_EXIT_PLR_cockpit_lift
+	SH_MN_1_2_RETURN_DECK_PLR_exit
+	
+	//shipcrib europa
+	SH3_1B_EUR_TABLET_PLR_intro
+	SH3_17C_EUR_JACKAL_PLR_sitting
+	jackal_pilot_mount_europa
+	
+	//shipcrib titan
+	SH4_3_2_TTN_LAND_PLR_exit_jackal
+	
+	//shipcrib gravity
+	SH5_1_GRAV_LAND_PLR_intro
+	
+	jackal_pilot_reaction_crane_start
+	jackal_pilot_reaction_crane_stop
+	jackal_pilot_reaction_launch
+	jackal_pilot_reaction_start
+	jackal_pilot_reaction_stop	
+	
+	//shipcrib shipassault
+	jackal_pilot_mount_03_starboard
+}
+
+shipcrib_vehicle
+{
+	//Moon
+	SH_MN_1_2_RETURN_DECK_jackal_exit
+	jackal_vehicle_engine_off
+	
+	//Europa
+	SH3_1B_EUR_TABLET_JACKAL_intro
+	jackal_vehicle_mount_europa
+	jackal_vehicle_shipcrib_landed
+	
+	//Titan
+	SH4_3_2_TTN_LAND_JACKAL_exit_idle
+	SH4_3_2_TTN_LAND_JACKAL_exit_jackal
+	
+	//shipcrib shipassault
+	jackal_vehicle_mount_03_starboard
+	
+}
+
+//heist anims
+heist_mons_attack_plr_emp_reaction
+heist_mons_attack_jackal_emp_reaction
+heist_mons_attack_jackal_flight_land
+heist_mons_attack_plr_flight_eject
+heist_mons_attack_plr_overmount
+heist_mons_attack_jackal_arrival
+heist_mons_attack_jackal_overmount
+heist_mons_attack_jackal_idle
+heist_mons_attack_jackal_idle_hoverbeforelaunch
+heist_mons_attack_jackal_flight
+heist_mons_attack_jackal_flight_eject
+heist_mons_attack_jackal_flight_failtoeject
+heist_mons_attack_plr_flight_failtoeject
+
+heist_mons_attack_flight_sdf_jack_01
+heist_mons_attack_flight_sdf_jack_02
+heist_mons_attack_flight_sdf_jack_03
+heist_mons_attack_land_sdf_jack_01
+
+heist_unroof_jackal_xo_land
+heist_unroof_jackal_plr_land
+heist_unroof_jackal_xo_idle
+heist_unroof_jackal_plr_idle
+
+//heist space anims
+hs_outro_monscrash_player_jackal
+hs_outro_monscrash_player_jackal_pilot
+
+//sa_moon anims
+sa_moon_intro_jackal_plr
+sa_moon_intro_jackal_xo
+sa_moon_intro_jackal_ally01
+sa_moon_intro_dismount_plr
+sa_moon_intro_bink_jackal_plr
+sa_moon_intro_bink_jackal_xo
+sa_moon_intro_bink_jackal_ally01
+
+sa_moon_cargobay_outro_jackal_plr_loop
+sa_moon_cargobay_outro_jackal_plr_start
+sa_moon_cargobay_outro_jackal_xo_start
+sa_moon_cargobay_outro_jackal_xo_loop
+
+sa_moon_flyout_outro_jackal_plr_start
+sa_moon_flyout_outro_jackal_xo_start
+sa_moon_flyout_outro_jackal_xo_loop
+
+//sa_wounded anims
+sa_wounded_infil_player_jackal_pilot
+sa_wounded_infil_player_jackal
+sa_wounded_outro_jackal_ally
+sa_wounded_outro_plr
+
+//sa_vips
+sa_vips_exfil_jackal
+sa_vips_exfil_loop_jackal
+sa_vips_exfil_plr
+
+//sa_emp
+sa_emp_interior_prototype_jackal
+sa_emp_jackal_ca_pilot_zg_mount_01_port
+sa_emp_jackal_ca_vehicle_zg_mount_01_port
+sa_emp_jackal_ca_pilot_zg_mount_01_starboard
+sa_emp_jackal_ca_vehicle_zg_mount_01_starboard
+
+//marsbase
+ iw7_fxanim_sp_mars_jackal_run_01_anim
+ iw7_fxanim_sp_mars_jackal_run_02_anim
+ iw7_fxanim_sp_mars_jackal_run_03_anim
+ 
+ iw7_fxanim_sp_mars_jackal_bomb_run_01_anim
+ iw7_fxanim_sp_mars_jackal_bomb_run_02_anim
+ iw7_fxanim_sp_mars_jackal_bomb_run_03_anim
+ iw7_fxanim_sp_mars_jackal_bomb_run_04_anim
+ 
+//MP Riot ambient
+riot_1_jackal_1
+riot_1_sdf_1
+
+riot_1_jackal_2
+riot_1_sdf_2
+
+riot_1_jackal_3
+riot_1_sdf_3
+
+riot_2_jackal_1
+riot_2_sdf_1
+
+riot_2_jackal_2
+riot_2_sdf_2
+
+riot_jackal_crash_water_01
+
+riot_flyby_jackal_1
+riot_flyby_jackal_2
+riot_flyby_jackal_3
+riot_flyby_jackal_4
+
+riot_flyby_sdf_1
+riot_flyby_sdf_2
+riot_flyby_sdf_3
+riot_flyby_sdf_4
+
+jackal_state_anims_ai
+{
+	//
+	// State Idles
+	//
+	jackal_vehicle_assault_state_idle
+	jackal_vehicle_strike_state_idle	
+	jackal_vehicle_landed_state_idle
+	jackal_vehicle_landed_shipcrib_state_idle
+	
+	jackal_ca_vehicle_assault_state_idle
+	jackal_ca_vehicle_strike_state_idle
+	jackal_ca_vehicle_landed_state_idle
+	
+	//ai only...
+	Jackal_vehicle_launch_state_idle
+	jackal_vehicle_space_strike_state_idle
+	jackal_vehicle_space_assault_state_idle
+	
+	Jackal_ca_vehicle_launch_state_idle
+	jackal_ca_vehicle_space_strike_state_idle
+	jackal_ca_vehicle_space_assault_state_idle
+	
+	// State Transitions
+	//
+	jackal_vehicle_assault_to_strike
+	jackal_vehicle_strike_to_assault	
+	Jackal_vehicle_assault_land_to_landed		
+	Jackal_vehicle_landed_to_assault	
+	Jackal_vehicle_strike_land_to_landed		
+	Jackal_vehicle_landed_to_strike
+	Jackal_vehicle_space_assault_to_mount	
+	jackal_ca_vehicle_assault_to_strike	
+	jackal_ca_vehicle_strike_to_assault	
+	Jackal_ca_vehicle_assault_land_to_landed		
+	Jackal_ca_vehicle_landed_to_assault	
+	Jackal_ca_vehicle_strike_land_to_landed	
+	Jackal_ca_vehicle_landed_to_strike
+		
+	//ai only...
+	Jackal_vehicle_assault_to_launch
+	Jackal_vehicle_launch_to_assault
+	Jackal_vehicle_strike_to_launch
+	Jackal_vehicle_launch_to_strike
+	Jackal_vehicle_launch_to_space_strike
+	Jackal_vehicle_space_assault_to_strike
+	Jackal_vehicle_space_strike_to_assault
+	
+	Jackal_ca_vehicle_assault_to_launch
+	Jackal_ca_vehicle_launch_to_assault
+	Jackal_ca_vehicle_strike_to_launch
+	Jackal_ca_vehicle_launch_to_strike
+	Jackal_ca_vehicle_launch_to_space_strike
+	Jackal_ca_vehicle_space_assault_to_strike
+	Jackal_ca_vehicle_space_strike_to_assault
+	
+	//used for runway launch in moon
+	jackal_vehicle_landed_to_launch
+	
+	//
+	// Additive Motion Idles
+	//
+	jackal_motion_idle_ai : additive 
+	{ 
+		jackal_vehicle_landed_motion_idle 
+		jackal_vehicle_launch_motion_idle 
+		jackal_vehicle_reentry_motion_idle 
+		
+		jackal_vehicle_assault_motion_idle 
+		jackal_pilot_assault_motion_idle 
+				
+		jackal_vehicle_strike_motion_idle 
+		jackal_pilot_strike_motion_idle 
+		
+		jackal_vehicle_space_strike_motion_idle//temp stubb, its an empty addititve anim
+		jackal_vehicle_space_assault_motion_idle//temp stubb, its an empty addititve anim
+	  
+	  	jackal_vehicle_zg_motion_idle
+	  
+		jackal_ca_vehicle_assault_motion_idle 
+		jackal_ca_vehicle_strike_motion_idle 
+		jackal_ca_vehicle_landed_motion_idle 
+		jackal_ca_vehicle_space_assault_motion_idle 
+		jackal_ca_vehicle_space_strike_motion_idle 
+		
+	}
+}
+
+//jukes
+Jackal_vehicle_maneuver_juke_r
+Jackal_vehicle_maneuver_juke_l
+
+veh_mil_air_un_jackal_ROM
+//
+// evasion
+//
+jackal_evade_overlay : additive
+{	
+	jackal_titan_launch_evade_salter
+	jackal_titan_launch_evade_redshirt_1
+	jackal_titan_launch_evade_redshirt_2
+	jackal_vehicle_evade_01
+	jackal_vehicle_evade_02
+	jackal_vehicle_evade_03
+	jackal_vehicle_evade_04
+	jackal_vehicle_evade_05
+	jackal_vehicle_evade_06
+	jackal_vehicle_evade_07
+	jackal_vehicle_evade_08
+//	jackal_vehicle_evade_09
+//	jackal_vehicle_evade_10
+}
+
+
+//extra layer of motion used for scripted moments of jackal AI
+jackal_extra_fly_motion_overlay : additive
+{
+	jackal_vehicle_fly_motion
+}
+	
+
+//
+// Additive Thrusts
+//
+jackal_thrust_p : additive 
+{ 
+	jackal_vehicle_thrust_in 
+	jackal_pilot_thrust_in 
+
+	jackal_vehicle_thrust_loop 
+	jackal_pilot_thrust_loop 
+
+	jackal_vehicle_thrust_out 
+	jackal_pilot_thrust_out 
+}
+
+//
+// death/damage
+//
+jackal_fly_idle
+jackal_hover_idle
+
+jackal_death_overlay : additive
+{	
+	jackal_death_01
+	jackal_death_02
+	jackal_death_03
+	jackal_death_04
+	jackal_hov_damage_01
+}
+
+
+jackal_juke : additive
+{	
+	jackal_vehicle_juke_r
+	jackal_vehicle_juke_l
+}
+
+jackal_vehicle_maneuver_immelmann
+
+//mission specfic overlay anims
+jackal_pilot_heist_mons_intro_lookback
+jackal_vehicle_heist_mons_intro_lookback
+
+jackal_pilot_runway_prep
+jackal_vehicle_runway_prep
+
+jackal_pilot_launch_button
+jackal_vehicle_launch_button
+
+jackal_pilot_booster_button
+jackal_vehicle_booster_button
+
+jackal_pilot_weapon_button
+jackal_vehicle_weapon_button
+
+jackal_vehicle_mons_ftl
+jackal_pilot_mons_ftl
+
+jackal_lean
+{
+	center
+	{
+		shipcrib_veh_jackal_lean_hatch_center_closed
+		shipcrib_veh_jackal_lean_hatch_center_closed_hold
+		shipcrib_veh_jackal_lean_hatch_center_open
+		shipcrib_veh_jackal_lean_hatch_center_open_hold
+	}
+	
+	left
+	{
+		shipcrib_veh_jackal_lean_hatch_left_close
+		shipcrib_veh_jackal_lean_hatch_left_close_hold
+		shipcrib_veh_jackal_lean_hatch_left_open
+		shipcrib_veh_jackal_lean_hatch_left_open_hold
+	}
+	
+	right
+	{
+		shipcrib_veh_jackal_lean_hatch_right_close
+		shipcrib_veh_jackal_lean_hatch_right_close_hold
+		shipcrib_veh_jackal_lean_hatch_right_open
+		shipcrib_veh_jackal_lean_hatch_right_open_hold
+	}
+	
+	top
+	{
+		shipcrib_veh_jackal_lean_hatch_top_close
+		shipcrib_veh_jackal_lean_hatch_top_close_hold
+		shipcrib_veh_jackal_lean_hatch_top_open
+		shipcrib_veh_jackal_lean_hatch_top_open_hold
+	}
+	canopy
+	{
+		shipcrib_veh_jackal_lean_canopy_closed_hold
+		shipcrib_veh_jackal_lean_canopy_open
+		shipcrib_veh_jackal_lean_canopy_opened_hold
+		shipcrib_veh_jackal_lean_canopy_close
+	}
+	
+	wheels
+	{
+		shipcrib_veh_jackal_lean_wheel_rotate
+		shipcrib_veh_jackal_lean_wheel_steer
+	}
+}
+
+//venom anims
+
+venom_vehicle_assault_idle
+
+//apex anims
+
+
+
+//ONLY PLAYER ANIMS BETWEEN ARROWS
+//VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+//  ||  					||  								||
+//  ||  					||  								||
+//  \/  					\/  								\/
+
+//player state anims
+jackal_vehicle_assault_state_idle_plr
+jackal_pilot_assault_state_idle
+
+jackal_vehicle_strike_state_idle_plr
+jackal_pilot_strike_state_idle
+
+jackal_vehicle_landed_state_idle_plr
+jackal_pilot_landed_state_idle
+
+apex_vehicle_assault_state_idle
+
+//player transition anims
+jackal_vehicle_strike_to_assault_plr
+jackal_pilot_strike_to_assault
+
+jackal_vehicle_assault_to_strike_plr
+jackal_pilot_assault_to_strike
+
+Jackal_vehicle_landed_to_assault_plr
+Jackal_pilot_landed_to_assault
+
+Jackal_vehicle_assault_land_to_landed_plr
+Jackal_pilot_assault_land_to_landed
+
+Jackal_vehicle_strike_land_to_landed_plr
+Jackal_pilot_strike_land_to_landed
+
+Jackal_vehicle_landed_to_strike_plr
+Jackal_pilot_landed_to_strike
+
+//
+// Additive Motion Idles for player
+//
+jackal_motion_idle_p : additive 
+{
+	jackal_vehicle_assault_motion_idle_plr
+	jackal_pilot_assault_motion_idle_plr
+	jackal_vehicle_space_assault_motion_idle_plr
+	jackal_pilot_space_assault_motion_idle_plr
+	jackal_vehicle_strike_motion_idle_plr// toned down version of the flying anim, specfic for player
+	jackal_pilot_strike_motion_idle_plr// toned down version of the flying anim, specfic for player
+	apex_vehicle_assault_motion_idle
+}
+
+//
+// Additive Weapons
+//
+jackal_weapon_switch_p : additive 
+{
+	jackal_vehicle_weap_secondary_idle
+	jackal_vehicle_weap_primary_idle
+	jackal_vehicle_weap_primary_to_secondary
+	jackal_vehicle_weap_secondary_to_primary
+	apex_vehicle_weap_primary_idle
+}
+
+jackal_weapon_drop_p : additive 
+{
+	jackal_vehicle_weap_primary_drop
+	jackal_vehicle_weap_primary_raise
+}
+
+jackal_vehicle_weap_primary_fire_l_p : additive
+{
+	jackal_vehicle_weap_primary_fire_l
+	apex_vehicle_weap_primary_fire_l
+}
+
+jackal_vehicle_weap_primary_fire_r_p : additive 		
+{
+	jackal_vehicle_weap_primary_fire_r
+	apex_vehicle_weap_primary_fire_r
+}
+
+jackal_vehicle_weap_secondary_fire_l_p : additive 	
+{
+	jackal_vehicle_weap_secondary_fire_l
+}
+
+jackal_vehicle_weap_secondary_fire_r_p : additive 	
+{
+	jackal_vehicle_weap_secondary_fire_r
+}
+
+//
+// Additive Hand Ranges
+//
+jackal_assault_lhand_fb_range_p : additive 
+{ 
+	jackal_vehicle_assault_lhand_fb_range 
+	jackal_pilot_assault_lhand_fb_range 
+}
+
+jackal_assault_lhand_lr_range_p : additive 
+{ 
+	jackal_vehicle_assault_lhand_lr_range 
+	jackal_pilot_assault_lhand_lr_range 
+}
+
+jackal_assault_rhand_fb_range_p : additive 
+{ 
+	jackal_vehicle_assault_rhand_fb_range 
+	jackal_pilot_assault_rhand_fb_range 
+}
+
+jackal_assault_rhand_lr_range_p : additive 
+{ 
+	jackal_vehicle_assault_rhand_lr_range 
+	jackal_pilot_assault_rhand_lr_range 
+}
+
+jackal_strike_lhand_fb_range_p : additive 
+{ 
+	jackal_vehicle_strike_lhand_fb_range 
+	jackal_pilot_strike_lhand_fb_range 
+}
+
+jackal_strike_lhand_lr_range_p : additive 
+{ 
+	jackal_vehicle_strike_lhand_lr_range 
+	jackal_pilot_strike_lhand_lr_range 
+}
+
+jackal_strike_rhand_fb_range_p : additive 
+{ 
+	jackal_vehicle_strike_rhand_fb_range 
+	jackal_pilot_strike_rhand_fb_range 
+}
+
+jackal_strike_rhand_lr_range_p : additive 
+{ 
+	jackal_vehicle_strike_rhand_lr_range 
+	jackal_pilot_strike_rhand_lr_range 
+}
+
+//  /\					    /\ 								    /\
+//  ||  					||  								||
+//  ||  					||  								||
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+///ONLY PLAYER ANIMS BETWEEN ARROWS

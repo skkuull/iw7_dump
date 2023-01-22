@@ -1,0 +1,83 @@
+r_filmEnable                          "1"
+r_filmContrast                        "0.4"
+r_filmBrightness                      "0.15"
+r_filmDesaturation                    "0.75"
+r_filmDesaturationDark                "0"
+r_filmInvert                          "0"
+r_filmLightTint                       "0.5 0.5 0.5"
+r_filmMediumTint                      "0.45 0.5 0.45"
+r_filmDarkTint                        "0.5 0.5 0.5"
+
+r_primaryLightUseTweaks               "0"
+r_primaryLightTweakDiffuseStrength    "1"
+r_primaryLightTweakSpecularStrength   "1"
+r_charLightAmbient			           "0 0 0"
+
+r_viewModelPrimaryLightUseTweaks      "0"
+r_viewModelPrimaryLightTweakDiffuseStrength    "1"
+r_viewModelPrimaryLightTweakSpecularStrength   "1"
+r_viewModelLightAmbient               "0 0 0"
+
+r_volumeLightScatter                  "0"
+r_volumeLightScatterColor             "0.2 0.2 0.2"
+r_volumeLightScatterLinearAtten       "1"
+r_volumeLightScatterQuadraticAtten    "0"
+r_volumeLightScatterAngularAtten      "0.25"
+r_volumeLightScatterDepthAttenNear    "0"
+r_volumeLightScatterDepthAttenFar     "0"
+r_volumeLightScatterBackgroundDistance "100000"
+
+r_ssaoStrength                        "1"
+
+r_materialBloomIntensity              "0"
+r_materialBloomRadius                 "2"
+r_materialBloomLuminanceCutoff        "0.8"
+r_materialBloomPinch                  "0"
+r_materialBloomDesaturation           "0"
+
+r_materialBloomHQEnable               "0"
+r_materialBloomHQHaziness             "0.0"
+r_materialBloomHQGamma                "1.5"
+r_materialBloomHQDesaturation         "0"
+
+r_unlitSurfaceHDRScalar               "1"
+r_litSurfaceHDRScalar                 "1"
+r_hdrSkyIntensity                     "1"
+r_hdrSkyColorTint                     "1 1 1"
+
+r_glare_enable                        "0"
+r_glare_normalStart                   "0.125"
+r_glare_normalEnd                     "0.75"
+r_glare_normalPower                   "1"
+r_glare_normalAmount                  "0"
+r_glare_mirrorStart                   "0.125"
+r_glare_mirrorEnd                     "0.75"
+r_glare_mirrorPower                   "1"
+r_glare_mirrorAmount                  "0"
+
+colorizationSet	"coup_sunblind_colorset"
+
+use_existing_dvars
+use_existing_hdr_colorization
+use_existing_tone_mapping
+
+
+colorizationLowDesaturation "0.5"
+colorizationLowPower "0.4 0.4 0.4"
+colorizationLowScale "0.5 0.5 0.5"
+colorizationLowTint "0.0 0.0 0.0"
+colorizationMidDesaturation "0.5"
+colorizationMidPower "0.4 0.4 0.4"
+colorizationMidScale "0.5 0.5 0.5"
+colorizationMidTint "0.0 0.0 0.0"
+colorizationHighDesaturation "0.5"
+colorizationHighPower "0.4 0.4 0.4"
+colorizationHighScale "0.5 0.5 0.5"
+colorizationHighTint "0.0 0.0 0.0"
+colorizationSetCurveLowMin "0"
+colorizationSetCurveLowMax "1"
+colorizationSetCurveHighMin "1"
+colorizationSetCurveHighMax "0"
+colorizationSetCurveMidMidpoint "0.5"
+colorizationSetCurveMidRange "0"
+colorizationSetCurveMidFalloff "0.5"

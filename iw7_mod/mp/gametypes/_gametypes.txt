@@ -1,0 +1,17 @@
+war
+dom
+sd
+conf
+dm
+koth
+sr
+grind
+ball
+infect
+gun
+grnd
+siege
+ctf
+dd
+tdef
+front

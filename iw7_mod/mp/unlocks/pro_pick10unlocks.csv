@@ -1,0 +1,6 @@
+extra_primary_weapon,,,,system,gamemode,!=,MP
+extra_primary_attachment_1,,,,system,gamemode,!=,MP
+extra_primary_attachment_2,,,,system,gamemode,!=,MP
+extra_primary_attachment_3,,,,system,gamemode,!=,MP
+extra_secondary_attachment_1,,,,system,gamemode,!=,MP
+extra_secondary_attachment_2,,,,system,gamemode,!=,MP

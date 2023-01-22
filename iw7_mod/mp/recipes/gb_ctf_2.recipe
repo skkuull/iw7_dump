@@ -1,0 +1,33 @@
+gametype = ctf
+commonOption.timeLimit = 5.000000
+commonOption.scoreLimit = 3
+commonOption.roundLimit = 2
+commonOption.winLimit = 0
+commonOption.roundSwitch = 1
+
+ctfData.winRule = 0
+ctfData.showEnemyCarrier = 5
+ctfData.idleResetTime = 30.000000
+ctfData.captureCondition = 0
+ctfData.pickupTime = 0
+ctfData.returnTime = 0
+
+commonOption.allowKillstreaks = 1
+commonOption.allowPerks = 1
+commonOption.allowSupers = 1
+commonOption.superFastChargeRate = 1
+commonOption.superPointsMod = 1
+commonOption.doubleJumpEnabled = 1
+commonOption.wallRunEnabled = 1
+commonOption.forceRespawn = 1
+commonOption.showKillcam = 1
+commonOption.healthRegen = 3.000000
+commonOption.maxHealth = 100.000000
+commonOption.respawnDelay = 5.000000
+commonOption.spectateModeAllowed = 1
+commonOption.codcasterEnabled = 1
+commonOption.ffPunishLimit = 2
+commonOption.spectate3rdAllowed = 0
+commonOption.teamAssignmentAllowed = 1
+commonOption.tacticalMode = 0
+commonOption.bulletBounce = 0

@@ -1,0 +1,905 @@
+epilogue_memorial,13.17,24.25,^2Admiral Coupe: ^7…both officers, aware of the imminent danger, in spite of extensive casualties, planned and skillfully executed an attack with unwavering devotion to their duty.
+epilogue_memorial,25.13,42.2,^2Admiral Coupe: ^7Commander Reyes and Lt. Salter gallantly offered their own lives and those of their crew, mobilizing at close-range against superior fire power. The operation eliminated vital numbers of enemy vessels and destroyed the Settlement Defense Front's Orbital Shipyard.
+epilogue_memorial,43.16,48.25,^2Admiral Coupe: ^7The officers commitment exhibited the highest traditions of Naval Service.
+epilogue_memorial,50,51.15,^2Salter: ^7Peace to the fallen.
+europa_load,2.2,8.29,^7"The sun, the moon and the stars would have disappeared long ago..."
+europa_load,9,15.23,"Had they happened to be in the reach of predatory human hands."
+europa_load,17.03,19.26,^2Reyes: ^7The needs of our planet were greater than she could supply.
+europa_load,22.03,24.15,^2Reyes: ^7So we went beyond the reaches of our atmosphere.
+europa_load,30.05,33.05,^2Reyes: ^7The new frontier offered the promise of a new beginning…
+europa_load,35.09,40.14,^2Reyes: ^7…but the distance gave way to a movement, with no connection to the place we call home.
+europa_load,42.17,47.06,^2Reyes: ^7New rules, new ambitions, a new enemy.
+europa_load,49.17,54.25,^2Reyes: ^7The Settlement Defense Front built an army and broke away from the Earth with blood and violence.
+europa_load,56.22,68.02,^2Reyes: ^7They aren’t revolutionaries. They want absolute power. They raid colonies, take resources, and control territories by force.
+europa_load,70.22,79.16,^2Reyes: ^7They use their fleet to block us from raw materials we need to survive. Their mission is to erase everything Earth born.
+europa_load,82.23,91.05,^2Reyes: ^7Today, the SDF is a war machine, ruled by its military. If a leader united that force… 
+europa_load,92.275,96.25,^2Reyes: ^7…They would mobilize, and try to take our homeland.
+europa_load,106.12,109.02,^2Wolf: ^7Warlord this is SCAR-1. Standing by for tasking.
+europa_load,109.15,110.1,^2Warlord: ^7Copy, 1-1.
+europa_load,111.16,117.2,^2Warlord: ^7One of our weapons facilities is under attack by the SDF. We believe this is part of an operation, codenamed: RIAH.
+europa_load,118.08,125.28,^2Warlord: ^7Intel suggests their target is a prototype weapon. Your team will extract the prototype and torch the site before SDF can locate it.
+heist_hud_adm_fullscreen,1,3.15,^2Raines: ^7Commander Reyes, what the hell happened out there?
+heist_hud_adm_fullscreen,14.28,16.1,^2Raines: ^7Reyes, I want Jackals on...!
+heist_hud_gator_fullscreen,1.02,5.1,^2Gator: ^7Actual, this is Retribution. SetDef fleet is descending, inbound.
+heist_hud_gator_fullscreen,11.02,12.02,^2Gator: ^7Yes, sir.
+heist_hud_kotch_pip,3.27,10.27,^1Admiral Kotch: ^7You will not take my carrier, Captain Reyes! We will all die here. I will detonate this vessel and level your city.
+heist_hud_kotch_pip,16.01,18.18,^1Admiral Kotch: ^7We don't fight. We attack.
+heist_hud_kotch_pip,20.05,26,^1Admiral Kotch: ^7Earth survivors will live at gunpoint, and breathe by permission of the Front. Mars aeternum.
+heist_maptrans_hvt_fall_impact,6.28,8.25,^2Riah: ^7I pity the thing you call courage.
+heist_maptrans_hvt_fall_impact,10.05,11.15,^2Riah: ^7SCAR Team One.
+heist_maptrans_hvt_fall_impact,15.16,19.05,^2Riah: ^7You're just a man from Earth, dying for a lost cause.
+heist_maptrans_om_shipyard_ftl,1.11,6,^2Reyes: ^7Listen up. The Front is unaware we control the Olympus. We're going to Mars.
+heist_maptrans_om_shipyard_ftl,6.06,9.03,^2Reyes: ^7Ethan, set a drop course for SetDef's Orbital Shipyard.
+heist_maptrans_om_shipyard_ftl,9.1,12.21,^2Reyes: ^7We'll use their own ship against them and launch a full assault from the Olympus bridge.
+heist_maptrans_om_shipyard_ftl,13.13,16.2,^2Reyes: ^7The Front destroyed our fleet. Let's do the same to them.
+heist_maptrans_om_shipyard_ftl,17.05,18.05,^2Gator: ^7What are my orders, sir?
+heist_maptrans_om_shipyard_ftl,18.29,21.14,^2Reyes: ^7Hold here, Gator. Call you if I need you.
+heist_maptrans_om_shipyard_ftl,22.03,23,^2Reyes: ^7Go for drop, Ethan.
+heist_maptrans_om_shipyard_ftl,24.03,25.05,^2Ethan: ^7Mars coordinates locked.
+heist_maptrans_om_shipyard_ftl,26.21,29.11,^2Ethan: ^7 3, 2, 1…
+heist_maptrans_om_shipyard_ftl,37,39.26,^2Salter: ^7Influx in 3, 2, 1…
+heist_maptrans_om_shipyard_ftl,44.26,47.2,^2Ethan: ^7SDF shipyard bears zero,zero,zero, Captain.
+mars_cutscene_shipyard_plan,3.23,4.1,^2Ethan: ^7Thanks, sir.
+mars_cutscene_shipyard_plan,7.07,8,^2Brooks: ^7Where's the Chief?
+mars_cutscene_shipyard_plan,8.11,9.06,^2Salter: ^7She didn't make it.
+mars_cutscene_shipyard_plan,10.13,11.02,^2Reyes: ^7We got to go.
+mars_cutscene_shipyard_plan,15,15.15,^2Salter: ^7Clear.
+mars_cutscene_shipyard_plan,15.25,16.15,^2Reyes: ^7All clear.
+mars_cutscene_shipyard_plan,17.18,18.18,^2Salter: ^7Which ship is it, Ethan?
+mars_cutscene_shipyard_plan,18.21,19.1,^2Ethan: ^7Right there.
+mars_cutscene_shipyard_plan,21.28,22.27,^2Salter: ^7That's a destroyer.
+mars_cutscene_shipyard_plan,22.29,24,^2Ethan: ^7It's got a full payload.
+mars_cutscene_shipyard_plan,25.18,26.1,^2Reyes: ^7Can we use it?
+mars_cutscene_shipyard_plan,26.28,27.23,^2Salter: ^7To fight our way out?
+mars_cutscene_shipyard_plan,29.12,32.2,^2Reyes: ^7No. To level this place.
+mars_cutscene_shipyard_plan,32.27,36.08,^2Kloos: ^7The ship won't fire, Captain. The weapons system's not enabled.
+mars_cutscene_shipyard_plan,36.12,39.15,^2Salter: ^7Forget the weapons. Let's release the moorings, key in a drop and go.
+mars_cutscene_shipyard_plan,40.17,42.14,^2Reyes: ^7Boats? How can we enable the payload?
+mars_cutscene_shipyard_plan,42.21,43.25,^2Boats: ^7Firing control, sir.
+mars_cutscene_shipyard_plan,44.04,45.05,^2Salter: ^7Where's firing control?
+mars_cutscene_shipyard_plan,45.09,47.16,^2Ethan: ^7Command center, ma'am. It's a shuttle ride that way.
+mars_cutscene_shipyard_plan,48.26,49.2,^2Salter: ^7Who's gonna do that?
+mars_cutscene_shipyard_plan,51.07,52.07,^2Reyes: ^7Me.
+mars_cutscene_shipyard_plan,53.24,56.28,^2Salter: ^7You'll never make it back to the ship. If we wait, they'll fire on us.
+mars_cutscene_shipyard_plan,57.02,58,^2Reyes: ^7You're not going to wait.
+mars_cutscene_shipyard_plan,58.06,58.2,^2Ethan: ^7Captain.
+mars_cutscene_shipyard_plan,61.07,62.05,^2Ethan: ^7How will you get home?
+mars_cutscene_shipyard_plan,65.05,75,^2Reyes: ^7No one's going home. You board that ship and you terminate this place, Salt. Do as much damage as you can before SDF takes you out.
+mars_cutscene_shipyard_plan,75.1,78.1,^2Salter: ^7I can do both. I can hit the shipyard and drop out of here.
+mars_cutscene_shipyard_plan,78.17,79.14,^2Reyes: ^7You won't have time.
+mars_cutscene_shipyard_plan,79.16,80.05,^2Salter: ^7Watch me.
+mars_cutscene_shipyard_plan,82.25,86.22,^2Reyes: ^7You got the green light to do whatever it takes. Just finish the mission.
+mars_cutscene_shipyard_plan,89.24,91,^2Salter: ^7Everybody good with this?
+mars_cutscene_shipyard_plan,92.12,93.2,^2Kloos: ^7You'll need a crew to launch.
+mars_cutscene_shipyard_plan,94.16,95.25,^2Brooks: ^7We'll have to fight our way on.
+mars_cutscene_shipyard_plan,97.1,100.11,^2Salter: ^7Shuttle. Brooks, take them out. Ethan, with me.
+mars_cutscene_shipyard_plan,100.2,101.08,^2Ethan: ^7No, ma'am.
+mars_cutscene_shipyard_plan,102.25,105,^2Ethan: ^7Captain's going to need my help to get to the command center.
+mars_cutscene_shipyard_plan,105.22,106.2,^2Salter: ^7Damn you both.
+mars_cutscene_shipyard_plan,109.22,111.05,^2Salter: ^7Did you know we were gonna finish this here?
+mars_cutscene_shipyard_plan,112.25,115.14,^2Reyes: ^7No. I think Mac did.
+mars_cutscene_shipyard_plan,118.09,120.22,^2Salter: ^7Well, I guess I'll see you both in hell.
+mars_cutscene_shipyard_plan,122.01,122.2,^2Reyes: ^7Count on it.
+mars_cutscene_shipyard_plan,123.2,125.05,^2Salter: ^7Okay, gentlemen. Let’s move out.
+mars_cutscene_shipyard_plan,128,128.18,^2Salter: ^7Fair winds.
+mars_maptrans_cutscene_crash_site,11.11,12.21,^2Reyes: ^7Rest in peace, Kash.
+mars_maptrans_cutscene_crash_site,17.23,19.13,^2Brooks: ^7I couldn’t find anything, sir.
+mars_maptrans_cutscene_crash_site,21.23,23.09,^2Reyes: ^7It's okay, Sergeant. We tried.
+mars_maptrans_cutscene_crash_site,26.2,28.02,^2Brooks: ^7Hell of a day, Commander.
+mars_maptrans_cutscene_crash_site,39.04,40.2,^2Brooks: ^7Semper Fi, Marine.
+mars_maptrans_cutscene_crash_site,44.03,45,^2Reyes: ^7Let's get to the Ret.
+mars_maptrans_cutscene_crash_site,46.19,48.26,^2Brooks: ^7Sir. Marines!
+mars_maptrans_cutscene_crash_site,74.2,76.17,^2Marine Guard: ^7Stand fast! Identify yourself!
+mars_maptrans_cutscene_crash_site,76.18,80.28,^2Reyes: ^7Blue, blue! It's Commander Reyes. I've got Marines with me.
+mars_maptrans_cutscene_crash_site,80.29,84.1,^2Marine Guard: ^7Commander, Sergeant, good to see you guys. Right this way.
+mars_maptrans_cutscene_crash_site,95.26,96.11,^2MaCallum: ^7Captain?
+mars_maptrans_cutscene_crash_site,97.25,98.1,^2MaCallum: ^7Lieutenant!
+mars_maptrans_cutscene_crash_site,101.09,102.1,^2Salter: ^7Where the hell were you?
+mars_maptrans_cutscene_crash_site,103.02,104.04,^2Reyes: ^7Good to see you too, Salt.
+mars_maptrans_cutscene_crash_site,105.21,106.04,^2Salter: ^7Brooks.
+mars_maptrans_cutscene_crash_site,106.1,106.22,^2Brooks: ^7Ma’am.
+mars_maptrans_cutscene_crash_site,107.28,108.16,^2Salter: ^7Kashima?
+mars_maptrans_cutscene_crash_site,110.06,111.1,^2Brooks: ^7KIA, Lieutenant.
+mars_maptrans_cutscene_crash_site,111.18,112.09,^2Reyes: ^7Gibson too.
+mars_maptrans_cutscene_crash_site,113.21,114.19,^2MaCallum: ^7Peace to the fallen.
+mars_maptrans_cutscene_crash_site,117.14,120.16,^2Salter: ^7Your men are waiting for you, Sergeant. Get'em set. Stand by for orders. 
+mars_maptrans_cutscene_crash_site,121.04,122.12,^2Brooks: ^7Marines, on me.
+mars_maptrans_cutscene_crash_site,125.03,126.13,^2Reyes: ^7Gimme a sitrep?
+mars_maptrans_cutscene_crash_site,126.14,128.19,^2Salter: ^7Salvaged what we could from the Ret. Comms are up.
+mars_maptrans_cutscene_crash_site,129.04,134.26,^2MaCallum: ^7Lift platform to the shipyard is 100 klicks north-north east. We're in the middle of nowhere out here.
+mars_maptrans_cutscene_crash_site,136.02,138.18,^2Salter: ^7SDF scout ship came through. We shot it down.
+mars_maptrans_cutscene_crash_site,139.12,140.05,^2Reyes: ^7There'll be others.
+mars_maptrans_cutscene_crash_site,140.21,141.17,^2Salter: ^7We'll be ready for them.
+mars_maptrans_cutscene_crash_site,142.14,143.03,^2Reyes: ^7STRATCOM?
+mars_maptrans_cutscene_crash_site,143.2,145.12,^2MaCallum: ^7No signal. We're isolated.
+mars_maptrans_cutscene_crash_site,147.24,149.16,^2Reyes: ^7I'll do whatever it takes to keep us secure.
+mars_maptrans_cutscene_crash_site,150.18,153.1,^2MaCallum: ^7You're our leader, sir. Not our savior.
+mars_maptrans_cutscene_crash_site,154.2,156.06,^2Reyes: ^7I hold myself accountable, Chief.
+mars_maptrans_cutscene_crash_site,156.12,160.05,^2MaCallum: ^7As you should. You aborted the mission, Captain.
+mars_maptrans_cutscene_crash_site,160.18,162.04,^2Salter: ^7He saved his ship and crew, Chief.
+mars_maptrans_cutscene_crash_site,162.05,164.11,^2MaCallum: ^7And that's noble, but the shipyard remains intact.
+mars_maptrans_cutscene_crash_site,165.08,177.24,^2MaCallum: ^7Look, the strength of the pack is in all the wolves, Captain. All in, no matter the cost. They were ready. Now, if you don't have the will to make that kind of choice, then like me, you have no place being in command.
+mars_maptrans_cutscene_crash_site,178.15,180.24,^2Reyes: ^7I couldn't ram my own ship. I would have killed them.
+mars_maptrans_cutscene_crash_site,183.08,184.04,^2MaCallum: ^7They came to win.
+mars_maptrans_cutscene_crash_site,185.2,188.25,^2MaCallum: ^7This doesn't look like victory.
+mars_maptrans_cutscene_crash_site,190.26,192,^2Salter: ^7SDF scout ship!
+mars_maptrans_cutscene_crash_site,193.02,194.25,^2Reyes: ^7Take cover. Watch your round count.
+mars_maptrans_cutscene_crash_site,195,196.03,^2Salter: ^7Wait 'til it's close.
+mars_maptrans_cutscene_crash_site,196.14,198.17,^2Ethan: ^7All stations, this is Metal-1.
+mars_maptrans_cutscene_crash_site,198.25,200,^2Reyes: ^7Ethan? What's your position?
+mars_maptrans_cutscene_crash_site,200.03,201.25,^2Ethan: ^7Inbound, sir. Marking now.
+mars_maptrans_cutscene_crash_site,202.27,203.28,^2Reyes: ^7Check your fire!
+mars_maptrans_cutscene_crash_site,206.06,209,^2Ethan: ^7Robot Army reporting for duty, sir.
+mars_maptrans_cutscene_crash_site,209.18,211.02,^2Salter: ^7He hacked the Olympus bots.
+mars_maptrans_cutscene_crash_site,211.09,213.25,^2Reyes: ^7Smart bastard. How many did you get?
+mars_maptrans_cutscene_crash_site,214.03,218.07,^2Ethan: ^7Full company, sir. I mean, they're idiots, but they can fight.
+mars_maptrans_cutscene_crash_site,219.05,221.15,^2Reyes: ^7Good work, Metal-1. Touch down and get ready to go.
+mars_maptrans_cutscene_crash_site,221.18,222.1,^2Ethan: ^7Aye, sir.
+mars_maptrans_cutscene_crash_site,226.07,229.15,^2MaCallum: ^7Captain. We're all with you, sir.
+mars_maptrans_cutscene_crash_site,231.19,233.11,^2Reyes: ^7Thanks, Chief. Let's get back to work.
+mars_maptrans_cutscene_crash_site,233.17,234.1,^2MaCallum: ^7Aye, sir.
+mars_maptrans_cutscene_crash_site,237.08,239.2,^2Salter: ^7We stay trenched in down here, we're sitting ducks.
+mars_maptrans_cutscene_crash_site,240.16,243.15,^2Reyes: ^7We're not staying here. We're engaging.
+mars_maptrans_cutscene_crash_site,243.17,244.1,^2Reyes: ^7Up there.
+mars_maptrans_cutscene_crash_site,244.24,245.26,^2Salter: ^7Storm the gates.
+mars_maptrans_cutscene_crash_site,246.12,250.05,^2Reyes: ^7Fight our way to the top- Get ourselves a ship. Pass word.
+mars_maptrans_cutscene_crash_site,250.07,252,^2Salter: ^7Rog. I'll get a transport set.
+mars_maptrans_cutscene_crash_site,252.11,254.15,^2Salter: ^7Griff's out there, go see him, you need a weapon.
+mars_maptrans_cutscene_crash_site,255.24,258.15,^2Reyes: ^7Salt, I'm glad you're still here.
+mars_maptrans_cutscene_crash_site,259.16,260.2,^2Salter: ^7Hell or highwater.
+mars_maptrans_hud_dropship_briefing,1.07,9.25,^2Reyes: ^7Our primary objective is infiltrating the orbital platform.  Flying directly up to the shipyard is a no-go due to their active intercept system so this a ground assault.
+mars_maptrans_hud_dropship_briefing,10.12,15.1,^2Reyes: ^7Ethan's bots will create a diversion while our Ravens insert on the edge of the platform’s perimeter.
+mars_maptrans_hud_dropship_briefing,15.29,20.25,^2Reyes: ^7There are three Anti-Air guns that need to be taken out before our birds can move in and provide support.
+mars_maptrans_hud_dropship_briefing,21.06,25.1,^2Ethan: ^7I'll prime the ordnance I commandeered from the Olympus Mons to hit those AA turrets.
+mars_maptrans_hud_dropship_briefing,26.05,31.1,^2Ethan: ^7Captain, I'll give you access to a drone to designate those strike positions. Hey, should be a blast.
+mars_maptrans_hud_dropship_briefing,33.05,34.07,^2Reyes: ^7Affirmative, Ethan.
+mars_maptrans_hud_dropship_briefing,34.23,39.05,^2Reyes: ^7After the guns are down, we push into the facility and ascend to the shipyard.
+mars_maptrans_hud_yard_briefing,0.03,1,^2MaCallum: ^7Peace to the fallen.
+mars_maptrans_hud_yard_briefing,1.05,2.03,^2Group: ^7Peace to the fallen.
+mars_maptrans_hud_yard_briefing,7.04,8.25,^2Reyes: ^7Ethan, bring up the shipyard schematics.
+mars_maptrans_hud_yard_briefing,8.28,10.05,^2Ethan: ^7Roger. Streaming.
+mars_maptrans_hud_yard_briefing,11.06,15.05,^2Ethan: ^7These SDF vessels are in dry dock, sir. They’re being built, repaired or resupplied.
+mars_maptrans_hud_yard_briefing,15.15,17.02,^2Salter: ^7Can you identify a ship we can use?
+mars_maptrans_hud_yard_briefing,17.05,19.11,^2Ethan: ^7Yes, ma'am. I've located one with drop capabilities.
+mars_maptrans_hud_yard_briefing,19.16,20.24,^2Salter: ^7Good. That's our ride.
+mars_maptrans_hud_yard_briefing,21.2,23.14,^2Brooks: ^7What’s our plan of attack when we get to the top?
+mars_maptrans_hud_yard_briefing,23.22,24.21,^2Brooks: ^7They will ambush.
+mars_maptrans_hud_yard_briefing,24.22,27.09,^2MaCallum: ^7He’s right. This elevator is the only way up from the surface.
+mars_maptrans_hud_yard_briefing,27.17,28.25,^2Reyes: ^7I'm sure they're tracking us now.
+mars_mccallum_pip,0.23,5.1,^2MaCallum: ^7Copy, Commander. Echo support element is inbound. They'll get you through the door.
+marsbase_plt1_115_140,0.08,2.13,^2Jackal Pilot: ^7Jackals are weapons loose, danger close.
+marsbase_plt1_115_170,0.06,3.09,^2Jackal Pilot: ^7Negative. 2-5 is weapons dry. I got nothing left, sir.
+marsbase_plt1_115_190,0.05,2.2,^2Jackal Pilot: ^7Understood, Commander. I’ll ram the gun-site.
+marsbase_plt1_115_190,4.07,6,^2Jackal Pilot: ^7Fair winds, sir. Good luck.
+marsbase_plt1_115_50,0.09,1.22,^2Jackal Pilot: ^7Time to target, 5 seconds.
+marsbase_plt1_25_130,0.05,3.06,^2Jackal Pilot: ^7Roger. Inbound for gun run. Time to target: ten seconds.
+marsbase_plt1_25_130_2,0.06,2.27,^2Jackal Pilot: ^7Captain, be advised, AA guns are still online!
+moon_hud_ferran_pip,0,1,^2Ferran: ^7Solid. You set?
+moon_maptrans_hud_assault_briefing,2.03,5.03,^2Reyes: ^7We’ll bail out over the port side bow and zero-g to the bridge.
+moon_maptrans_hud_assault_briefing,5.16,8.05,^2Salter: ^7Once aboard, we’ll shut down the bridge and aft combat systems.
+moon_maptrans_hud_assault_briefing,8.08,11.04,^2Omar: ^7Copy. After shut down, we exit through the cargo bay.
+moon_maptrans_hud_assault_briefing,11.06,13.11,^2Reyes: ^7Affirmative. Tigris engages when we’re clear.
+moon_maptrans_hud_well_deck,0.03,2.2,^2Omar: ^7Earth's Lunar Gateway Port is currently under siege.
+moon_maptrans_hud_well_deck,2.27,8.05,^2Omar: ^7To defend it, the Retribution will insert two teams. Alpha's and Bravo's. 1's and 2's.
+moon_maptrans_hud_well_deck,8.21,11.15,^2Omar: ^7Our primary objective is to retake that port. 
+moon_maptrans_hud_well_deck,11.29,12.2,^2Omar: ^7Oorah?!
+moon_maptrans_hud_well_deck,12.24,13.25,^2Group: ^7OORAH!!
+pearl_hud_riah_pip,1,2.1,^2SDF Operative: ^7Ten ships remain.
+pearl_hud_riah_pip,2.23,7,^2SDF Operative: ^7The UNSA fleet is finished. Moving to AATIS system destruct now.
+pearl_hud_riah_pip,7.1,8.2,^2SDF Operative: ^7Mars aeternum.
+pearl_maptrans_cutscene_admiral_office,2.25,4,^2Reyes: ^7What is Riah?
+pearl_maptrans_cutscene_admiral_office,4.1,11.2,^2Raines: ^7Unclear. Helmet cam stopped transmitting. It’s been 18 hours, no contact, SetDef’s made no demands.
+pearl_maptrans_cutscene_admiral_office,12.11,19.15,^2Reyes: ^7Settlement Defense Front doesn’t make demands. They planted a flag on our rock. They executed three men and shot down a pilot.
+pearl_maptrans_cutscene_admiral_office,19.07,22.28,^2Raines: ^7Our team was sent to secure classified weapons from a closed facility.
+pearl_maptrans_cutscene_admiral_office,22.18,27.1,^2Reyes: ^7That facility is a black site, Admiral. Why the hell is SetDef allowed in that airspace?
+pearl_maptrans_cutscene_admiral_office,26.25,30.08,^2Raines: ^7By the permission of the Accords, all nations have access to free an un--
+pearl_maptrans_cutscene_admiral_office,29.26,33.15,^2Reyes: ^7Sir, that objective required a full strike force, not a four man team.
+pearl_maptrans_cutscene_admiral_office,33.17,39.28,^2Raines: ^7Lieutenant Reyes, I implore you to use diplomacy in this office. Take a different tact.
+pearl_maptrans_cutscene_admiral_office,41.02,45.07,^2Reyes: ^7Yes, sir. Who else knows about this?
+pearl_maptrans_cutscene_admiral_office,45.05,48.25,^2Raines: ^7Right now, Joint Strategic Air Command, and you.
+pearl_maptrans_cutscene_admiral_office,50.07,56.19,^2Reyes: ^7This is a deliberate act of aggression, Admiral. We should be out there on patrol, not down here throwing confetti.
+pearl_maptrans_cutscene_admiral_office,56.2,60.16,^2Raines: ^7The rules of engagement prohibit definitive action under these circumstances.  
+pearl_maptrans_cutscene_admiral_office,60.17,64,^2Reyes: ^7So we stand by with our barrels in the sand and watch a fleet week parade?
+pearl_maptrans_cutscene_admiral_office,63.2,71.07,^2Raines: ^7Lieutenant Reyes, make no mistake, my instincts, which are aligned indelibly with your own, are that we need to engage.
+pearl_maptrans_cutscene_admiral_office,73.1,74.12,^2Reyes: ^7Why don't we, sir?
+pearl_maptrans_cutscene_admiral_office,78.18,94.22,^2Raines: ^7They’re politicians, Reyes. They’ll wipe hell’s ass with whatever flag keeps the smokestacks burning. To these men, the idea of mounting an offensive triggers a fresh and unplanned piss. Until there’s war, the warriors aren’t in charge.
+pearl_maptrans_cutscene_admiral_office,95.08,103.15,^2Reyes: ^7But, sir, by the time there’s war it’s too late. ‘Hesitation is a hole in the head’. You drilled that into us relentlessly in flight school. ‘Work the problem, respond’.
+pearl_maptrans_cutscene_admiral_office,104.01,106,^2Raines: ^7You were always a fast learner, Lieutenant.
+pearl_maptrans_cutscene_admiral_office,107.02,116.05,^2Raines: ^7STRATCOM is well aware of our grievances. At this time, no use of force is being considered on the operational level. These are the laws of war, son.
+pearl_maptrans_cutscene_admiral_office,118.25,120.1,^2Reyes: ^7Thank you for the briefing, sir.
+pearl_maptrans_cutscene_admiral_office,120.29,123.25,^2Petty Officer: ^7Admiral Raines. E3N is in position on the roof.
+pearl_maptrans_cutscene_admiral_office,124.02,125.05,^2Raines: ^7Thank you, Petty Officer.
+pearl_maptrans_cutscene_admiral_office,125.29,127.08,^2Reyes: ^7What is E3N?
+pearl_maptrans_cutscene_admiral_office,127.29,132.15,^2Raines: ^7Go take a look for yourself. I think you’ll be quite impressed. Dismissed.
+pearl_maptrans_cutscene_admiral_office,139.05,140.05,^2Salter: ^7How many?
+pearl_maptrans_cutscene_admiral_office,140.17,142.1,^2Reyes: ^7Four. KIA.
+pearl_maptrans_cutscene_admiral_office,142.13,143.13,^2Salter: ^7Europa?
+pearl_maptrans_cutscene_admiral_office,143.27,148,^2Reyes: ^7Front was already there. Took out the whole team, looted the site.
+pearl_maptrans_cutscene_admiral_office,148.1,154.13,^2Salter: ^7Son of a bitch. This fleet sh...stuff is nonsense. We should be up in our jackals flying watch.
+pearl_maptrans_cutscene_admiral_office,154.15,156,^2Reyes: ^7Admiral doesn’t disagree.
+pearl_maptrans_cutscene_admiral_office,156.07,157.08,^2Salter: ^7Captain Alder know?
+pearl_maptrans_cutscene_admiral_office,157.16,161.25,^2Reyes: ^7Negative. Today, Retribution isn't a warship, it’s a parade float.
+pearl_maptrans_cutscene_admiral_office,161.28,164.18,^2Salter: ^7Whole fleet here in Geneva, doesn't seem right.
+pearl_maptrans_cutscene_admiral_office,164.27,166.15,^2Reyes: ^7We do this every year, Salt.
+pearl_maptrans_cutscene_admiral_office,166.28,169.05,^2Salter: ^7Well, lets not miss the party.
+pearl_maptrans_cutscene_admiral_office,169.23,171,^2Reyes: ^7After you, Lieutenant.
+pearl_maptrans_cutscene_admiral_office,171.04,172.1,^2Salter: ^7Thanks, slick.
+pearl_maptrans_cutscene_hvt_capture,1.2,4,^2Reyes: ^7Jackpot. All stations, I say again Jackpot.
+pearl_maptrans_cutscene_hvt_capture,4.18,6.1,^2Raines: ^7Relieve the bot, take the prisoner into custody.
+pearl_maptrans_cutscene_hvt_capture,6.26,10.11,^2Raines: ^7Petty Officer, get that AATIS back up. We still got enemy ships in our airspace.
+pearl_maptrans_cutscene_hvt_capture,10.13,11.12,^2Ethan: ^7Right away, Admiral.
+pearl_maptrans_cutscene_hvt_capture,11.25,14.08,^2Salter: ^7SATO Forces are trenched in outside setting up a FOB.
+pearl_maptrans_cutscene_hvt_capture,14.18,15.03,^2Reyes: ^7Good.
+pearl_maptrans_cutscene_hvt_capture,16,17.17,^2Reyes: ^7Let’s get a look at this son of a bitch.
+pearl_maptrans_cutscene_hvt_capture,18.12,19.04,^2Raines: ^7He’ll need medical.
+pearl_maptrans_cutscene_hvt_capture,19.05,20.06,^2Riah: ^7I need nothing.
+pearl_maptrans_cutscene_hvt_capture,23.02,24.06,^2Salter: ^7He’s got an employee I.D.
+pearl_maptrans_cutscene_hvt_capture,27.02,27.22,^2Salter: ^7That’s him.
+pearl_maptrans_cutscene_hvt_capture,28.19,31.25,^2Reyes: ^7“Michael Aaron Page”. Mechanical engineering department, two years.
+pearl_maptrans_cutscene_hvt_capture,32,33.08,^2Salter: ^7SDF sleeper cell.
+pearl_maptrans_cutscene_hvt_capture,33.21,38.11,^2Riah: ^7That’s not my name. That is the moniker of an Earthen fool.
+pearl_maptrans_cutscene_hvt_capture,39.07,40,^2Reyes: ^7What is your name?
+pearl_maptrans_cutscene_hvt_capture,42.2,46.25,^2Riah: ^7Commander Akeel Min Riah, of the Settlement Defense Front.
+pearl_maptrans_cutscene_hvt_capture,47.06,48.25,^2Raines: ^7The operation on Europa.
+pearl_maptrans_cutscene_hvt_capture,49.19,50.23,^2Reyes: ^7You started a war.
+pearl_maptrans_cutscene_hvt_capture,51.08,52.27,^2Riah: ^7And I will finish that war.
+pearl_maptrans_cutscene_hvt_capture,53.06,56.02,^2Ethan: ^7AATIS guns are moments away from acquiring enemy targets, Admiral.
+pearl_maptrans_cutscene_hvt_capture,56.1,57.25,^2Raines: ^7Fast work, Ethan. Well done.
+pearl_maptrans_cutscene_hvt_capture,58.01,59.1,^2Riah: ^7You prolong the inevitable.
+pearl_maptrans_cutscene_hvt_capture,59.14,60.02,^2Raines: ^7Get him out of here.
+pearl_maptrans_cutscene_hvt_capture,61.07,62.08,^2Riah: ^7Mars aeternum.
+pearl_maptrans_cutscene_hvt_capture,65,66.05,^2Salter: ^7Stand fast, Marines.
+pearl_maptrans_cutscene_hvt_capture,67.23,69.17,^2Salter: ^7Give me five minutes with this bastard.
+pearl_maptrans_cutscene_hvt_capture,69.28,70.13,^2Reyes: ^7Salt.
+pearl_maptrans_cutscene_hvt_capture,70.15,72.1,^2Salter: ^7So many innocent people, Reyes.
+pearl_maptrans_cutscene_hvt_capture,73.07,74.15,^2Reyes: ^7Let’s get out there and fight for them.
+pearl_maptrans_cutscene_hvt_capture,77.26,78.1,^2Salter: ^7Roger.
+pearl_maptrans_cutscene_hvt_capture,79,80,^2Ethan: ^7We're a go, sir.
+pearl_maptrans_cutscene_hvt_capture,80.07,80.26,^2Raines: ^7Let’s move.
+pearl_maptrans_dropship_crash,1,1.26,^2Raines: ^7He got you Lieutenant.
+pearl_maptrans_dropship_crash,1.29,2.16,^2Salter: ^7Did not.
+pearl_maptrans_dropship_crash,3.12,5.26,^2Reyes: ^7AATIS guns are working overtime today, huh, Admiral?
+pearl_maptrans_dropship_crash,6,8.2,^2Raines: ^7Lotta allied traffic. Always vigilant, Lieutenant.
+pearl_maptrans_dropship_crash,9.03,10.28,^2Salter: ^7You familiar with the air intercept systems, Ethan?
+pearl_maptrans_dropship_crash,11.24,14.1,^2Ethan: ^7Earth's iron shield. Major firepower.
+pearl_maptrans_dropship_crash,15.25,18.07,^2Raven-6: ^7Vengeance, this is Raven Six, we're on final approach.
+pearl_maptrans_dropship_crash,18.16,20.27,^2Vengeance: ^7Copy, Six. Vengeance is awaiting your arrival.
+pearl_maptrans_dropship_crash,21.23,22.14,^2Ethan: ^7Admiral sir.
+pearl_maptrans_dropship_crash,23.02,23.23,^2Raines: ^7What is it Ethan?
+pearl_maptrans_dropship_crash,24.15,25.13,^2Ethan: ^7The AATIS guns.
+pearl_maptrans_dropship_crash,26.16,28.03,^2Ethan: ^7They appear to be tracking our fleet.
+pearl_maptrans_dropship_crash,30.08,31.02,^2Ethan: ^7Incoming!!
+pearl_maptrans_dropship_crash,33.25,34.17,^2Salter: ^7Pilot's hit!
+pearl_maptrans_dropship_crash,34.25,35.14,^2Reyes: ^7I'll take it!
+pearl_maptrans_dropship_crash,39.17,40.14,^2Salter: ^7Pull up, pull up!
+pearl_maptrans_dropship_crash,40.21,42.2,^2Reyes: ^7No joy- I can't control her!
+pearl_maptrans_dropship_crash,42.26,44.24,^2Ethan: ^7SDF destroyers inbound!
+pearl_maptrans_dropship_crash,44.26,48.25,^2Radio Operator: ^7All stations, shots fired at the AATIS control tower, say again, SHOTS FIRED!
+pearl_maptrans_dropship_crash,50.14,54.16,^2Raines: ^7This is not a drill! Divert and deploy all available assets immediately!
+pearl_maptrans_dropship_crash,54.23,56,^2Reyes: ^7Brace for impact!
+pearl_maptrans_dropship_crash,56.05,56.24,^2Salter: ^7Hold on!
+phspace_hud_kotch_pip_01_full,1.03,4,^1Admiral Kotch: ^7This is Admiral Salen Kotch of the Olympus Mons.
+phspace_hud_kotch_pip_01_full,4.22,6,^1Admiral Kotch: ^7You are defeated.
+phspace_hud_kotch_pip_01_full,6.05,8.2,^1Admiral Kotch: ^7Death is no disgrace.
+prisoner_maptrans_hud_dropship_hvt,2.04,3.12,^2Salter: ^7Good separation.
+prisoner_maptrans_hud_dropship_hvt,3.2,5,^2Salter: ^7Atmosphere in one minute.
+prisoner_maptrans_hud_dropship_hvt,11.07,14.01,^2Salter: ^7Raven flight to ground, SCAR 1-2, requesting re-entry.
+prisoner_maptrans_hud_dropship_hvt,14.06,17.07,^2ATC Operator: ^7Copy, 1-2. Angle is good, you're clear. Welcome home.
+prisoner_maptrans_hud_dropship_hvt,17.24,21.22,^2Auguste: ^7All callsigns, Echo Victors in contact, taking heavy enemy fire!
+prisoner_maptrans_hud_dropship_hvt,21.25,23.04,^2Salter: ^7That's our convoy, Reyes.
+prisoner_maptrans_hud_dropship_hvt,23.08,24.07,^2Reyes: ^7Check. Get us there.
+prisoner_maptrans_hud_dropship_hvt,24.09,24.28,^2Salter: ^7Roger.
+prisoner_maptrans_hud_dropship_hvt,28.25,30,^2Reyes: ^7Visual on the convoy. 
+prisoner_maptrans_hud_dropship_hvt,30.22,32,^2Reyes: ^7Get us along side him!
+prisoner_maptrans_hud_dropship_hvt,47.23,48.15,^2Salter: ^7Hang on!
+prisoner_maptrans_hud_dropship_hvt,50.19,55.02,^2Reyes: ^7Top Cat, this is 1-1. Convoy is down. I say again, Echo is down! Route is compromised.
+prisoner_maptrans_hud_dropship_hvt,55.04,60,^2Raines: ^7Hard copy, 1-1. Do not forfeit the asset. Imperative we do not lose that transponder.
+prisoner_maptrans_hud_dropship_hvt,60.04,61.22,^2Reyes: ^7Copy, SCAR-1 will pursue.
+prisoner_maptrans_hud_dropship_hvt,62.03,63.05,^2Reyes: ^7Get us down there, Salt!
+prisoner_maptrans_hud_dropship_hvt,63.07,63.22,^2Salter: ^7Rog’.
+rogue_maptrans_world_readings,0.09,3.05,^2Salter: ^7Boosters in 3, 2, 1.
+rogue_maptrans_world_readings,5.13,7.25,^2Salter: ^7Good sep’. We’re in scanning range in 30.
+rogue_maptrans_world_readings,7.27,9.28,^2Reyes: ^7Check all frequencies for distress signals.
+rogue_maptrans_world_readings,10,11.1,^2Salter: ^7Rog. Radio’s up.
+rogue_maptrans_world_readings,13.11,15.27,^2Omar: ^7No Marine’s ever been this close to the daystar, that’s for sure.
+rogue_maptrans_world_readings,15.29,18.2,^2Kashima: ^7Ah, you hear that, Lieutenant? We’re setting some sort of record.
+rogue_maptrans_world_readings,18.22,20.2,^2Salter: ^7Stop talking Kash, that’s an order.
+rogue_maptrans_world_readings,21.23,24.2,^2Salter: ^7Asteroid rotation's fluctuating. About a minute give or take.
+rogue_maptrans_world_readings,24.21,26.09,^2Omar: ^7That's a hundred times normal spin!
+rogue_maptrans_world_readings,26.1,27.2,^2Reyes: ^7Let's get a look at the day side.
+rogue_maptrans_world_readings,36.22,38.1,^2Salter: ^7900 degrees in the sun?!
+rogue_maptrans_world_readings,38.08,39.01,^2Kashima: ^7Holy shit!
+rogue_maptrans_world_readings,39.03,40.03,^2Reyes: ^7Get us to cover, Salt.
+rogue_maptrans_world_readings,40,40.12,^2Salter: ^7Roger.
+rogue_maptrans_world_readings,52.2,53.15,^2Salter: ^7We got a beacon.
+rogue_maptrans_world_readings,53.16,54.29,^2Kashima: ^7No. Nobody could have survived this.
+rogue_maptrans_world_readings,55,56,^2Reyes: ^7We don't know that.
+rogue_maptrans_world_readings,56.05,59.07,^2Salter: ^7The facility's toast. Let's get back to base and report to Raines.
+rogue_maptrans_world_readings,59.09,60.25,^2Reyes: ^7We should find a place to land.
+rogue_maptrans_world_readings,61.01,62.15,^2Salter: ^7That is not advisable.
+rogue_maptrans_world_readings,62.22,63.15,^2Reyes: ^7Staff sergeant?
+rogue_maptrans_world_readings,63.24,65.01,^2Omar: ^7You pick your mission, Captain.
+rogue_maptrans_world_readings,65.04,66.1,^2Omar: ^7Don’t let it pick you.
+rogue_maptrans_world_readings,67.14,69.1,^2Reyes: ^7We’re goin’ down there. Search and rescue.
+rogue_maptrans_world_readings,69.16,70.1,^2Salter: ^7Aye, sir.
+rogue_maptrans_world_readings,70.24,73.27,^2Salter: ^7I see a hangar up ahead. We can set down inside, out of the sun.
+rogue_maptrans_world_readings,74.02,74.15,^2Reyes: ^7Do it.
+rogue_maptrans_world_readings,74.22,76,^2Salter: ^7Roger, forcing down.
+sc_assault_hud_assassination_briefing,1.02,16,^2Reyes: ^7STRATCOM has intel that an SDF leadership conference is scheduled in the Kuiper belt. Four destroyers are meeting to transfer HVTs to the “Icarius.” We’ll get ourselves aboard and take out the HVTs. This one’s just you and me, Salt. Full stealth.
+sc_assault_hud_assassination_briefing,16.07,17,^2Salter: ^7Roger that. Let’s do this.
+sc_assault_hud_empambush_briefing,0.07,13.05,^2Reyes: ^7SDF carrier Cerberus is dry docked for resupply in the Miranda moon asteroid field. Payload says there’s a prototype airship in the hangar. Let’s mount an infil, commandeer the prototype and keep it out of the fight.
+sc_assault_hud_vips_briefing,0.21,12.05,^2Reyes: ^7SDF Galaxius is holding a weapon they poached off Europa. They’ve got kidnapped engineers on board to help replicate it. Best efforts to rescue the engineers but weapon retrieval is primary.
+sc_assault_hud_vips_briefing,12.18,13.05,^2Gator: ^7Aye, sir.
+sc_assault_hud_wounded_briefing,0.08,12.05,^2Reyes: ^7SetDef Hellas is in Venus atmosphere repairing attack damage. Intel reports it’s carrying chemical weapons. SCARs and Marines will board for search and destroy. We’ll locate the chem-munitions and take out the carrier.
+sc_assault_ja_asteroid_briefing,1.04,12.27,^2Reyes: ^7There’s a lone destroyer in an asteroid field orbiting Europa. They’re moving in to block our access to the water. Right now that ship is alone. This should be a fast win. We locate the Solis, and disable it.
+sc_assault_ja_mining_briefing,1.07,15.06,^2Reyes: ^7Vesta 3 wasn't the only mining colony hit by the Olympus. Collateral left a huge cache of precious metals drifting near the Sun. Those resources are UNSA property. SetDef’s got Skelters guarding a salvage team – Let’s scramble air and claim what’s ours.
+sc_assault_ja_mining_briefing,15.29,22.21,^2Reyes: ^7Proximity to the sun is a risk. Our Jacks can only take that heat for a matter of minutes. Let’s get out and back on a tight loop. 
+sc_assault_ja_spacestation_briefing,0.22,13.2,^2Reyes: ^7SetDef destroyers engaged a critical Port Operations outpost. A squadron of friendlies is defending, but they need reinforcement. Let’s deploy and disable those destroyers. We lose that outpost, we can’t get resources into our Lunar port.
+sc_assault_ja_titan_briefing,1.16,11.25,^2Reyes: ^7SDF Ajaks are refueling on the surface of Titan. After the air battle with Olympus Mons, they won’t expect us back there. Element of surprise is on our side. Let’s move in for a strike.
+sc_assault_ja_wreckage_briefing,1.01,13.04,^2Reyes: ^7The Front have been salvaging parts from a scrapyard outside Pluto. They have one Destroyer and a small Skelter squadron on station. We deploy now, we can hit the ships and commandeer that salvage. We need all the scrap we can get.
+sc_assault_world_newscast_assassination,6.07,9.1,^2Reporter: ^7Continuing coverage following today’s horrific attack on Geneva.
+sc_assault_world_newscast_assassination,9.14,15.05,^2Reporter: ^7Reports are now coming in about a targeted strike by SATO forces on a secret SetDef leadership conference.
+sc_assault_world_newscast_assassination,15.2,21.16,^2Reporter: ^7According to sources, high-ranking SetDef officials were targeted and eliminated by an elite SCAR team.
+sc_assault_world_newscast_assassination,21.18,32.2,^2Reporter: ^7In related news, SetDef fleet movements continue to impede the flow of off-world resources back to earth. Without those resources, chances severely dwindle for damaged SATO warships to be repaired.
+sc_assault_world_newscast_assassination,33.05,35.2,^2Reporter: ^7For IW News, this is Gerome Davies.
+sc_assault_world_newscast_empambush,5.18,13.2,^2Reporter: ^7Just moments ago, UNSA forces along with the Navy’s elite SATO teams launched a surprise offensive near the Uranian moon, Miranda.
+sc_assault_world_newscast_empambush,14.1,26.1,^2Reporter: ^7Our sources tell us the target was a Settlement Defense Front ship harboring some kind of prototype technology. After a brief skirmish, SATO forces were able to board the vessel and apprehend that prototype.
+sc_assault_world_newscast_empambush,26.17,34,^2Reporter: ^7An official UNSA announcement is expected shortly, but this is already being hailed as a critical blow to the SetDef’s offensive capabilities.
+sc_assault_world_newscast_empambush,34.08,36.17,^2Reporter: ^7This is Peter Bryant reporting from Geneva.
+sc_assault_world_newscast_vips,5.22,9.12,^2Reporter: ^7Reports tonight of a UNSA victory against the Settlement Defense Front.
+sc_assault_world_newscast_vips,9.22,16.2,^2Reporter: ^7SATO SCAR team units have recaptured top-secret SATO tech, stolen mere hours before today’s vicious attack on Geneva.
+sc_assault_world_newscast_vips,17.03,28.26,^2Reporter: ^7SATO officials have not responded to questions regarding the nature of the weaponry retrieved, nor is there word on the fate of the allied engineers reportedly kidnapped from the UNSA site where the SATO tech in question was stored.
+sc_assault_world_newscast_vips,29.1,32.16,^2Reporter: ^7We will report the latest developments as details become available.
+sc_assault_world_newscast_vips,32.24,35.05,^2Reporter: ^7This is Gerome Davies for IW news.
+sc_assault_world_newscast_vips,5.22,9.12,^2Reporter: ^7Reports tonight of a UNSA victory against the Settlement Defense Front.
+sc_assault_world_newscast_vips,9.22,16.2,^2Reporter: ^7SATO SCAR team units have recaptured top-secret SATO tech, stolen mere hours before today’s vicious attack on Geneva.
+sc_assault_world_newscast_vips,17.03,28.26,^2Reporter: ^7SATO officials have not responded to questions regarding the nature of the weaponry retrieved, nor is there word on the fate of the allied engineers reportedly kidnapped from the UNSA site where the SATO tech in question was stored.
+sc_assault_world_newscast_vips,29.1,32.16,^2Reporter: ^7We will report the latest developments as details become available.
+sc_assault_world_newscast_vips,32.24,35.05,^2Reporter: ^7This is Gerome Davies for IW news.
+sc_assault_world_newscast_wounded,5.23,13,^2Reporter: ^7SATO forces have prevented a chemical attack on Earth, destroying a Settlement Defense Front ship carrying the payload.
+sc_assault_world_newscast_wounded,13.03,18.1,^2Reporter: ^7Despite the success, reports indicate that the chemical agent was not completely contained.
+sc_assault_world_newscast_wounded,18.17,27.15,^2Reporter: ^7Our experts tell us that the vacuum of space should render the compound inert, but without the exact makeup of the agent, they cannot say this with complete certainty.
+sc_assault_world_newscast_wounded,28.03,32.2,^2Reporter: ^7The Health Organization announced that relief efforts for off-world colonies are underway.
+sc_assault_world_newscast_wounded,32.25,35.1,^2Reporter: ^7This is Peter Bryant reporting from Geneva.
+sc_epilogue_cap_ops,0.16,11.21,^2Admiral Coupe: ^7…both officers, aware of the imminent danger, in spite of extensive casualties, planned and skillfully executed an attack with unwavering devotion to their duty.
+sc_epilogue_cap_ops,12.11,28.2,^2Admiral Coupe: ^7Commander Reyes and Lt. Salter gallantly offered their own lives and those of their crew, mobilizing at close-range against superior fire power. The operation eliminated vital numbers of enemy vessels and destroyed the Settlement Defense Front's Orbital Shipyard.
+sc_epilogue_cap_ops,29.25,35,^2Admiral Coupe: ^7The officers commitment exhibited the highest traditions of Naval Service.
+sc_epilogue_cap_ops,35.18,39.14,^2Admiral Coupe: ^7Once I get your hard copy signature on this we'll get it filed.
+sc_epilogue_cap_ops,41.25,50.03,^2Admiral Coupe: ^7You changed the course of the war, Commander Reyes. Because of you, our fleet's back online. STRATCOM is very proud of your actions.
+sc_epilogue_cap_ops,59.11,65.23,^2Admiral Coupe: ^7We have intel the enemy is planning a surge. Time frame is unknonw but I need you back out there right away.
+sc_epilogue_cap_ops,67.23,70.05,^2Admiral Coupe: ^7Safe flight. Charger out.
+sc_europa_hud_jackal_return_hvt,0.11,4,^2Raines: ^7This is a classified briefing regarding the POW apprehended in Geneva.
+sc_europa_hud_jackal_return_hvt,4.11,14,^2Raines: ^7After using our AATIS guns against our fleet, the operative known as Riah attempted to destroy the entire AATIS system. This would have left Earth vulnerable to aerial attack.
+sc_europa_hud_jackal_return_hvt,14.08,18.1,^2Raines: ^7At this time it's unclear if the guns can be destroyed from another location
+sc_europa_hud_jackal_return_hvt,18.18,21.2,^2Raines: ^7I will keep you posted on any and all developments. Top Cat out.
+sc_europa_hud_jackal_return_kotch_hvt,0.12,6.2,^1Admiral Kotch: ^7Our world is just beginning. Theirs is dying!
+sc_europa_hud_jackal_return_kotch_hvt,7.26,13.2,^1Admiral Kotch: ^7It is not enough to break free. We will break them!
+sc_europa_hud_jackal_return_kotch_hvt,14.12,17.15,^1Admiral Kotch: ^7Their cities will burn along with the pages of their history.
+sc_europa_hud_jackal_return_kotch_hvt,20.04,21.05,^1Admiral Kotch: ^7Mars aeternum.
+sc_europa_hud_jackal_return_kotch_hvt,23.02,28.15,^2Raines: ^7Captain, they won't stop until they take our world. This may be our last stand.
+sc_europa_hud_jackal_return_kotch_hvt,29.03,30,^2Reyes: ^7Understood, sir.
+sc_europa_maptrans_hud_jackal_return_hvt,0.6,7,^2Raines: ^7Commander Reyes, STRATCOM decrypted a fleet transmission from Admiral Kotch broadcast six hours before the attack.
+sc_europa_maptrans_hud_jackal_return_hvt,7.01,8.08,^2Reyes: ^7Roger, Admiral. Go ahead.
+sc_europa_maptrans_hud_jackal_return_hvt,9.1,13.1,^1Admiral Kotch: ^7Today, the Front embarks on a conquest.
+sc_europa_maptrans_hud_jackal_return_hvt,13.18,20,^1Admiral Kotch: ^7Here and now, we will eradicate the authority and influence of the Earth!
+sc_europa_world_newscast,6.84,18.59,^2Reporter: ^7Clashes on the Lunar surface have come to an end as SATO forces reclaim the Moon Gateway harbor from the Settlement Defense Front. The gateway complex is the Earth's primary cargo commerce and passenger terminal…
+sc_europa_world_newscast,19.35,30.5,^2Reporter: ^7A joint operation between Gateway Coast Guard Defense Forces and special operations groups including the Navy's elite SCAR Team and UNSA Marines forced the SetDef into a full-scale retreat.
+sc_europa_world_newscast,31,34.8,^2Reporter: ^7For UNSA Armed Forces Media, this is Renee Syhan in New Delhi.
+sc_moon_cutscene_take_charge,0.07,1.21,^2Boats: ^7Make way for the Captain!
+sc_moon_cutscene_take_charge,1.22,2.2,^2Salter: ^7Where is he Boats?
+sc_moon_cutscene_take_charge,2.21,3.2,^2Reyes: ^7Where's Captain Alder?
+sc_moon_cutscene_take_charge,3.21,5,^2Boats: ^7Right here, sir.
+sc_moon_cutscene_take_charge,8.28,9.28,^2Reyes: ^7Gator.
+sc_moon_cutscene_take_charge,10.03,11.13,^2Gator: ^7Captain's dead.
+sc_moon_cutscene_take_charge,11.17,13.15,^2Omar: ^7Went down with his ship.
+sc_moon_cutscene_take_charge,14.01,15.1,^2Salter: ^7XO?
+sc_moon_cutscene_take_charge,15.13,18,^2Gator: ^7No longer with us, ma'am.
+sc_moon_cutscene_take_charge,18.29,21,^2Reyes: ^7All this happened in the crash?
+sc_moon_cutscene_take_charge,21.08,22.15,^2Gator: ^7Yes, sir.
+sc_moon_cutscene_take_charge,22.21,25.15,^2Reyes: ^7So who has the conn, Gator?
+sc_moon_cutscene_take_charge,25.17,28.04,^2Gator: ^7As the highest ranking officer on board…
+sc_moon_cutscene_take_charge,28.05,30.16,^2Gator: ^7I believe you do, sir.
+sc_moon_cutscene_take_charge,30.17,33.15,^2Boats: ^7Destroyer Tigris is docking a shuttle to come aboard.
+sc_moon_cutscene_take_charge,33.22,35,^2Reyes: ^7Roger that.
+sc_moon_cutscene_take_charge,35.21,36.26,^2Reyes: ^7You spinning radar?
+sc_moon_cutscene_take_charge,36.27,38.2,^2Gator: ^7Still turning, sir.
+sc_moon_cutscene_take_charge,38.25,45.11,^2Reyes: ^7Get Raven transports set for evac. I want our casualties outbound right away. Drop Officer, coordinate with engineering and get us mobile.
+sc_moon_cutscene_take_charge,45.12,47.2,^2Yetide: ^7Roger. Engineer MaCallum's on her way.
+sc_moon_cutscene_take_charge,48.02,49.01,^2Reyes: ^7Staff Sergeant.
+sc_moon_cutscene_take_charge,49.02,50.06,^2Reyes: ^7Can we count on your help?
+sc_moon_cutscene_take_charge,50.07,52.1,^2Omar: ^7You'll have what you need from me, Lieutenant.
+sc_moon_cutscene_take_charge,52.12,53.21,^2Reyes: ^7Salt, you with me?
+sc_moon_cutscene_take_charge,53.22,55,^2Salter: ^7Always.
+sc_moon_cutscene_take_charge,55.15,57.1,^2Reyes: ^7Gator, get the Admiral on the line.
+sc_moon_cutscene_take_charge,57.11,60.03,^2Gator: ^7Copy. Comms Officer, STRATCOM, Top Cat Sovereign.
+sc_moon_cutscene_take_charge,60.04,61,^2Comms Officer: ^7Roger.
+sc_moon_cutscene_take_charge,61.01,62.18,^2Boats: ^7Tigris Captain on deck!
+sc_moon_cutscene_take_charge,62.23,63.27,^2Salter: ^7Captain Ferran.
+sc_moon_cutscene_take_charge,63.29,65.11,^2Ferran: ^7Lieutenant. Who's in charge here?
+sc_moon_cutscene_take_charge,65.12,67.14,^2Gator: ^7Lieutenant Reyes. SCAR Team Leader.
+sc_moon_cutscene_take_charge,67.17,69.14,^2Reyes: ^7Captain. Your ship and crew?
+sc_moon_cutscene_take_charge,69.15,70.11,^2Ferran: ^7Intact.
+sc_moon_cutscene_take_charge,70.12,72.09,^2Comms Officer: ^7Sir, Admiral Raines is on the line.
+sc_moon_cutscene_take_charge,72.1,73.2,^2Reyes: ^7Put him through.
+sc_moon_cutscene_take_charge,75.18,78.06,^2Raines: ^7Captain Ferran. Ladies, Gentlemen. It's good to see you.
+sc_moon_cutscene_take_charge,78.07,79.07,^2Ferran: ^7Sir.
+sc_moon_cutscene_take_charge,79.09,84.15,^2Raines: ^7Let me make our situation absolutely clear. We are now at war with the Settlement Defense Front.
+sc_moon_cutscene_take_charge,84.22,93.08,^2Raines: ^7Due to Captain Alder's use of force, the enemy was driven into retreat. At this time, Tigris and Retribution are the only operable ships we have.
+sc_moon_cutscene_take_charge,93.1,97.28,^2Raines: ^7Our course of action moving forward is to buy Earth time, while we rebuild our fleet.
+sc_moon_cutscene_take_charge,97.29,100.18,^2Ferran: ^7Understood Admiral. Tigris is prepared for tasking.
+sc_moon_cutscene_take_charge,100.19,103.07,^2Raines: ^7Today's attack was not limited to Geneva.
+sc_moon_cutscene_take_charge,103.1,106.17,^2Raines: ^7SetDef launched a concurrent strike on the Moon Gateway Port.
+sc_moon_cutscene_take_charge,106.18,113.1,^2Raines: ^7And those cargo terminals receive freight critical to rebuilding our fleet. So your mission is to retake that port.
+sc_moon_cutscene_take_charge,113.18,121.1,^2Raines: ^7Lt. Reyes- I'm promoting you to the rank of Commander. You are now the acting Captain of Retribution.
+sc_moon_cutscene_take_charge,121.26,123.12,^2Reyes: ^7Roger that, Admiral.
+sc_moon_cutscene_take_charge,123.14,125.15,^2Raines: ^7Keep the enemy away from home.
+sc_moon_cutscene_take_charge,125.18,129,^2Raines: ^7Godspeed, Captains. Top Cat out.
+sc_moon_cutscene_take_charge,130.13,131.13,^2Salter: ^7We've got no air wing.
+sc_moon_cutscene_take_charge,131.14,135,^2Omar: ^7We'll go without it. That's how we do things in the infantry, Lieutenant.
+sc_moon_cutscene_take_charge,136.03,137.22,^2Reyes: ^7We'll insert the Marines from Retribution.
+sc_moon_cutscene_take_charge,137.23,139.15,^2Ferran: ^7I'll provide over-watch from Tigris.
+sc_moon_cutscene_take_charge,139.16,143.14,^2Ferran: ^7Let's go to work Captain Reyes. Stay sharp out there. All of you.
+sc_moon_cutscene_take_charge,143.15,145,^2Reyes: ^7You too, Captain.
+sc_moon_cutscene_take_charge,147.14,149.26,^2Omar: ^7You got some shoes to fill now, Captain.
+sc_moon_cutscene_take_charge,149.28,154.15,^2Reyes: ^7We've got limited boots and guns. Lieutenant Salter and I will deploy with you.
+sc_moon_cutscene_take_charge,155.07,158.2,^2Omar: ^7This is a ground assault. Captain's place is on the bridge.
+sc_moon_cutscene_take_charge,158.22,161.1,^2Reyes: ^7Not this captain. Not today.
+sc_moon_cutscene_take_charge,164.29,168.2,^2Omar: ^7Marines take point. You ride in with us, see how the view changes.
+sc_moon_cutscene_take_charge,168.26,170.19,^2Reyes: ^7Muster on the Well Deck in five, Staff Sergeant.
+sc_moon_cutscene_take_charge,170.2,171.2,^2Omar: ^7Copy.
+sc_moon_cutscene_take_charge,172.18,174.01,^2Reyes: ^7Get us going, Gator. Lunar Gateway.
+sc_moon_cutscene_take_charge,174.02,175.14,^2Gator: ^7Aye, sir. Plotting a course.
+sc_moon_cutscene_take_charge,175.15,177.03,^2Yetide: ^7Will notify when ready, Captain.
+sc_moon_cutscene_take_charge,177.04,186.05,^2Boats: ^7Commander Reyes. Captain Alder's Operations Office is now yours. Be advised, his effects are still in place.
+sc_moon_cutscene_take_charge,186.11,187.2,^2Reyes: ^7Thanks, Boats.
+sc_moon_cutscene_take_charge,203.03,206.1,^2Salter: ^7For the indomitable Captain John Alder.
+sc_moon_cutscene_take_charge,206.26,208.2,^2Reyes: ^7The Captain is dead.
+sc_moon_cutscene_take_charge,209.04,210.1,^2Salter: ^7Long live the Captain.
+sc_moon_gibson_pip,2.24,5,^2Gibson: ^7Trying 1-2. Lines are snagged.
+sc_moon_gibson_pip,5.18,7.1,^2Gibson: ^7Alright, you should have air now, Lieutenants.
+sc_moon_maptrans_jackal_return,1.18,4.2,^2Reyes: ^71-1 to Retribution. What the hell happened, Gator?
+sc_moon_maptrans_jackal_return,7.02,9.15,^2Gator: ^7Multiple casualties from the crash maneuver, sir.
+sc_moon_maptrans_jackal_return,10.05,11.2,^2Gator: ^7I need a stretcher over here!
+sc_moon_maptrans_jackal_return,12.03,15.2,^2Gator: ^7Lieutenant Reyes, we need you up here, right away. Bridge out.
+sc_moon_maptrans_jackal_return,16.12,17.2,^2Reyes: ^7You copying this, Salt?
+sc_moon_maptrans_jackal_return,18.06,19.06,^2Salter: ^7Yeah.
+sc_prisoner_cutscene_new_plan,8.05,9,^2Reyes: ^7Captain Ferran.
+sc_prisoner_cutscene_new_plan,12.03,14,^2Reyes: ^7Salt, get a combat rescue team out there now.
+sc_prisoner_cutscene_new_plan,14.09,15.25,^2Salter: ^7There’s no one out there, Reyes.
+sc_prisoner_cutscene_new_plan,16.06,18.1,^2Reyes: ^7Gator, call the flight deck, I’ll go out there myself.
+sc_prisoner_cutscene_new_plan,18.13,19.1,^2Ethan: ^7I’ll go with you, sir.
+sc_prisoner_cutscene_new_plan,19.1,22.1,^2Gator: ^7Captain, we’ve no lifesigns, no beacons.
+sc_prisoner_cutscene_new_plan,22.12,23.25,^2Gator: ^7It’s a total loss, sir.
+sc_prisoner_cutscene_new_plan,23.29,25.06,^2Yetide: ^7That’s a signal buoy.
+sc_prisoner_cutscene_new_plan,25.07,26,^2Gator: ^7It’s close.
+sc_prisoner_cutscene_new_plan,26.01,27.05,^2Yetide: ^7I’ve got it.
+sc_prisoner_cutscene_new_plan,27.06,28.06,^2Reyes: ^7Put it through.
+sc_prisoner_cutscene_new_plan,27.2,28.9,^2Yetide: ^7Yes, sir.
+sc_prisoner_cutscene_new_plan,29.07,38.1,^1Admiral Kotch: ^7This is Admiral Salen Kotch of the Olympus Mons. The UNSA ship Tigris lies in ruin. There will be no rest for the enemies of The Front.
+sc_prisoner_cutscene_new_plan,39.04,56.07,^1Admiral Kotch: ^7I speak now to the Retribution. We will continue to fight you inside and outside your fading world. Your cities will surrender, broken and weak. We will not fail.
+sc_prisoner_cutscene_new_plan,57.06,58.1,^1Admiral Kotch: ^7Mars aeternum.
+sc_prisoner_cutscene_new_plan,59.09,62.15,^2Salter: ^7We were set up on Vesta. They knew the Tigris or Ret would respond.
+sc_prisoner_cutscene_new_plan,62.16,63.16,^2Brooks: ^7It was an ambush.
+sc_prisoner_cutscene_new_plan,63.17,65.04,^2MaCallum: ^7Corporal Brooks is right, Captain.
+sc_prisoner_cutscene_new_plan,66.03,68.15,^2Reyes: ^7Brooks isn’t a corporal anymore.
+sc_prisoner_cutscene_new_plan,68.18,72,^2Reyes: ^7You're Sergeant now. You're the commander of the Marines on this ship.
+sc_prisoner_cutscene_new_plan,72.12,73.2,^2Brooks: ^7My honor, sir.
+sc_prisoner_cutscene_new_plan,73.24,75.27,^2Gator: ^7We should contact Admiral Raines now, Commander.
+sc_prisoner_cutscene_new_plan,75.28,77,^2Reyes: ^7No.
+sc_prisoner_cutscene_new_plan,77.27,81.19,^2Reyes: ^7Staff Sergeant Omar said to pick your mission, don’t let it pick you. That’s exactly what we’re gonna do.
+sc_prisoner_cutscene_new_plan,81.2,82.1,^2Reyes: ^7Bring it in.
+sc_prisoner_cutscene_new_plan,82.13,83.23,^2Reyes: ^7Ethan, log this.
+sc_prisoner_cutscene_new_plan,83.25,85,^2Ethan: ^7Check.
+sc_prisoner_cutscene_new_plan,86.18,99.15,^2Reyes: ^7STRATCOM sends us out, we get hit. This time it was Tigris, next time it's Ret. All respect to the Admiral, the desk is not the deck. It’s time to raise the black flag and start cutting throats.
+sc_prisoner_cutscene_new_plan,99.19,101,^2MaCallum: ^7Good on you, Captain.
+sc_prisoner_cutscene_new_plan,101.24,106,^2Reyes: ^7SDF is guarding targets of opportunity, out here.
+sc_prisoner_cutscene_new_plan,106.17,110.1,^2Reyes: ^7We’re gonna turn the tables. Set up an ambush of our own back home.
+sc_prisoner_cutscene_new_plan,110.15,111.2,^2Ethan: ^7Earth, sir?
+sc_prisoner_cutscene_new_plan,112.05,115,^2Reyes: ^7We lure the Olympus to Geneva, and take it out.
+sc_prisoner_cutscene_new_plan,115.06,116.15,^2Salter: ^7I love this plan.
+sc_prisoner_cutscene_new_plan,116.18,118.22,^2MaCallum: ^7May I ask how, Captain?
+sc_prisoner_cutscene_new_plan,119.11,125,^2Reyes: ^7We have access to an SDF transponder. It was planted in the operative who took out the AATIS in Geneva.
+sc_prisoner_cutscene_new_plan,125.04,129.25,^2Reyes: ^7It was a suicide mission. It would've stopped transmitting when the operative was killed.
+sc_prisoner_cutscene_new_plan,129.28,134,^2MaCallum: ^7So we would've lost our guns, they would have lost their transponder signal.
+sc_prisoner_cutscene_new_plan,134.02,135.29,^2Brooks: ^7That would relay an all clear.
+sc_prisoner_cutscene_new_plan,136.01,137.2,^2Gator: ^7The fleet would invade immediately.
+sc_prisoner_cutscene_new_plan,138.06,141,^2Ethan: ^7Interrogative: The guns won't be down, sir.
+sc_prisoner_cutscene_new_plan,141.13,146.14,^2Salter: ^7We just need SDF to think they are. They’ll be caught off guard. AATIS will engage their fleet.
+sc_prisoner_cutscene_new_plan,146.2,149.15,^2Reyes: ^7Counter deception. We set the table and they come to eat.
+sc_prisoner_cutscene_new_plan,149.19,151,^2Gator: ^7And Retribution?
+sc_prisoner_cutscene_new_plan,151.09,154.09,^2Reyes: ^7We take Ret out of the equation. She’s seen enough.
+sc_prisoner_cutscene_new_plan,154.11,156.2,^2Salter: ^7Luminal gulf, way outside atmosphere.
+sc_prisoner_cutscene_new_plan,157.01,160.12,^2Gator: ^7Response time from that distance would be considerable. We couldn’t render aid.
+sc_prisoner_cutscene_new_plan,160.14,163,^2Yetide: ^7A drop into atmosphere could be catastrophic.
+sc_prisoner_cutscene_new_plan,163.09,165.25,^2MaCallum: ^7Blast wave alone would be quite destructive.
+sc_prisoner_cutscene_new_plan,166.05,167.15,^2Salter: ^7Let’s hope it doesn’t come that.
+sc_prisoner_cutscene_new_plan,168,171.15,^2Reyes: ^7Ethan, get our tacticals on the map, prepare a brief, get it to STRATCOM right away.
+sc_prisoner_cutscene_new_plan,171.23,172.1,^2Ethan: ^7Aye, sir.
+sc_prisoner_cutscene_new_plan,173.03,174.27,^2Brooks: ^7This could turn the tide of the war, Captain.
+sc_prisoner_cutscene_new_plan,175.1,176.17,^2Reyes: ^7I’m counting on it, Brooks.
+sc_prisoner_cutscene_new_plan,177.15,179.15,^2Reyes: ^7Prepare your men. Get a strike package up.
+sc_prisoner_cutscene_new_plan,179.18,180.09,^2Brooks: ^7Yes, sir.
+sc_prisoner_cutscene_new_plan,181.24,184,^2Reyes: ^7Mac, make sure power’s up to snuff.
+sc_prisoner_cutscene_new_plan,184.07,185,^2MaCallum: ^7Captain.
+sc_prisoner_cutscene_new_plan,185.22,187.2,^2Salter: ^7I want that ship, Reyes.
+sc_prisoner_cutscene_new_plan,188.03,189.1,^2Reyes: ^7Let’s go get it, Salt.
+sc_prisoner_ferran_pip,0,1,^2Ferran: ^7…Olympus Mo…!
+sc_prisoner_hud_dropship_hvt,1.23,2.2,^2Auguste: ^7Captain Reyes.
+sc_prisoner_hud_dropship_hvt,3.11,6.18,^2Auguste: ^7This son of a bitch is a handful, sir. Sooner he’s under sedation the better.
+sc_prisoner_hud_dropship_hvt,6.25,15.02,^2Auguste: ^7Echo is five mikes out from the UNSA building. City’s evacuated so the convoy’ll move quick. We’ll RV with you and the Admiral in the Medical hall. What’s your ETA?
+sc_prisoner_hud_dropship_hvt,17.05,18,^2Auguste: ^7Roger. Out.
+sc_prisoner_maptrans_cutscene_omar_gone,4.19,8.15,^2Kashima: ^7Sergeant?! Sergeant?!...Sergeant?!
+sc_prisoner_maptrans_cutscene_omar_gone,8.21,11.2,^2Brooks: ^7Private! Step back! Step back, step back!
+sc_prisoner_maptrans_cutscene_omar_gone,8.27,9.2,^2Kashima: ^7Stop this thing!
+sc_prisoner_maptrans_cutscene_omar_gone,9.27,12.2,^2Kashima: ^7Turn it around! Sergeant!
+sc_prisoner_maptrans_cutscene_omar_gone,12,14.12,^2Reyes: ^7He's still down there Salt! Turn this ship around!
+sc_prisoner_maptrans_cutscene_omar_gone,14.04,15.04,^2Brooks: ^7He's gone, sir!
+sc_prisoner_maptrans_cutscene_omar_gone,15.03,16.09,^2Reyes: ^7We left him, Corporal!
+sc_prisoner_maptrans_cutscene_omar_gone,16.02,17.2,^2Brooks: ^7There was nothing you could do, Captain!
+sc_prisoner_maptrans_cutscene_omar_gone,17.16,19.07,^2Reyes: ^7I gave you a direct order!
+sc_prisoner_maptrans_cutscene_omar_gone,19.19,22.2,^2Salter: ^7I'm the pilot of this ship, It's my job to make sure that we get back!
+sc_prisoner_maptrans_cutscene_omar_gone,22.16,24.15,^2Reyes: ^7We lift off on my order!
+sc_prisoner_maptrans_cutscene_omar_gone,25.04,26.24,^2Salter: ^7We shouldn't have been down there in the first place…
+sc_prisoner_maptrans_cutscene_omar_gone,27.05,28.09,^2Reyes: ^7That's not your call.
+sc_prisoner_maptrans_cutscene_omar_gone,28.1,30.29,^2Salter: ^7Mission comes first. Omar's words, not mine.
+sc_prisoner_maptrans_cutscene_omar_gone,31,33.05,^2Reyes: ^7I bring my men home, Salt, we do both!
+sc_prisoner_maptrans_cutscene_omar_gone,33.04,35.08,^2Brooks: ^7Captain! He goes willingly.
+sc_prisoner_maptrans_cutscene_omar_gone,35.1,36.2,^2Reyes: ^7He didn't have to, Corporal.
+sc_prisoner_maptrans_cutscene_omar_gone,42.04,46.2,^2Reyes: ^7Two seconds, Salt. All he needed was two more seconds.
+sc_prisoner_maptrans_cutscene_omar_gone,46.25,49.15,^2Salter: ^7I needed those two seconds to get us off the X…
+sc_prisoner_maptrans_cutscene_omar_gone,50.24,51.25,^2Reyes: ^7What if it were me…?
+sc_prisoner_maptrans_cutscene_omar_gone,54.06,55.1,^2Salter: ^7What are you asking me?
+sc_prisoner_maptrans_cutscene_omar_gone,56,57.15,^2Reyes: ^7Would you have left me out there?
+sc_prisoner_maptrans_cutscene_omar_gone,59.14,60.1,^2Salter: ^7I don't know.
+sc_prisoner_maptrans_cutscene_omar_gone,61.13,62.1,^2Reyes: ^7Yes you do.
+sc_prisoner_maptrans_cutscene_omar_gone,62.27,67.15,^2Salter: ^7Hesitation is a hole in the head, Reyes. We both know that. There was no other way.
+sc_prisoner_maptrans_cutscene_omar_gone,68.05,69.09,^2Reyes: ^7There's always another way.
+sc_prisoner_maptrans_cutscene_omar_gone,69.11,70.15,^2Salter: ^7Not always.
+sc_prisoner_maptrans_cutscene_omar_gone,72.15,73.07,^2Reyes: ^7Since when?
+sc_prisoner_maptrans_cutscene_omar_gone,74.13,76.05,^2Salter: ^7Since you became captain.
+sc_prisoner_maptrans_cutscene_omar_gone,78.1,79.1,^2Gator: ^7Main to Raven.
+sc_prisoner_maptrans_cutscene_omar_gone,85.16,86.2,^2Reyes: ^7Send traffic, Gator.
+sc_prisoner_maptrans_cutscene_omar_gone,86.24,89.2,^2Gator: ^7We received an emergency OPREP captain, what's your ETA?
+sc_prisoner_maptrans_cutscene_omar_gone,89.18,90.2,^2Reyes: ^7We're coming in now.
+sc_prisoner_maptrans_cutscene_omar_gone,91.04,93,^2Gator: ^7You're needed on the bridge ASAP, sir.
+sc_prisoner_maptrans_cutscene_omar_gone,93.17,95.15,^2Reyes: ^7Roger. We've got civilians on board.
+sc_prisoner_maptrans_cutscene_omar_gone,95.22,98.12,^2Gator: ^7Acknowledged. Will prep for off-load. Out.
+sc_prisoner_maptrans_cutscene_omar_gone,105.1,118,^2Reyes: ^7This day's not ending anytime soon. Let's keep the barrel side out, fight the enemy, not each other. You got the greenlight to do whatever it takes.
+sc_prisoner_maptrans_cutscene_omar_gone,121,122.15,^2Salter: ^7Sorry about Omar, Reyes.
+sc_prisoner_maptrans_cutscene_omar_gone,126.06,127.05,^2Reyes: ^7Me too, Salt.
+sc_prisoner_world_cic_briefing,0.09,2.03,^2Raines: ^7Captain, Lieutenant.
+sc_prisoner_world_cic_briefing,3,6.16,^2Raines: ^7We’ve suffered unthinkable casualties today. Captain Alder, Captain Ferran-
+sc_prisoner_world_cic_briefing,6.29,10.03,^2Reyes: ^7-Staff Sergeant Omar. KIA on Vesta-3 sir.
+sc_prisoner_world_cic_briefing,10.11,13.08,^2Raines: ^7That’s a shame. He was a good man. A good Marine.
+sc_prisoner_world_cic_briefing,13.21,14.25,^2Reyes: ^7He died on my watch.
+sc_prisoner_world_cic_briefing,15.02,16.18,^2Raines: ^7You can’t blame yourself son.
+sc_prisoner_world_cic_briefing,17.04,20,^2Raines: ^7Hindsight’s a tactical miscalculation we can’t afford.
+sc_prisoner_world_cic_briefing,20.19,23.23,^2Raines: ^7I’ve been informed, STRATCOM has approved your initiative in Geneva.
+sc_prisoner_world_cic_briefing,24.1,33.15,^2Raines: ^7At your behest, the prisoner will be transported to UNSA Headquarters. A med team will remove the transponder from the subject at which point the device will be incinerated.
+sc_prisoner_world_cic_briefing,33.28,37.27,^2Salter: ^7I’ll pilot a Raven to UNSA-HQ. We'll make that our base of operations.
+sc_prisoner_world_cic_briefing,38.04,47.25,^2Raines: ^7If all goes as planned the SDF fleet, including the Olympus Mons, will receive the all clear signal and enter our airspace provoking a counterattack by our AATIS guns.
+sc_prisoner_world_cic_briefing,48.02,50.08,^2Raines: ^7Well done, Captain. Top cat out.
+sc_prisoner_world_hvt_briefing,0.13,3.2,^2Raines: ^7This is a classified briefing regarding the POW known as Riah.
+sc_prisoner_world_hvt_briefing,4,5.04,^2Raines: ^7Identify yourself.
+sc_prisoner_world_hvt_briefing,10.08,13.19,^2Raines: ^7We believe Riah's mission was to incinerate himself along with the AATIS.
+sc_prisoner_world_hvt_briefing,14.06,19.18,^2Raines: ^7His implanted transponder would have been destroyed, halting its signal, sending an all clear to the enemy fleet.
+sc_prisoner_world_hvt_briefing,20.11,23.09,^2Raines: ^7STRATCOM can only assume an invasion would follow.
+sc_prisoner_world_hvt_briefing,23.19,25.2,^2Raines: ^7We need to act on this intel, Captain.
+sc_prisoner_world_hvt_briefing,25.28,27.03,^2Raines: ^7Make it your purpose.
+sc_prisoner_world_hvt_briefing,27.16,28.16,^2Raines: ^7Top Cat out.
+sc_rogue_maptrans_cutscene_rescued,3.18,6.21,^2Ferran: ^7Captain, can you hear me? Captain Reyes?
+sc_rogue_maptrans_cutscene_rescued,7.06,10.21,^2Ferran: ^7He's coming to. There you go, sailor. Open your eyes.
+sc_rogue_maptrans_cutscene_rescued,11.05,12.24,^2Ferran: ^7This is Tigris Captain Ferran.
+sc_rogue_maptrans_cutscene_rescued,13.2,16.14,^2Bryant Ling: ^7Heart rate's stabilizing. Blood gas is in range.
+sc_rogue_maptrans_cutscene_rescued,16.14,18.19,^2Ferran: ^7That's Chief Bryant Ling. He's a Tigris corpsman.
+sc_rogue_maptrans_cutscene_rescued,19.2,20.13,^2Reyes: ^7Where's Ethan?
+sc_rogue_maptrans_cutscene_rescued,20.22,21.21,^2Ethan: ^7Right here, sir.
+sc_rogue_maptrans_cutscene_rescued,22.05,25.19,^2Ferran: ^7You're on a shuttle from my vessel Tigris. I'm taking you back to Retribution.
+sc_rogue_maptrans_cutscene_rescued,26.22,27.27,^2Reyes: ^7My ship, my crew?
+sc_rogue_maptrans_cutscene_rescued,27.28,29.09,^2Ferran: ^7Retribution's in good hands.
+sc_rogue_maptrans_cutscene_rescued,29.18,30.03,^2Ferran: ^7Sit him up.
+sc_rogue_maptrans_cutscene_rescued,30.18,33.17,^2Ferran: ^7She's right out there. In all her guts and glory.
+sc_rogue_maptrans_cutscene_rescued,35.2,36.16,^2Reyes: ^7Who contacted you?
+sc_rogue_maptrans_cutscene_rescued,36.18,39.12,^2Ferran: ^7Lieutenant Salter. She asked the admiral for a retrieval team.
+sc_rogue_maptrans_cutscene_rescued,39.25,42.22,^2Ferran: ^7Under the circumstances he deemed the recovery too risky.
+sc_rogue_maptrans_cutscene_rescued,44.21,46.07,^2Reyes: ^7Raines didn't authorize the rescue?
+sc_rogue_maptrans_cutscene_rescued,47,52.08,^2Ferran: ^7War has no friends, Reyes. Perhaps my motivations were selfish, but I have no intention of fighting out here alone.
+sc_rogue_maptrans_cutscene_rescued,53.02,56.22,^2Ferran: ^7I tasked a pilot and two spotters, and we set out to your last known location.
+sc_rogue_maptrans_cutscene_rescued,56.27,58.2,^2Ethan: ^7How did you account for radial velocity?
+sc_rogue_maptrans_cutscene_rescued,58.25,67.15,^2Ferran: ^7Gravitational drag and something we've been lacking: luck. We had to pry Ethan's arms open. They'd frozen around you. Protecting his captain to the end.
+sc_rogue_maptrans_cutscene_rescued,68.04,69.1,^2Ferran: ^7Dauntless valor, Ethan.
+sc_rogue_maptrans_cutscene_rescued,70,71.15,^2Ethan: ^7Boundless terror, Captain.
+sc_rogue_maptrans_cutscene_rescued,71.19,72.22,^2Ferran: ^7You are a humble one.
+sc_rogue_maptrans_cutscene_rescued,73.09,74.1,^2Pilot: ^7Five seconds to dock.
+sc_rogue_maptrans_cutscene_rescued,74.21,76.2,^2Reyes: ^7Thanks, Ferran. You saved our lives.
+sc_rogue_maptrans_cutscene_rescued,77.03,81,^2Ferran: ^7We are a fraternity of two, you and I. A fifty percent attrition rate is not gonna fly.
+sc_rogue_maptrans_cutscene_rescued,83.28,85.03,^2Ferran: ^7Welcome home, Captain.
+sc_rogue_maptrans_cutscene_rescued,88.01,89.16,^2Salter: ^7Above and beyond the call, Ferran.
+sc_rogue_maptrans_cutscene_rescued,89.21,94.07,^2Ferran: ^7A calculated risk, Lieutenant. I'll be returning to Tigris now. Let's get back to work.
+sc_rogue_maptrans_cutscene_rescued,95.19,96.12,^2Reyes: ^7Be careful with him.
+sc_rogue_maptrans_cutscene_rescued,96.21,98.29,^2Ethan: ^7Captain, please, I can look after myself.
+sc_rogue_maptrans_cutscene_rescued,99.14,102.08,^2Reyes: ^7Ethan. Go to engineering, see Mac, get a clean bill.
+sc_rogue_maptrans_cutscene_rescued,103,103.29,^2Ethan: ^7What about you, sir?
+sc_rogue_maptrans_cutscene_rescued,104.14,105.17,^2Reyes: ^7Don't you worry about me.
+sc_rogue_maptrans_cutscene_rescued,107.26,109.03,^2Ethan: ^7Try and stop me, sir.
+sc_rogue_maptrans_cutscene_rescued,112,113.2,^2Reyes: ^7Salt, I heard what you…
+sc_rogue_maptrans_cutscene_rescued,117.14,118.03,^2Salter: ^7You ready?
+sc_rogue_maptrans_cutscene_rescued,119.14,120,^2Reyes: ^7Always.
+sc_rogue_maptrans_cutscene_rescued,120.23,122.05,^2Salter: ^7Your crew is waiting for you, Captain.
+sc_rogue_world_bridge_adm,1.2,2.15,^2Raines: ^7Captain Reyes.
+sc_rogue_world_bridge_adm,2.26,4.15,^2Raines: ^7It's damn good to see you son.
+sc_rogue_world_bridge_adm,4.28,10,^2Raines: ^7First and foremost, I have a classified briefing for your eyes only. Meet me in your operations office.
+sc_rogue_world_capops_hvt,1.11,3.12,^2Raines: ^7This is an update on the AATIS gun saboteur.
+sc_rogue_world_capops_hvt,4.05,8.12,^2Raines: ^7Our team has completed a forensic evaluation of the SDF asset we now know as Riah.
+sc_rogue_world_capops_hvt,8.24,11,^2Raines: ^7An internally planted device was found on the prisoner.
+sc_rogue_world_capops_hvt,11.2,13.26,^2Raines: ^7 It's a transponder. Emitting as we speak.
+sc_rogue_world_capops_hvt,16.2,17.17,^2Raines: ^7We're still decrypting it.
+sc_rogue_world_capops_hvt,18.12,22.16,^2Raines: ^7In the meantime, I've briefed Lt. Salter on developments in the field that need your attention.
+sc_rogue_world_capops_hvt,22.03,24.2,^2Raines: ^7The war goes on Captain Reyes.
+sc_rogue_world_capops_hvt,25.08,26.13,^2Raines: ^7Defeat is not an option.
+sc_rogue_world_capops_hvt,27.23,28.1,^2Raines: ^7Top Cat out.
+sc_rogue_world_cic_briefing,0.02,1,^2Salter: ^7Here's the lay of the land…
+sc_rogue_world_cic_briefing,1.28,7.05,^2Salter: ^7This is Vesta-3. Mining colony, provides us with raw materials we need to rebuild the fleet.
+sc_rogue_world_cic_briefing,8.02,9.15,^2Salter: ^7Today's shipment never left port.
+sc_rogue_world_cic_briefing,10.12,15.07,^2Salter: ^7Approx. 1800, Vesta-HQ went dark, all attempts to make contact have since failed.
+sc_rogue_world_cic_briefing,16.03,17.12,^2Reyes: ^7What's their security package?
+sc_rogue_world_cic_briefing,17.22,23.26,^2Salter: ^7Mechanized. Bots guard the facility. Our mission is to assess what happened, and report back to the Admiral immediately.
+sc_rogue_world_cic_briefing,24.17,25.13,^2Reyes: ^7Special recon.
+sc_rogue_world_cic_briefing,26.09,27.16,^2Salter: ^7He's throwin' us an easy one.
+sc_rogue_world_cic_briefing,28.06,28.28,^2Reyes: ^7Don't be so sure.
+sc_rogue_world_newscast,6.11,13.23,^2Reporter: ^7SATO forces backed by SCAR-led airstrikes, have destroyed the Settlement Defense Front’s primary fueling station on Titan, Saturn’s largest moon. 
+sc_rogue_world_newscast,14.06,26.1,^2Reporter: ^7At least 100 militants were killed in the ground-based operation to cut off enemy fueling capability in the region on this, the first day in what will no doubt be a protracted war between SetDef and the UNSA. 
+sc_rogue_world_newscast,26.12,43.02,^2Reporter: ^7A STRATCOM official says,  “we are standing with our UNSA allies against both traditional and ‘hybrid warfare’ aggression,“- referring to the mechanized brigades the SDF fight alongside, increasingly elevating their troop numbers to well beyond the Marine and SCAR team elements currently deployed.
+sc_rogue_world_newscast,43.12,46,^2Reporter: ^7This is Armin Raskop, WNS, Berlin.
+sc_titan_adm_bridge,1,2.13,^2Raines: ^7"Rainman", Lieutenant Salter?
+sc_titan_adm_bridge,4.1,5,^2Raines: ^7I'm sure.
+sc_titan_adm_bridge,6.08,8.15,^2Raines: ^7Assaulting an enemy ship with no reinforcements…
+sc_titan_adm_bridge,10.14,13.19,^2Raines: ^7…Desperate times call for desperate measures. I commend your actions.
+sc_titan_adm_bridge,14.28,18.25,^2Raines: ^7I’ve uploaded the Titan dossier. Direct your attention to the CIC, Captain.
+sc_titan_cutscene_omar_convo,0.21,2.2,^2Griff: ^7Now you're Mach One at seven hundred meters.
+sc_titan_cutscene_omar_convo,2.21,4.18,^2Brooks: ^7Should still be supersonic at nine hundred.
+sc_titan_cutscene_omar_convo,4.19,5.26,^2Kashima: ^7Yeah, but only if you're full bore.
+sc_titan_cutscene_omar_convo,6.24,10.04,^2Griff: ^7Captain. Just getting these ground-pounders gunned up for Titan.
+sc_titan_cutscene_omar_convo,10.14,12.05,^2Omar: ^7Muster in five on the flight deck.
+sc_titan_cutscene_omar_convo,12.06,13.06,^2Brooks: ^7Sergeant!
+sc_titan_cutscene_omar_convo,12.29,13.29,^2Kashima: ^7Check!
+sc_titan_cutscene_omar_convo,14.05,17.15,^2Griff: ^7Well, I'll leave you be. Got some carbines to set up for you.
+sc_titan_cutscene_omar_convo,17.18,18.18,^2Reyes: ^7Thanks, chief.
+sc_titan_cutscene_omar_convo,21.17,22.25,^2Reyes: ^7You been down to Titan?
+sc_titan_cutscene_omar_convo,23.27,24.15,^2Omar: ^7I have.
+sc_titan_cutscene_omar_convo,25.11,26.11,^2Reyes: ^7Ops?
+sc_titan_cutscene_omar_convo,26.1,35.04,^2Omar: ^7No. Pops. Dad was a tank farmer. Worked the pipelines for about thirty years. Retired just before the SDF took it over.
+sc_titan_cutscene_omar_convo,36.29,38,^2Reyes: ^7Well let's go give 'em hell.
+sc_titan_cutscene_omar_convo,38.09,41.08,^2Omar: ^7You bet your ass. This has been a long time coming.
+sc_titan_cutscene_omar_convo,41.29,43,^2Reyes: ^7How are we executing?
+sc_titan_cutscene_omar_convo,44.1,47.19,^2Omar: ^7Joint operation. You and me. How copy?
+sc_titan_cutscene_omar_convo,49.04,50,^2Reyes: ^7Affirmative. 
+sc_titan_cutscene_omar_convo,51.1,53.15,^2Reyes: ^7Armed recon. Small team.
+sc_titan_cutscene_omar_convo,54.16,56,^2Reyes: ^7We're invading a denied area.
+sc_titan_cutscene_omar_convo,56.1,61.2,^2Omar: ^7Yeah. Silver lining around that reticle is SetDef didn't ask permission then, and we're not asking permission now.
+sc_titan_cutscene_omar_convo,62.01,63.15,^2Reyes: ^7My jacks are already standing by.
+sc_titan_cutscene_omar_convo,64.25,68.24,^2Omar: ^7You just do what you did at the Gateway and we'll zip this place right up.
+sc_titan_cutscene_omar_convo,70.05,72,^2Reyes: ^7Proud to be of service, Sergeant.
+sc_titan_cutscene_omar_convo,74.09,79.27,^2Omar: ^7Pride is one-hundred percent bona-fide bull shit, Reyes. You just make sure the mission comes first.
+sc_titan_cutscene_omar_convo,80.21,81.25,^2Reyes: ^7Copy that.
+sc_titan_cutscene_omar_convo,82.12,87,^2Reyes: ^7I'm sure the Sergeant is well aware that the word "proud" is right in the Navy creed?
+sc_titan_cutscene_omar_convo,88.01,90.12,^2Omar: ^7I knew there was something I didn't like about you sons of bitches.
+sc_titan_cutscene_omar_convo,91.16,94,^2Omar: ^7That explains the white uniform and the submarines.
+sc_titan_cutscene_omar_convo,94.13,95.12,^2Reyes: ^7Submarines?
+sc_titan_cutscene_omar_convo,95.19,99.05,^2Omar: ^7Yeah. Only the Navy could build a ship designed to sink.
+sc_titan_cutscene_omar_convo,102.04,103.09,^2Reyes: ^7Let's gear up and get evil.
+sc_titan_cutscene_omar_convo,103.06,104.06,^2Omar: ^7Sure thing.
+sc_titan_cutscene_omar_convo,104.17,105.16,^2Omar: ^7Hey, Captain...
+sc_titan_cutscene_omar_convo,105.17,106.17,^2Reyes: ^7Yeah?
+sc_titan_cutscene_omar_convo,107.24,111.2,^2Omar: ^7Let's bring Ethan with us. I want him on the team.
+sc_titan_cutscene_omar_convo,112.06,115.02,^2Reyes: ^7He'll be glad to hear that. He has enormous respect for the Marines.
+sc_titan_cutscene_omar_convo,115.15,116.18,^2Omar: ^7Ah, so he bloody should.
+sc_titan_cutscene_omar_convo,119.05,120.1,^2Reyes: ^7Ethan, you're up.
+sc_titan_cutscene_omar_convo,120.02,121.08,^2Reyes: ^7Report to Raven Two.
+sc_titan_world_cic_briefing,0.02,4.05,^2Raines: ^7In our efforts to buy time for the fleet to rebuild, we need to hit SetDef's battle readiness.
+sc_titan_world_cic_briefing,4.07,5,^2Reyes: ^7What's the target?
+sc_titan_world_cic_briefing,5.04,9.14,^2Raines: ^7Saturn’s moon, Titan. It’s home to a critical SDF fueling station.
+sc_titan_world_cic_briefing,9.16,19.05,^2Raines: ^7You’ll land a transport outside their patrol perimeter with Marines to scout an LZ for reinforcements. Once those troops are on the surface, you'll take out their main fueling tower.
+sc_titan_world_cic_briefing,19.09,20.12,^2Salter: ^7Tower's our aim-point.
+sc_titan_world_cic_briefing,20.15,24.1,^2Raines: ^7Affirmative. This strike'll keep the enemy on the defensive and away from Earth.
+sc_titan_world_cic_briefing,24.22,31.25,^2Raines: ^7Captain, I'd be lying if I didn't admit I got the green eye for this one. I'd gear up and join you if I could. Top Cat out.
+sc_titan_world_newscast,9.17,17,^2Reporter: ^7Intense fighting in Geneva has subsided, as SATO troops defend the UNSA capitol against invading Settlement Defense Forces.
+sc_titan_world_newscast,17.06,30.07,^2Reporter: ^7Fires still burn from the charred remains of warships, the result of a suprise attack, launched against the SATO fleet. Mandatory evacuations are underway as several small pockets of fighting are ongoing, here in the city.
+sc_titan_world_newscast,30.2,41.1,^2Reporter: ^7A STRATCOM spokesman was quoted as saying, "Our orbital defenses are intact and the fleet is holding strong, keeping the enemy on the run." For now, the battle rages on, outside the Earth’s perimeter. This is  Renee Syhan in New Delhi.
+sc_world_epilogue_ethan_ifwhen,0.12,15,^2Ethan: ^7Sir, we’re behind enemy lines now, in the heat of battle. Time is short. You’ve given an order from which there is likely no return. You did what had to be done. All in. I’m proud of you. You’re a born leader, sir. 
+sc_world_epilogue_ethan_ifwhen,15.15,29,^2Ethan: ^7Today was one of the worst days in history, and forgive me for saying it- but it was the greatest day of my life. I did everything I was trained for, and more. Together, we fought the good fight. 
+sc_world_epilogue_ethan_ifwhen,29.22,38.1,^2Ethan: ^7Over Titan, you said we were brothers. I always wanted to know what a family really is. Now, I do.
+sc_world_epilogue_ethan_ifwhen,39.27,54,^2Ethan: ^7Admiral Raines told me that a soldier is only as good as his last mission. If this is ours, then I can say with certainty, we were damn good, sir.
+Better to burn out, than it is to rust. 
+sc_world_epilogue_ethan_ifwhen,54.26,56.15,^2Ethan: ^7Metal-1, out.
+sc_world_epilogue_ferran_audiolog,0.02,2.2,^2Salter: ^7Retribution to Tigris Actual, how copy.
+sc_world_epilogue_ferran_audiolog,3.1,5.08,^2Ferran: ^7Send traffic Retribution.
+sc_world_epilogue_ferran_audiolog,5.13,23.05,^2Salter: ^7Captain Ferran. Retribution was engaged by Olympus over Titan. Commander Reyes’s Jackal was hit. Ethan was aboard. They bailed. He ordered 141 out of the battle zone. Ret was taking heavy fire. Helm spooled up and pulled the plug. We left him. No weapons, no cover.
+sc_world_epilogue_ferran_audiolog,23.16,26.16,^2Ferran: ^7I’m sorry, Lieutenant. You were following orders.
+sc_world_epilogue_ferran_audiolog,26.24,34.1,^2Salter: ^7I still am. I asked STRATCOM to mount a rescue team. Admiral Raines refused. Wouldn’t risk five men for two.
+sc_world_epilogue_ferran_audiolog,34.22,36.15,^2Ferran: ^7He may be dead.
+sc_world_epilogue_ferran_audiolog,36.23,42.06,^2Salter: ^7Raines forbid me sending assets in. He didn’t forbid you. Find him Ferran.
+sc_world_epilogue_ferran_audiolog,42.14,49.06,^2Salter: ^7I've got ten years on the books with that loyal bastard. He saved my ass more time than I can count. I can’t do this without him.
+sc_world_epilogue_ferran_audiolog,49.13,51.05,^2Ferran: ^7Yes you can, Lieutenant.
+sc_world_epilogue_ferran_audiolog,51.22,53.15,^2Salter: ^7I don’t want to.
+sc_world_epilogue_ferran_audiolog,53.27,66.12,^2Ferran: ^7I don’t either. In purely mathematical terms, it’s a mistake to go after him. But we’ve buried 19 commanders today. I’m not losing another. Send me their last known coordinates and we’ll see what we can do.
+sc_world_epilogue_ferran_audiolog,66.28,71.19,^2Ferran: ^7Let’s keep this off radar. I'll have a SITREP for you shortly. Actual, out.
+sc_world_epilogue_ferran_ifwhen,0.09,17.22,^2Ferran: ^7To whom it may concern, I lead sailors and troops, I protect them, and sooner or later, I prepare to send them into the jaws of a hell that is the bloodiest, dirtiest, most vicious kind of warfare man has been able to devise.
+sc_world_epilogue_ferran_ifwhen,19.08,41.22,^2Ferran: ^7By me, these men and women are loved with a kind of bond that exists no other place but the military. These young warriors go for days without food or sleep. They persevere when they are sick, perform miraculous feats when they are wounded, and take death defying orders without pause.
+sc_world_epilogue_ferran_ifwhen,42.16,65.03,^2Ferran: ^7They are never afraid, they never complain, and they spend all of their time trying to think of ways to help one another achieve victory and save us all from certain death. It is selflessness beyond the pale. My dedication to them, stands above all else, save for the freedom of our world.
+sc_world_epilogue_ferran_ifwhen,66.16,76.05,^2Ferran: ^7It was my honor and privilege to command such brave souls.
+
+Peace to the fallen,
+Captain Maureen Ferran 
+sc_world_epilogue_gator_audiolog,0.29,4.15,^2Gator: ^7Do my eyes deceive me or is there a big time Jack pilot on my bridge?
+sc_world_epilogue_gator_audiolog,4.27,7,^2Reyes: ^7Figured I’d come and see how the other half lives.
+sc_world_epilogue_gator_audiolog,7.11,9.1,^2Gator: ^7So, to what do I owe the pleasure?
+sc_world_epilogue_gator_audiolog,9.26,10.28,^2Reyes: ^7Just checking in, Gator.
+sc_world_epilogue_gator_audiolog,11.1,16.19,^2Gator: ^7Bullshit. You’re doing recon for eight highly trained aviators who wouldn’t be caught dead poking around up here.
+sc_world_epilogue_gator_audiolog,16.26,17.26,^2Reyes: ^7I’m on a mission.
+sc_world_epilogue_gator_audiolog,18.29,24.1,^2Gator: ^7I knew it. Lemme guess. Operation “why the hell was the Admiral on board”? Am I right?
+sc_world_epilogue_gator_audiolog,24.14,30.27,^2Reyes: ^7Actually didn’t know the Admiral was here. We saw Captain Alder and half of STRATCOM skip a two martini breakfast to do a walk through.
+sc_world_epilogue_gator_audiolog,31.13,32.09,^2Reyes: ^7Know something’s up.
+sc_world_epilogue_gator_audiolog,34.1,35.15,^2Gator: ^7Why you?
+sc_world_epilogue_gator_audiolog,35.24,36.25,^2Reyes: ^7Coin toss.
+sc_world_epilogue_gator_audiolog,37.12,40.25,^2Gator: ^7I don’t buy that either. That’s your squadron, they look up to you.
+sc_world_epilogue_gator_audiolog,41.07,45.28,^2Reyes: ^7If they’re sitting and I’m standing, maybe. So what can’t you tell me that I can’t repeat?
+sc_world_epilogue_gator_audiolog,46.21,48.25,^2Gator: ^7Got these images from Captain Alder this morning.
+sc_world_epilogue_gator_audiolog,50.07,54.28,^2Gator : ^7Spotted by a defense spectroscope, deep field scan. It’s gigantic.
+sc_world_epilogue_gator_audiolog,55.25,56.19,^2Reyes: ^7Holy shit.
+sc_world_epilogue_gator_audiolog,57.1,64,^2Gator: ^7Got 300 meters on us lengthwise. Maybe 50 wide. Big enemy ship. Tough to find a parking spot, that’s for sure.
+sc_world_epilogue_gator_audiolog,65.08,72.03,^2Reyes: ^7I’m getting antsy. If the good Lord wanted the Navy on terra firma he’d have made the sky brown. Pilots make bad pedestrians.
+sc_world_epilogue_gator_audiolog,73.08,80.05,^2Gator : ^7No one’s ever collided with the sky. Granted, Retribution handles like a brick in the bay, but I got the old girl dialed in.
+sc_world_epilogue_gator_audiolog,81.05,83.04,^2Reyes: ^7You think they’ll cancel the fleet week festivities?
+sc_world_epilogue_gator_audiolog,84.03,92.16,^2Gator: ^7Over a grainy picture? Fat chance. They didn’t cancel evolution over the Loch Ness Monster. Lots of confetti and tons of pride tied up in this thing.
+sc_world_epilogue_gator_audiolog,93.09,96.29,^2Reyes: ^7The show must go on. I’d feel better if we were on patrol.
+sc_world_epilogue_gator_audiolog,98.01,100.26,^2Gator: ^7I agree with you, but I’ll deny it under oath.
+sc_world_epilogue_gator_audiolog,101.07,102.04,^2Reyes: ^7I’ll rat you out.
+sc_world_epilogue_gator_audiolog,102.18,109.1,^2Gator: ^7Yeah, well, just remember, I control the well deck from up here. Those plasmaspheric winds get awful tough if you’re ‘inadvertently’ locked out.
+sc_world_epilogue_gator_audiolog,110.11,111.29,^2Reyes: ^7I can always sic' Salter on you.
+sc_world_epilogue_gator_audiolog,112.16,114.11,^2Gator: ^7The nuclear option with a pony tail.
+sc_world_epilogue_gator_audiolog,115.14,116.17,^2Reyes: ^7Thanks for the intel, Gator.
+sc_world_epilogue_gator_audiolog,117.17,119.28,^2Gator: ^7Sure. Come and see us more often.
+sc_world_epilogue_gator_ifwhen,0.11,3.08,^2Gator: ^7For my dear wife Olivia and my daughter Nissrine.
+sc_world_epilogue_gator_ifwhen,4.16,13.19,^2Gator: ^7If you are reading this, I guess I didn’t make it home. I was prepared to face danger and death. I hope I did so with dignity.
+sc_world_epilogue_gator_ifwhen,15.02,26.13,^2Gator: ^7My time was cut short, but I had countless blessings. I married the perfect woman. I have a brand new daughter on the way. I’d be selfish to ask for more.
+sc_world_epilogue_gator_ifwhen,28.04,40.05,^2Gator: ^7I Love you Olivia. Welcome our baby into this world and cherish her for me. Remind her about her daddy, and, please, never be afraid to do what you need to find happiness.
+sc_world_epilogue_gator_ifwhen,41.1,57.17,^2Gator: ^7Nissrine. Hello, sweetheart. I left for this tour before you were born. I’m sorry I won’t be able to see you grow up. Daddy wanted to make the world a better place. That’s why we made you.
+sc_world_epilogue_gator_ifwhen,59.1,63,^2Gator: ^7Keep me in your prayers and try to do one good deed every day.
+sc_world_epilogue_gator_ifwhen,64.16,67.02,^2Gator: ^7Be safe, my family.
+Victor
+sc_world_epilogue_gibson_ifwhen,0.2,10.15,^2Gibson: ^7Dear Andrew, It’s fleet week. Warships are dry docked against the dawn sky.  I’m home, but it’s not home without you.
+sc_world_epilogue_gibson_ifwhen,11.04,25.05,^2Gibson: ^7I know I had what every woman envied, a husband that gave life more meaning. You were my handsome better half. Since the day we locked eyes, I thought of you constantly. I still do.
+sc_world_epilogue_gibson_ifwhen,26.02,30.08,^2Gibson: ^7The internal drive that earned me my rank, cost me a marriage.
+sc_world_epilogue_gibson_ifwhen,30.18,42,^2Gibson: ^7The Navy imbued me to accomplish the mission and never quit. To that end, I’ll never stop loving you no matter where, or when, I go.
+sc_world_epilogue_gibson_ifwhen,42.14,48.19,^2Gibson: ^7Thank you. Being together was a gift.
+With love always,
+Laura
+sc_world_epilogue_griff_audiolog,0.2,3.04,^2Griff: ^7Bureau of Firearms paid us a surprise visit.
+sc_world_epilogue_griff_audiolog,3.13,4.16,^2Reyes: ^7I didn’t hear about this.
+sc_world_epilogue_griff_audiolog,5.07,14.06,^2Griff: ^7Our enterprising Russian brethren did a little import export deal with their Canadian friends. “Exhibition hockey game-slash-Military surplus sale.”
+sc_world_epilogue_griff_audiolog,14.24,15.13,^2Reyes: ^7Illegal.
+sc_world_epilogue_griff_audiolog,16.09,21.2,^2Griff: ^7Highly. Navy brought in the Bureau.  Fleet-wide inspection. Big crackdown.
+sc_world_epilogue_griff_audiolog,22,23.05,^2Reyes: ^7They turn this place over?
+sc_world_epilogue_griff_audiolog,24.22,35.09,^2Griff: ^7They were here less than 5 minutes. They took a cursory glance at the inventory and I adjusted their triggers to a five pound pull. They gave me a hat.
+sc_world_epilogue_griff_audiolog,37.1,38.15,^2Reyes: ^7Nice.
+sc_world_epilogue_griff_audiolog,39.01,47.2,^2Griff: ^7Firearms, alcohol, tobacco. Was a time a man could buy whiskey, cigarettes and a forty-five all in the same aisle of the same store.
+sc_world_epilogue_griff_audiolog,48.02,49.05,^2Reyes: ^7The good old days.
+sc_world_epilogue_griff_audiolog,49.06,51.24,^2Griff: ^7One of the many signs I was born too late.
+sc_world_epilogue_griff_audiolog,52.05,53.1,^2Reyes: ^7Wild West your speed?
+sc_world_epilogue_griff_audiolog,53.2,60.15,^2Griff: ^7Wild East. Ninth century China, Tang dynasty. Invention of gunpowder. That’s where I belong.
+sc_world_epilogue_griff_audiolog,61.05,62.03,^2Reyes: ^7You know your history.
+sc_world_epilogue_griff_audiolog,62.25,72.19,^2Griff: ^7Did a book report in sixth grade, Ms. Trillscott. Meaner than a wet panther but she had other attributes. I couldn’t wait to get to class.
+sc_world_epilogue_griff_audiolog,73.07,74.12,^2Reyes: ^7What did you get on the report?
+sc_world_epilogue_griff_audiolog,74.19,82.14,^2Griff: ^7"C minus". Purposely used pencil. Immediate grounds for detention and an extra hour with Ms. Trillscott.
+sc_world_epilogue_griff_audiolog,83,84.03,^2Reyes: ^7Mission accomplished.
+sc_world_epilogue_griff_audiolog,84.12,90.05,^2Griff: ^7I liked school. Six hours a day of regimented repetitive instruction.
+sc_world_epilogue_griff_audiolog,90.12,91.13,^2Reyes: ^7Sounds familiar.
+sc_world_epilogue_griff_audiolog,91.19,98.25,^2Griff: ^7Lockstep marching, dressing alike and following the rule. A little structure and group mentality can soothe the soul, Lieutenant.
+sc_world_epilogue_griff_audiolog,99.08,100.23,^2Reyes: ^7Soldiers aren’t sheep, Chief.
+sc_world_epilogue_griff_audiolog,101,102.09,^2Griff: ^7Not at all.
+sc_world_epilogue_griff_audiolog,102.1,104.13,^2Griff : ^7But every machine’s got cogs.
+sc_world_epilogue_griff_audiolog,104.15,113.25,^2Griff : ^7Springs, pins, coils. Innocuous by themselves, but put them in their proper place and you got something powerful and precise. That ain’t sheep.
+sc_world_epilogue_griff_audiolog,115.12,117.1,^2Reyes: ^7Ms. Trillscott taught you well, Griff.
+sc_world_epilogue_griff_audiolog,117.27,128.26,^2Griff: ^7I’m in over my pay grade when it comes to the finer points of war, Lieutenant, but I’ll be damned if we can’t find some solace in the simple beauty of a sidearm and a sixth grade teacher.
+sc_world_epilogue_griff_ifwhen,0.29,11.17,^2Griff: ^7Sir, I’m not quite sure how a son greets his father after not seeing him for a lifetime. Guess I’ll say, "Hi, dad."
+sc_world_epilogue_griff_ifwhen,13.24,21.22,^2Griff: ^7I finally tracked down your address through the human resource department in Washington. I had to use my birth certificate to prove we were related.
+sc_world_epilogue_griff_ifwhen,24.05,45.21,^2Griff: ^7I want you to know I followed in your footsteps. I joined the Navy. Thought it would make you proud and if we ever saw each other we’d have more to talk about. I went to sniper school to be sharpshooter but my vision changed and I became an instructor. I’m currently deployed aboard the UNSA carrier Retribution.
+sc_world_epilogue_griff_ifwhen,48.09,59.23,^2Griff: ^7My mom, Sandy, passed away this year. I went back to the old house just before shipping out and found a box with your silver star for Valor. My mom kept it all this time.
+sc_world_epilogue_griff_ifwhen,61.18,76.02,^2Griff: ^7I wish I’d known you still lived in Tennessee. I would have dropped by. We could’ve had a beer and caught up. I forgive you for leaving.  I hope you’re not mad at me for writing.
+sc_world_epilogue_griff_ifwhen,78.12,85,^2Griff: ^7Thanks for helping bring me into this world. I did my best to be a good man.
+Maynard Griffin.
+sc_world_epilogue_kash_ifwhen,0.16,20.22,^2Kashima: ^7Hey, Mom, Dad. When I joined the Marines, I told you that I’m ready to give my life for fighting for a good cause. If I don’t come home for any reason, then that’s what happened. I hope I died doing something heroic, and in the long run, I hope that I made you proud. 
+sc_world_epilogue_kash_ifwhen,22.11,42.09,^2Kashima: ^7I promised myself I wouldn’t get close to people here, but it’s kind of impossible not to. I wasn’t scared here, but I was home sick. Mom, I had a dream, last night, that you were making dinner. Yes, my favorite, porkchops, and we were all at the table together.
+sc_world_epilogue_kash_ifwhen,44.06,60.1,^2Kashima: ^7Tell Aunt Joyce I said hi and I love her, and give Baily a big kiss and a new tennis ball for me. Everyone here has a mother and father, but you and dad only have one son. So I'm sorry I didn't make it back.
+sc_world_epilogue_kash_ifwhen,61.09,65.05,^2Kashima: ^7Semper fi. Your loving son, Todd
+sc_world_epilogue_mac_ifwhen,0.1,2.06,^2MaCallum: ^7My dearest children.
+sc_world_epilogue_mac_ifwhen,4.19,30.12,^2MaCallum: ^7Well, as this letter will only be used in the event of my death, it may seem somewhat sorrowful, but I don’t want you to see it that way, okay? I have always felt that our stay on Earth, the time we call “life”, it's a temporary gift to be spent in service of something greater than ourselves. Death comes to us all. It is not to be feared.
+sc_world_epilogue_mac_ifwhen,31.19,35.03,^2MaCallum: ^7I loved my job, but I hated war.
+sc_world_epilogue_mac_ifwhen,36.02,56.2,^2MaCallum: ^7But the secret mission I undertook every single day, was to protect the two of you from anyone, or anything, that threatened your health and well being. So promise me you will take care of one another, and, please, live your lives to the fullest.
+sc_world_epilogue_mac_ifwhen,57.25,63,^2MaCallum: ^7With all the love in my heart, Mom.
+sc_world_epilogue_omar_ifwhen,0.26,21.01,^2Omar: ^7To my dearest wife Sarah, my son Noah, and my daughter, Abby, If you are reading this, I can tell you with the utmost confidence, that I died for something right and just. The cost of war is higher than any one life, and I happily give mine in defense of my men and family. 
+sc_world_epilogue_omar_ifwhen,22.21,35.26,^2Omar: ^7Abby, I’m sorry I didn’t keep my promise when I said I was coming home. My hopes for your future, gave me the strength to protect everything we hold dear. You will always be daddy’s little girl. 
+sc_world_epilogue_omar_ifwhen,37.23,46.28,^2Omar: ^7Noah, be an honest man. Keep your word. Only use violence as a last resort. You're the man of the house now.
+sc_world_epilogue_omar_ifwhen,48.27,66.1,^2Omar: ^7Sarah, please keep our babies safe and find it in your heart to forgive me for leaving you alone. If my last breath is not in the battlefield, then surely it will be in your arms. Keep me in your hearts, always.
+sc_world_epilogue_salter_audiolog,0.02,2,^2Reyes: ^7Ok, you ready to face the music?
+sc_world_epilogue_salter_audiolog,2.01,4.07,^2Salter: ^7Always. Born ready, fly-boy.
+sc_world_epilogue_salter_audiolog,4.08,9.15,^2Reyes: ^7Alright, so, Admiral Raines, a man of great wisdom, has ordered us to…
+sc_world_epilogue_salter_audiolog,9.16,13.27,^2Salter: ^7Are you brown nosing right now? You're totally brown nosing.
+sc_world_epilogue_salter_audiolog,13.28,18.05,^2Reyes: ^7This is the Navy, I believe the proper term is "blue nosing". May I continue?
+sc_world_epilogue_salter_audiolog,18.05,18.29,^2Salter: ^7Please.
+sc_world_epilogue_salter_audiolog,19,29.02,^2Reyes: ^7Thank you. As part of the Admiral’s progressive command decree, our evaluation process includes an interview to be filed by a squad mate of lateral rank. In this case, that’s yours truly.
+sc_world_epilogue_salter_audiolog,29.03,36.24,^2Salter: ^7Be advised, I will be recording my interview with you as well so, watch your a…tread accordingly, Lieutenant.
+sc_world_epilogue_salter_audiolog,36.25,37.23,^2Reyes: ^7Noted.
+sc_world_epilogue_salter_audiolog,37.24,40.24,^2Reyes: ^7Let's talk a little about your disciplinary record.
+sc_world_epilogue_salter_audiolog,40.25,41.17,^2Salter: ^7Let's not.
+sc_world_epilogue_salter_audiolog,41.18,43.18,^2Reyes: ^7It's on the list, Salt.
+sc_world_epilogue_salter_audiolog,43.19,44.26,^2Salter: ^7Go ahead.
+sc_world_epilogue_salter_audiolog,44.27,48,^2Reyes: ^7You had some issues with Major Kenny...
+sc_world_epilogue_salter_audiolog,48.01,53.28,^2Salter: ^7Major Kenny was a major blow hard, and he was full of shit, and his wife was a stuck up broom rider.
+sc_world_epilogue_salter_audiolog,53.29,56.15,^2Reyes: ^7Ah, man. I'm going to have to edit this.
+sc_world_epilogue_salter_audiolog,56.16,57.13,^2Salter: ^7Whatever.
+sc_world_epilogue_salter_audiolog,57.14,61.27,^2Reyes: ^7Well, to keep things copacetic, just tell the ‘snake shit’ story.
+sc_world_epilogue_salter_audiolog,62.02,63.13,^2Salter: ^7You are going to have to edit this.
+sc_world_epilogue_salter_audiolog,63.14,64.18,^2Reyes: ^7I know.
+sc_world_epilogue_salter_audiolog,64.2,72.04,^2Salter: ^7So, I overhear this guy in a bar talking about having the record for flying low, says he can fly under snake shit, so I chime in...
+sc_world_epilogue_salter_audiolog,72.05,73.01,^2Reyes: ^7Of course you do.
+sc_world_epilogue_salter_audiolog,73.02,75.27,^2Salter: ^7And I tell him you can only tie the record for flying low.
+sc_world_epilogue_salter_audiolog,75.28,78.21,^2Reyes: ^7Right, 'cause eventually you’re just landing or crashing.
+sc_world_epilogue_salter_audiolog,78.22,89,^2Salter: ^7Bingo. So I see the guy the next morning on the way out to the transport, and I say “good morning snake shit”, and he says, “that’s Major snake shit, Lieutenant Salter”.
+sc_world_epilogue_salter_audiolog,89.25,91.1,^2Reyes: ^7And that was Major Kenny.
+sc_world_epilogue_salter_audiolog,91.11,95,^2Salter: ^7One in the same. We never got back on track after that.
+sc_world_epilogue_salter_audiolog,95.18,102.15,^2Reyes: ^7You buzzed his house in San Anselmo while his wife was hosting the officers wive’s club formal in the backyard, Salt.
+sc_world_epilogue_salter_audiolog,102.16,106.04,^2Salter: ^7I was doing a little low flying myself. Apparently it made quite a mess.
+sc_world_epilogue_salter_audiolog,106.05,107.05,^2Reyes: ^7You were grounded.
+sc_world_epilogue_salter_audiolog,107.06,115.09,^2Salter: ^7Several times. But, when the major retired he signed the petition for my Distinguished Flying Cross so, hey, I guess he got over it.
+sc_world_epilogue_salter_audiolog,115.12,116.24,^2Reyes: ^7Why should you be re-upped?
+sc_world_epilogue_salter_audiolog,116.25,133.03,^2Salter: ^7I have everything it takes in spades. I understand risk, I multi-task like a mother…really well, and I take myself and the equipment to the peak of proficiency. Plus, I can beat anybody like a drum. Shit goes down, you want me up. 
+sc_world_epilogue_salter_audiolog,133.04,135.19,^2Reyes: ^7That's for damn sure. Can’t argue with that. 
+sc_world_epilogue_salter_audiolog,135.2,136.24,^2Salter: ^7You better not.
+sc_world_epilogue_salter_audiolog,136.25,138.24,^2Reyes: ^7Alright, I think my work here is through.
+sc_world_epilogue_salter_audiolog,138.25,142.12,^2Salter: ^7Get ready Reyes, you’re next. I’m not nice like you.
+sc_world_epilogue_salter_audiolog,142.13,144,^2Reyes: ^7Roger that, Fever.
+sc_world_epilogue_yetide_ifwhen,0.18,20.05,^2Yetide: ^7Marta, the Navy has made my life a long distance love affair. The things I love are all far away. My home, my animals…You. I am doing important work. I’m ready for anything. Even this. The military did not take my life. I volunteered it.
+sc_world_epilogue_yetide_ifwhen,1.5,2.5,^2Yetide: ^7I keep singing our song over and over, trying to remind myself that it’s going to be okay, and that I will fall asleep next to you every night when all this distance is done.
+sc_world_epilogue_yetide_ifwhen,21.07,29.1,^2Yetide: ^7I know this isn’t easy. Please don’t cry for me, or us. Cry for a world that couldn’t make peace.
+sc_world_epilogue_yetide_ifwhen,31.01,44.1,^2Yetide: ^7I think of you and my heart races, I smile, I laugh out loud and people tell me I always seem so happy. I am. I have you.
+sc_world_epilogue_yetide_ifwhen,45.28,48,^2Yetide: ^7Yours forever…
+sc_world_epilogue_yetide_ifwhen,48.2,49.1,^2Yetide: ^7Yetide.
+sc_world_kotch_full_hvt,1.02,5,^1Admiral Kotch: ^7Today, the Front embarks on a conquest.
+sc_world_kotch_full_hvt,5.1,11.23,^1Admiral Kotch: ^7Here and now, we will eradicate the authority and influence of the Earth!
+sc_world_kotch_full_hvt,12.02,19,^1Admiral Kotch: ^7Our world is just beginning. Theirs is dying!
+sc_world_kotch_full_hvt,19.16,25.2,^1Admiral Kotch: ^7It is not enough to break free. We will break them!
+sc_world_kotch_full_hvt,26.03,30,^1Admiral Kotch: ^7Their cities will burn along with the pages of their history.
+sc_world_kotch_full_hvt,31.24,33,^1Admiral Kotch: ^7Mars aeternum.
+sc_world_moon_bridge_01,0.03,7.07,^2Ferran: ^7Captain, Tigris will drop in outside the Area of Operation. Once Ret joins, we'll hold position until your Marines are ready. Good flight. Out.
+sc_world_moon_bridge_02,0.08,4.22,^2Ferran: ^7Commander, Tigris is set for close air support. Notify when your Marines are staged for insert.
+sc_world_rogue_ferran_pip,1.18,3.08,^2Ferran: ^7To you as well Captain Reyes.
+shipcrib_moon,0,1,^2Griff: ^7Now, to round you out, there's equipment.
+shipcrib_moon,0,1,^2Griff: ^7Now, to round you out, there's equipment.
+shipcrib_moon,0.5,1.5,^2Griff: ^7You're going to want an energy weapon, then. Makes quick work of those SetDef bots.
+shipcrib_moon,1,2,^2Griff: ^7Got some attachments in stock, too. Anything catch your eye?
+shipcrib_moon,1,2,^2Griff: ^7Got some attachments in stock, too. Anything catch your eye?
+titan_hud_kotch_pip_01_full,2.24,11.1,^1Admiral Kotch: ^7This is Admiral Salen Kotch of the Olympus Mons. All SATO forces are ordered to surrender for immediate execution.
+titan_hud_kotch_pip_02_full,3.17,14.23,^1Admiral Kotch: ^7Captain Reyes. There is no hope of victory.  We will bury your brothers. We will hunt your sons. Death is no disgrace.
+titan_maptrans_dropship_turbulence,4.29,10.19,^2Boggs: ^7Five, four, three, two, one.
+titan_maptrans_dropship_turbulence,15.25,16.21,^2Boggs: ^7Clear.
+titan_maptrans_dropship_turbulence,16.23,18.09,^2Boggs: ^7Hold tight, here it comes!
+titan_maptrans_dropship_turbulence,24.05,32.07,^2Omar: ^7My guys, eyes on me. As far as Ethan goes- I will personally vouch for this stiff metal motherfucker. He’s one of us.
+titan_maptrans_dropship_turbulence,32.28,36.1,^2Omar: ^7Ethan, what’s the Navy’s official policy for a gunfight?
+titan_maptrans_dropship_turbulence,36.27,38.05,^2Ethan: ^7Send in the Marines!
+titan_maptrans_dropship_turbulence,39.07,40.15,^2Omar: ^7Ha! That was for you captain.
+titan_maptrans_dropship_turbulence,41.22,42.22,^2Omar: ^7You alright, Kashima?
+titan_maptrans_dropship_turbulence,42.21,44,^2Kashima: ^7A little dizzy, Sarge.
+titan_maptrans_dropship_turbulence,50.29,52.13,^2Boggs: ^7Ten seconds to the DZ.
+titan_maptrans_dropship_turbulence,55.06,56.07,^2Omar: ^7Get your breathers on!
+titan_maptrans_hud_jackal_briefing,0.15,2.05,^2Salter: ^7Eyes up on your HUD for a sitrep.
+titan_maptrans_hud_jackal_briefing,2.28,16,^2Salter: ^7Our C12 and assault vehicles are down. Without the ordnance they were carrying, we need to run an air-strike to take out the tower. MaCallum designated a gas venting turbine. We hit it, the pressure builds and the tower detonates. Ready to party?
+yard_hud_salter_pip_01,1.03,3.2,^2Salter: ^7Raider, we're dug in with the Marines. Taking fire!
+yard_hud_salter_pip_01,3.21,6.11,^2Brooks: ^7Sir, we're getting stitched up over here! No time to waste!
+yard_hud_salter_pip_02,0.04,1.2,^2Brooks: ^7Lieutenant, enemies boarding!
+yard_hud_salter_pip_02,1.25,5,^2Salter: ^7Reyes, we're taking casualties here. Running out of time!
+yard_hud_salter_pip_03,0.02,3.03,^2Salter: ^7Raider, it's Fever. If you can hear me, cut us loose and get our guns up.
+yard_hud_salter_pip_03,3.27,5.06,^2Ethan: ^7The lieutenant needs you, sir.
+yard_hud_salter_pip_04,0.03,1.25,^2Salter: ^7Reyes, get the hell out of there!
+yard_hud_salter_pip_04,4.11,5.14,^2Salter: ^7I can't do that, Nick

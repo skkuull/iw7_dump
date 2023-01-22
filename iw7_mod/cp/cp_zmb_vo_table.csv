@@ -1,0 +1,472 @@
+0,activate_power,120,100,,power,,,,,1,5,low,0,All Players,0,0
+1,activate_trap_generic,180,100,,trap,,,,,1,5,low,0,All Players,0,0
+2,activate_trap_rocket,180,100,,trap,,,,,1,5,low,0,All Players,0,0
+3,activate_trap_rollercoaster,180,100,,game,,,,,1,5,low,0,All Players,0,0
+4,afterlife_arrive  ,,100,,,,,,,1,5,low,0,,1,0
+5,afterlife_overstay,,100,,,,,,,1,5,low,0,,1,0
+6,alien_death ,,100,,,,,,,1,5,low,0,,0,0
+7,alien_defeat,,100,,,,,,,1,5,low,0,All Players,0,0
+8,alien_first,,100,,,,,,,1,5,low,0,All Players,0,0
+9,alien_spawn ,,100,,,,,,,1,5,low,0,,0,0
+10,arcade_complete,120,100,,game,,,,,1,5,low,0,All Players,1,0
+11,arcade_token_earn,,100,,,,,,,1,5,low,0,All Players,1,0
+12,arcade_token_revive,,100,,,,,,,1,5,low,0,All Players,1,0
+13,arcade_token_revive_first,,100,,,,,,,1,5,low,0,All Players,1,0
+14,arcane_core_event,,100,,,,,,,1,5,low,0,All Players,0,0
+15,arcane_core_success,,100,,,,,,,1,10,high,0,All Players,0,0
+16,ww_arcane_corecharged_complete,,100,1,,,,,,1,10,high,0,,0,0
+17,ww_arcane_exquisiteattach_complete ,,100,1,,,,,,1,10,high,0,,0,0
+18,atm_deposit,15,100,,,,,,,1,2,low,0,All Players,0,0
+19,basketball_anc_highscore,,100,,,,,,,1,5,low,0,,1,0
+20,basketball_anc_quickshot,,100,,,,,,,1,5,low,0,,1,0
+21,brute_death,5,100,,,,,,,1,10,highest,0,,0,0
+22,brute_first,5,100,1,,,,,,1,30,highest,0,All Players,0,0
+23,brute_firstspawn,5,100,1,,,,,,1,30,high,0,,0,0
+24,brute_generic,5,100,,,,,,,1,30,high,0,All Players,0,0
+25,brute_spawn,5,100,,,,,,,1,30,high,0,,0,0
+26,challenge_fail_solo,60,100,5,challenge,,,,,1,2,low,0,All Players,0,0
+27,challenge_fail_team,60,100,5,challenge,,,,,1,2,low,0,All Players,0,0
+28,challenge_success_generic,60,100,5,challenge,,,,,1,5,low,0,All Players,0,0
+29,clownwave_wavestart ,,100,,,,,,,1,5,low,0,,0,0
+30,coaster_ride,,100,,,,,,,1,5,low,0,All Players,0,0
+31,coaster_ride_shot,10,10,,,,,,,1,5,low,0,All Players,0,0
+32,coaster_ride_sucess,,100,,,,,,,1,5,low,0,All Players,0,0
+33,collect_dj,,100,,,,,,,1,10,highest,0,All Players,0,0
+34,collect_n31l,,100,,,,,,,1,10,highest,0,All Players,0,0
+35,collect_soulkey_1,60,100,,,,,p1_,collect_soulkey_2,0,5,high,0,,0,0
+36,collect_soulkey_2,60,100,,,,,p2_,collect_soulkey_3,0,5,high,0,,0,0
+37,collect_soulkey_3,60,100,,,,,p3_,collect_soulkey_4,0,5,high,0,,0,0
+38,collect_soulkey_4,60,100,,,,,p4_,collect_soulkey_5,0,5,high,0,,0,0
+39,collect_soulkey_5,60,100,,,,,p2_,,0,5,low,0,,0,0
+40,craft_success,120,100,,,,,,,1,5,low,0,All Players,0,0
+41,dj_complete,,100,,,,,,,1,5,low,0,All Players,0,0
+42,flavour_1,,100,,,,,p4_,flavour_2,0,5,high,0,,0,0
+43,flavour_2,,100,,,,,p2_,flavour_3,0,5,high,0,,0,0
+44,flavour_3,,100,,,,,p3_,flavour_4,0,5,high,0,,0,0
+45,flavour_4,,100,,,,,p1_,flavour_5,0,5,high,0,,0,0
+46,flavour_5,,100,,,,,p4_,,0,5,low,0,,0,0
+47,ghost_end,,100,,,,,,,1,5,low,0,All Players,0,0
+48,ghost_start,,100,,,,,,,1,5,low,0,All Players,0,0
+49,hyperslopes_slide,15,100,,,,,,,1,5,medium,0,All Players,0,0
+50,icemountain_anc_exit,,,,,,,,,1,5,low,0,,0,0
+51,icemountain_anc_intro,,,,,,,,,1,5,low,0,,0,0
+52,injured_pain_vocal,15,5,,,,,,,1,2,low,1,All Players,0,0
+53,intro,,100,,,,,,,1,5,low,0,,0,0
+54,kill_trap_danceparty,15,10,,kill,trap,,,,1,5,medium,0,All Players,0,0
+55,kill_trap_dragon,15,10,,kill,trap,,,,1,5,medium,0,All Players,0,0
+56,kill_trap_gator,15,10,,kill,trap,,,,1,5,medium,0,All Players,0,0
+57,kill_trap_generic,15,10,,kill,trap,,,,1,5,medium,0,All Players,0,0
+58,kill_trap_gravitron,15,10,,kill,trap,,,,1,5,medium,0,All Players,0,0
+59,kill_trap_rocket,15,10,,kill,trap,,,,1,5,medium,0,All Players,0,0
+60,kill_trap_spin,15,10,,kill,trap,,,,1,5,medium,0,All Players,0,0
+61,kill_trap_swing,15,10,,kill,trap,,,,1,5,medium,0,All Players,0,0
+62,killfirm,180,10,,,,,,,1,5,medium,0,All Players,0,0
+63,killfirm_brute,10,90,,kill,special_zombie,,,,1,15,medium,0,All Players,0,0
+64,killfirm_clown,180,10,,kill,,,,,1,5,medium,0,All Players,0,0
+65,killfirm_cop,180,40,,kill,,,,,1,5,medium,0,All Players,0,0
+66,killfirm_cutter,180,10,,kill,special_weapon,,,,1,5,high,0,All Players,0,0
+67,killfirm_dischord,180,10,,kill,special_weapon,,,,1,5,high,0,All Players,0,0
+68,killfirm_freeze,180,10,,kill,special_weapon,,,,1,5,low,0,All Players,0,0
+69,killfirm_ghost,180,10,,kill,special_zombie,,,,1,5,low,0,All Players,0,0
+70,killfirm_headshot,180,10,,kill,special_weapon,,,,1,5,medium,0,All Players,0,0
+71,killfirm_melter,180,10,,kill,special_weapon,,,,1,5,high,0,All Players,0,0
+72,killfirm_shredder,180,10,,kill,special_weapon,,,,1,5,high,0,All Players,0,0
+73,laststand,0,100,,,,,,,1,5,low,0,All Players,1,0
+74,laststand_bleedout,0,100,,,,,,,1,5,low,0,All Players,1,0
+75,laststand_coaster,0,100,,,,,,,1,5,low,0,All Players,0,0
+76,ww_magicbox_laughter ,0,100,,,,,,,1,5,high,0,,0,0
+77,magicwheel_badspin,0,100,,,,,,,1,5,low,0,All Players,0,0
+78,magicwheel_weapon,0,100,,,,,,,1,5,low,0,All Players,0,0
+79,N3il_construction ,0,100,,,,,,,1,5,low,0,,0,0
+80,nag_activate_power,30,100,,nag,power,,,,1,60,high,0,All Players,0,0
+81,nag_board_windows,90,100,,nag,barriers,,,,1,5,low,0,All Players,0,0
+82,nag_find_pap,90,100,,nag,pap,,,,1,5,low,0,All Players,0,0
+83,nag_low_ammo,90,100,,nag,ammo,,,,1,5,low,0,All Players,0,0
+84,nag_need_fateandfort,180,100,,nag,cards,,,,1,5,low,0,All Players,0,0
+85,nag_no_challenge,90,100,,nag,challenge,,,,1,5,low,0,All Players,0,0
+86,nag_out_ammo,90,100,,nag,ammo,,,,1,5,low,0,All Players,0,0
+87,nag_return_arcanecore,90,100,,nag,return,,,,1,5,high,0,All Players,0,0
+88,nag_return_djpart,90,100,,nag,return,,,,1,5,low,0,All Players,0,0
+89,nag_return_n31lpart,90,100,,nag,return,,,,1,5,low,0,All Players,0,0
+90,nag_try_perk,180,100,,nag,perk,,,,1,5,low,0,All Players,0,0
+91,nag_ufo_fusefail,90,100,,nag,quest,,,,1,5,low,0,All Players,0,0
+92,nag_ufo_shoot,90,100,,nag,quest,,,,1,5,low,0,All Players,0,0
+93,nag_ufo_signfail,90,100,,nag,quest,,,,1,5,low,0,All Players,0,0
+94,nag_use_fateandfort,90,100,,nag,cards,,,,1,5,low,0,All Players,0,0
+95,nag_use_portal,90,100,,nag,portals,,,,1,5,low,0,All Players,0,0
+96,nag_use_souvenircoin,90,70,,nag,crafting,,,,1,2,low,0,All Players,0,0
+97,nl_assembled_first,,100,1,,,,,,1,5,low,0,,0,0
+98,nl_challenge_complete,,100,,,,,,,1,5,low,0,,0,0
+99,nl_challenge_start,,100,,,,,,,1,5,low,0,,0,0
+100,nl_easteregg_complete,,100,,,,,,,1,5,low,0,,0,0
+101,no_cash,15,100,,money,,,,,1,5,high,0,All Players,0,0
+102,no_power,15,100,,power,,,,,1,5,high,0,All Players,0,0
+103,no_souvenir_coin,15,100,,crafting,,,,,1,5,medium,0,All Players,0,0
+104,no_tickets,15,100,,money,,,,,1,5,high,0,All Players,0,0
+105,pap_nag,60,100,,nag,pap,,,,1,5,low,0,,0,0
+106,pap_room_first,,100,,pap,,,,,1,5,high,0,All Players,0,1
+107,pap_wor,,100,,pap,,,,,1,5,high,0,All Players,0,1
+108,part_assemble_n31l,,100,,quest,,,,,1,5,high,0,All Players,0,0
+109,part_collect_arcane,10,100,,quest,,,,,1,5,medium,0,All Players,0,0
+110,part_collect_exquisite,10,100,,quest,,,,,1,5,high,0,All Players,0,0
+111,part_collect_wor,,100,,quest,,,,,0,5,highest,0,All Players,0,0
+112,perk_use,,100,,perk,,,,,1,5,high,0,All Players,0,0
+113,pillage_ammo,15,100,,pillage,,,,,1,2,medium,0,All Players,0,0
+114,pillage_attachment,15,100,,pillage,,,,,1,2,medium,0,All Players,0,0
+115,pillage_craft,15,100,,pillage,,,,,1,2,medium,0,All Players,0,0
+116,pillage_generic,15,100,,pillage,,,,,1,2,medium,0,All Players,0,0
+117,pillage_grenade,15,100,,pillage,,,,,1,2,medium,0,All Players,0,0
+118,pillage_specialammo,15,100,,pillage,,,,,1,2,medium,0,All Players,0,0
+119,player_purchase_assault,15,100,,purchase,,,,,1,2,medium,0,All Players,0,0
+120,player_purchase_launcher,15,100,,purchase,,,,,1,2,medium,0,All Players,0,0
+121,player_purchase_pistol,15,100,,purchase,,,,,1,2,medium,0,All Players,0,0
+122,player_purchase_shotgun,15,100,,purchase,,,,,1,2,medium,0,All Players,0,0
+123,player_purchase_smg,15,100,,purchase,,,,,1,2,medium,0,All Players,0,0
+124,player_purchase_sniper,15,100,,purchase,,,,,1,2,medium,0,All Players,0,0
+125,player_purchase_wonder,15,100,,purchase,,,,,1,2,medium,0,All Players,0,0
+126,portal_exit,,100,,,,,,,1,2,high,0,,0,0
+127,portal_pap_jock_1,,100,,,,,p4_,portal_pap_jock_2,0,5,high,0,,0,0
+128,portal_pap_jock_2,,100,,,,,p1_,portal_pap_jock_3,0,5,high,0,,0,0
+129,portal_pap_jock_3,,100,,,,,p3_,portal_pap_jock_4,0,5,high,0,,0,0
+130,portal_pap_jock_4,,100,,,,,p2_,portal_pap_jock_5,0,5,high,0,,0,0
+131,portal_pap_jock_5,,100,,,,,p2_,,0,5,low,0,,0,0
+132,portal_pap_nerd_1,,100,,,,,p2_,portal_pap_nerd_2,0,5,high,0,,0,0
+133,portal_pap_nerd_2,,100,,,,,p3_,portal_pap_nerd_3,0,5,high,0,,0,0
+134,portal_pap_nerd_3,,100,,,,,p2_,portal_pap_nerd_4,0,5,high,0,,0,0
+135,portal_pap_nerd_4,,100,,,,,p1_,portal_pap_nerd_5,0,5,high,0,,0,0
+136,portal_pap_nerd_5,,100,,,,,p2_,portal_pap_nerd_6,0,5,high,0,,0,0
+137,portal_pap_nerd_6,,100,,,,,p4_,,0,5,low,0,,0,0
+138,portal_pap_rapper_1,,100,,,,,p3_,portal_pap_rapper_2,0,5,high,0,,0,0
+139,portal_pap_rapper_2,,100,,,,,p2_,portal_pap_rapper_3,0,5,high,0,,0,0
+140,portal_pap_rapper_3,,100,,,,,p3_,portal_pap_rapper_4,0,5,high,0,,0,0
+141,portal_pap_rapper_4,,100,,,,,p2_,portal_pap_rapper_5,0,5,high,0,,0,0
+142,portal_pap_rapper_5,,100,,,,,p1_,portal_pap_rapper_6,0,5,high,0,,0,0
+143,portal_pap_rapper_6,,100,,,,,p4_,,0,5,low,0,,0,0
+144,portal_pap_valleygirl_1,,100,,,,,p1_,portal_pap_valleygirl_2,0,5,high,0,,0,0
+145,portal_pap_valleygirl_2,,100,,,,,p4_,portal_pap_valleygirl_3,0,5,high,0,,0,0
+146,portal_pap_valleygirl_3,,100,,,,,p1_,portal_pap_valleygirl_4,0,5,high,0,,0,0
+147,portal_pap_valleygirl_4,,100,,,,,p2_,portal_pap_valleygirl_5,0,5,high,0,,0,0
+148,portal_pap_valleygirl_5,,100,,,,,p3_,portal_pap_valleygirl_6,0,5,high,0,,0,0
+149,portal_pap_valleygirl_6,,100,,,,,p2_,portal_pap_valleygirl_7,0,5,high,0,,0,0
+150,portal_pap_valleygirl_7,,100,,,,,p1_,portal_pap_valleygirl_8,0,5,high,0,,0,0
+151,portal_pap_valleygirl_8,,100,,,,,p2_,,0,5,low,0,,0,0
+152,poweron_final_jock_1,,100,,,,,p4_,poweron_final_jock_2,0,5,high,0,,0,0
+153,poweron_final_jock_2,,100,,,,,p2_,poweron_final_jock_3,0,5,high,0,,0,0
+154,poweron_final_jock_3,,100,,,,,p1_,poweron_final_jock_4,0,5,high,0,,0,0
+155,poweron_final_jock_4,,100,,,,,p2_,poweron_final_jock_5,0,5,high,0,,0,0
+156,poweron_final_jock_5,,100,,,,,p1_,poweron_final_jock_6,0,5,high,0,,0,0
+157,poweron_final_jock_6,,100,,,,,p3_,,0,5,low,0,,0,0
+158,poweron_final_nerd_1,,100,,,,,p2_,poweron_final_nerd_2,0,5,high,0,,0,0
+159,poweron_final_nerd_2,,100,,,,,p3_,poweron_final_nerd_3,0,5,high,0,,0,0
+160,poweron_final_nerd_3,,100,,,,,p1_,poweron_final_nerd_4,0,5,high,0,,0,0
+161,poweron_final_nerd_4,,100,,,,,p4_,poweron_final_nerd_5,0,5,high,0,,0,0
+162,poweron_final_nerd_5,,100,,,,,p2_,,0,5,low,0,,0,0
+163,poweron_final_rapper_1,,100,,,,,p3_,poweron_final_rapper_2,0,5,high,0,,0,0
+164,poweron_final_rapper_2,,100,,,,,p1_,poweron_final_rapper_3,0,5,high,0,,0,0
+165,poweron_final_rapper_3,,100,,,,,p4_,poweron_final_rapper_4,0,5,high,0,,0,0
+166,poweron_final_rapper_4,,100,,,,,p2_,poweron_final_rapper_5,0,5,high,0,,0,0
+167,poweron_final_rapper_5,,100,,,,,p3_,,0,5,low,0,,0,0
+168,poweron_final_valleygirl_1,,100,,,,,p1_,poweron_final_valleygirl_2,0,5,high,0,,0,0
+169,poweron_final_valleygirl_2,,100,,,,,p3_,poweron_final_valleygirl_3,0,5,high,0,,0,0
+170,poweron_final_valleygirl_3,,100,,,,,p4_,poweron_final_valleygirl_4,0,5,high,0,,0,0
+171,poweron_final_valleygirl_4,,100,,,,,p2_,,0,5,low,0,,0,0
+172,poweron_first_jock_1,,100,,,,,p4_,poweron_first_jock_2,0,5,high,0,,0,0
+173,poweron_first_jock_2,,100,,,,,p3_,poweron_first_jock_3,0,5,high,0,,0,0
+174,poweron_first_jock_3,,100,,,,,p2_,poweron_first_jock_4,0,5,high,0,,0,0
+175,poweron_first_jock_4,,100,,,,,p1_,poweron_first_jock_5,0,5,high,0,,0,0
+176,poweron_first_jock_5,,100,,,,,p2_,poweron_first_jock_6,0,5,high,0,,0,0
+177,poweron_first_jock_6,,100,,,,,p4_,,0,5,low,0,,0,0
+178,poweron_first_nerd_1,,100,,,,,p2_,poweron_first_nerd_2,0,5,high,0,,0,0
+179,poweron_first_nerd_2,,100,,,,,p3_,poweron_first_nerd_3,0,5,high,0,,0,0
+180,poweron_first_nerd_3,,100,,,,,p2_,poweron_first_nerd_4,0,5,high,0,,0,0
+181,poweron_first_nerd_4,,100,,,,,p4_,poweron_first_nerd_5,0,5,high,0,,0,0
+182,poweron_first_nerd_5,,100,,,,,p2_,poweron_first_nerd_6,0,5,high,0,,0,0
+183,poweron_first_nerd_6,,100,,,,,p3_,poweron_first_nerd_7,0,5,high,0,,0,0
+184,poweron_first_nerd_7,,100,,,,,p1_,,0,5,low,0,,0,0
+185,poweron_first_rapper_1,,100,,,,,p3_,poweron_first_rapper_2,0,5,high,0,,0,0
+186,poweron_first_rapper_2,,100,,,,,p1_,poweron_first_rapper_3,0,5,high,0,,0,0
+187,poweron_first_rapper_3,,100,,,,,p4_,poweron_first_rapper_4,0,5,high,0,,0,0
+188,poweron_first_rapper_4,,100,,,,,p2_,poweron_first_rapper_5,0,5,high,0,,0,0
+189,poweron_first_rapper_5,,100,,,,,p3_,,0,5,low,0,,0,0
+190,poweron_first_valleygirl_1,,100,,,,,p1_,poweron_first_valleygirl_2,0,5,high,0,,0,0
+191,poweron_first_valleygirl_2,,100,,,,,p3_,poweron_first_valleygirl_3,0,5,high,0,,0,0
+192,poweron_first_valleygirl_3,,100,,,,,p2_,poweron_first_valleygirl_4,0,5,high,0,,0,0
+193,poweron_first_valleygirl_4,,100,,,,,p4_,poweron_first_valleygirl_5,0,5,high,0,,0,0
+194,poweron_first_valleygirl_5,,100,,,,,p2_,poweron_first_valleygirl_6,0,5,high,0,,0,0
+195,poweron_first_valleygirl_6,,100,,,,,p3_,,0,5,low,0,,0,0
+196,powerup_2xmoney,10,100,,,,,,,1,5,high,0,All Players,0,0
+197,powerup_2xpoints,10,100,,,,,,,1,5,high,0,All Players,0,0
+198,powerup_ammo,10,100,,,,,,,1,5,high,0,All Players,0,0
+199,powerup_carpenter,10,100,,,,,,,1,5,high,0,All Players,0,0
+200,powerup_doublemoney,10,100,,,,,,,1,5,high,0,All Players,0,0
+201,powerup_firesale,10,100,,,,,,,1,5,high,0,All Players,0,0
+202,powerup_grenade,10,100,,,,,,,1,5,high,0,All Players,0,0
+203,powerup_infiniteammo,10,100,,,,,,,1,5,high,0,All Players,0,0
+204,powerup_infinitegrenades,10,100,,,,,,,1,5,high,0,All Players,0,0
+205,powerup_instakill,10,100,,,,,,,1,5,high,0,All Players,0,0
+206,powerup_maxammo,10,100,,,,,,,1,5,high,0,All Players,0,0
+207,powerup_maxarmor,10,100,,,,,,,1,5,high,0,All Players,0,0
+208,powerup_nuke,10,100,,,,,,,1,5,high,0,All Players,0,0
+209,purchase_area,15,100,,door_purchase,,,,,1,5,low,0,All Players,0,0
+210,purchase_area_astrocade,15,100,,door_purchase,,,,,0,10,medium,0,All Players,0,0
+211,purchase_area_underground,15,100,,door_purchase,,,,,0,10,medium,0,All Players,0,0
+212,purchase_door_journey,15,100,,door_purchase,,,,,0,10,medium,0,All Players,0,0
+213,purchase_door_keppler,15,100,,door_purchase,,,,,0,10,medium,0,All Players,0,0
+214,purchase_door_mainstreet,15,100,,door_purchase,,,,,0,10,medium,0,All Players,0,0
+215,purchase_door_triton,15,100,,door_purchase,,,,,0,10,medium,0,All Players,0,0
+216,purchase_perk,30,100,,perk,,,,,1,5,low,0,All Players,0,0
+217,purchase_perk_bangbangs,30,100,,perk,,,,,1,5,low,0,All Players,0,0
+218,purchase_perk_bluebolts,30,100,,perk,,,,,1,5,low,0,All Players,0,0
+219,purchase_perk_bombstoppers,30,100,,perk,,,,,1,5,low,0,All Players,0,0
+220,purchase_perk_nulemunchies,30,100,,perk,,,,,1,5,low,0,All Players,0,0
+221,purchase_perk_quickies,30,100,,perk,,,,,1,5,low,0,All Players,0,0
+222,purchase_perk_racinstripes,30,100,,perk,,,,,1,5,low,0,All Players,0,0
+223,purchase_perk_revive_solo,30,100,,perk,,,,,1,5,low,0,All Players,0,0
+224,purchase_perk_slappytaffy,30,100,,perk,,,,,1,5,low,0,All Players,0,0
+225,purchase_perk_trailblazers,30,100,,perk,,,,,1,5,low,0,All Players,0,0
+226,purchase_perk_tuffnuff,30,100,,perk,,,,,1,5,low,0,All Players,0,0
+227,purchase_perk_upnatoms,30,100,,perk,,,,,1,5,low,0,All Players,0,0
+228,purchase_tickets,30,100,,purchase,tickets,,,,1,5,low,0,All Players,0,0
+229,purchase_weapon,10,100,,purchase,,,,,1,5,medium,0,All Players,0,0
+230,quest_arcane_nocore_fail,,100,1,,,,,,1,5,low,0,All Players,0,0
+231,quest_arcane_nocore_start,,100,1,,,,,,1,5,low,0,All Players,0,0
+232,quest_arcane_ufo_fail,30,100,,,,,,,1,5,low,0,All Players,0,0
+233,quest_arcane_ufo_question,,100,1,,,,,,1,5,high,0,All Players,0,0
+234,quest_arcane_ufo_start,,100,1,,,,,,1,5,high,0,All Players,0,0
+235,quest_arcane_ufo_success,,100,1,,,,,,1,5,low,0,All Players,0,0
+236,quest_dj_intro_1,,100,,,,,p3_,quest_dj_intro_2,0,5,high,0,,0,0
+237,quest_dj_intro_2,,100,,,,,p4_,quest_dj_intro_3,0,5,high,0,,0,0
+238,quest_dj_intro_3,,100,,,,,p3_,quest_dj_intro_4,0,5,high,0,,0,0
+239,quest_dj_intro_4,,100,,,,,p1_,quest_dj_intro_5,0,5,high,0,,0,0
+240,quest_dj_intro_5,,100,,,,,p2_,,0,5,high,0,,0,0
+241,quest_song_start,,100,,,,,,,1,5,high,0,All Players,0,0
+242,quest_ufo_alien_teleport,60,100,,,,,,,1,5,highest,0,All Players,0,0
+243,quest_ufo_collect_alienfuse_2 ,,100,,,,,,,1,5,highest,0,All Players,0,0
+244,quest_ufo_collect_soulkey,,100,,,,,,,1,5,highest,0,All Players,0,0
+245,quest_ufo_defend_speakers,15,100,,,,,,,1,5,low,0,All Players,0,0
+246,quest_ufo_killfirm_minialien,,100,,,,,,,1,5,highest,0,All Players,0,0
+247,quest_ufo_signhit_5,10,100,,,,,,,1,5,low,0,All Players,0,0
+248,quest_ufo_spawn_minialiens,,100,,,,,,,1,5,low,0,All Players,0,0
+249,receive_wor,60,100,,,,,,,1,5,high,0,All Players,0,0
+250,receive_wor_fav,60,100,,,,,,,1,5,high,0,All Players,0,0
+251,reinforce_window,60,100,5,,,,,,1,2,low,0,All Players,0,0
+252,respawn_laststand,,100,,,,,,,1,5,low,0,All Players,1,0
+253,respawn_round,,100,,,,,,,1,5,low,0,All Players,1,0
+254,revived,120,100,,,,,,,1,5,low,0,All Players,1,0
+255,reviving,120,100,,,,,,,1,5,low,0,All Players,1,0
+256,round_cooldown,60,100,,,,,,,1,5,low,0,All Players,1,0
+257,round_end_13thru16_1,,100,,,,,p2_,round_end_13thru16_2,0,5,high,0,,0,0
+258,round_end_13thru16_2,,100,,,,,p4_,round_end_13thru16_3,0,5,high,0,,0,0
+259,round_end_13thru16_3,,100,,,,,p3_,round_end_13thru16_4,0,5,high,0,,0,0
+260,round_end_13thru16_4,,100,,,,,p1_,round_end_13thru16_5,0,5,high,0,,0,0
+261,round_end_13thru16_5,,100,,,,,p2_,,0,5,low,0,,0,0
+262,round_end_3thru5_1,,100,,,,,p1_,round_end_3thru5_2,0,5,high,0,,0,0
+263,round_end_3thru5_2,,100,,,,,p2_,round_end_3thru5_3,0,5,high,0,,0,0
+264,round_end_3thru5_3,,100,,,,,p3_,round_end_3thru5_4,0,5,high,0,,0,0
+265,round_end_3thru5_4,,100,,,,,p4_,round_end_3thru5_5,0,5,high,0,,0,0
+266,round_end_3thru5_5,,100,,,,,p2_,,0,5,low,0,,0,0
+267,round_end_6thru8_1,,100,,,,,p4_,round_end_6thru8_2,0,5,high,0,,0,0
+268,round_end_6thru8_2,,100,,,,,p3_,round_end_6thru8_3,0,5,high,0,,0,0
+269,round_end_6thru8_3,,100,,,,,p1_,round_end_6thru8_4,0,5,high,0,,0,0
+270,round_end_6thru8_4,,100,,,,,p2_,round_end_6thru8_5,0,5,high,0,,0,0
+271,round_end_6thru8_5,,100,,,,,p1_,,0,5,low,0,,0,0
+272,round_end_9thru12_1,,100,,,,,p3_,round_end_9thru12_2,0,5,high,0,,0,0
+273,round_end_9thru12_2,,100,,,,,p2_,round_end_9thru12_3,0,5,high,0,,0,0
+274,round_end_9thru12_3,,100,,,,,p1_,round_end_9thru12_4,0,5,high,0,,0,0
+275,round_end_9thru12_4,,100,,,,,p4_,round_end_9thru12_5,0,5,high,0,,0,0
+276,round_end_9thru12_5,,100,,,,,p3_,,0,5,low,0,,0,0
+277,shooting_gall_anc_activate,,100,,,,,,,1,5,low,0,,1,0
+278,shooting_gall_anc_failure,,100,,,,,,,1,5,low,0,,1,0
+279,shooting_gall_anc_hit_target,,100,,,,,,,1,5,low,0,,1,0
+280,shooting_gall_anc_success,,100,,,,,,,1,5,low,0,,1,0
+281,souvenir_coin_station,30,100,,crafting,,,,,1,5,low,0,All Players,0,0
+282,souvenir_craft_success,,100,,,,,,,1,5,medium,0,All Players,0,0
+283,ww_spawn_alt_first_1,,100,,,,,,spawn_alt_first_2,0,5,high,0,,0,0
+284,spawn_alt_first_2,,100,,,,,p1_,ww_spawn_alt_first_6,0,5,high,0,,0,0
+285,spawn_alt_first_3,,100,,,,,,ww_spawn_alt_first_6,0,5,high,0,,0,0
+286,spawn_alt_first_4,,100,,,,,,ww_spawn_alt_first_6,0,5,high,0,,0,0
+287,spawn_alt_first_5,,100,,,,,,ww_spawn_alt_first_6,0,5,high,0,,0,0
+288,ww_spawn_alt_first_6,,100,,,,,,spawn_alt_first_7,0,5,high,0,,0,0
+289,spawn_alt_first_7,,100,,,,,p4_,ww_spawn_alt_first_8,0,5,high,0,,0,0
+290,ww_spawn_alt_first_8,,100,,,,,,,0,5,high,0,,0,0
+291,spawn_arcade,,100,,,,,,,1,25,low,2,All Players,1,0
+292,spawn_arcade_first,,100,1,,,,,,1,25,low,2,All Players,1,0
+293,spawn_dj_first_1,,100,,,,,p4_,spawn_dj_firs_2,0,5,high,0,,0,0
+294,spawn_dj_firs_2,,100,,,,,p2_,spawn_dj_first_3,0,5,high,0,,0,0
+295,spawn_dj_first_3,,100,,,,,p4_,spawn_dj_first_4,0,5,high,0,,0,0
+296,spawn_dj_first_4,,100,,,,,p3_,spawn_dj_first_5,0,5,high,0,,0,0
+297,spawn_dj_first_5,,100,,,,,p1_,spawn_dj_first_6,0,5,high,0,,0,0
+298,spawn_dj_first_6,,100,,,,,p2_,spawn_dj_first_7,0,5,high,0,,0,0
+299,spawn_dj_first_7,,100,,,,,p4_,spawn_dj_first_8,0,5,high,0,,0,0
+300,spawn_dj_first_8,,100,,,,,p3_,,0,5,low,0,,0,0
+301,convo_deja_vu,0,100,2,,,,,,1,5,highest,0,All Players,0,0
+302,spawn_intro,,100,,,,,,,1,5,low,0,All Players,0,0
+303,spawn_solo_first,,100,1,,,,,,1,5,low,0,All Players,0,0
+304,spawn_team_first,,100,1,,,,,,1,5,low,0,All Players,0,0
+305,spawn_team_first_1,,100,,,,,p1_,spawn_team_first_2,0,5,high,0,,0,0
+306,spawn_team_first_2,,100,,,,,p2_,spawn_team_first_3,0,5,high,0,,0,0
+307,spawn_team_first_3,,100,,,,,p3_,spawn_team_first_4,0,5,high,0,,0,0
+308,spawn_team_first_4,,100,,,,,p1_,spawn_team_first_5,0,5,high,0,,0,0
+309,spawn_team_first_5,,100,,,,,p4_,,0,5,low,0,,0,0
+310,sunglasses,,100,1,,,,,,1,5,highest,0,All Players,0,0
+311,trap_kill_rover,100,40,,kill,trap,,,,1,15,medium,0,All Players,0,0
+312,ufo_destroy,,100,,,,,,,1,5,low,0,All Players,0,0
+313,ufo_first,,100,1,,,,,,1,5,low,0,All Players,0,0
+314,ufo_spawn_action,,100,,,,,,,1,5,low,0,,0,0
+315,ufo_spawn_cut,,100,,,,,,,1,5,low,0,,0,0
+316,ufo_tonegen_complete,,100,,,,,,,1,5,low,0,,0,0
+317,weapon_pap,60,100,,,,,,,1,5,low,0,All Players,0,0
+318,withdraw_cash,15,10,,,,,,,1,2,low,0,All Players,0,0
+319,wonder_consume,,100,,,,,,,1,5,low,0,All Players,0,0
+320,wonder_restock,,100,,,,,,,1,5,low,0,All Players,0,0
+321,melee_splice,5,50,,,,,,,1,1,medium,0,All Players,0,0
+322,melee_miss,15,20,,,,,,,1,1,low,0,All Players,0,0
+323,melee_fatal,10,50,,kill,,,,,1,1,low,0,All Players,0,0
+324,dj_craft_nag,120,100,,dj_nag,,,,,1,10,medium,0,All Players,0,0
+325,dj_pap_cosmicway_nag,120,100,,dj_nag,,,,,1,10,medium,0,All Players,0,0
+326,dj_quest_ufo_pap1_nag,300,100,,,,,,,1,10,highest,0,,0,0
+327,dj_quest_ufo_speakerdefense_start,300,100,,,,,,,1,10,highest,0,,0,0
+328,dj_quest_ufo_speakerdefense_fail,300,100,,,,,,,1,10,highest,0,,0,0
+329,dj_quest_ufo_partsrecovery_start,300,100,,,,,,,1,10,highest,0,,0,0
+330,dj_quest_ufo_parts_before_quest,300,100,,,,,,,1,10,highest,0,,0,0
+331,dj_quest_ufo_partsrecovery_fail,300,100,,,,,,,1,10,highest,0,,0,0
+332,dj_quest_ufo_partsrecovery_hint,300,100,,,,,,,1,10,highest,0,,0,0
+333,dj_quest_ufo_tonegen_hint,300,100,,,,,,,1,10,highest,0,,0,0
+334,dj_quest_ufo_tonegen_nag,300,100,,,,,,,1,10,highest,0,,0,0
+335,dj_quest_ufo_destroy_nag,300,100,,,,,,,1,10,highest,0,,0,0
+336,dj_quest_ufo_soulkey_achieve,300,100,,,,,,,1,10,highest,0,,0,0
+337,dj_powerswitch_restore_nag,300,100,,,,,,,1,10,medium,0,All Players,0,0
+338,dj_fateandfort_replenish_nag,300,100,,dj_nag,,,,,1,10,medium,0,All Players,0,0
+339,dj_souvenircoin_collect_nag,300,100,,dj_nag,,,,,1,10,medium,0,All Players,0,0
+340,dj_portal_use_nag,300,100,,dj_nag,,,,,1,10,medium,0,All Players,0,0
+341,dj_n3il_part_recovered_nag,300,100,,,,,,,1,10,medium,0,All Players,0,0
+342,dj_perkstation_use_nag,300,100,,dj_nag,,,,,1,10,medium,0,All Players,0,0
+343,dj_traps_use_nag,300,100,,dj_nag,,,,,1,10,medium,0,All Players,0,0
+344,dj_polarpeaks_use_nag,300,100,,dj_nag,,,,,1,10,medium,0,All Players,0,0
+345,dj_ticketbooths_use_nag,300,100,,dj_nag,,,,,1,10,medium,0,All Players,0,0
+346,dj_wor_use_nag,300,100,,dj_nag,,,,,1,10,medium,0,All Players,0,0
+347,dj_jingle_intro,,100,,,,,,,1,2,highest,0,DJ,0,0
+348,dj_music_next,180,100,,,,,,,1,5,high,0,DJ,0,0
+349,dj_music_set,180,100,,,,,,,1,5,high,0,DJ,0,0
+350,dj_interup_wave_start,180,70,,,,,,,1,5,high,0,DJ,0,0
+351,dj_interup_wave_end,180,70,,,,,,,1,5,high,0,DJ,0,0
+352,dj_sign_off,300,100,,,,,,,1,10,medium,0,All Players,0,0
+353,dj_quest_pre_exploder,300,100,,,,,,,1,10,highest,0,All Players,0,0
+354,dj_quest_reactivate,300,100,,,,,,,1,10,highest,0,All Players,0,0
+355,dj_quest_parts_1,60,100,,,,,,,1,60,highest,0,DJ,0,0
+356,dj_quest_parts_2,60,100,,,,,,,1,60,highest,0,DJ,0,0
+357,dj_quest_parts_all,60,100,,,,,,,1,60,highest,0,DJ,0,0
+358,dj_quest_freq_notready,300,100,,,,,,,1,10,highest,0,DJ,0,0
+359,ww_spawn_alt_first_1,,100,,,,,,spawn_alt_first_2,0,5,high,0,,0,0
+360,spawn_alt_first_2,,100,,,,,p1_,spawn_alt_first_3,0,5,high,0,,0,0
+361,spawn_alt_first_3,,100,,,,,p4_,spawn_alt_first_4,0,5,high,0,,0,0
+362,spawn_alt_first_4,,100,,,,,p3_,spawn_alt_first_5,0,5,high,0,,0,0
+363,spawn_alt_first_5,,100,,,,,p2_,ww_spawn_alt_first_6,0,5,low,0,,0,0
+364,ww_spawn_alt_first_6,,100,,,,,,spawn_alt_first_7,0,5,low,1,,0,0
+365,spawn_alt_first_7,,100,,,,,p4_,ww_spawn_alt_first_8,0,5,low,2,,0,0
+366,ww_spawn_alt_first_8,,100,,,,,,,0,5,low,3,,0,0
+367,dj_nag_ticket_restock,100,100,,,,,,,0,10,highest,0,,0,0
+368,dj_sign_off_kitt,,100,,,,,,,0,3,highest,0,All Players,0,0
+369,hyperslopes_slide,30,100,,,,,,,1,4,medium,0,,,0
+370,reviving_valleygirl,30,70,4,,,,,,0,5,medium,0,All Players,0,0
+371,respawn_laststand_valleygirl,30,70,4,,,,,,0,5,medium,0,All Players,0,0
+372,laststand_coaster,60,100,10,,,,,,1,10,medium,0,,0,0
+373,ww_ufo_spawn_action,60,100,,,,,,,1,10,highest,0,,0,0
+374,ww_powerup_2xmoney,0,100,,,,,,,1,10,highest,0,All Players,0,0
+375,ww_powerup_2xpoints,0,100,,,,,,,1,10,highest,0,All Players,0,0
+376,ww_powerup_ammo,0,100,,,,,,,1,10,highest,0,All Players,0,0
+377,ww_powerup_carpenter,0,100,,,,,,,1,10,highest,0,All Players,0,0
+378,ww_powerup_doublemoney,0,100,,,,,,,1,10,highest,0,All Players,0,0
+379,ww_powerup_firesale,0,100,,,,,,,1,10,highest,0,All Players,0,0
+380,ww_powerup_grenade,0,100,,,,,,,1,10,highest,0,All Players,0,0
+381,ww_powerup_infiniteammo,0,100,,,,,,,1,10,highest,0,All Players,0,0
+382,ww_powerup_infinitegrenades,0,100,,,,,,,1,10,highest,0,All Players,0,0
+383,ww_powerup_instakill,0,100,,,,,,,1,10,highest,0,All Players,0,0
+384,ww_powerup_maxammo,0,100,,,,,,,1,10,highest,0,All Players,0,0
+385,ww_powerup_maxarmor,0,100,,,,,,,1,10,highest,0,All Players,0,0
+386,ww_powerup_nuke,0,100,,,,,,,1,10,highest,0,All Players,0,0
+387,alien_defeat,0,100,,alien,,,,,1,20,highest,3,All Players,0,0
+388,ww_brute_spawn,30,100,,,,,,,1,15,highest,3,All Players,0,0
+389,ww_brute_firstspawn,0,100,,,,,,,1,15,highest,3,All Players,0,0
+390,ww_brute_death,30,100,,,,,,,1,15,highest,3,All Players,0,0
+391,ww_pap_nag,5,100,3,,,,,,1,10,highest,0,All Players,0,1
+392,purchase_door_journey,0,100,,,,,,,0,10,highest,0,All Players,0,0
+393,purchase_door_keppler,0,100,,,,,,,0,10,highest,0,All Players,0,0
+394,purchase_door_triton,0,100,,,,,,,0,10,highest,0,All Players,0,0
+395,quest_intro,0,100,1,,,,,,0,10,highest,0,All Players,0,0
+396,quest_n31l_find_disc,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+397,quest_arcane_blue_essence,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+398,quest_arcane_green_essence,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+399,quest_arcane_pink_essence,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+400,quest_arcane_red_essence,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+401,quest_arcane_yellow_essence,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+402,quest_arcane_teeth,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+403,quest_cutter_icemonster,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+404,quest_cutter_battery,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+405,quest_cutter_crystal_yellow,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+406,quest_melter_rocket,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+407,quest_melter_battery,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+408,quest_melter_crystal_blue,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+409,quest_dischord_discoball,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+410,quest_dischord_battery,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+411,quest_dischord_crystal_green,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+412,quest_shredder_monster,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+413,quest_shredder_battery,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+414,quest_shredder_crystal_red,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+415,quest_dj_boombox,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+416,quest_dj_calculator,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+417,quest_dj_umbrella,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+418,quest_icemonster_grenade,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+419,challenge_n31l_head,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+420,challenge_n31l_battery,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+421,challenge_n31l_disk,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+422,challenge_n31l_complete,0,100,1,,,,,,0,5,high,0,All Players,0,0
+423,quest_n31l_find_head,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+424,quest_n31l_find_battery,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+425,quest_n31l_find_disc,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+426,extra_hasselhoff_2,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+427,extra_hasselhoff_3,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+428,extra_hasselhoff_4,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+429,dj_sign_off_kitt,0,100,1,,,,,,0,5,highest,0,All Players,0,0
+430,ww_zmb_dc_intro,0,100,,,,,,,1,5,highest,0,All Players,0,0
+431,zmb_dc_intro,0,100,,,,,,,0,5,highest,0,All Players,0,0
+432,dj_spawn_dj_first_2,0,100,,,,,,,0,5,highest,0,All Players,0,0
+433,dj_spawn_dj_first_4,0,100,,,,,,,0,5,highest,0,All Players,0,0
+434,dj_spawn_dj_first_6,0,100,,,,,,,0,5,highest,0,All Players,0,0
+435,dj_dj_noparts_1,0,100,,,,,,,0,5,highest,0,All Players,0,0
+436,dj_dj_noparts_3,0,100,,,,,,,0,5,highest,0,All Players,0,0
+437,dj_dj_quest_success_1,0,100,,,,,,,0,5,highest,0,All Players,0,0
+438,dj_dj_quest_success_3,0,100,,,,,,,0,5,highest,0,All Players,0,0
+439,dj_dj_n31l_success_1,0,100,,,,,,,0,5,highest,0,All Players,0,0
+440,dj_dj_n31l_success_2,0,100,,,,,,,0,5,highest,0,All Players,0,0
+441,spawn_addtl_celebs_1_1,0,100,,,,,,,0,5,highest,0,All Players,0,0
+442,spawn_addtl_celebs_1_2,0,100,,,,,,,0,5,highest,0,All Players,0,0
+443,spawn_addtl_celebs_1_4,0,100,,,,,,,0,5,highest,0,All Players,0,0
+444,spawn_addtl_celebs_2_2,0,100,,,,,,,0,5,highest,0,All Players,0,0
+445,spawn_addtl_celebs_2_4,0,100,,,,,,,0,5,highest,0,All Players,0,0
+446,dj_powerup_infiniteammo,0,100,,,,,,,0,5,highest,0,All Players,0,0
+447,dj_powerup_infinitegrenades,0,100,,,,,,,0,5,highest,0,All Players,0,0
+448,dj_powerup_firesale,0,100,,,,,,,0,5,highest,0,All Players,0,0
+449,dj_powerup_carpenter,0,100,,,,,,,0,5,highest,0,All Players,0,0
+450,dj_powerup_instakill,0,100,,,,,,,0,5,highest,0,All Players,0,0
+451,dj_powerup_nuke,0,100,,,,,,,0,5,highest,0,All Players,0,0
+452,dj_powerup_maxammo,0,100,,,,,,,0,5,highest,0,All Players,0,0
+453,dj_powerup_doublemoney,0,100,,,,,,,0,5,highest,0,All Players,0,0
+454,dj_dc_dj_hoff,0,100,,,,,,,0,5,highest,0,All Players,0,0
+455,dj_dc_intro,0,100,,,,,,,0,5,highest,0,All Players,0,0
+456,convo_deja_vu,0,100,2,,,,,,1,5,highest,0,All Players,0,0
+457,spawn_addtl_celebs_1_1,0,100,,,,,p5_,spawn_addtl_celebs_1_2,1,5,highest,0,All Players,0,0
+458,spawn_addtl_celebs_1_2,0,100,,,,,p5_,spawn_addtl_celebs_1_3,1,5,highest,0,All Players,0,0
+459,spawn_addtl_celebs_1_3,0,100,,,,,p6_,spawn_addtl_celebs_1_4,1,5,highest,0,All Players,0,0
+460,spawn_addtl_celebs_1_4,0,100,,,,,p5_,spawn_addtl_celebs_1_5,1,5,highest,0,All Players,0,0
+461,spawn_addtl_celebs_1_5,0,100,,,,,p6_,,1,5,highest,0,All Players,0,0
+462,spawn_addtl_celebs_2_1,0,100,,,,,p6_,spawn_addtl_celebs_2_2,1,5,highest,0,All Players,0,0
+463,spawn_addtl_celebs_2_2,0,100,,,,,p5_,spawn_addtl_celebs_2_3,1,5,highest,0,All Players,0,0
+464,spawn_addtl_celebs_2_3,0,100,,,,,p6_,spawn_addtl_celebs_2_4,1,5,highest,0,All Players,0,0
+465,spawn_addtl_celebs_2_4,0,100,,,,,p5_,,1,5,highest,0,All Players,0,0
+466,injured_pain_clown,100,5,,,,,,,1,5,medium,0,All Players,0,0
+467,quest_return_generic,30,100,,,,,,,1,5,highest,0,All Players,0,0
+468,quest_return_noparts,30,100,,,,,,,1,5,highest,0,All Players,0,0
+469,extra_willard_2,0,100,,,,,,,1,5,highest,0,All Players,0,0
+470,extra_willard_3,0,100,,,,,,,1,5,highest,0,All Players,0,0
+471,extra_willard_4,0,100,,,,,,,1,5,highest,0,All Players,0,0

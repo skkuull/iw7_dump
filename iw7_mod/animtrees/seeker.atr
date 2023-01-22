@@ -1,0 +1,44 @@
+seeker
+{
+	seeker_head
+	{
+		//blank intentionally
+	}
+	equip_seeker_idle
+	equip_seeker_walk_forward
+	equip_seeker_traverse
+	equip_seeker_death
+	equip_seeker_jump_f
+	equip_seeker_attack_front01
+	equip_seeker_attack_loop01
+	equip_seeker_attack_left01
+	equip_seeker_attack_right01
+	equip_seeker_throw01
+	equip_seeker_traverse_jumpup
+	equip_seeker_traverse_midair
+	equip_seeker_traverse_jumpdown
+	equip_seeker_attack_back01
+	equip_seeker_attack_loopback01
+	equip_seeker_traverse_midair_down
+	equip_seeker_grav_grenade_rise01
+	equip_seeker_grav_grenade_loop01
+	equip_seeker_grav_grenade_fall01
+	equip_seeker_attack_c6_front01
+	equip_seeker_attack_c6_loop01
+	equip_seeker_attack_c6_left01
+	equip_seeker_attack_c6_right01
+	equip_seeker_attack_c6_back01
+	equip_seeker_attack_c6_back01_loop
+	equip_seeker_civ_attack_front01
+	equip_seeker_civ_attack_loop01
+	equip_seeker_civ_attack_left01
+	equip_seeker_civ_attack_right01
+	equip_seeker_civ_attack_back01
+	equip_seeker_civ_attack_loopback01
+	equip_seeker_aquire_target
+	equip_seeker_attack_seeker
+	equip_seeker_attack_lose_seeker
+	equip_seeker_attack_win_seeker
+	equip_seeker_detonate
+	equip_seeker_facegrab
+}

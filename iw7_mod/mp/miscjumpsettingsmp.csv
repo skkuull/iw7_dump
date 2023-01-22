@@ -1,0 +1,5 @@
+jump_height,39,25,45,39,39,39,39
+jump_slowdownEnable,0,0,0,0,0,0,0
+sprintLeap_forwardVelocityScale,0.3,0.2,0.4,0.3,0.3,0.3,0.3
+sprintLeap_height,50,35,50,50,50,50,50
+sprintLeap_minSprintTimeMs,300,300,300,300,300,300,300

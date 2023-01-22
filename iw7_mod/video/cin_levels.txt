@@ -1,0 +1,19 @@
+
+// You can specify particular movies to play for particular maps
+// by using a line like this per map:
+// getmapname <name_of_map> strcmp ! if <name_of_movie_to_play> play then
+
+com_loadingSavegame getdvar
+0 strcmp !
+if
+	// We're not loading a save game
+
+	// See if the current map is europa, if so play europa specific load movie
+	getmapname europa strcmp !
+
+	if
+		europa_load play
+	then
+		blackframe_short play
+then
+	blackframe_short play

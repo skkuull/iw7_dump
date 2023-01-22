@@ -1,0 +1,550 @@
+body
+{
+	//---------------------------------
+	// scripted sequences
+	//---------------------------------
+	scripted
+	{
+		// IW7
+		rogue_asteroid
+		{
+			c6_asteroid_poweroff_idle
+			c6_asteroid_poweroff_idle_looping
+		}
+		
+		moon
+		{
+			moon_coastguard_c8_death_c8
+			moon_c8_intro_c8
+		}
+		
+		mars
+		{
+			// Greenhouse Entrances
+			mars_engineer_gate_c8_jumpdown_01
+			mars_engineer_gate_c8_jumpdown_02
+			
+			// AA2 Entrances
+			mars_aa2_c8_jumpdown_01
+			mars_aa2_c8_jumpdown_02
+			
+			//Spacing moment anims
+			mars_yard_space_suction_C8_01
+			mars_yard_space_suction_C8_02
+			
+			//Mac death anims
+			mars_10_25_mac_death_C8_scene_A
+			mars_10_25_mac_death_C8_struggle_idle
+			mars_10_25_mac_death_C8_scene_B
+			mars_10_25_mac_death_C8_scene_C
+			mars_10_25_mac_death_C8_scene_D
+			mars_10_25_mac_death_C8_explosion_death
+			
+			// C8 Droppod
+			mars_droppod_c8_fall
+		}
+		
+		c8_grnd_org_traversals_moon_stair_down
+		c8_grnd_org_traversals_moon_stair_up
+		c8_grnd_org_traversals_moon_stair_down_short
+		c8_grnd_org_traversals_moon_stair_up_short
+	}
+	
+	stand_and_crouch	// standing and crouching, not crawling
+	{
+		walk_and_run_loops : loopsync
+		{
+			crouchrun
+			{
+				c6_grnd_red_crouch_fastwalk_forward_ar
+				c6_grnd_red_crouch_fastwalk_back_ar
+				c6_grnd_red_crouch_fastwalk_left_ar
+				c6_grnd_red_crouch_fastwalk_right_ar
+			}
+			
+			combatrun
+			{
+				combatrun_forward
+				{
+					c8_grnd_org_walk_1
+					c8_grnd_org_walk_2
+					c8_grnd_org_walk_3
+					c8_grnd_org_walk_4
+					c8_grnd_org_walk_6
+					c8_grnd_org_walk_7
+					c8_grnd_org_walk_8
+					c8_grnd_org_walk_9
+					
+					c8_grnd_org_run_forward
+					c8_grnd_org_walk_forward
+				}
+				
+				combatrun_backward
+				{				
+					c6_grnd_red_walk_backward_ar
+					c6_grnd_org_combatwalk_b_ar
+				}
+				
+				combatrun_left
+				{				
+					c6_grnd_red_walk_left_ar
+				}
+				
+				combatrun_right
+				{				
+					c6_grnd_red_walk_right_ar
+				}
+			}
+		}
+		
+		w_aim_2 : additive
+		{
+			c6_grnd_red_walk_aim_2_ar
+		}
+		
+		w_aim_4 : additive
+		{
+			c6_grnd_red_walk_aim_4_ar
+		}
+		
+		w_aim_6 : additive
+		{
+			c6_grnd_red_walk_aim_6_ar
+		}
+		
+		w_aim_8 : additive
+		{
+			c6_grnd_red_walk_aim_8_ar
+		}
+		
+		w_aim_5 : additive
+		{
+		}
+		
+	}
+	
+	exposed_modern
+	{
+		exposed_aiming
+		{
+			c8_grnd_org_exposed_aim_5_ar
+			
+			aim_4 : additive
+			{
+				//c8_grnd_org_exposed_aim_4_ar				
+			}
+			
+			aim_6 : additive
+			{
+				//c8_grnd_org_exposed_aim_6_ar
+			}
+			
+			aim_2 : additive
+			{
+				//c8_grnd_org_exposed_aim_2_ar
+			}
+			
+			aim_8 : additive
+			{
+				//c8_grnd_org_exposed_aim_8_ar
+			}
+			
+			turn
+			{
+				c8_grnd_org_exposed_crouch_turn_2l
+				c8_grnd_org_exposed_crouch_turn_2r
+				c8_grnd_org_exposed_crouch_turn_4
+				c8_grnd_org_exposed_crouch_turn_6
+
+				c8_grnd_org_exposed_turn_1
+				c8_grnd_org_exposed_turn_2l
+				c8_grnd_org_exposed_turn_2r
+				c8_grnd_org_exposed_turn_3
+				c8_grnd_org_exposed_turn_4
+				c8_grnd_org_exposed_turn_6
+				c8_grnd_org_exposed_turn_7
+				c8_grnd_org_exposed_turn_8
+				c8_grnd_org_exposed_turn_9
+			}
+			
+			add_idle : additive
+			{
+				c8_grnd_org_exposed_idle_alert01
+				c8_grnd_org_exposed_idle_alert02
+				c8_grnd_org_exposed_idle_alert03
+				c8_grnd_org_exposed_crouch_idle_alert01
+				c8_grnd_org_exposed_crouch_idle_alert02
+				c8_grnd_org_exposed_crouch_idle_alert03
+			}
+		}	
+		
+		reload
+		{
+		}
+
+		c8_grnd_org_exposed_grenade
+		c8_grnd_org_exposed_shoot_grenade_front
+		
+		c8_grnd_org_run_turn_1l	
+		c8_grnd_org_run_turn_2l
+		c8_grnd_org_run_turn_3l
+		c8_grnd_org_run_turn_4l
+		c8_grnd_org_run_turn_6l	
+		c8_grnd_org_run_turn_7l			
+		c8_grnd_org_run_turn_9l			
+		c8_grnd_org_run_turn_1r	
+		c8_grnd_org_run_turn_2r
+		c8_grnd_org_run_turn_3r
+		c8_grnd_org_run_turn_4r
+		c8_grnd_org_run_turn_6r			
+		c8_grnd_org_run_turn_7r		
+		c8_grnd_org_run_turn_9r
+
+		c8_grnd_org_walk_turn_1l	
+		c8_grnd_org_walk_turn_2l
+		c8_grnd_org_walk_turn_3l
+		c8_grnd_org_walk_turn_4l
+		c8_grnd_org_walk_turn_6l	
+		c8_grnd_org_walk_turn_7l			
+		c8_grnd_org_walk_turn_9l			
+		c8_grnd_org_walk_turn_1r	
+		c8_grnd_org_walk_turn_2r
+		c8_grnd_org_walk_turn_3r
+		c8_grnd_org_walk_turn_4r
+		c8_grnd_org_walk_turn_6r			
+		c8_grnd_org_walk_turn_7r		
+		c8_grnd_org_walk_turn_9r
+
+		c8_grnd_org_exposed_crouch_to_stand
+		c8_grnd_org_exposed_stand_to_crouch
+		
+		c8_grnd_org_walk_1_stop_R
+		c8_grnd_org_walk_2_stop_R
+		c8_grnd_org_walk_3_stop_R
+		c8_grnd_org_walk_4_stop_R
+		c8_grnd_org_walk_6_stop_R
+		c8_grnd_org_walk_7_stop_R
+		c8_grnd_org_walk_8_stop_R
+		c8_grnd_org_walk_9_stop_R
+		
+		c8_grnd_org_walk_1_stop_L
+		c8_grnd_org_walk_2_stop_L
+		c8_grnd_org_walk_3_stop_L
+		c8_grnd_org_walk_4_stop_L
+		c8_grnd_org_walk_6_stop_L
+		c8_grnd_org_walk_7_stop_L
+		c8_grnd_org_walk_8_stop_L
+		c8_grnd_org_walk_9_stop_L
+		
+		
+		c8_grnd_org_walk_1_start
+		c8_grnd_org_walk_2_start
+		c8_grnd_org_walk_3_start
+		c8_grnd_org_walk_4_start
+		c8_grnd_org_walk_6_start
+		c8_grnd_org_walk_7_start
+		c8_grnd_org_walk_8_start
+		c8_grnd_org_walk_9_start
+		
+		c8_grnd_org_exposed_arrival_l_2
+		c8_grnd_org_exposed_arrival_l_4
+		c8_grnd_org_exposed_arrival_l_6
+		c8_grnd_org_exposed_arrival_l_8
+		c8_grnd_org_exposed_arrival_l_1
+		c8_grnd_org_exposed_arrival_l_3
+		c8_grnd_org_exposed_arrival_l_7
+		c8_grnd_org_exposed_arrival_l_9
+		c8_grnd_org_exposed_arrival_r_2
+		c8_grnd_org_exposed_arrival_r_4
+		c8_grnd_org_exposed_arrival_r_6
+		c8_grnd_org_exposed_arrival_r_8
+		c8_grnd_org_exposed_arrival_r_1
+		c8_grnd_org_exposed_arrival_r_3
+		c8_grnd_org_exposed_arrival_r_7
+		c8_grnd_org_exposed_arrival_r_9
+		c8_grnd_org_exposed_crouch_arrival_l_2
+		c8_grnd_org_exposed_crouch_arrival_l_4
+		c8_grnd_org_exposed_crouch_arrival_l_6
+		c8_grnd_org_exposed_crouch_arrival_l_8
+		c8_grnd_org_exposed_crouch_arrival_l_1
+		c8_grnd_org_exposed_crouch_arrival_l_3
+		c8_grnd_org_exposed_crouch_arrival_l_7
+		c8_grnd_org_exposed_crouch_arrival_l_9		
+		c8_grnd_org_exposed_crouch_arrival_r_2
+		c8_grnd_org_exposed_crouch_arrival_r_4
+		c8_grnd_org_exposed_crouch_arrival_r_6
+		c8_grnd_org_exposed_crouch_arrival_r_8
+		c8_grnd_org_exposed_crouch_arrival_r_1
+		c8_grnd_org_exposed_crouch_arrival_r_3
+		c8_grnd_org_exposed_crouch_arrival_r_7
+		c8_grnd_org_exposed_crouch_arrival_r_9		
+		c8_grnd_org_exposed_crouch_exit_4
+		c8_grnd_org_exposed_crouch_exit_6
+		c8_grnd_org_exposed_crouch_exit_8
+		c8_grnd_org_exposed_crouch_exit_2
+		c8_grnd_org_exposed_crouch_exit_1
+		c8_grnd_org_exposed_crouch_exit_3
+		c8_grnd_org_exposed_crouch_exit_7
+		c8_grnd_org_exposed_crouch_exit_9
+		c8_grnd_org_exposed_exit_4
+		c8_grnd_org_exposed_exit_6
+		c8_grnd_org_exposed_exit_8
+		c8_grnd_org_exposed_exit_2
+		c8_grnd_org_exposed_exit_1
+		c8_grnd_org_exposed_exit_3
+		c8_grnd_org_exposed_exit_7
+		c8_grnd_org_exposed_exit_9
+
+		c8_grnd_org_exposed_walk_arrival_l_1
+		c8_grnd_org_exposed_walk_arrival_l_2
+		c8_grnd_org_exposed_walk_arrival_l_3
+		c8_grnd_org_exposed_walk_arrival_l_4
+		c8_grnd_org_exposed_walk_arrival_l_6
+		c8_grnd_org_exposed_walk_arrival_l_7
+		c8_grnd_org_exposed_walk_arrival_l_8
+		c8_grnd_org_exposed_walk_arrival_l_9
+		c8_grnd_org_exposed_walk_arrival_r_1
+		c8_grnd_org_exposed_walk_arrival_r_2
+		c8_grnd_org_exposed_walk_arrival_r_3
+		c8_grnd_org_exposed_walk_arrival_r_4
+		c8_grnd_org_exposed_walk_arrival_r_6
+		c8_grnd_org_exposed_walk_arrival_r_7
+		c8_grnd_org_exposed_walk_arrival_r_8
+		c8_grnd_org_exposed_walk_arrival_r_9
+		c8_grnd_org_exposed_walk_exit_1
+		c8_grnd_org_exposed_walk_exit_2
+		c8_grnd_org_exposed_walk_exit_3
+		c8_grnd_org_exposed_walk_exit_4
+		c8_grnd_org_exposed_walk_exit_6
+		c8_grnd_org_exposed_walk_exit_7
+		c8_grnd_org_exposed_walk_exit_8
+		c8_grnd_org_exposed_walk_exit_9
+
+		c8_grnd_org_walk_backward
+		c8_grnd_org_exposed_walk_backward_exit_2
+		c8_grnd_org_exposed_walk_arrival_backward_l_8
+		c8_grnd_org_exposed_walk_arrival_backward_r_8
+
+		c8_grnd_org_walk_left
+		c8_grnd_org_walk_right
+
+		c8_grnd_org_run_forward_enter
+		c8_grnd_org_run_forward_exit
+
+		c8_grnd_org_exposed_shield_plant_lower
+	}
+	
+	melee
+	{
+		c8_grnd_org_exposed_melee_bash_forward
+		c8_grnd_org_exposed_melee_bash_l
+		c8_grnd_org_exposed_melee_bash_r
+	}
+	
+	cover
+	{
+	}
+	
+	death
+	{
+		c8_grnd_org_exposed_death_back_01
+		c8_grnd_org_exposed_death_back_02
+		c8_grnd_org_exposed_death_forward_01
+		c8_grnd_org_exposed_death_forward_02
+		c8_grnd_org_exposed_death_left
+		c8_grnd_org_exposed_death_right
+		c8_grnd_org_exposed_death_stay
+
+		c8_grnd_org_exposed_crouch_death_back_01
+		c8_grnd_org_exposed_crouch_death_forward_01
+		c8_grnd_org_exposed_crouch_death_left
+		c8_grnd_org_exposed_crouch_death_right
+		c8_grnd_org_exposed_crouch_death_stay
+	}
+
+	dismember
+	{
+	}
+	
+	pain
+	{
+		c8_grnd_org_exposed_crouch_pain_back
+		c8_grnd_org_exposed_crouch_pain_front
+		c8_grnd_org_exposed_crouch_pain_l
+		c8_grnd_org_exposed_crouch_pain_r
+
+		c8_grnd_org_exposed_pain_back
+		c8_grnd_org_exposed_pain_front
+		c8_grnd_org_exposed_pain_l
+		c8_grnd_org_exposed_pain_r
+		c8_grnd_org_exposed_pain_small_back
+		c8_grnd_org_exposed_pain_small_front
+		c8_grnd_org_exposed_pain_small_l
+		c8_grnd_org_exposed_pain_small_r
+
+		c8_grnd_org_exposed_pain_stun_loop
+
+		c8_grnd_org_exposed_emp_react_01
+		c8_grnd_org_exposed_emp_react_02
+		c8_grnd_org_exposed_emp_react_03
+	}
+	
+	poweroff
+	{
+		c6_grnd_red_exposed_poweroff_ar
+		c6_grnd_red_exposed_poweroff_emp_ar		
+		c6_grnd_red_exposed_crouch_poweroff_ar		
+		c6_grnd_red_exposed_crouch_poweroff_emp_ar		
+		c6_grnd_red_exposed_poweroff_02_emp_ar		
+		c6_grnd_red_exposed_poweroff_02_ar	
+		c6_grnd_red_cover_stand_poweroff_emp_ar		
+		c6_grnd_red_cover_stand_poweroff_ar	
+		c6_grnd_red_cover_crouch_poweroff_emp_ar	
+		c6_grnd_red_cover_crouch_poweroff_ar
+		c6_grnd_red_exposed_poweroff_03_ar		
+		c6_grnd_red_exposed_poweroff_03_emp_ar		
+	}		
+		
+	poweron
+	{		
+		c6_grnd_red_exposed_poweron_ar		
+		c6_grnd_red_exposed_poweron_02_ar		
+		c6_grnd_red_exposed_crouch_poweron_ar
+		c6_grnd_red_cover_stand_poweron_ar		
+		c6_grnd_red_cover_crouch_poweron_ar	
+		c6_grnd_red_exposed_poweron_03_ar		
+	}	
+	
+	gravity_grenade
+	{
+		c8_zg_org_grav_grenade_fall01_ar
+		c8_zg_org_grav_grenade_loop01_ar
+		c8_zg_org_grav_grenade_rise01_ar
+	}
+
+
+	// mp required animation used for aiming & shooting.
+	iw7_cp_c6_stand_idle
+
+	// mp specific additive aim anims that are used when standing
+	stand_aim : additive
+	{
+		iw7_cp_c6_stand_idle_aim1
+		iw7_cp_c6_stand_idle_aim2
+		iw7_cp_c6_stand_idle_aim3
+		iw7_cp_c6_stand_idle_aim4
+		iw7_cp_c6_stand_idle_aim6
+		iw7_cp_c6_stand_idle_aim7
+		iw7_cp_c6_stand_idle_aim8
+		iw7_cp_c6_stand_idle_aim9
+	}	
+
+	// mp specific additive aim anims that are used when strafing 
+	strafe_aim : additive
+	{
+		iw7_cp_c6_stand_strafe_aim1
+		iw7_cp_c6_stand_strafe_aim2
+		iw7_cp_c6_stand_strafe_aim3
+		iw7_cp_c6_stand_strafe_aim4
+		iw7_cp_c6_stand_strafe_aim6
+		iw7_cp_c6_stand_strafe_aim7
+		iw7_cp_c6_stand_strafe_aim8
+		iw7_cp_c6_stand_strafe_aim9
+	}	
+}	// end body
+
+upper_body : additive	// heavyweight
+{
+	c8_grnd_org_exposed_aim_torso_l_ar
+	c8_grnd_org_exposed_aim_torso_r_ar
+}
+
+shield_upper	// not using this right now
+{
+	c8_grnd_org_exposed_aim_shield_upper_5_ar
+}
+
+shield_upper_aim_4 : additive
+{
+	c8_grnd_org_exposed_aim_shield_upper_4_ar
+}
+shield_upper_aim_6 : additive
+{
+	c8_grnd_org_exposed_aim_shield_upper_6_ar
+	c8_grnd_org_exposed_aim_shield_upper_side_6_ar
+}
+shield_upper_aim_8 : additive
+{
+	c8_grnd_org_exposed_aim_shield_upper_8_ar
+}
+
+shield_lower	// not using this right now
+{
+	c8_grnd_org_exposed_aim_shield_lower_5_ar
+}
+shield_lower_aim_4 : additive
+{
+	c8_grnd_org_exposed_aim_shield_lower_4_ar
+}
+shield_lower_aim_6 : additive
+{
+	c8_grnd_org_exposed_aim_shield_lower_6_ar
+	c8_grnd_org_exposed_aim_shield_lower_side_6_ar
+}
+shield_lower_aim_2 : additive
+{
+	c8_grnd_org_exposed_aim_shield_lower_2_ar
+}
+
+gun_arm_28 : additive
+{
+	c8_grnd_org_exposed_aim_gun_up_ar
+	c8_grnd_org_exposed_aim_gun_down_ar
+}
+
+gun_arm_46 : additive
+{
+	c8_grnd_org_exposed_aim_gun_L_ar
+	c8_grnd_org_exposed_aim_gun_R_ar
+}
+
+test_aim_2 : additive
+{
+	c8_grnd_org_exposed_aim_2_ar
+}
+test_aim_4 : additive
+{
+	c8_grnd_org_exposed_aim_4_ar
+}
+test_aim_6 : additive
+{
+	c8_grnd_org_exposed_aim_6_ar
+}
+test_aim_8 : additive
+{
+	c8_grnd_org_exposed_aim_8_ar
+}
+add_fire : additive
+{
+	c6_grnd_red_exposed_shoot_auto_01_ar
+	c6_grnd_red_exposed_shoot_auto_02_ar
+}
+
+add_shield
+{
+	c8_grnd_org_exposed_shield_lower_open
+	c8_grnd_org_exposed_shield_lower_close
+	c8_grnd_org_exposed_shield_upper_open
+	c8_grnd_org_exposed_shield_upper_close
+}
+
+
+scripted_talking
+{
+	c6_grnd_red_generic_talker_ar
+}
+
+head
+{
+
+}

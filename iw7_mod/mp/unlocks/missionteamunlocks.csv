@@ -1,0 +1,10 @@
+0,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,1,,level.mp,player,>=,0,OR,playerdata.mp,rankedMatchData.progression.playerLevel.prestige,>=,1
+1,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,15,,level.mp,player,>=,14,OR,playerdata.mp,rankedMatchData.progression.playerLevel.prestige,>=,1
+2,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,30,,level.mp,player,>=,29,OR,playerdata.mp,rankedMatchData.progression.playerLevel.prestige,>=,1
+3,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,45,,level.mp,player,>=,44,OR,playerdata.mp,rankedMatchData.progression.playerLevel.prestige,>=,1
+4,LUA_MENU_MP_UNLOCKED_AT_PRESTIGE_LEVEL,1,,playerdata.mp,rankedMatchData.progression.playerLevel.prestige,>=,1,,,,,
+advanced_missions_0,,,,playerdata.mp,rankedMatchData.missionTeams.0.level,>=,2,,,,,
+advanced_missions_1,,,,playerdata.mp,rankedMatchData.missionTeams.1.level,>=,2,,,,,
+advanced_missions_2,,,,playerdata.mp,rankedMatchData.missionTeams.2.level,>=,2,,,,,
+advanced_missions_3,,,,playerdata.mp,rankedMatchData.missionTeams.3.level,>=,2,,,,,
+advanced_missions_4,,,,playerdata.mp,rankedMatchData.missionTeams.4.level,>=,2,,,,,

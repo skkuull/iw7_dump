@@ -1,0 +1,3 @@
+a0,b1,c2,d3,e4,f5,g6,h7,i8,j9,k10,l11,m12,n13,o14,p15,q16,r17,s18,t19,u20
+SDF,MENU_FACTION_SDF_SHORT,MENU_FACTION_SDF_SHORT,MP_FACTION_SDF_ELIMINATED,MP_FACTION_SDF_FORFEITED,icon_faction_sdf_bw,icon_faction_sdf_bw,MR_,mp_spawn_pmc,mp_victory_pmc,,,objpoint_flag_pmc,,0.35,0.7,0.9,hud_icon_faction_pacd_fx,com_plasticcase_pmc,com_deploy_pmc,ui_iw7_match_faction_sdf
+UNSA,MENU_FACTION_UNSA_SHORT,MENU_FACTION_UNSA_SHORT,MP_FACTION_UNSA_ELIMINATED,MP_FACTION_UNSA_FORFEITED,icon_faction_unsa_bw,icon_faction_unsa_bw,U1_,mp_spawn_delta,mp_victory_delta,,,objpoint_flag_delta,,0.35,0.7,0.9,hud_icon_faction_sato_fx,com_plasticcase_delta,com_deploy_delta,ui_iw7_match_faction_unsa

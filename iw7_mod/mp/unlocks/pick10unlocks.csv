@@ -1,0 +1,16 @@
+extra_tactical,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,1,,level.mp,player,>=,0,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+extra_primary_weapon,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,1,,level.mp,player,>=,0,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+extra_perk_1,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,6,,level.mp,player,>=,5,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+extra_perk_2,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,9,,level.mp,player,>=,8,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+primary_attachment_4,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,13,,level.mp,player,>=,12,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+extra_perk_3,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,19,,level.mp,player,>=,18,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+secondary_attachment_4,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,24,,level.mp,player,>=,23,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+primary_attachment_5,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,27,,level.mp,player,>=,26,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+extra_lethal,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,32,,level.mp,player,>=,31,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+secondary_attachment_5,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,34,,level.mp,player,>=,33,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+primary_attachment_6,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,39,,level.mp,player,>=,38,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+extra_primary_attachment_1,,,,system,gamemode,!=,MP,,,,,,,,,,
+extra_primary_attachment_2,,,,system,gamemode,!=,MP,,,,,,,,,,
+extra_primary_attachment_3,,,,system,gamemode,!=,MP,,,,,,,,,,
+extra_secondary_attachment_1,,,,system,gamemode,!=,MP,,,,,,,,,,
+extra_secondary_attachment_2,,,,system,gamemode,!=,MP,,,,,,,,,,

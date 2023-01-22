@@ -1,0 +1,53 @@
+bg_shock_screenType "blurred"
+// The amount of time in seconds for the shellshock effect to blend
+bg_shock_screenBlurBlendTime "0.25"
+// The amount of time in seconds for the shellshock effect to fade
+bg_shock_screenBlurBlendFadeTime "0.25"
+// In seconds, how soon from the end of the effect to start blending out the whiteout layer.
+bg_shock_screenFlashWhiteFadeTime "1."
+// In seconds, how soon from the end of the effect to start blending out the screengrab layer.
+bg_shock_screenFlashShotFadeTime "0.05"
+
+// The period of the shellshock view kick effect
+bg_shock_viewKickPeriod ".125"
+// Shell shock kick radius
+bg_shock_viewKickRadius "0.99"
+// The time for the shellshock kick effect to fade
+bg_shock_viewKickFadeTime "2"
+
+// Play shell shock sound
+bg_shock_sound "1"
+// Shellshock loop alias
+bg_shock_soundLoop "flashbang_tinnitus_loop"
+// The sound that gets blended with the shellshock loop alias
+bg_shock_soundLoopSilent "flashbang_tinnitus_loop_silent"
+// Shellshock end sound alias
+bg_shock_soundEnd "flashbang_tinnitus_end"
+// Shellshock aborted end sound alias
+bg_shock_soundEndAbort "flashbang_tinnitus_abort"
+
+// Shell shock sound fade in time in seconds
+bg_shock_soundFadeInTime "0.5"
+// Shell shock sound fade out time in seconds
+bg_shock_soundFadeOutTime "1.25"
+// Shell shock sound loop fade time in seconds
+bg_shock_soundLoopFadeTime "1.25"
+// Sound loop end offset time from the end of the shellshock in seconds
+bg_shock_soundLoopEndDelay "-1.25"
+
+// Shell shock sound audio zone
+bg_shock_soundAudioZone "chargemode_mp_shock"
+// The delay from the end of the shell shock to the end of the sound modification
+bg_shock_soundModEndDelay "0.1"
+
+// Alter player control during shellshock
+bg_shock_lookControl "0"
+// Maximum pitch movement rate while shellshocked in degrees per second
+bg_shock_lookControl_maxpitchspeed "57"
+// Maximum yaw movement rate while shell shocked in degrees per second
+bg_shock_lookControl_maxyawspeed "57"
+// Sensitivity scale to apply to a shellshocked player
+bg_shock_lookControl_mousesensitivityscale "0.01"
+bg_shock_lookControl_fadeTime "3"
+
+bg_shock_movement "0"

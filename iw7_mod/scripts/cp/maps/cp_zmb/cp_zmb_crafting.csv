@@ -1,0 +1,13 @@
+1,zmb_coin_alien,cp_zmb_coin_alien
+2,zmb_coin_space,cp_zmb_coin_space
+3,zmb_coin_ice,cp_zmb_coin_ice
+100,crafted_boombox,zmb_coin_alien zmb_coin_alien zmb_coin_ice 
+101,crafted_autosentry,zmb_coin_space zmb_coin_space zmb_coin_space
+102,crafted_revocator,zmb_coin_ice zmb_coin_ice zmb_coin_ice
+103,crafted_windowtrap,zmb_coin_space zmb_coin_space zmb_coin_alien
+104,crafted_medusa,zmb_coin_alien zmb_coin_alien zmb_coin_alien
+105,crafted_ims,zmb_coin_alien zmb_coin_alien zmb_coin_space
+106,crafted_electric_trap,zmb_coin_space zmb_coin_space zmb_coin_ice
+107,crafted_gascan,zmb_coin_space zmb_coin_ice zmb_coin_alien
+108,crafted_autosentry,zmb_coin_alien zmb_coin_ice zmb_coin_ice
+109,crafted_boombox,zmb_coin_ice zmb_coin_ice zmb_coin_space

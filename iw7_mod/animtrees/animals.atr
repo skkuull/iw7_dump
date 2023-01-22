@@ -1,0 +1,88 @@
+pigeon_idle
+pigeon_idle_twitch_1
+pigeon_flying_cycle
+
+pigeon_flock_fly_loop
+pigeon_flock_takeoff_wire
+pigeon_flock_land_wire
+pigeon_flock_takeoff_ground
+pigeon_flock_land_ground
+pigeon_flock_takeoff_inpipe
+pigeon_flock_land_inpipe
+
+aml_gen_seagull_stand
+aml_gen_seagull_takeoff01
+aml_gen_seagull_fly_flap_hard
+aml_gen_seagull_fly_glide01
+aml_gen_seagull_fly_flap01
+
+sardines_flock_loop
+sardines_flock_spin
+{
+	sardines_flock_spinloop
+	sardines_flock_spinloop_fast
+	sardines_flock_spinloop_faster
+}
+
+sardines_flock_add_left60_add		 : additive
+{
+	sardines_flock_add_left60
+}
+
+sardines_flock_add_right60_add		 : additive
+{
+	sardines_flock_add_right60		 
+}
+
+sardines_flock_add_stretch_horiz_add : additive
+{
+	sardines_flock_add_stretch_horiz 
+}
+
+sardines_flock_add_tilt_left_add	 : additive
+{
+	sardines_flock_add_tilt_left	 
+}
+
+sardines_flock_add_tilt_right_add	 : additive
+{
+	sardines_flock_add_tilt_right	 
+}
+
+sardines_flock_add_rotate_left_add	 : additive
+{
+	sardines_flock_add_rotate_left	 
+}
+
+sardines_flock_add_rotate_right_add	 : additive
+{
+	sardines_flock_add_rotate_right	 
+}
+
+sardines_smallgroup_loop1
+
+deer
+{
+	deer_death_iw6
+	deer_idle
+	deer_idle_iw6
+	deer_idle_twitch
+	deer_run
+	deer_run_iw6
+	deer_walk
+}	
+
+bannerfish_idle1
+bannerfish_idle_fast
+bannerfish_flee_straight
+bannerfish_flee_left
+bannerfish_flee_right
+bannerfish_turn_left : additive
+{
+	bannerfish_turn_left_add
+}
+
+bannerfish_turn_right : additive
+{
+	bannerfish_turn_right_add
+}

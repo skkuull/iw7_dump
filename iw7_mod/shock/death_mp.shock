@@ -1,0 +1,31 @@
+bg_shock_screenType "0"
+bg_shock_screenBlurBlendTime "0.4"
+bg_shock_screenBlurBlendFadeTime "1"
+bg_shock_screenFlashWhiteFadeTime "0"
+bg_shock_screenFlashShotFadeTime "0"
+
+bg_shock_viewKickPeriod ".75"
+bg_shock_viewKickRadius ".05"
+bg_shock_viewKickFadeTime "1.5"
+
+bg_shock_sound "0"
+bg_shock_soundLoop "flashbang_tinnitus_loop"
+bg_shock_soundLoopSilent "flashbang_tinnitus_loop_silent"
+bg_shock_soundEnd "flashbang_tinnitus_end"
+bg_shock_soundEndAbort "flashbang_tinnitus_abort"
+
+bg_shock_soundFadeInTime "1.5"
+bg_shock_soundFadeOutTime "2.0"
+bg_shock_soundModEndDelay "0.25"
+bg_shock_soundLoopFadeTime "2"
+bg_shock_soundLoopEndDelay "2.0"
+
+bg_shock_soundAudioZone "death_mp_shock"
+
+bg_shock_lookControl "1"
+bg_shock_lookControl_maxpitchspeed "90"
+bg_shock_lookControl_maxyawspeed "90"
+bg_shock_lookControl_mousesensitivityscale "0.5"
+bg_shock_lookControl_fadeTime "2"
+
+bg_shock_movement "0"

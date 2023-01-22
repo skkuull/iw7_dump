@@ -1,0 +1,14 @@
+0,torsoUpper,17,# 0, 4
+1,torsoLower,2,# 1
+2,head,8,# 3
+3,leftArmUpper,32,# 5
+4,leftArmLower,64,# 6
+5,leftHand,128,# 7
+6,rightArmUpper,256,# 8
+7,rightArmLower,512,# 9
+8,rightHand,1024,# 10
+9,leftLegUpper,2048,# 11
+10,leftLegLower,12288,# 12, 13
+11,rightLegUpper,16384,#14
+12,rightLegLower,98304,# 15, 16
+14,other,393220,# 17, 18, 2

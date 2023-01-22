@@ -1,0 +1,6 @@
+uav,,,,system,gamemode,!=,MP
+dronedrop,,,,system,gamemode,!=,MP
+counter_uav,,,,system,gamemode,!=,MP
+ball_drone_backup,,,,system,gamemode,!=,MP
+sentry_shock,,,,system,gamemode,!=,MP
+directional_uav,,,,system,gamemode,!=,MP

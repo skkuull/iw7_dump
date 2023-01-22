@@ -1,0 +1,10 @@
+power_spiderGrenade,,,,system,gamemode,!=,MP
+power_splashGrenade,,,,system,gamemode,!=,MP
+power_tripMine,,,,system,gamemode,!=,MP
+power_explodingDrone,,,,system,gamemode,!=,MP
+power_blackholeGrenade,,,,system,gamemode,!=,MP
+power_c4,,,,system,gamemode,!=,MP
+power_periphVis,,,,system,gamemode,!=,MP
+power_domeshield,,,,system,gamemode,!=,MP
+power_cryoMine,,,,system,gamemode,!=,MP
+power_adrenaline,,,,system,gamemode,!=,MP

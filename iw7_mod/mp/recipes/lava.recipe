@@ -1,0 +1,15 @@
+gametype = lava
+commonOption.timeLimit = 10.000000
+commonOption.scoreLimit = 75
+commonOption.roundLimit = 1
+commonOption.winLimit = 0
+
+commonOption.allowKillstreaks = 1
+commonOption.allowPerks = 1
+commonOption.allowSupers = 1
+commonOption.forceRespawn = 1
+commonOption.showKillcam = 1
+commonOption.healthRegen = 3.000000
+commonOption.maxHealth = 100.000000
+commonOption.ffPunishLimit = 2
+commonOption.spectate3rdAllowed = 1

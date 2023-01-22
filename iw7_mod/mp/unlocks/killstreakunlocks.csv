@@ -1,0 +1,14 @@
+uav,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,1,,level.mp,player,>=,0,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+precision_airstrike,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,1,,level.mp,player,>=,0,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+jackal,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,1,,level.mp,player,>=,0,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+dronedrop,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,4,,level.mp,player,>=,3,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+venom,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,8,,level.mp,player,>=,7,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+thor,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,14,,level.mp,player,>=,13,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+bombardment,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,19,,level.mp,player,>=,18,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+counter_uav,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,24,,level.mp,player,>=,23,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+remote_c8,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,27,,level.mp,player,>=,26,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+minijackal,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,30,,level.mp,player,>=,29,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+sentry_shock,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,34,,level.mp,player,>=,33,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+ball_drone_backup,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,39,,level.mp,player,>=,38,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+drone_hive,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,46,,level.mp,player,>=,45,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0
+directional_uav,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,53,,level.mp,player,>=,52,OR,dvar,xblive_privatematch,==,1,OR,dvar,onlinegame,==,0

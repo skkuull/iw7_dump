@@ -1,0 +1,51 @@
+//==========================================================================
+// Odin scene
+// USAGE: \game\share\raw\mp\cinematic_camera\_usage.txt
+//==========================================================================
+
+// update the version only when code parser has changed
+<version> 4
+
+// slam zoom from owner's head
+<cut>
+<movement> pan
+<orientation> target
+<tag_start> tag_eye
+<tag_start_pitch> 90
+<tag_start_range> 10
+<tag_end> tag_player
+<tag_end_range> 40
+<tag_focus> tag_player
+<tag_focus_range> 30
+<pan_focus_supporting_actor> 0
+<collision> 0
+<time> 0.6
+
+// flash from zoom to high up in the sky
+<vision>
+<vision_start_time> 1.0
+<vision_name> "coup_sunblind"
+<vision_blend_duration> 200
+
+<vision>
+<vision_start_time> 1.0
+<vision_name> ""
+<vision_blend_duration> 450
+
+// blur out as we zoom out
+<dof>
+<dof_start_time> 0
+<dof_blend_duration> 0
+<dof_far_start> 100
+<dof_far_end> 500
+<dof_far_blur> 1.5
+
+<sound>
+<sound_start_time> 0
+<sound_name> "odin_slamzoom_out"
+
+// fov out to the vehicle fov setting to simulate lens zoom
+//<fov>
+//<fov_start_time> 1
+//<fov_value> 110
+//<fov_blend_duration> 500

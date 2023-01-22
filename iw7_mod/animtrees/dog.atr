@@ -1,0 +1,123 @@
+body
+{
+	dog_idle_knob
+	{
+		iw6_dog_casualidle
+		iw6_dog_casualidle_turn_2
+		iw6_dog_casualidle_turn_4
+		iw6_dog_casualidle_turn_6
+
+		iw6_dog_attackidle
+		iw6_dog_attackidle_turn_2
+		iw6_dog_attackidle_turn_4
+		iw6_dog_attackidle_turn_6
+
+		iw6_dog_attackidle_bark
+
+
+		iw6_dog_sniff_idle
+	}
+
+	dog_move_turn
+	{
+		iw6_dog_run_turn_1
+		iw6_dog_run_turn_2
+		iw6_dog_run_turn_3
+		iw6_dog_run_turn_4
+		iw6_dog_run_turn_6
+		iw6_dog_run_turn_7
+		iw6_dog_run_turn_9
+
+		iw6_dog_run_quickturn_1
+		iw6_dog_run_quickturn_2
+		iw6_dog_run_quickturn_3
+		iw6_dog_run_quickturn_4
+		iw6_dog_run_quickturn_6
+		iw6_dog_run_quickturn_7
+		iw6_dog_run_quickturn_9
+
+	}
+
+	dog_move
+	{
+		dog_run : loopsync
+		{
+			iw6_dog_run
+			iw6_dog_sprint
+		}
+
+
+		dog_walk
+		{
+			iw6_dog_walk
+			iw6_dog_fastwalk
+		}
+
+		//iw6_dog
+
+		dog_arrival
+		{
+			iw6_dog_attackidle_runin_1
+			iw6_dog_attackidle_runin_2
+			iw6_dog_attackidle_runin_3
+			iw6_dog_attackidle_runin_4
+			iw6_dog_attackidle_runin_6
+			iw6_dog_attackidle_runin_7
+			iw6_dog_attackidle_runin_8
+			iw6_dog_attackidle_runin_9
+
+		}
+
+		dog_exit
+		{
+			iw6_dog_attackidle_runout_1
+			iw6_dog_attackidle_runout_2
+			iw6_dog_attackidle_runout_3
+			iw6_dog_attackidle_runout_4
+			iw6_dog_attackidle_runout_6
+			iw6_dog_attackidle_runout_7
+			iw6_dog_attackidle_runout_8
+			iw6_dog_attackidle_runout_9
+		}
+
+
+		dog_reaction
+		{
+			iw6_dog_alertidle_pain_4
+			iw6_dog_alertidle_pain_6
+			iw6_dog_run_pain_4
+			iw6_dog_run_pain_6
+		}
+
+	}
+
+	iw6_dog_death_4
+	iw6_dog_death_6
+
+	german_shepherd_run_attack_b
+	//german_shepherd_run_jump_40
+	//german_shepherd_run_jump_window_40
+	//german_shepherd_run_pain
+	german_shepherd_run_flashbang_b
+	//german_shepherd_traverse_down_40
+	//german_shepherd_traverse_up_40
+	german_shepherd_sleeping
+	german_shepherd_wakeup_slow
+	german_shepherd_wakeup_fast
+
+	iw6_dog_traverse_down_24
+	iw6_dog_traverse_over_24
+	iw6_dog_traverse_over_36
+	iw6_dog_traverse_up_24
+	iw6_dog_traverse_up_40
+	iw6_dog_traverse_down_40
+	iw6_dog_traverse_up_70
+	iw6_dog_traverse_down_70
+
+
+	iw6_dog_kill_back_quick_1
+	iw6_dog_kill_front_quick_1
+	iw6_dog_kill_left_quick_1
+	iw6_dog_kill_right_quick_1
+
+}

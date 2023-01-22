@@ -1,0 +1,9 @@
+a0,b1,c1,
+1,arkblue,alien_dpad_icon_ammo_stun,ZM_CONSUMABLES_STUN_AMMO
+2,arkgreen,weapon_gas_grenade_sm,ZM_CONSUMABLES_SLIME_AMMO
+3,arkyellow,alien_dpad_icon_ammo_explosive,ZM_CONSUMABLES_EXPLOSIVE_AMMO
+4,arkred,alien_icon_ammo_incendiary,ZM_CONSUMABLES_INCENDIARY_AMMO
+5,arkpink,alien_dpad_icon_ammo_piercing,ZM_CONSUMABLES_AP_AMMO
+6,kevin_head,hud_icon_zmb_challenge,
+7,kevin_battery,cp_zmb_robot_battery,
+8,tooth,cp_zmb_tooth,

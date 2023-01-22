@@ -1,0 +1,17 @@
+0,default,damage_feedback
+1,hitblastshield,damage_feedback_blastshield
+2,thermobaric_debuff,damage_feedback_thermodebuff
+3,hitjuggernaut,damage_feedback_juggernaut
+4,hitlightarmor,damage_feedback_lightarmor
+5,hitmorehealth,damage_feedback_morehealth
+6,hitmotionsensor,damage_feedback_motionsensor
+7,hitbulletstorm,damage_feedback_bulletstorm
+8,hitlifelink,damage_feedback_lifelink
+9,hithealthshield,damage_feedback_lifeboost
+10,hitlowdamage,damage_feedback_lowdamage
+11,hiticonarmorup,damage_feedback_icon_armorup
+12,hiticonempimmune,damage_feedback_icon_empimmune
+13,hiticontrophysystem,damage_feedback_trophy
+14,hittacresist,damage_feedback_tacresist
+15,hitequip,damage_feedback_equip
+16,hitspawnprotection,damage_feedback_spawn_protect

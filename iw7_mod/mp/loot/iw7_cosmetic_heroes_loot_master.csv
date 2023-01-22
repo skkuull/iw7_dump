@@ -1,0 +1,12 @@
+230000,Omar,4,hero,180,2880,1230000,WarfighterHero,N,Y,icon_head_warfighter_omar,CUSTOMIZE_WARFIGHTER_HERO,12,head_hero_mco_mp,mp_warfighter_body_mco,0
+230001,Reyes,4,hero,180,2880,1230001,MercHero,N,Y,icon_head_merc_reyes,CUSTOMIZE_MERC_HERO,12,mp_head_heavy_3_hero,mp_body_heavy_3_hero,0
+230002,Ethan,4,hero,180,2880,1230002,SynapticHero,N,Y,icon_head_synaptic_ethan,CUSTOMIZE_SYNAPTIC_HERO,12,mp_synaptic_ethan_head,mp_synaptic_ethan_body,0
+230003,Salter,4,hero,180,2880,1230003,FTLHero,N,Y,icon_head_ftl_salter,CUSTOMIZE_FTL_HERO,12,mp_ftl_hero_salter_head,mp_ftl_hero_salter_body,1
+230004,Price,4,hero,180,2880,1230004,StrykerHero,N,Y,icon_head_stryker_price,CUSTOMIZE_STRYKER_HERO,12,head_sc_price,mp_stryker_hero_price,0
+230005,Ghost,4,hero,180,2880,1230005,PhantomHero,N,Y,icon_head_ghost_ghost,CUSTOMIZE_GHOST_HERO,12,head_mp_ghost_ghost,body_mp_ghost_ghost,0
+230006,Warfighter_ZM,4,hero,10,250,1230006,WarfighterHero,N,Y,icon_head_warfighter_zombies,CUSTOMIZE_WARFIGHTER_HERO_ZM,15,mp_warfighter_head_zombies,mp_warfighter_body_zombies,0
+230007,Merc_ZM,4,hero,10,250,1230007,MercHero,N,Y,icon_head_merc_zombies,CUSTOMIZE_MERC_HERO_ZM,15,mp_head_heavy_brute,mp_body_heavy_3_brute,0
+230008,Synaptic_ZM,4,hero,10,250,1230008,SynapticHero,N,Y,icon_head_synaptic_zombies,CUSTOMIZE_SYNAPTIC_HERO_ZM,15,mp_synaptic_hero_kevin_head,mp_synaptic_hero_kevin_body,0
+230009,FTL_ZM,4,hero,10,250,1230009,FTLHero,N,Y,icon_head_ftl_zombies,CUSTOMIZE_FTL_HERO_ZM,15,mp_ftl_hero_valley_girl_head,mp_ftl_hero_valley_girl_body,1
+230010,Stryker_ZM,4,hero,180,2880,1230010,StrykerHero,N,Y,icon_head_stryker_zombies,CUSTOMIZE_STRYKER_HERO_ZM,15,mp_stryker_nerd_head,mp_stryker_nerd_body,0
+230011,Phantom_ZM,4,hero,180,2880,1230011,PhantomHero,N,Y,icon_head_ghost_zombies,CUSTOMIZE_GHOST_HERO_ZM,15,head_mp_ghost_zombies,body_mp_ghost_zombies,0

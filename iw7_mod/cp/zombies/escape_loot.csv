@@ -1,0 +1,12 @@
+a0,,b1,c2,d3,
+1,,kill_generic_zombie,1,ammo_max,
+2,,kill_traversal_zombie,1,ammo_max,
+101,1,kill_50,vfx/iw7/core/zombie/powerups/vfx_zom_powerup_nuke.vfx,cp_zmb_powerup_nuke,ZOMBIE_POWERUPS_NUKE
+102,2,cash_2,vfx/iw7/core/zombie/powerups/vfx_zom_powerup_money.vfx,cp_zmb_powerup_double_cash,ZOMBIE_POWERUPS_DOUBLE_CASH
+103,3,instakill_30,vfx/iw7/core/zombie/powerups/vfx_zom_powerup_instakill.vfx,cp_zmb_powerup_instakill,ZOMBIE_POWERUPS_INSTAKILL
+104,4,ammo_max,vfx/iw7/core/zombie/powerups/vfx_zom_powerup_maxammo_new.vfx,cp_zmb_powerup_generic,ZOMBIE_POWERUPS_MAXAMMO
+105,5,board_windows,vfx/iw7/core/zombie/powerups/vfx_zom_powerup_carpenter.vfx,cp_zmb_powerup_generic,ZOMBIE_POWERUPS_CARPENTER
+106,6,upgrade_weapons,vfx/iw7/core/zombie/powerups/vfx_zom_powerup_upgrade.vfx,cp_zmb_powerup_generic,ZOMBIE_POWERUPS_WEAPON_UPGRADE
+107,7,infinite_20,vfx/iw7/core/zombie/powerups/vfx_zom_powerup_infiniteammo.vfx,cp_zmb_powerup_infinite_ammo,ZOMBIE_POWERUPS_INFINITE_AMMO
+108,8,grenade_30,vfx/iw7/core/zombie/powerups/vfx_zom_powerup_infinitegrenades.vfx,cp_zmb_powerup_infinite_grenade,ZOMBIE_POWERUPS_INFINITE_GRENADES
+109,9,fire_30,vfx/iw7/core/zombie/powerups/vfx_zom_powerup_firesale.vfx,cp_zmb_powerup_fire_sale,ZOMBIE_POWERUPS_FIRE_SALE

@@ -1,0 +1,3 @@
+0,TextChat,MENU_TEXT_CHAT,chatmodepublic,Y,Y,Y
+1,TextTeamChat,MENU_TEXT_TEAM_CHAT,chatmodeteam,Y,Y,Y
+2,VoiceChat,MENU_VOICE_CHAT_BUTTON,+talk,Y,Y,Y

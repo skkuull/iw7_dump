@@ -1,0 +1,36 @@
+gametype = sd
+commonOption.timeLimit = 1.500000
+commonOption.scoreLimit = 1
+commonOption.roundLimit = 0
+commonOption.winLimit = 6
+commonOption.roundSwitch = 1
+commonOption.winByTwoEnabled = 0
+commonOption.winByTwoMaxRounds = 8
+
+bombData.bombTimer = 45
+bombData.defuseTime = 7.50000
+bombData.plantTime = 5.00000
+bombData.multiBomb = 0
+bombData.silentPlant = 1
+commonOption.dogTags = 0
+
+commonOption.allowKillstreaks = 1
+commonOption.allowPerks = 1
+commonOption.allowSupers = 1
+commonOption.superFastChargeRate = 0
+commonOption.superPointsMod = 8
+commonOption.doubleJumpEnabled = 1
+commonOption.wallRunEnabled = 1
+commonOption.forceRespawn = 1
+commonOption.showKillcam = 1
+commonOption.healthRegen = 3.000000
+commonOption.maxHealth = 100.000000
+commonOption.numLives = 1
+commonOption.spectateModeAllowed = 1
+commonOption.codcasterEnabled = 1
+commonOption.friendlyFire = 1
+commonOption.ffPunishLimit = -1
+commonOption.spectate3rdAllowed = 0
+commonOption.teamAssignmentAllowed = 1
+commonOption.tacticalMode = 0
+commonOption.bulletBounce = 1

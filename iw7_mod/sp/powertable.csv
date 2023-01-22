@@ -1,0 +1,13 @@
+0,none,PERKS_NONE,PERKS_NONE,specialty_ks_null,specialty_ks_null,0,0,0,,,,,,specialty_ks_null,TRUE,,,FALSE
+1,frag,EQUIPMENT_FRAG,EQUIPMENT_FRAG_LONG,icon_ability_frag,render_equipment_frag,0,4,0,charges,,0,0,EQUIPMENT_FRAG_UNLOCK,render_equipment_frag_small,TRUE,EQUIPMENT_UPGRADE_FRAG_ONE,EQUIPMENT_UPGRADE_FRAG_TWO,FALSE
+2,emp,EQUIPMENT_EMP,EQUIPMENT_EMP_LONG,icon_ability_emp_grenade,render_equipment_shock,0,4,0,charges,,0,0,EQUIPMENT_EMP_UNLOCK,render_equipment_shock_small,TRUE,EQUIPMENT_UPGRADE_SHOCK_ONE,EQUIPMENT_UPGRADE_SHOCK_TWO,FALSE
+3,supportdrone,EQUIPMENT_SUPPORTDRONE,EQUIPMENT_SUPPORTDRONE_LONG,icon_ability_drone,render_equipment_drone,0,4,1,charges,,0,0,EQUIPMENT_SUPPORTDRONE_UNLOCK,render_equipment_drone_small,TRUE,EQUIPMENT_UPGRADE_DRONE_ONE,,FALSE
+4,hackingdevice,EQUIPMENT_HACKINGDEVICE,EQUIPMENT_HACKINGDEVICE_LONG,icon_ability_hacking,render_equipment_hacking_tool,0,4,1,charges,,0,0,EQUIPMENT_HACKINGDEVICE_UNLOCK,render_equipment_hacking_tool_small,TRUE,EQUIPMENT_UPGRADE_HACK_ONE,,FALSE
+5,seeker,EQUIPMENT_SEEKER,EQUIPMENT_SEEKER_LONG,icon_ability_seeker,render_equipment_seeker,,,0,charges,,0,0,EQUIPMENT_SEEKER_UNLOCK,render_equipment_seeker_small,TRUE,EQUIPMENT_UPGRADE_SEEKER_ONE,EQUIPMENT_UPGRADE_SEEKER_TWO,FALSE
+6,offhandshield,EQUIPMENT_SHIELD,EQUIPMENT_SHIELD_LONG,icon_ability_shield,render_equipment_shield,0,0,1,drain,0.25,0,0,EQUIPMENT_SHIELD_UNLOCK,render_equipment_shield_small,TRUE,EQUIPMENT_UPGRADE_SHIELD_ONE,,FALSE
+7,antigrav,EQUIPMENT_ANTIGRAV,EQUIPMENT_ANTIGRAV_LONG,icon_ability_anti_gravity_grenade,render_equipment_anti_grav,0,4,0,charges,,0,0,EQUIPMENT_ANTIGRAV_UNLOCK,render_equipment_anti_grav_small,TRUE,EQUIPMENT_UPGRADE_ANTIGRAV_ONE,EQUIPMENT_UPGRADE_ANTIGRAV_TWO,FALSE
+8,coverwall,EQUIPMENT_COVERWALL,EQUIPMENT_COVERWALL_LONG,icon_ability_deployable_cover,render_equipment_foam,0,4,1,charges,,0,0,EQUIPMENT_COVERWALL_UNLOCK,render_equipment_foam_small,TRUE,EQUIPMENT_UPGRADE_FOAM_ONE,,FALSE
+9,grapplingdevice,EQUIPMENT_GRAPPLING,EQUIPMENT_GRAPPLING_LONG,icon_ability_grapple,render_equipment_grappling_hook,0,0,1,drain,,0,0,UNLOCK WITH DANCE,render_equipment_grappling_hook_small,FALSE,,,FALSE
+10,trackingfragzerog,EQUIPMENT_TRACKING,EQUIPMENT_TRACKING_LONG,icon_ability_zero_g,render_equipment_tracking_frag,0,0,0,charges,,0,0,UNLOCK WITH STYLE,render_equipment_tracking_frag_small,FALSE,,,FALSE
+11,nanoshot,EQUIPMENT_NANO_SHOT,EQUIPMENT_NANO_SHOT_LONG,hud_nano_shot,render_equipment_nano_shot,0,4,0,charges,,0,0,EQUIPMENT_HELMET_UNLOCK,render_equipment_nano_shot_small,TRUE,,,TRUE
+12,helmet,EQUIPMENT_HELMET,EQUIPMENT_HELMET_LONG,hud_helmet,render_equipment_helmet,0,2,1,charges,,0,0,EQUIPMENT_HELMET_UNLOCK,render_equipment_helmet_small,TRUE,,,TRUE

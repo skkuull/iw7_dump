@@ -1,0 +1,27 @@
+0,AttackAction,MENU_FIRE_WEAPON,+attack,Y,Y,Y
+1,ToggleAIMAction,MENU_AIM_DOWN_THE_SIGHT,+toggleads_throw,Y,Y,Y
+2,HoldAIMAction,MENU_HOLD_AIM_DOWN_SIGHT,+speed_throw,Y,Y,Y
+3,ReloadAction,MENU_RELOAD_WEAPON,+reload,Y,Y,Y
+4,WeaponNextAction,MENU_SWITCH_WEAPON,+weapnext,Y,Y,Y
+5,MeleeZoomAction,PLATFORM_MELEEZOOM,+melee_zoom,Y,Y,Y
+6,ActivateAction,MENU_USE,+activate,Y,Y,Y
+7,SmokeAction,PLATFORM_UI_USE_TACTICAL,+smoke,Y,Y,Y
+8,FragAction,PLATFORM_UI_USE_LETHAL,+frag,Y,Y,Y
+9,SpecialAction,MENU_ACTIVATE_SUPER,+special,,Y,
+10,ToggleWeaponAlt,PLATFORM_UI_TOGGLE_ALT_MODE,toggleweapalt,,Y,Y
+11,KillStreak1Action,MENU_SCORESTREAK_REWARD_SLOT_1,+actionslot 3,,Y,
+12,KillStreak2Action,MENU_SCORESTREAK_REWARD_SLOT_2,+actionslot 4,,Y,
+13,KillStreak3Action,MENU_SCORESTREAK_REWARD_SLOT_3,+actionslot 5,,Y,
+14,KillStreak4Action,MENU_SCORESTREAK_REWARD_SLOT_4,+actionslot 6,,Y,
+15,GestureAction,LUA_MENU_MP_CUSTOMIZE_GESTURE,+actionslot 7,,Y,
+16,ShowScoreAction,PLATFORM_UI_SHOW_SCORES,togglescores,,Y,
+17,SpecialAction,LUA_MENU_ZM_OPTIONS_USE_FATE_AND_FORTUNE_CARD,+special,,,Y
+18,ActionSlot1,LUA_MENU_ZM_OPTIONS_CYCLE_CARDS_UP,+actionslot 1,,,Y
+19,ActionSlot2,LUA_MENU_ZM_OPTIONS_CYCLE_CARDS_DOWN,+actionslot 2,,,Y
+20,ActionSlot3,LUA_MENU_ZM_SOUVENIR,+actionslot 3,,,Y
+21,ShowScoreAction,LUA_MENU_ZM_OPTIONS_INVENTORY,togglescores,,,Y
+22,ActionSlot1,PLATFORM_UI_MISSION_ABILITY,+actionslot 1,Y,,
+23,ActionSlot2,PLATFORM_UI_TOGGLE_ALT_MODE,+actionslot 2,Y,,
+24,ActionSlot3,PLATFORM_UI_SWAP_TACTICAL,+actionslot 3,Y,,
+25,ActionSlot4,PLATFORM_UI_SWAP_LETHAL,+actionslot 4,Y,,
+26,ActionSlot4,LUA_MENU_ZM_OPTIONS_KUNG_FU_MODE,+actionslot 4,,,Y

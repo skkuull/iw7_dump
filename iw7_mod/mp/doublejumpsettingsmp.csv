@@ -1,0 +1,12 @@
+doubleJump_accel,1500,200,10000,2000000,1500,1500,15000,,100,500
+doubleJump_boostUpEnergyUseRate,800,600,25,25,800,800,25,,700,400
+doubleJump_initialUpBoostAccel,10000,2100,10000,15000,10000,10000,8000,,2000,10000
+doubleJump_maxUpwardsVelocity,165,145,400,340,165,165,300,,155,165
+doubleJump_speed,325,200,280,1000,325,325,1000,,150,325
+doubleJump_standardUpBoostAccel,1700,1900,1,3000,1700,1700,1,,1200,2000
+doubleJump_enableMinZVelocity,1,0,1,0,1,1,1,,0,0
+doubleJump_minZVelocity,-150,0,200,0,-150,-150,-150,,0,0
+doubleJump_energyInitialCost,0,0,399,395,0,0,399,,,
+doubleJump_frictionMin,500,500,500,1000000,500,500,500,,400,400
+doubleJump_frictionMax,600,600,600,1000000,600,600,600,,500,500
+doubleJump_speedNoBoost,325,200,280,230,325,325,280,,150,325

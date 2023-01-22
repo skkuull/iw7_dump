@@ -1,0 +1,3382 @@
+
+body
+{
+
+	//---------------------------------
+	// scripted sequences
+	//---------------------------------
+	scripted
+	{
+ 		skyway
+ 		{
+ 			sw_traversal_suspension_on
+ 			sw_traversal_suspension_off
+		}
+
+		//The Hoff
+		the_hoff
+		{
+			IW7_cp_zom_hoff_intro
+			IW7_cp_zom_hoff_outro
+		}
+
+	}
+	
+
+	//---------------------------------
+	// real animations
+	//---------------------------------
+
+
+	stand_and_crouch	// standing and crouching, not crawling
+	{
+		crouch2stand
+
+		casual_stand_idle_trans_out	
+
+		//robot_test
+
+		unarmed_crouch_idle1
+		unarmed_crouch_twitch1
+
+		cqb_stand_idle
+		cqb_stand_twitch
+
+		space_idle
+		space_idle_twitch_left
+		space_idle_twitch_right
+		space_idle_twitch_back
+		space_idle_twitch_up
+		space_idle_twitch_down
+		space_idle_to_fire
+
+
+		traverse_stair_run_relative
+		traverse_stair_run_down_relative
+
+
+		cqb_run_to_creepwalk_iw6
+		creepwalk_to_cqb_run_iw6
+
+
+		// reactions
+		exposed_crouch_idle_twitch_v2
+		exposed_crouch_idle_twitch_v3
+		exposed_backpedal
+		exposed_backpedal_v2
+
+		cornerstndr_react_a
+		//cornerstndr_react_b
+		cornerstndl_react_a
+		//cornerstndl_react_b
+		crouch_cover_reaction_a
+		crouch_cover_reaction_b
+		stand_cover_reaction_a
+		stand_cover_reaction_b
+		//stand_cover_reaction_c
+
+		rpg_stand_throw
+		rpg_crouch_throw
+
+		// modern stuff
+
+		stand_grenade_throw
+		stand_grenade_return_throw
+		crouch_grenade_throw
+		crouch_grenade_return_throw
+
+		cqb_stand_grenade_throw
+
+		grenade_return_running_throw_forward
+		grenade_return_standing_throw_forward_1
+		grenade_return_standing_throw_overhand_forward
+
+		youngblood_hesh_calm_idle
+		youngblood_hesh_alert_idle_1
+		youngblood_hesh_alert_idle_2
+		youngblood_hesh_alert_idle_r
+		youngblood_hesh_alert_idle_l
+
+    // Patrol React
+    hm_grnd_yel_patrol_react_to_combat_2_ar
+    hm_grnd_yel_patrol_react_to_combat_4_ar
+    hm_grnd_yel_patrol_react_to_combat_6_ar
+    hm_grnd_yel_patrol_react_to_combat_8_ar
+    hm_grnd_yel_patrol_react_to_seekclear_2_ar
+    hm_grnd_yel_patrol_react_to_seekclear_4_ar
+    hm_grnd_yel_patrol_react_to_seekclear_6_ar
+    hm_grnd_yel_patrol_react_to_seekclear_8_ar
+
+    // Creepwalk React
+    hm_grnd_yel_patrol_creepwalk_react_to_combat_2_ar
+    hm_grnd_yel_patrol_creepwalk_react_to_combat_4_ar
+    hm_grnd_yel_patrol_creepwalk_react_to_combat_6_ar
+    hm_grnd_yel_patrol_creepwalk_react_to_combat_8_ar
+    hm_grnd_yel_patrol_creepwalk_react_to_seekclear_2_ar
+    hm_grnd_yel_patrol_creepwalk_react_to_seekclear_4_ar
+    hm_grnd_yel_patrol_creepwalk_react_to_seekclear_6_ar
+    hm_grnd_yel_patrol_creepwalk_react_to_seekclear_8_ar
+
+    // SeekClear React
+    hm_grnd_yel_patrol_seekclear_react_to_combat_2_ar
+    hm_grnd_yel_patrol_seekclear_react_to_combat_4_ar
+    hm_grnd_yel_patrol_seekclear_react_to_combat_6_ar
+    hm_grnd_yel_patrol_seekclear_react_to_combat_8_ar
+    hm_grnd_yel_patrol_seekclear_react_to_seekclear_2_ar
+    hm_grnd_yel_patrol_seekclear_react_to_seekclear_4_ar
+    hm_grnd_yel_patrol_seekclear_react_to_seekclear_6_ar
+    hm_grnd_yel_patrol_seekclear_react_to_seekclear_8_ar
+
+    // SeekClear Transitions
+    hm_grnd_yel_patrol_seekclear_transition_to_patrol_ar_01
+    hm_grnd_yel_patrol_seekclear_transition_to_patrol_ar_02
+    hm_grnd_yel_patrol_seekclear_transition_to_patrol_ar_03
+    hm_grnd_yel_patrol_seekclear_trans_to_creepwalk_ar_01
+    hm_grnd_yel_patrol_seekclear_trans_to_creepwalk_ar_02
+    hm_grnd_yel_patrol_seekclear_trans_to_creepwalk_ar_03
+
+    // SeekClear Checkbody
+    hm_grnd_yel_patrol_seekclear_checkbody_ar_01
+    hm_grnd_yel_patrol_seekclear_checkbody_ar_02
+    hm_grnd_yel_patrol_seekclear_checkbody_ar_03
+    hm_grnd_yel_patrol_seekclear_checkbody_ar_04
+
+		// Patrol Idles
+		hm_grnd_yel_patrol_idle_radio01_ar
+		hm_grnd_yel_patrol_idle_radio02_ar
+		hm_grnd_yel_patrol_idle_scan_down_ar
+		hm_grnd_yel_patrol_idle_scan_guncheck01_ar
+		hm_grnd_yel_patrol_idle_scan_horizon01_ar
+		hm_grnd_yel_patrol_idle_scan_horizon02_ar
+		hm_grnd_yel_patrol_idle_scan_up_ar
+
+    // Creepwalk Idles
+    hm_grnd_yel_patrol_creepwalk_idle_ar_01
+    hm_grnd_yel_patrol_creepwalk_idle_ar_02
+    hm_grnd_yel_patrol_creepwalk_idle_ar_03
+    hm_grnd_yel_patrol_creepwalk_idle_ar_04
+
+		// SeekNClear Idles
+		hm_grnd_yel_patrol_seekclear_idle_scan_horizontal01_ar
+		hm_grnd_yel_patrol_seekclear_idle_scan_horizontal02_ar
+		hm_grnd_yel_patrol_seekclear_idle_radio01_ar
+
+		walk_and_run_loops : loopsync
+		{
+			crouchrun
+			{
+				crouch_sprint
+
+				crouch_fastwalk_f
+				crouch_fastwalk_b
+				crouch_fastwalk_l
+				crouch_fastwalk_r
+			}
+
+			combatrun
+			{
+				combatrun_forward
+				{
+					//strafe animations.
+					hm_grnd_org_walk_1
+					hm_grnd_org_walk_2
+					hm_grnd_org_walk_3
+					hm_grnd_org_walk_4
+					hm_grnd_org_walk_6
+					hm_grnd_org_walk_7
+					hm_grnd_org_walk_8
+					hm_grnd_org_walk_9
+
+					//CQB Strafes
+					hm_grnd_org_walk_cqb_1_ar
+					hm_grnd_org_walk_cqb_2_ar
+					hm_grnd_org_walk_cqb_3_ar
+					hm_grnd_org_walk_cqb_4_ar
+					hm_grnd_org_walk_cqb_6_ar
+					hm_grnd_org_walk_cqb_7_ar
+					hm_grnd_org_walk_cqb_8_ar
+					hm_grnd_org_walk_cqb_9_ar
+					hm_grnd_org_walk_cqb_reload
+
+					hm_grnd_org_walk_cqb_twitch01_ar
+					hm_grnd_org_walk_cqb_twitch02_ar
+					hm_grnd_org_walk_cqb_twitch03_ar
+					hm_grnd_org_walk_cqb_twitch04_ar
+
+					hm_grnd_org_run_cqb_ar
+					hm_grnd_org_walk_cqb_forward_ar
+
+
+
+					//walk and talk
+					walk_and_talk_forward
+					{
+						hm_grnd_grn_walk_and_talk_forward
+						hf_grnd_grn_walk_and_talk_forward_xo
+					}
+
+					hm_grnd_grn_walk_and_talk_left
+					hm_grnd_grn_walk_and_talk_right
+
+					hf_grnd_grn_walk_and_talk_left_xo
+					hf_grnd_grn_walk_and_talk_right_xo
+
+					run_lowready_f // primary run animation
+					walk_forward
+					run_reload_a
+					run_reload_b
+					run_lowready_f_relative
+
+					// From MW3, used in titan - CHANGE!
+					payback_pmc_sandstorm_stumble_1
+					payback_pmc_sandstorm_stumble_2
+					payback_pmc_sandstorm_stumble_3
+
+					//iw6 runs
+					run_cqb_f_search_v1
+					walk_cqb_f
+
+					cqb_walk_iw6
+
+					cqb_run_reload_a_iw6
+					cqb_run_reload_b_iw6
+
+					cqb_run_twitch_a_iw6
+					cqb_run_twitch_b_iw6
+					cqb_run_twitch_c_iw6
+					cqb_run_twitch_d_iw6
+
+					//run_twitch_guncheck
+					//run_twitch_aim_straight
+					//run_twitch_aim_above
+					//run_twitch_lookbehind_a
+					//run_twitch_lookbehind_b
+
+					//story scenes
+					xodus_atom_walk_v2
+					xodus_atom_walk_slow
+					xodus_atom_walk_med
+					xodus_atom_walk_fast
+					xodus_atom_walk_left_slow
+					xodus_atom_walk_left_med
+					xodus_atom_walk_left_fast
+
+					xodus_xo_walk_v2
+					xodus_xo_walk_slow
+					xodus_xo_walk_med
+					xodus_xo_walk_fast
+					xodus_xo_walk_left_slow
+					xodus_xo_walk_left_med
+					xodus_xo_walk_left_fast
+
+					//youngblood
+					youngblood_hesh_run
+					youngblood_hesh_run_faster
+					youngblood_hesh_run_twitch_a
+					youngblood_hesh_run_twitch_b
+					youngblood_hesh_sprint
+					youngblood_hesh_walk_uphill
+					youngblood_hesh_walk_uphill_2
+					youngblood_hesh_jog_uphill_a
+					youngblood_elias_walk
+					youngblood_elias_walk_uphill
+					youngblood_hesh_walk_wounded
+					youngblood_elias_stairs_up
+
+					youngblood_hesh_walk_twitch_a
+					youngblood_hesh_walk_twitch_b
+
+					yb_hesh_walk
+					yb_hesh_jog
+					youngblood_walk_hesh
+					youngblood_jog_hesh
+
+					shotgun_cqbrun_pullout
+					shotgun_cqbrun_putaway
+
+					//Orange
+					hm_grnd_org_run_low_ready_forward_ar
+					hm_grnd_org_run_low_ready_gun_grab_ar
+					hm_grnd_org_run_low_ready_forward_2hands_ar
+					hm_grnd_org_run_low_ready_forward_gun_up_ar
+					hm_grnd_org_run_low_ready_forward_gun_down_ar
+					hm_grnd_org_run_wizby01_ar
+					hm_grnd_org_run_wizby02_ar
+					hm_grnd_org_run_wizby03_ar
+					hm_grnd_org_run_wizby04_ar
+					hm_grnd_org_run_wizby05_ar
+					hm_grnd_org_run_wizby06_ar
+					hm_grnd_org_run_wizby07_ar
+					hm_grnd_org_run_wizby08_ar
+					hm_grnd_org_run_wizby09_ar
+					hm_grnd_org_run_wizby10_ar
+					hm_grnd_org_run_wizby11_ar
+					hm_grnd_org_sprint_loop01_ar
+					hm_grnd_org_run_reload01_ar
+					hm_grnd_org_run_reload02_ar
+
+					//Orange LMG
+					hm_grnd_org_run_forward_lmg
+
+					sprint1_loop
+					sprint_loop_distant
+
+					// red
+					hm_grnd_red_sprint_loop01_ar
+					hm_grnd_yel_casual_sprint_ar
+					hm_grnd_red_run_reload01_ar
+					hm_grnd_red_run_reload02_ar
+					hm_grnd_red_run_reload03_ar
+					hm_grnd_red_walk_forward_ar
+
+					combat_jog
+
+					run_react_duck
+					run_react_flinch
+					run_react_stumble
+					//run_wizby_a
+					//run_wizby_b
+
+					//Red Stairs
+					hm_grnd_red_stairs_up_8x10
+					hm_grnd_red_stairs_up_8x12
+					hm_grnd_red_stairs_up_8x20
+					hm_grnd_red_stairs_up_8x8
+					hm_grnd_red_stairs_down_8x10
+					hm_grnd_red_stairs_down_8x12
+					hm_grnd_red_stairs_down_8x20
+					hm_grnd_red_stairs_down_8x8
+
+					//Orange Stairs
+					hm_grnd_org_stairs_up_8x10
+					hm_grnd_org_stairs_up_8x12
+					hm_grnd_org_stairs_up_8x20
+					hm_grnd_org_stairs_up_9x9
+					hm_grnd_org_stairs_up_8x8
+					hm_grnd_org_stairs_down_8x10
+					hm_grnd_org_stairs_down_8x12
+					hm_grnd_org_stairs_down_8x20
+					hm_grnd_org_stairs_down_9x9
+					hm_grnd_org_stairs_down_8x8
+
+					//Green Stairs
+					hm_grnd_grn_stairs_up_8x10
+					hm_grnd_grn_stairs_up_8x12
+					hm_grnd_grn_stairs_up_8x20
+					hm_grnd_grn_stairs_up_9x9
+					hm_grnd_grn_stairs_up_8x8
+					hm_grnd_grn_purpose_stairs_up_8x10
+					hm_grnd_grn_purpose_stairs_up_8x12
+					hm_grnd_grn_purpose_stairs_up_8x20
+					hm_grnd_grn_purpose_stairs_up_9x9
+					hm_grnd_grn_purpose_stairs_up_8x8
+
+					hm_grnd_grn_stairs_down_8x10
+					hm_grnd_grn_stairs_down_8x12
+					hm_grnd_grn_stairs_down_8x20
+					hm_grnd_grn_stairs_down_9x9
+					hm_grnd_grn_stairs_down_8x8
+					hm_grnd_grn_stairs_purpose_down_8x10
+					hm_grnd_grn_stairs_purpose_down_8x12
+					hm_grnd_grn_stairs_purpose_down_8x20
+					hm_grnd_grn_stairs_purpose_down_9x9
+					hm_grnd_grn_stairs_purpose_down_8x8
+
+					//Yellow Stairs
+					hm_grnd_yel_stairs_up_8x10
+					hm_grnd_yel_stairs_up_8x12
+					hm_grnd_yel_stairs_up_8x20
+					hm_grnd_yel_stairs_up_9x9
+					hm_grnd_yel_stairs_up_8x8
+					hm_grnd_yel_stairs_down_8x10
+					hm_grnd_yel_stairs_down_9x9
+					hm_grnd_yel_stairs_down_8X8
+					hm_grnd_yel_stairs_down_8x12
+					hm_grnd_yel_stairs_down_8x20
+
+					//CQB Stairs
+					hm_grnd_cqb_stairs_down_8x10
+					hm_grnd_cqb_stairs_down_8x8
+					hm_grnd_cqb_stairs_down_8x12
+					hm_grnd_cqb_stairs_down_8x20
+					hm_grnd_cqb_stairs_up_8x10
+					hm_grnd_cqb_stairs_up_8x8
+					hm_grnd_cqb_stairs_up_8x12
+					hm_grnd_cqb_stairs_up_8x20
+
+					run_n_gun
+
+					{
+						run_n_gun_f
+						run_n_gun_l
+						run_n_gun_r
+						run_n_gun_l_120
+						run_n_gun_r_120
+
+						hm_grnd_red_run_n_gun_forward_ar
+						hm_grnd_red_run_n_gun_left_120_ar
+						hm_grnd_red_run_n_gun_right_120_ar
+						hm_grnd_red_run_n_gun_left_ar
+						hm_grnd_red_run_n_gun_right_ar
+
+					// red (removed because these existed prior to any xanim being created)
+						//hm_grnd_red_walk_forward_ar
+						//hm_grnd_red_walk_left_ar
+						//hm_grnd_red_walk_right_ar
+
+					}
+
+					////////////////////
+					// stairs
+					traverse_stair_run
+					traverse_stair_run_01
+					traverse_stair_run_down
+					traverse_stair_run_down_01
+					cqb_stairs_down
+					run_stairs_up
+					youngblood_hesh_jog_upstairs
+
+					// black ice specific stair anims
+
+					dh_elias_stairs_up
+
+					////////////////////
+					// patrol
+					active_patrolwalk_gundown
+
+					patrol_bored_patrolwalk
+					patrol_bored_patrolwalk_twitch
+
+					patrol_boredwalk_lookcycle_a
+					patrol_boredwalk_lookcycle_b
+
+					patrol_jog
+					patrol_jog_360
+
+					patrol_bored_gundown_walk1
+					patrol_bored_gundown_walk2
+					patrol_bored_gundown_walk3
+					patrol_bored_gundown_walk_twitch1
+					patrol_bored_gundown_walk_twitch2
+					patrol_bored_gundown_walk_twitch3
+					patrol_bored_gundown_walk_twitch4
+
+					// Patrol Walks
+					hm_grnd_yel_patrol_walk01_ar
+					hm_grnd_yel_patrol_walk02_ar
+					hm_grnd_yel_patrol_walk_lookright_ar
+					hm_grnd_yel_patrol_walk_lookleft_ar
+					hm_grnd_yel_patrol_walkturn_ar
+
+					// SeekNClear Walks
+					hm_grnd_yel_patrol_seekclear_walk01_ar
+					hm_grnd_yel_patrol_seekclear_walk02_ar
+					hm_grnd_yel_patrol_seekclear_walk03_ar
+
+					//Casual purpose
+					hm_grnd_grn_walk_frantic_fast_forward
+					hm_grnd_grn_walk_frantic_forward
+
+					water_walk_01
+					water_walk_02
+					water_run_01
+					water_run_02
+
+					heat_run_loop
+
+					space_forward
+					space_forward_twitch_1
+					space_aiming_move_f
+
+					//creepwalk
+					creepwalk_f
+					creepwalk_f_highstep
+					creepwalk_f_stumble
+
+					creepwalk_twitch_a_1
+					creepwalk_twitch_a_2
+					creepwalk_twitch_a_3
+					creepwalk_twitch_a_4
+
+					////////////////////
+					// civilian walk/runs
+
+					unarmed_panickedrun_loop_v2
+					unarmed_panickedrun_stumble
+					unarmed_panickedrun_loop_bag
+					unarmed_scared_jog
+					unarmed_scared_run
+					unarmed_scared_jog_look
+
+					civilian_run_upright
+
+					civilian_run_hunched_a
+					civilian_run_hunched_c
+					civilian_run_hunched_flinch
+
+					civilian_walk_hurried_1
+					civilian_walk_cool
+
+					hm_grnd_red_civ_run_forward
+					hm_grnd_red_civ_run_twitch01
+					hm_grnd_red_civ_run_twitch02
+					hm_grnd_red_civ_run_twitch03
+					hm_grnd_red_civ_run_twitch04
+					hm_grnd_red_civ_run_twitch05
+					hm_grnd_red_civ_run_twitch06
+					hm_grnd_red_civ_run_twitch07
+
+					//Civilian Female locomotion
+					hf_grnd_red_civ_run_forward
+					hf_grnd_red_civ_run_twitch01
+					hf_grnd_red_civ_run_twitch02
+					hf_grnd_red_civ_run_twitch03
+					hf_grnd_red_civ_run_twitch04
+					hf_grnd_red_civ_run_twitch05
+					hf_grnd_red_civ_run_twitch06
+					hf_grnd_red_civ_run_twitch07
+
+					////////////////////
+					// casual walks
+					hm_grnd_yel_casual_walk_forward01_ar
+					hm_grnd_grn_walk_casual_forward01
+
+					//Hero Walks
+					hf_grnd_grn_walk_air01
+					hf_grnd_grn_fast_walk_air01
+
+					hf_grnd_grn_walk_bsn01
+					hf_grnd_grn_fast_walk_bsn01
+
+					hf_grnd_grn_walk_xo01
+					hf_grnd_grn_fast_walk_xo01
+
+					hm_grnd_yel_walk_mco01
+
+					c6_grnd_yel_walk_c6i01
+
+					hm_grnd_grn_walk_nav01
+					hm_grnd_grn_fast_walk_nav01
+					hm_grnd_yel_fast_walk_nav01
+
+					hm_grnd_yel_walk_mr201
+
+					//Hero Runs
+					hm_grnd_org_run_mco01
+
+					hm_grnd_org_run_mr201
+
+					//Red
+					hm_grnd_red_run_low_ready_forward_ar
+					hm_grnd_red_run_onehand_twohand_onehand_ar
+					hm_grnd_red_run_twitch_aim_straight_ar
+					hm_grnd_red_run_twitch_jump_ar
+					hm_grnd_red_run_twitch_left_arm_up_ar
+					hm_grnd_red_run_twitch_look_behind01_ar
+					hm_grnd_red_run_twitch_look_behind02_ar
+					hm_grnd_red_run_twitch_point_ar
+					hm_grnd_red_run_twitch_stumble01_ar
+					hm_grnd_red_run_twitch_stumble02_ar
+					hm_grnd_red_run_wizby01_ar
+					hm_grnd_red_run_wizby02_ar
+					hm_grnd_red_run_wizby03_ar
+					hm_grnd_red_run_wizby04_ar
+					hm_grnd_red_run_wizby05_ar
+					hm_grnd_red_run_wizby06_ar
+
+				}
+
+				combatrun_backward
+				{
+					combatwalk_b
+					walk_backward
+					hm_grnd_org_walk_cqb_backward_ar
+
+					//robot
+					space_aiming_move_b
+
+					//Red
+					hm_grnd_red_walk_backward_ar
+
+				}
+
+				combatrun_left
+				{
+					combatwalk_l
+					walk_left
+					hm_grnd_org_walk_cqb_strafe_left_ar
+
+					//robot
+					space_aiming_move_l
+
+					//Red
+					hm_grnd_red_walk_left_ar
+
+				}
+
+				combatrun_right
+				{
+					combatwalk_r
+					walk_right
+					hm_grnd_org_walk_cqb_strafe_right_ar
+
+					//robot
+					space_aiming_move_r
+
+					//Red
+					hm_grnd_red_walk_right_ar
+
+				}
+
+
+				run_n_gun_b
+			}
+
+			saw_gunner_run_fast
+			//saw_gunner_run_slow
+		}
+
+
+		// aim/wave additives
+		w_aim_2 : additive
+		{
+			//robot
+
+			walk_aim_2
+
+			space_aiming_move_l_fire_d
+			space_aiming_move_r_fire_d
+			space_aiming_move_f_fire_d
+			space_aiming_move_f_fire_d_extended
+			space_aiming_move_b_fire_d
+
+			cqb_run_aim_2
+
+			//Red
+			hm_grnd_red_walk_aim_2
+
+			//CQB Walk
+			hm_grnd_org_walk_cqb_aim_2
+
+		}
+
+		w_aim_4 : additive
+		{
+			//robot
+
+			walk_aim_4
+
+			space_aiming_move_l_fire_l
+			space_aiming_move_r_fire_l
+			space_aiming_move_f_fire_l
+			space_aiming_move_b_fire_l
+
+			cqb_run_aim_4
+
+			//Red
+			hm_grnd_red_walk_aim_4
+
+			//CQB Walk
+			hm_grnd_org_walk_cqb_aim_4
+
+		}
+
+		w_aim_6 : additive
+		{
+			//robot
+			walk_aim_6
+
+			space_aiming_move_l_fire_r
+			space_aiming_move_r_fire_r
+			space_aiming_move_f_fire_r
+			space_aiming_move_b_fire_r
+
+			cqb_run_aim_6
+
+			//Red
+			hm_grnd_red_walk_aim_6
+
+			//CQB Walk
+			hm_grnd_org_walk_cqb_aim_6
+
+		}
+
+		w_aim_8 : additive
+		{
+			//robot
+			walk_aim_8
+
+			space_aiming_move_l_fire_u
+			space_aiming_move_r_fire_u
+			space_aiming_move_f_fire_u
+			space_aiming_move_f_fire_u_extended
+			space_aiming_move_b_fire_u
+
+			cqb_run_aim_8
+
+			//Red
+			hm_grnd_red_walk_aim_8
+
+
+			//CQB Walk
+			hm_grnd_org_walk_cqb_aim_8
+
+		}
+
+
+		w_aim_5 : additive
+		{
+			//robot
+			cqb_run_aim_5
+
+			//CQB Walk
+			hm_grnd_org_walk_cqb_aim_5
+		}
+
+
+		add_turn_l : additive
+		{
+			space_slight_turn_l
+			hm_zg_org_move_turn_l_ar
+		}
+
+
+		add_turn_r : additive
+		{
+			space_slight_turn_r
+			hm_zg_org_move_turn_r_ar
+		}
+
+
+		add_turn_u : additive
+		{
+			space_slight_turn_u
+			hm_zg_org_move_turn_u_ar
+		}
+
+
+		add_turn_d : additive
+		{
+			space_slight_turn_d
+			hm_zg_org_move_turn_d_ar
+		}
+
+
+		exposed_dive_grenade_f
+		exposed_dive_grenade_b
+		exposed_squat_down_grenade_f
+		exposed_squat_idle_grenade_f
+		exposed_squat_up_grenade_f
+	}
+
+	exposed_modern
+	{
+		exposed_aiming
+		{
+			exposed_aim_5
+			exposed_crouch_aim_5
+			covercrouch_aim5
+			coverstandaim_aim5
+			covercrouch_lean_aim5
+			pistol_stand_aim_5
+			rpg_stand_aim_5
+			rpg_crouch_aim_5
+			cornerstndl_lean_aim_5
+			cornerstndr_lean_aim_5
+			cornercrl_lean_aim_5
+			cornercrr_lean_aim_5
+			cqb_stand_aim5
+			prone_aim_5
+			shotgun_aim_5
+			heat_stand_aim_5
+
+			//Orange
+			hm_grnd_org_cover_right_stand_lean_aim_5
+			hm_grnd_org_cover_right_crouch_lean_aim_5_ar
+			hm_grnd_org_cover_stand_aim_5_ar
+			hm_grnd_org_cover_left_stand_lean_aim_5_ar
+			hm_grnd_org_cover_left_crouch_lean_aim_5_ar
+			hm_grnd_org_cover_crouch_aim_5_ar
+			hm_grnd_org_cover_crouch_left_turn_2_ar
+			hm_grnd_org_cover_crouch_left_turn_4_ar
+			hm_grnd_org_cover_crouch_left_turn_6_ar
+			hm_grnd_org_cover_crouch_turn_2_ar
+			hm_grnd_org_cover_crouch_turn_4_ar
+			hm_grnd_org_cover_crouch_turn_6_ar
+			hm_grnd_org_cover_right_stand_turn_2_ar
+			hm_grnd_org_cover_right_stand_turn_4_ar
+			hm_grnd_org_cover_right_stand_turn_6_ar
+			hm_grnd_org_cover_stand_left_turn_2_ar
+			hm_grnd_org_cover_stand_left_turn_4_ar
+			hm_grnd_org_cover_stand_left_turn_6_ar
+			hm_grnd_org_cover_stand_turn_2_ar
+			hm_grnd_org_cover_stand_turn_4_ar
+			hm_grnd_org_cover_stand_turn_6_ar
+			hm_grnd_org_cover_right_crouch_turn_2_ar
+			hm_grnd_org_cover_right_crouch_turn_4_ar
+			hm_grnd_org_cover_right_crouch_turn_6_ar
+
+			//Red
+			hm_grnd_red_cover_right_crouch_lean_aim_5_ar
+			hm_grnd_red_cover_right_stand_lean_aim_5
+			hm_grnd_red_exposed_aim_5_ar
+			hm_grnd_red_prone_aim_5_ar
+			hm_grnd_red_cover_stand_aim_5_ar
+			hm_grnd_red_cover_stand_aim_high_5_ar
+			hm_grnd_red_exposed_crouch_aim_5_ar
+			hm_grnd_red_cover_left_stand_lean_aim_5_ar
+			hm_grnd_red_cover_left_crouch_lean_aim_5_ar
+			hm_grnd_red_cover_left_crouch_exp_aim_5_ar
+			hm_grnd_red_cover_crouch_aim_5_ar
+			hm_grnd_red_cover_crouch_lean_aim_5_ar
+			hm_grnd_red_cover_crouch_stand_aim_5_ar
+			hm_grnd_red_cover_crouch_turn_2_ar
+			hm_grnd_red_cover_crouch_turn_4_ar
+			hm_grnd_red_cover_crouch_turn_6_ar
+			hm_grnd_red_cover_crouch_left_turn_2_ar
+			hm_grnd_red_cover_crouch_left_turn_4_ar
+			hm_grnd_red_cover_crouch_left_turn_6_ar
+			hm_grnd_red_cover_stand_left_turn_2_ar
+			hm_grnd_red_cover_stand_left_turn_4_ar
+			hm_grnd_red_cover_stand_left_turn_6_ar
+			hm_grnd_red_cover_crouch_right_turn_2_ar
+			hm_grnd_red_cover_crouch_right_turn_4_ar
+			hm_grnd_red_cover_crouch_right_turn_6_ar
+			hm_grnd_red_cover_stand_right_turn_2_ar
+			hm_grnd_red_cover_stand_right_turn_4_ar
+			hm_grnd_red_cover_stand_right_turn_6_ar
+			hm_grnd_red_cover_stand_turn_2_ar
+			hm_grnd_red_cover_stand_turn_4_ar
+			hm_grnd_red_cover_stand_turn_6_ar
+			
+
+			aim_u : additive
+			{
+				mp_stand_aim_4
+				mp_stand_aim_7
+				mp_stand_aim_8
+				mp_stand_aim_9
+				mp_stand_aim_6
+				mp_crouch_aim_4
+				mp_crouch_aim_7
+				mp_crouch_aim_8
+				mp_crouch_aim_9
+				mp_crouch_aim_6
+				mp_prone_aim_4
+				mp_prone_aim_7
+				mp_prone_aim_8
+				mp_prone_aim_9
+				mp_prone_aim_6
+			}
+
+			aim_4 : additive
+			{
+				exposed_aim_4
+				exposed_turn_aim_4
+				exposed_crouch_aim_4
+				exposed_crouch_turn_aim_4
+				covercrouch_aim4_add
+				coverstandaim_aim4_add
+				pistol_stand_aim_4_add
+				pistol_stand_aim_4_alt
+				rpg_stand_aim_4
+				rpg_crouch_aim_4
+				cornerstndl_lean_aim_4
+				cornerstndr_lean_aim_4
+				cornercrl_lean_aim_4
+				cornercrr_lean_aim_4
+				cqb_stand_aim4
+				prone_aim_4_add
+				shotgun_aim_4
+				heat_stand_aim_4
+				space_fire_l
+
+				//Orange
+				hm_grnd_org_cover_right_stand_lean_aim_4
+				hm_grnd_org_cover_right_crouch_lean_aim_4_ar
+				hm_grnd_org_cover_stand_aim_4_ar
+				hm_grnd_org_cover_left_stand_lean_aim_4_ar
+				hm_grnd_org_cover_left_crouch_lean_aim_4_ar
+				hm_grnd_org_cover_crouch_aim_4_ar
+
+				//Red
+				hm_grnd_red_cover_right_crouch_lean_aim_4_ar
+				hm_grnd_red_cover_right_stand_lean_aim_4
+				hm_grnd_red_exposed_aim_4_ar
+				hm_grnd_red_prone_aim_4_ar
+				hm_grnd_red_cover_stand_aim_4_ar
+				hm_grnd_red_cover_stand_aim_high_4_ar
+				hm_grnd_red_exposed_crouch_aim_4_ar
+				hm_grnd_red_cover_left_stand_lean_aim_4_ar
+				hm_grnd_red_cover_left_crouch_lean_aim_4_ar
+				hm_grnd_red_cover_left_crouch_exp_aim_4_ar
+				hm_grnd_red_cover_crouch_aim_4_ar
+				hm_grnd_red_cover_crouch_lean_aim_4_ar
+				hm_grnd_red_cover_crouch_stand_aim_4_ar
+
+
+				//zero g
+				hm_zg_org_exposed_aim_4_ar
+				hm_zg_org_cover_crouch_aim_4_ar
+				hm_zg_org_cover_crouch_lean_aim_4_ar
+				hm_zg_org_cover_stand_aim_4_ar
+				hm_zg_org_cover3d_left_lean_aim_4_ar
+				hm_zg_org_cover3d_right_lean_aim_4_ar
+				hm_zg_org_cover3d_up_lean_aim_4_ar
+				hm_zg_org_cover3d_up_exposed_aim_4_ar
+				hm_zg_org_cover3d_left_exposed_aim_4_ar
+				hm_zg_org_cover3d_right_exposed_aim_4_ar
+
+				//zero g new
+				hm_zg_red_exposed_aim_4_ar
+        		hm_zg_red_cover_exposed_aim_4_ar
+        		hm_zg_red_cover_exposed_45_l_aim_4_ar
+        		hm_zg_red_cover_exposed_45_r_aim_4_ar
+
+				//robot
+				space_cover_r1_exposed_aim_l
+				space_cover_l1_exposed_aim_l
+				space_cover_u1_exposed_aim_l
+				space_idle_ready_aim_l
+
+				mp_run_assault_aim_4
+
+				hm_grnd_org_wallrun_right_aim4
+				hm_grnd_org_wallrun_left_aim4
+			}
+
+			aim_6 : additive
+			{
+				exposed_aim_6
+				exposed_turn_aim_6
+				exposed_crouch_aim_6
+				exposed_crouch_turn_aim_6
+				covercrouch_aim6_add
+				coverstandaim_aim6_add
+				pistol_stand_aim_6_add
+				pistol_stand_aim_6_alt
+				rpg_stand_aim_6
+				rpg_crouch_aim_6
+				cornerstndl_lean_aim_6
+				cornerstndr_lean_aim_6
+				cornercrl_lean_aim_6
+				cornercrr_lean_aim_6
+				cqb_stand_aim6
+				prone_aim_6_add
+				shotgun_aim_6
+				heat_stand_aim_6
+				space_fire_r
+
+				//Orange
+				hm_grnd_org_cover_right_stand_lean_aim_6
+				hm_grnd_org_cover_right_crouch_lean_aim_6_ar
+				hm_grnd_org_cover_stand_aim_6_ar
+				hm_grnd_org_cover_left_stand_lean_aim_6_ar
+				hm_grnd_org_cover_left_crouch_lean_aim_6_ar
+				hm_grnd_org_cover_crouch_aim_6_ar
+
+				//Red
+				hm_grnd_red_cover_right_crouch_lean_aim_6_ar
+				hm_grnd_red_cover_right_stand_lean_aim_6
+				hm_grnd_red_exposed_aim_6_ar
+				hm_grnd_red_prone_aim_6_ar
+				hm_grnd_red_cover_stand_aim_6_ar
+				hm_grnd_red_cover_stand_aim_high_6_ar
+				hm_grnd_red_exposed_crouch_aim_6_ar
+				hm_grnd_red_cover_left_stand_lean_aim_6_ar
+				hm_grnd_red_cover_left_crouch_lean_aim_6_ar
+				hm_grnd_red_cover_left_crouch_exp_aim_6_ar
+				hm_grnd_red_cover_crouch_aim_6_ar
+				hm_grnd_red_cover_crouch_lean_aim_6_ar
+				hm_grnd_red_cover_crouch_stand_aim_6_ar
+
+
+				//zero g
+				hm_zg_org_exposed_aim_6_ar
+				hm_zg_org_cover_crouch_aim_6_ar
+				hm_zg_org_cover_crouch_lean_aim_6_ar
+				hm_zg_org_cover_stand_aim_6_ar
+				hm_zg_org_cover3d_left_lean_aim_6_ar
+				hm_zg_org_cover3d_right_lean_aim_6_ar
+				hm_zg_org_cover3d_up_lean_aim_6_ar
+				hm_zg_org_cover3d_up_exposed_aim_6_ar
+				hm_zg_org_cover3d_left_exposed_aim_6_ar
+				hm_zg_org_cover3d_right_exposed_aim_6_ar
+
+				//zero g new
+				hm_zg_red_exposed_aim_6_ar
+        		hm_zg_red_cover_exposed_aim_6_ar
+        		hm_zg_red_cover_exposed_45_l_aim_6_ar
+        		hm_zg_red_cover_exposed_45_r_aim_6_ar
+
+				//robot
+				space_cover_r1_exposed_aim_r
+				space_cover_l1_exposed_aim_r
+				space_cover_u1_exposed_aim_r
+				space_idle_ready_aim_r
+
+				mp_run_assault_aim_6
+
+				hm_grnd_org_wallrun_right_aim6
+				hm_grnd_org_wallrun_left_aim6
+			}
+
+			aim_2 : additive
+			{
+				exposed_aim_2
+				exposed_turn_aim_2
+				exposed_crouch_aim_2
+				exposed_crouch_turn_aim_2
+				covercrouch_aim2_add
+				coverstandaim_aim2_add
+				pistol_stand_aim_2_add
+				pistol_stand_aim_2_alt
+				rpg_stand_aim_2
+				rpg_crouch_aim_2
+				cornerstndl_lean_aim_2
+				cornerstndr_lean_aim_2
+				cornercrl_lean_aim_2
+				cornercrr_lean_aim_2
+				cqb_stand_aim2
+				prone_aim_2_add
+				shotgun_aim_2
+				heat_stand_aim_2
+				space_fire_d
+
+				//Orange
+				hm_grnd_org_cover_right_stand_lean_aim_2
+				hm_grnd_org_cover_left_crouch_lean_aim_2_ar
+				hm_grnd_org_cover_right_crouch_lean_aim_2_ar
+				hm_grnd_org_cover_stand_aim_2_ar
+				hm_grnd_org_cover_left_stand_lean_aim_2_ar
+				hm_grnd_org_cover_crouch_aim_2_ar
+
+				//Red
+				hm_grnd_red_cover_right_crouch_lean_aim_2_ar
+				hm_grnd_red_cover_right_stand_lean_aim_2
+				hm_grnd_red_exposed_aim_2_ar
+				hm_grnd_red_prone_aim_2_ar
+				hm_grnd_red_cover_stand_aim_2_ar
+				hm_grnd_red_cover_stand_aim_high_2_ar
+				hm_grnd_red_exposed_crouch_aim_2_ar
+				hm_grnd_red_cover_left_stand_lean_aim_2_ar
+				hm_grnd_red_cover_left_crouch_lean_aim_2_ar
+				hm_grnd_red_cover_left_crouch_exp_aim_2_ar
+				hm_grnd_red_cover_crouch_aim_2_ar
+            	hm_grnd_red_cover_crouch_lean_aim_2_ar
+            	hm_grnd_red_cover_crouch_stand_aim_2_ar
+
+
+
+
+
+				//zero g
+				hm_zg_org_exposed_aim_2_ar
+				hm_zg_org_exposed_aim_2_extended_ar
+				hm_zg_org_cover_crouch_aim_2_ar
+				hm_zg_org_cover_crouch_lean_aim_2_ar
+				hm_zg_org_cover_stand_aim_2_ar
+				hm_zg_org_cover3d_left_lean_aim_2_ar
+				hm_zg_org_cover3d_right_lean_aim_2_ar
+				hm_zg_org_cover3d_up_lean_aim_2_ar
+				hm_zg_org_cover3d_up_exposed_aim_2_ar
+				hm_zg_org_cover3d_left_exposed_aim_2_ar
+				hm_zg_org_cover3d_right_exposed_aim_2_ar
+
+				//zero g new
+				hm_zg_red_exposed_aim_2_ar
+        		hm_zg_red_cover_exposed_aim_2_ar
+        		hm_zg_red_cover_exposed_45_l_aim_2_ar
+        		hm_zg_red_cover_exposed_45_r_aim_2_ar
+
+				//robot
+				space_cover_r1_exposed_aim_d
+				space_cover_l1_exposed_aim_d
+				space_cover_u1_exposed_aim_d
+				space_idle_ready_aim_d_extended
+
+				mp_stand_aim_2
+				mp_crouch_aim_2
+				mp_prone_aim_2
+				mp_run_assault_aim_2
+
+				hm_grnd_org_wallrun_right_aim2
+				hm_grnd_org_wallrun_left_aim2
+			}
+
+			aim_8 : additive
+			{
+				exposed_aim_8
+				exposed_turn_aim_8
+				exposed_crouch_aim_8
+				exposed_crouch_turn_aim_8
+				covercrouch_aim8_add
+				coverstandaim_aim8_add
+				pistol_stand_aim_8_add
+				pistol_stand_aim_8_alt
+				rpg_stand_aim_8
+				rpg_crouch_aim_8
+				cornerstndl_lean_aim_8
+				cornerstndr_lean_aim_8
+				cornercrl_lean_aim_8
+				cornercrr_lean_aim_8
+				cqb_stand_aim8
+				prone_aim_8_add
+				shotgun_aim_8
+				heat_stand_aim_8
+				space_fire_u
+				space_fire_u_extended
+
+
+
+				//Orange
+				hm_grnd_org_cover_right_stand_lean_aim_8
+				hm_grnd_org_cover_right_crouch_lean_aim_8_ar
+				hm_grnd_org_cover_stand_aim_8_ar
+				hm_grnd_org_cover_left_stand_lean_aim_8_ar
+				hm_grnd_org_cover_left_crouch_lean_aim_8_ar
+				hm_grnd_org_cover_crouch_aim_8_ar
+
+				//Red
+				hm_grnd_red_cover_right_crouch_lean_aim_8_ar
+				hm_grnd_red_cover_right_stand_lean_aim_8
+				hm_grnd_red_exposed_aim_8_ar
+				hm_grnd_red_prone_aim_8_ar
+				hm_grnd_red_cover_stand_aim_8_ar
+				hm_grnd_red_cover_stand_aim_high_8_ar
+				hm_grnd_red_exposed_crouch_aim_8_ar
+				hm_grnd_red_cover_left_stand_lean_aim_8_ar
+				hm_grnd_red_cover_left_crouch_lean_aim_8_ar
+				hm_grnd_red_cover_left_crouch_exp_aim_8_ar
+				hm_grnd_red_cover_crouch_aim_8_ar
+            	hm_grnd_red_cover_crouch_lean_aim_8_ar
+            	hm_grnd_red_cover_crouch_stand_aim_8_ar
+
+
+				//zero g
+				hm_zg_org_exposed_aim_8_ar
+				hm_zg_org_exposed_aim_8_extended_ar
+				hm_zg_org_cover_crouch_aim_8_ar
+				hm_zg_org_cover_crouch_lean_aim_8_ar
+				hm_zg_org_cover_stand_aim_8_ar
+				hm_zg_org_cover3d_left_lean_aim_8_ar
+				hm_zg_org_cover3d_right_lean_aim_8_ar
+				hm_zg_org_cover3d_up_lean_aim_8_ar
+				hm_zg_org_cover3d_up_exposed_aim_8_ar
+				hm_zg_org_cover3d_left_exposed_aim_8_ar
+				hm_zg_org_cover3d_right_exposed_aim_8_ar
+
+				//zero g new
+				hm_zg_red_exposed_aim_8_ar
+       			hm_zg_red_cover_exposed_aim_8_ar
+       			hm_zg_red_cover_exposed_45_l_aim_8_ar
+       			hm_zg_red_cover_exposed_45_r_aim_8_ar
+
+				space_cover_r1_exposed_aim_u
+				space_cover_l1_exposed_aim_u
+				space_cover_u1_exposed_aim_u
+				space_idle_ready_aim_u_extended
+
+				mp_run_assault_aim_8
+
+				hm_grnd_org_wallrun_right_aim8
+				hm_grnd_org_wallrun_left_aim8
+			}
+
+			turn
+			{
+				exposed_crouch_turn_90_left
+				exposed_crouch_turn_90_right
+				exposed_crouch_turn_180_left
+				exposed_crouch_turn_180_right
+
+				exposed_tracking_turn45l
+				exposed_tracking_turn90l
+				exposed_tracking_turn135l
+				exposed_tracking_turn180l
+				exposed_tracking_turn45r
+				exposed_tracking_turn90r
+				exposed_tracking_turn135r
+				exposed_tracking_turn180r
+
+				pistol_stand_turn45r
+				pistol_stand_turn45l
+				pistol_stand_turn90r
+				pistol_stand_turn90l
+				pistol_stand_turn180l
+
+
+				heat_stand_turn_180
+				heat_stand_turn_l
+				heat_stand_turn_r
+
+				//Red
+				hm_grnd_red_exposed_turn_1_ar
+				hm_grnd_red_exposed_turn_2_left_ar
+				hm_grnd_red_exposed_turn_2_right_ar
+				hm_grnd_red_exposed_turn_3_ar
+				hm_grnd_red_exposed_turn_4_ar
+				hm_grnd_red_exposed_turn_6_ar
+				hm_grnd_red_exposed_turn_7_ar
+				hm_grnd_red_exposed_turn_9_ar
+				hm_grnd_red_exposed_crouch_turn_2l_ar
+				hm_grnd_red_exposed_crouch_turn_2r_ar
+				hm_grnd_red_exposed_crouch_turn_6_ar
+				hm_grnd_red_exposed_crouch_turn_4_ar
+			}
+
+			crouch_cover
+			{
+				hm_grnd_org_cover_crouch_hide_to_left_ar
+				hm_grnd_org_cover_crouch_hide_to_right_ar
+				hm_grnd_org_cover_crouch_hide_to_lean_ar
+				hm_grnd_org_cover_crouch_hide_to_stand_ar
+				hm_grnd_org_cover_crouch_hide_to_aim_ar
+
+				hm_grnd_red_cover_crouch_hide_to_left_ar
+				hm_grnd_red_cover_crouch_hide_to_right_ar
+				hm_grnd_red_cover_crouch_hide_to_lean_ar
+				hm_grnd_red_cover_crouch_hide_to_stand_ar
+				hm_grnd_red_cover_crouch_hide_to_aim_ar
+			}
+
+			stand_cover
+			{
+				hm_grnd_org_cover_stand_hide_to_aim_ar
+				hm_grnd_org_cover_stand_hide_to_aim_high_ar
+
+				hm_grnd_red_cover_stand_hide_to_aim_ar
+				hm_grnd_red_cover_stand_hide_to_aim_high_ar
+			}
+
+			corner
+			{
+				corner_standl_trans_a_2_b_v2
+				corner_standl_trans_alert_2_a
+				corner_standl_trans_alert_2_b_v2
+				corner_standl_trans_b_2_a_v2
+
+				corner_standr_trans_a_2_b
+				corner_standr_trans_a_2_b_v2
+				corner_standr_trans_alert_2_a
+				corner_standr_trans_alert_2_a_v2
+				corner_standr_trans_alert_2_b
+				corner_standr_trans_alert_2_b_v2
+				corner_standr_trans_alert_2_b_v3
+				corner_standr_trans_b_2_a
+				corner_standr_trans_b_2_a_v2
+
+				cornercrl_trans_a_2_b
+				cornercrl_trans_b_2_a
+				cornercrl_trans_alert_2_a
+				cornercrl_trans_alert_2_b
+
+				cornercrr_trans_a_2_b
+				cornercrr_trans_b_2_a
+				cornercrr_trans_alert_2_a
+				cornercrr_trans_alert_2_b
+
+				corner_standl_trans_a_2_alert_v2
+				corner_standl_trans_b_2_alert_v2
+				corner_standr_trans_a_2_alert_v2
+				corner_standr_trans_b_2_alert
+				corner_standr_trans_b_2_alert_v2
+				corner_standr_trans_b_2_alert_v3
+				cornercrl_trans_b_2_alert
+				cornercrl_trans_a_2_alert
+				cornercrr_trans_b_2_alert
+				cornercrr_trans_a_2_alert
+
+				rpg_conceal_2_standr
+				rpg_standr_2_conceal
+
+				cornerstndl_lean_2_alert
+				cornerstndl_alert_2_lean
+				cornerstndr_lean_2_alert
+				cornerstndr_alert_2_lean
+
+				//orange
+				hm_grnd_org_cover_right_stand_hide_to_exp_ar
+				hm_grnd_org_cover_right_stand_exp_to_hide_ar
+				hm_grnd_org_cover_right_stand_hide_to_fullexp_ar
+				hm_grnd_org_cover_right_stand_fullexp_to_hide_ar
+				hm_grnd_org_cover_right_stand_hide_to_lean_ar
+				hm_grnd_org_cover_right_stand_lean_to_hide_ar
+				hm_grnd_org_cover_right_stand_exp_to_fullexp_ar
+				hm_grnd_org_cover_right_stand_fullexp_to_exp_ar
+				hm_grnd_org_cover_right_stand_reload_fullexp_to_hide_ar
+				hm_grnd_org_cover_right_crouch_exp_to_fullexp_ar
+				hm_grnd_org_cover_right_crouch_fullexp_to_exp_ar
+				hm_grnd_org_cover_right_crouch_hide_to_fullexp_ar
+				hm_grnd_org_cover_right_crouch_fullexp_to_hide_ar
+				hm_grnd_org_cover_right_crouch_hide_to_exp_ar
+				hm_grnd_org_cover_right_crouch_exp_to_hide_ar
+				hm_grnd_org_cover_right_crouch_hide_to_lean_ar
+				hm_grnd_org_cover_left_stand_reload_fullexp_to_hide_ar
+				hm_grnd_org_cover_left_stand_fullexp_to_hide_ar
+
+				hm_grnd_org_cover_left_stand_lean_to_hide_ar
+
+				hm_grnd_org_cover_left_stand_exp_to_hide_ar
+
+				hm_grnd_org_cover_left_stand_hide_to_lean_ar
+				hm_grnd_org_cover_left_stand_hide_to_exp_ar
+				hm_grnd_org_cover_left_stand_hide_to_fullexp_ar
+				hm_grnd_org_cover_left_stand_exp_to_fullexp_ar
+				hm_grnd_org_cover_left_stand_fullexp_to_exp_ar
+				hm_grnd_org_cover_left_crouch_exp_to_fullexp_ar
+				hm_grnd_org_cover_left_crouch_hide_to_lean_ar
+				hm_grnd_org_cover_left_crouch_hide_to_exp_ar
+				hm_grnd_org_cover_left_crouch_hide_to_fullexp_ar
+				hm_grnd_org_cover_left_crouch_fullexp_to_exp_ar
+
+
+
+				//Red
+				hm_grnd_red_cover_right_crouch_hide_to_exp_ar
+				hm_grnd_red_cover_right_crouch_exp_idle_ar
+				hm_grnd_red_cover_right_crouch_exp_to_hide_ar
+				hm_grnd_red_cover_right_crouch_hide_to_fullexp_ar
+				hm_grnd_red_cover_right_crouch_fullexp_idle_ar
+				hm_grnd_red_cover_right_crouch_fullexp_to_hide_ar
+				hm_grnd_red_cover_right_crouch_exp_to_fullexp_ar
+				hm_grnd_red_cover_right_crouch_fullexp_to_exp_ar
+				hm_grnd_red_cover_right_stand_hide_to_lean_ar
+				hm_grnd_red_cover_right_stand_lean_to_hide_ar
+				hm_grnd_red_cover_right_stand_hide_to_fullexp_ar
+				hm_grnd_red_cover_right_stand_fullexp_to_hide_ar
+				hm_grnd_red_cover_right_stand_exp_to_fullexp_ar
+				hm_grnd_red_cover_right_stand_fullexp_to_exp_ar
+				hm_grnd_red_cover_right_stand_hide_to_exp_ar
+				hm_grnd_red_cover_right_stand_exp_to_hide_ar
+				hm_grnd_red_cover_right_crouch_hide_to_lean_ar
+				hm_grnd_red_cover_left_stand_lean_to_hide_ar
+
+				hm_grnd_red_cover_left_stand_exp_to_hide_ar
+
+				hm_grnd_red_cover_left_stand_reload_fullexp_to_hide_ar
+				hm_grnd_red_cover_left_stand_fullexp_to_hide_ar
+
+
+				hm_grnd_red_cover_left_crouch_hide_to_exp_ar
+				hm_grnd_red_cover_left_crouch_exp_to_hide_ar
+				hm_grnd_red_cover_left_crouch_exp_to_fullexp_ar
+				hm_grnd_red_cover_left_crouch_fullexp_to_exp_ar
+				hm_grnd_red_cover_left_crouch_hide_to_fullexp_ar
+				hm_grnd_red_cover_left_crouch_fullexp_to_hide_ar
+				hm_grnd_red_cover_left_crouch_fullexp_idle_ar
+				hm_grnd_red_cover_left_crouch_exp_idle_ar
+
+
+				hm_grnd_red_cover_left_stand_hide_to_lean_ar
+				hm_grnd_red_cover_left_stand_hide_to_exp_ar
+				hm_grnd_red_cover_left_stand_hide_to_fullexp_ar
+				hm_grnd_red_cover_left_stand_exp_to_fullexp_ar
+				hm_grnd_red_cover_left_stand_fullexp_to_exp_ar
+			}
+			
+			reload
+			{
+				exposed_reload
+				exposed_reloadb
+				exposed_reloadc
+				exposed_crouch_reload
+				pistol_stand_reload_a
+				rpg_stand_reload
+				rpg_crouch_reload
+				shotgun_stand_reload_a
+				shotgun_stand_reload_b
+				shotgun_stand_reload_c
+				shotgun_crouch_reload
+				cornerstndr_lean_reload
+				cornerstndl_lean_reload
+				cqb_stand_reload_steady
+				cqb_stand_reload_knee
+				space_reload
+				
+				heat_exposed_reload
+				heat_cover_reload_l
+				heat_cover_reload_r
+				
+				//Orange
+				hm_grnd_org_cover_right_stand_lean_reload_ar
+				hm_grnd_org_cover_right_stand_reload01_ar
+				hm_grnd_org_cover_right_crouch_reload02_ar
+				hm_grnd_org_cover_right_crouch_reload01_ar
+				hm_grnd_org_cover_left_stand_lean_reload_ar
+				hm_grnd_org_cover_left_stand_reload01_ar
+				hm_grnd_org_cover_left_crouch_reload01_ar
+				
+				
+				//Red
+				hm_grnd_red_exposed_reload01_ar
+				hm_grnd_red_exposed_reload02_ar
+				hm_grnd_red_exposed_reload03_ar
+				hm_grnd_red_exposed_reload04_ar
+				hm_grnd_red_exposed_reload01_pstl
+				hm_grnd_red_exposed_reload01_sg
+				hm_grnd_red_exposed_reload02_sg
+				hm_grnd_red_exposed_reload02_high_ar
+				hm_grnd_red_exposed_reload03_sg
+				hm_grnd_red_cover_right_stand_lean_reload_ar
+				hm_grnd_red_exposed_crouch_reload01_ar
+				hm_grnd_red_cover_left_stand_lean_reload_ar
+				
+				//zero g
+				hm_zg_org_exposed_reload01_ar
+				
+				// zero g new
+				hm_zg_red_exposed_reload_ar
+	      		hm_zg_red_exposed_reload02_ar
+			}
+			
+			exposed_battlechatter
+			{
+				hm_grnd_org_exposed_stand_callout_8
+				hm_grnd_org_exposed_stand_callout_9
+				hm_grnd_org_exposed_stand_callout_6
+				hm_grnd_org_exposed_stand_callout_3
+				hm_grnd_org_exposed_stand_callout_2
+				hm_grnd_org_exposed_stand_callout_1
+				hm_grnd_org_exposed_stand_callout_4
+				hm_grnd_org_exposed_stand_callout_7
+				
+				hm_grnd_org_exposed_crouch_callout_8
+				hm_grnd_org_exposed_crouch_callout_9
+				hm_grnd_org_exposed_crouch_callout_6
+				hm_grnd_org_exposed_crouch_callout_3
+				hm_grnd_org_exposed_crouch_callout_2
+				hm_grnd_org_exposed_crouch_callout_1
+				hm_grnd_org_exposed_crouch_callout_4
+				hm_grnd_org_exposed_crouch_callout_7
+				
+				hm_grnd_red_exposed_crouch_callout_8
+				hm_grnd_red_exposed_crouch_callout_9
+				hm_grnd_red_exposed_crouch_callout_6
+				hm_grnd_red_exposed_crouch_callout_3
+				hm_grnd_red_exposed_crouch_callout_2
+				hm_grnd_red_exposed_crouch_callout_1
+				hm_grnd_red_exposed_crouch_callout_4
+				hm_grnd_red_exposed_crouch_callout_7
+				
+				hm_grnd_red_exposed_stand_callout_8
+				hm_grnd_red_exposed_stand_callout_9
+				hm_grnd_red_exposed_stand_callout_6
+				hm_grnd_red_exposed_stand_callout_3
+				hm_grnd_red_exposed_stand_callout_2
+				hm_grnd_red_exposed_stand_callout_1
+				hm_grnd_red_exposed_stand_callout_4
+				hm_grnd_red_exposed_stand_callout_7
+			}
+		}
+
+
+		pistol_stand_pullout // static / switches from main weapon to pistol
+		pistol_stand_switch // static / switches from pistol to main weapon
+
+		exposed_grenadethrowb
+		exposed_grenadethrowc
+
+		exposed_crouch_2_stand
+		exposed_stand_2_crouch
+
+		creepwalk_2_crouch_exposed
+		creepwalk_2_stand_exposed
+
+		pistol_crouchaimstraight2stand
+
+		//robot_test
+
+		run_whizby_A
+		run_whizby_B
+
+		// path change
+		run_turn_l90
+		run_turn_r90
+		run_turn_l45
+		run_turn_r45
+		run_turn_l135
+		run_turn_r135
+		run_turn_180
+
+		// red path changes
+		hm_grnd_red_run_turn_l_1_ar
+		hm_grnd_red_run_turn_l_2_ar
+		hm_grnd_red_run_turn_l_3_ar
+		hm_grnd_red_run_turn_l_4_ar
+		hm_grnd_red_run_turn_l_6_ar
+		hm_grnd_red_run_turn_l_7_ar
+		hm_grnd_red_run_turn_l_9_ar
+		hm_grnd_red_run_turn_r_1_ar
+		hm_grnd_red_run_turn_r_2_ar
+		hm_grnd_red_run_turn_r_3_ar
+		hm_grnd_red_run_turn_r_4_ar
+		hm_grnd_red_run_turn_r_6_ar
+		hm_grnd_red_run_turn_r_7_ar
+		hm_grnd_red_run_turn_r_9_ar
+
+		//cqb transitions
+		hm_org_exposed_stand_to_cqb
+		hm_grnd_cqb_stand_exposed
+		hm_grnd_cqb_stand_twitch01
+		hm_grnd_cqb_stand_idle
+		hm_grnd_cqb_stand_twitch02
+		hm_grnd_cqb_stand_to_yel_casual
+		hm_grnd_yel_casual_stand_to_cqb
+
+		cqb_walk_turn_1
+		cqb_walk_turn_2
+		cqb_walk_turn_3
+		cqb_walk_turn_4
+		cqb_walk_turn_6
+		cqb_walk_turn_7
+		cqb_walk_turn_9
+
+		cqb_run_turn_r45_iw6
+		cqb_run_turn_r90_iw6
+		cqb_run_turn_r135_iw6
+		cqb_run_turn_l45_iw6
+		cqb_run_turn_l90_iw6
+		cqb_run_turn_l135_iw6
+		cqb_run_turn_180_iw6
+
+		// cqb turns
+		hm_grnd_cqb_turn_l_1
+		hm_grnd_cqb_turn_l_2
+		hm_grnd_cqb_turn_l_3
+		hm_grnd_cqb_turn_l_4
+		hm_grnd_cqb_turn_l_6
+		hm_grnd_cqb_turn_l_7
+		hm_grnd_cqb_turn_l_9
+		hm_grnd_cqb_turn_r_1
+		hm_grnd_cqb_turn_r_2
+		hm_grnd_cqb_turn_r_3
+		hm_grnd_cqb_turn_r_4
+		hm_grnd_cqb_turn_r_6
+		hm_grnd_cqb_turn_r_7
+		hm_grnd_cqb_turn_r_9
+
+		creepwalk_turn_45_l
+		creepwalk_turn_45_r
+		creepwalk_turn_90_l
+		creepwalk_turn_90_l_aiming
+		creepwalk_turn_90_r
+		creepwalk_turn_90_r_aiming
+
+    // Patrol Walk Turns
+    hm_grnd_yel_patrol_walk_turn_l_1_ar
+    hm_grnd_yel_patrol_walk_turn_l_2_ar
+    hm_grnd_yel_patrol_walk_turn_l_3_ar
+    hm_grnd_yel_patrol_walk_turn_l_4_ar
+    hm_grnd_yel_patrol_walk_turn_l_6_ar
+    hm_grnd_yel_patrol_walk_turn_l_7_ar
+    hm_grnd_yel_patrol_walk_turn_l_9_ar
+
+    // Creepwalk Walk Turns
+    hm_grnd_yel_patrol_creepwalk_walk_turn_l_1_ar
+    hm_grnd_yel_patrol_creepwalk_walk_turn_l_2_ar
+    hm_grnd_yel_patrol_creepwalk_walk_turn_l_3_ar
+    hm_grnd_yel_patrol_creepwalk_walk_turn_l_4_ar
+    hm_grnd_yel_patrol_creepwalk_walk_turn_l_6_ar
+    hm_grnd_yel_patrol_creepwalk_walk_turn_l_7_ar
+    hm_grnd_yel_patrol_creepwalk_walk_turn_l_9_ar
+
+    // Seekclear Walk Turns
+    hm_grnd_yel_patrol_seekclear_walk_turn_l_1_ar
+    hm_grnd_yel_patrol_seekclear_walk_turn_l_2_ar
+    hm_grnd_yel_patrol_seekclear_walk_turn_l_3_ar
+    hm_grnd_yel_patrol_seekclear_walk_turn_l_4_ar
+    hm_grnd_yel_patrol_seekclear_walk_turn_l_6_ar
+    hm_grnd_yel_patrol_seekclear_walk_turn_l_7_ar
+    hm_grnd_yel_patrol_seekclear_walk_turn_l_9_ar
+
+		// orange path changes
+		hm_grnd_org_run_turn_l_1_ar
+		hm_grnd_org_run_turn_l_2_ar
+		hm_grnd_org_run_turn_l_3_ar
+		hm_grnd_org_run_turn_l_4_ar
+		hm_grnd_org_run_turn_l_6_ar
+		hm_grnd_org_run_turn_l_7_ar
+		hm_grnd_org_run_turn_l_9_ar
+		hm_grnd_org_run_turn_r_1_ar
+		hm_grnd_org_run_turn_r_2_ar
+		hm_grnd_org_run_turn_r_3_ar
+		hm_grnd_org_run_turn_r_4_ar
+		hm_grnd_org_run_turn_r_6_ar
+		hm_grnd_org_run_turn_r_7_ar
+		hm_grnd_org_run_turn_r_9_ar
+
+		//orange 2h turns
+		hm_grnd_org_run_turn_l_1_2h
+		hm_grnd_org_run_turn_l_2_2h
+		hm_grnd_org_run_turn_l_3_2h
+		hm_grnd_org_run_turn_l_4_2h
+		hm_grnd_org_run_turn_l_6_2h
+		hm_grnd_org_run_turn_l_7_2h
+		hm_grnd_org_run_turn_l_9_2h
+		hm_grnd_org_run_turn_r_1_2h
+		hm_grnd_org_run_turn_r_2_2h
+		hm_grnd_org_run_turn_r_3_2h
+		hm_grnd_org_run_turn_r_4_2h
+		hm_grnd_org_run_turn_r_6_2h
+		hm_grnd_org_run_turn_r_7_2h
+		hm_grnd_org_run_turn_r_9_2h
+
+		//Walk Turn
+		hm_grnd_grn_walk_turn_l_1
+		hm_grnd_grn_walk_turn_l_2
+		hm_grnd_grn_walk_turn_l_3
+		hm_grnd_grn_walk_turn_l_4
+		hm_grnd_grn_walk_turn_l_6
+		hm_grnd_grn_walk_turn_l_7
+		hm_grnd_grn_walk_turn_l_9
+		hm_grnd_grn_walk_turn_r_1
+		hm_grnd_grn_walk_turn_r_2
+		hm_grnd_grn_walk_turn_r_3
+		hm_grnd_grn_walk_turn_r_4
+		hm_grnd_grn_walk_turn_r_6
+		hm_grnd_grn_walk_turn_r_7
+		hm_grnd_grn_walk_turn_r_9
+
+
+		//flood
+		civilian_run_upright_turnr45
+		civilian_run_upright_turnl45
+		civilian_run_upright_turnr90
+		civilian_run_upright_turnl90
+		civilian_run_upright_turnr135
+		civilian_run_upright_turnl135
+		civilian_run_upright_turn180
+
+		civilian_run_hunched_turnr90
+		civilian_run_hunched_turnr90_slide
+		civilian_run_hunched_turnr90_stumble
+		civilian_run_hunched_turnl90
+		civilian_run_hunched_turnl90_slide
+		civilian_run_hunched_turnl90_stumble
+		civilian_run_hunched_turnr45
+		civilian_run_hunched_turnl45
+
+
+		// approaches/exits
+		run_2_stand_f_6
+		run_2_stand_90l
+		run_2_stand_90r
+		run_2_stand_180l
+		run_2_idle_1
+		run_2_idle_3
+		run_2_idle_7
+		run_2_idle_9
+		stand_2_run_l
+		stand_2_run_r
+		stand_2_run_f_2
+		stand_2_run_180l
+
+		// Orange Exposed Arrivals
+		hm_grnd_org_exposed_arrival_l_ar_1
+		hm_grnd_org_exposed_arrival_l_ar_2
+		hm_grnd_org_exposed_arrival_l_ar_3
+		hm_grnd_org_exposed_arrival_l_ar_4
+		hm_grnd_org_exposed_arrival_l_ar_6
+		hm_grnd_org_exposed_arrival_l_ar_7
+		hm_grnd_org_exposed_arrival_l_ar_8
+		hm_grnd_org_exposed_arrival_l_ar_9
+		hm_grnd_org_exposed_arrival_r_ar_1
+		hm_grnd_org_exposed_arrival_r_ar_2
+		hm_grnd_org_exposed_arrival_r_ar_3
+		hm_grnd_org_exposed_arrival_r_ar_4
+		hm_grnd_org_exposed_arrival_r_ar_6
+		hm_grnd_org_exposed_arrival_r_ar_7
+		hm_grnd_org_exposed_arrival_r_ar_8
+		hm_grnd_org_exposed_arrival_r_ar_9
+		hm_grnd_org_exposed_exit_ar_1
+		hm_grnd_org_exposed_exit_ar_2
+		hm_grnd_org_exposed_exit_ar_3
+		hm_grnd_org_exposed_exit_ar_4
+		hm_grnd_org_exposed_exit_ar_6
+		hm_grnd_org_exposed_exit_ar_7
+		hm_grnd_org_exposed_exit_ar_8
+		hm_grnd_org_exposed_exit_ar_9
+		
+		hm_grnd_org_exposed_exit_2hands_ar_1
+		hm_grnd_org_exposed_exit_2hands_ar_2
+		hm_grnd_org_exposed_exit_2hands_ar_3
+		hm_grnd_org_exposed_exit_2hands_ar_4
+		hm_grnd_org_exposed_exit_2hands_ar_6
+		hm_grnd_org_exposed_exit_2hands_ar_7
+		hm_grnd_org_exposed_exit_2hands_ar_8
+		hm_grnd_org_exposed_exit_2hands_ar_9
+
+		// CQB - cover exits
+
+		hm_grnd_cqb_cover_right_crouch_exit_1
+		hm_grnd_cqb_cover_right_crouch_exit_2
+		hm_grnd_cqb_cover_right_crouch_exit_3
+		hm_grnd_cqb_cover_right_crouch_exit_4
+		hm_grnd_cqb_cover_right_crouch_exit_6
+		hm_grnd_cqb_cover_right_crouch_exit_8
+		hm_grnd_cqb_cover_right_crouch_exit_9
+		hm_grnd_cqb_cover_stand_exit_1
+		hm_grnd_cqb_cover_stand_exit_2
+		hm_grnd_cqb_cover_stand_exit_3
+		hm_grnd_cqb_cover_stand_exit_4
+		hm_grnd_cqb_cover_stand_exit_6
+		hm_grnd_cqb_cover_crouch_exit_1
+		hm_grnd_cqb_cover_crouch_exit_2
+		hm_grnd_cqb_cover_crouch_exit_3
+		hm_grnd_cqb_cover_crouch_exit_4
+		hm_grnd_cqb_cover_crouch_exit_6
+
+		// CQB - exposed arrivals
+		hm_grnd_org_exposed_cqb_arrival_ar_l_1
+		hm_grnd_org_exposed_cqb_arrival_ar_l_2
+		hm_grnd_org_exposed_cqb_arrival_ar_l_3
+		hm_grnd_org_exposed_cqb_arrival_ar_l_4
+		hm_grnd_org_exposed_cqb_arrival_ar_l_6
+		hm_grnd_org_exposed_cqb_arrival_ar_l_7
+		hm_grnd_org_exposed_cqb_arrival_ar_l_8
+		hm_grnd_org_exposed_cqb_arrival_ar_l_9
+
+		hm_grnd_org_exposed_cqb_arrival_ar_r_1
+		hm_grnd_org_exposed_cqb_arrival_ar_r_2
+		hm_grnd_org_exposed_cqb_arrival_ar_r_3
+		hm_grnd_org_exposed_cqb_arrival_ar_r_4
+		hm_grnd_org_exposed_cqb_arrival_ar_r_6
+		hm_grnd_org_exposed_cqb_arrival_ar_r_7
+		hm_grnd_org_exposed_cqb_arrival_ar_r_8
+		hm_grnd_org_exposed_cqb_arrival_ar_r_9
+
+		// CQB - exposed exits
+		hm_grnd_org_exposed_cqb_exit_ar_1
+		hm_grnd_org_exposed_cqb_exit_ar_2
+		hm_grnd_org_exposed_cqb_exit_ar_3
+		hm_grnd_org_exposed_cqb_exit_ar_4
+		hm_grnd_org_exposed_cqb_exit_ar_6
+		hm_grnd_org_exposed_cqb_exit_ar_7
+		hm_grnd_org_exposed_cqb_exit_ar_8
+		hm_grnd_org_exposed_cqb_exit_ar_9
+
+		hm_grnd_org_exposed_crouch_cqb_exit_ar_1
+		hm_grnd_org_exposed_crouch_cqb_exit_ar_2
+		hm_grnd_org_exposed_crouch_cqb_exit_ar_3
+		hm_grnd_org_exposed_crouch_cqb_exit_ar_4
+		hm_grnd_org_exposed_crouch_cqb_exit_ar_6
+		hm_grnd_org_exposed_crouch_cqb_exit_ar_7
+		hm_grnd_org_exposed_crouch_cqb_exit_ar_8
+		hm_grnd_org_exposed_crouch_cqb_exit_ar_9
+
+		// CQB - exposed arrivals
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_l_1
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_l_2
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_l_3
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_l_4
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_l_6
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_l_7
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_l_8
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_l_9
+
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_r_1
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_r_2
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_r_3
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_r_4
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_r_6
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_r_7
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_r_8
+		hm_grnd_org_exposed_crouch_cqb_arrival_ar_r_9
+
+		// Red - exposed exits
+		hm_grnd_red_exposed_exit_ar_1
+		hm_grnd_red_exposed_exit_ar_2
+		hm_grnd_red_exposed_exit_ar_3
+		hm_grnd_red_exposed_exit_ar_4
+		hm_grnd_red_exposed_exit_ar_6
+		hm_grnd_red_exposed_exit_ar_7
+		hm_grnd_red_exposed_exit_ar_8
+		hm_grnd_red_exposed_exit_ar_9
+
+		// Red - exposed arrivals
+		hm_grnd_red_exposed_arrival_l_ar_1
+		hm_grnd_red_exposed_arrival_l_ar_2
+		hm_grnd_red_exposed_arrival_l_ar_3
+		hm_grnd_red_exposed_arrival_l_ar_4
+		hm_grnd_red_exposed_arrival_l_ar_6
+		hm_grnd_red_exposed_arrival_l_ar_7
+		hm_grnd_red_exposed_arrival_l_ar_8
+		hm_grnd_red_exposed_arrival_l_ar_9
+
+		hm_grnd_red_exposed_arrival_r_ar_1
+		hm_grnd_red_exposed_arrival_r_ar_2
+		hm_grnd_red_exposed_arrival_r_ar_3
+		hm_grnd_red_exposed_arrival_r_ar_4
+		hm_grnd_red_exposed_arrival_r_ar_6
+		hm_grnd_red_exposed_arrival_r_ar_7
+		hm_grnd_red_exposed_arrival_r_ar_8
+		hm_grnd_red_exposed_arrival_r_ar_9
+
+		//Hop from pain transitions
+		hm_grnd_org_hop_transition_1
+		hm_grnd_org_hop_transition_2
+		hm_grnd_org_hop_transition_3
+		hm_grnd_org_hop_transition_4
+		hm_grnd_org_hop_transition_6
+		hm_grnd_org_hop_transition_7
+		hm_grnd_org_hop_transition_8
+		hm_grnd_org_hop_transition_9
+
+		hm_grnd_red_exposed_crouch_arrival_l_ar_1
+		hm_grnd_red_exposed_crouch_arrival_l_ar_2
+		hm_grnd_red_exposed_crouch_arrival_l_ar_3
+		hm_grnd_red_exposed_crouch_arrival_l_ar_4
+		hm_grnd_red_exposed_crouch_arrival_l_ar_6
+		hm_grnd_red_exposed_crouch_arrival_l_ar_7
+		hm_grnd_red_exposed_crouch_arrival_l_ar_8
+		hm_grnd_red_exposed_crouch_arrival_l_ar_9
+		hm_grnd_red_exposed_crouch_arrival_r_ar_1
+		hm_grnd_red_exposed_crouch_arrival_r_ar_2
+		hm_grnd_red_exposed_crouch_arrival_r_ar_3
+		hm_grnd_red_exposed_crouch_arrival_r_ar_4
+		hm_grnd_red_exposed_crouch_arrival_r_ar_6
+		hm_grnd_red_exposed_crouch_arrival_r_ar_7
+		hm_grnd_red_exposed_crouch_arrival_r_ar_8
+		hm_grnd_red_exposed_crouch_arrival_r_ar_9
+
+		//Snap To Cover Arrival/Transitions/
+        hm_grnd_red_exposed_to_trans_crouch_8_to_2_ar
+        hm_grnd_red_exposed_to_trans_crouch_4_to_2_ar
+        hm_grnd_red_exposed_to_trans_crouch_2_to_2_ar
+        hm_grnd_red_exposed_to_trans_crouch_6_to_2_ar
+        hm_grnd_red_exposed_to_trans_crouch_2_to_4_ar
+        hm_grnd_red_exposed_to_trans_crouch_4_to_4_ar
+        hm_grnd_red_exposed_to_trans_crouch_6_to_4_ar
+        hm_grnd_red_exposed_to_trans_crouch_8_to_4_ar
+        hm_grnd_red_exposed_to_trans_crouch_2_to_6_ar
+        hm_grnd_red_exposed_to_trans_crouch_4_to_6_ar
+        hm_grnd_red_exposed_to_trans_crouch_6_to_6_ar
+        hm_grnd_red_exposed_to_trans_crouch_8_to_6_ar
+        hm_grnd_red_exposed_to_trans_crouch_2_to_8_ar
+        hm_grnd_red_exposed_to_trans_crouch_4_to_8_ar
+        hm_grnd_red_exposed_to_trans_crouch_6_to_8_ar
+        hm_grnd_red_exposed_to_trans_crouch_8_to_8_ar
+
+
+        hm_grnd_red_trans_crouch_to_cover_stand_ar
+        hm_grnd_red_trans_crouch_to_cover_left_crouch_ar
+        hm_grnd_red_trans_crouch_to_cover_left_stand_ar
+        hm_grnd_red_trans_crouch_to_cover_right_crouch_ar
+        hm_grnd_red_trans_crouch_to_cover_right_stand_ar
+
+        hm_grnd_red_trans_crouch_to_org_cover_right_stand_ar
+        hm_grnd_red_trans_crouch_to_org_cover_right_crouch_ar
+        hm_grnd_red_trans_crouch_to_org_cover_crouch_ar
+        hm_grnd_red_trans_crouch_to_org_cover_stand_ar
+        hm_grnd_red_trans_crouch_to_org_cover_left_stand_ar
+        hm_grnd_red_trans_crouch_to_org_cover_left_crouch_ar
+        hm_grnd_red_trans_crouch_to_cover_crouch_ar
+
+        hm_grnd_red_exposed_to_crouch_ar
+
+        //second attempt
+        hm_grnd_red_trans_crouch_to_cover_crouch
+		hm_grnd_red_trans_crouch_to_cover_left_crouch
+		hm_grnd_red_trans_crouch_to_cover_right_crouch
+		hm_grnd_red_trans_stand_to_cover_left_stand
+		hm_grnd_red_trans_stand_to_cover_right_stand
+		hm_grnd_red_trans_stand_to_cover_stand
+		hm_grnd_red_trans_crouch_to_cover_left_stand
+		hm_grnd_red_trans_crouch_to_cover_right_stand
+		hm_grnd_red_trans_crouch_to_cover_stand
+		hm_grnd_org_trans_crouch_to_org_cover_crouch
+		hm_grnd_org_trans_crouch_to_org_cover_left_crouch
+		hm_grnd_org_trans_crouch_to_org_cover_right_crouch
+		hm_grnd_org_trans_stand_to_org_cover_right_stand
+		hm_grnd_org_trans_stand_to_org_cover_stand
+		hm_grnd_org_trans_stand_to_org_cover_left_stand
+		hm_grnd_org_trans_crouch_to_cover_left_stand
+		hm_grnd_org_trans_crouch_to_cover_right_stand
+		hm_grnd_org_trans_crouch_to_cover_stand
+
+
+		//zero g - arrivals & exits
+		hm_zg_org_exposed_arrival_ar_1B
+		hm_zg_org_exposed_arrival_ar_1M
+		hm_zg_org_exposed_arrival_ar_1T
+		hm_zg_org_exposed_arrival_ar_2B
+		hm_zg_org_exposed_arrival_ar_2M
+		hm_zg_org_exposed_arrival_ar_2T
+		hm_zg_org_exposed_arrival_ar_3B
+		hm_zg_org_exposed_arrival_ar_3M
+		hm_zg_org_exposed_arrival_ar_3T
+		hm_zg_org_exposed_arrival_ar_4B
+		hm_zg_org_exposed_arrival_ar_4M
+		hm_zg_org_exposed_arrival_ar_4T
+		hm_zg_org_exposed_arrival_ar_5B2
+		hm_zg_org_exposed_arrival_ar_5B4
+		hm_zg_org_exposed_arrival_ar_5B6
+		hm_zg_org_exposed_arrival_ar_5B8
+		hm_zg_org_exposed_arrival_ar_5T2
+		hm_zg_org_exposed_arrival_ar_5T4
+		hm_zg_org_exposed_arrival_ar_5T6
+		hm_zg_org_exposed_arrival_ar_5T8
+		hm_zg_org_exposed_arrival_ar_6B
+		hm_zg_org_exposed_arrival_ar_6M
+		hm_zg_org_exposed_arrival_ar_6T
+		hm_zg_org_exposed_arrival_ar_7B
+		hm_zg_org_exposed_arrival_ar_7M
+		hm_zg_org_exposed_arrival_ar_7T
+		hm_zg_org_exposed_arrival_ar_8B
+		hm_zg_org_exposed_arrival_ar_8M
+		hm_zg_org_exposed_arrival_ar_8T
+		hm_zg_org_exposed_arrival_ar_9B
+		hm_zg_org_exposed_arrival_ar_9M
+		hm_zg_org_exposed_arrival_ar_9T
+
+		hm_zg_org_exposed_arrival_abrupt_ar_2M
+
+		hm_zg_org_exposed_exit_ar_1B
+		hm_zg_org_exposed_exit_ar_1M
+		hm_zg_org_exposed_exit_ar_1T
+		hm_zg_org_exposed_exit_ar_2B
+		hm_zg_org_exposed_exit_ar_2M
+		hm_zg_org_exposed_exit_ar_2T
+		hm_zg_org_exposed_exit_ar_3B
+		hm_zg_org_exposed_exit_ar_3M
+		hm_zg_org_exposed_exit_ar_3T
+		hm_zg_org_exposed_exit_ar_4B
+		hm_zg_org_exposed_exit_ar_4M
+		hm_zg_org_exposed_exit_ar_4T
+		hm_zg_org_exposed_exit_ar_5B2
+		hm_zg_org_exposed_exit_ar_5B4
+		hm_zg_org_exposed_exit_ar_5B6
+		hm_zg_org_exposed_exit_ar_5B8
+		hm_zg_org_exposed_exit_ar_5T2
+		hm_zg_org_exposed_exit_ar_5T4
+		hm_zg_org_exposed_exit_ar_5T6
+		hm_zg_org_exposed_exit_ar_5T8
+		hm_zg_org_exposed_exit_ar_6B
+		hm_zg_org_exposed_exit_ar_6M
+		hm_zg_org_exposed_exit_ar_6T
+		hm_zg_org_exposed_exit_ar_7B
+		hm_zg_org_exposed_exit_ar_7M
+		hm_zg_org_exposed_exit_ar_7T
+		hm_zg_org_exposed_exit_ar_8B
+		hm_zg_org_exposed_exit_ar_8M
+		hm_zg_org_exposed_exit_ar_8T
+		hm_zg_org_exposed_exit_ar_9B
+		hm_zg_org_exposed_exit_ar_9M
+		hm_zg_org_exposed_exit_ar_9T
+
+
+		run_2_crouch_f
+		run_2_crouch_90l
+		run_2_crouch_90r
+		run_2_crouch_180l
+		run_2_crouch_idle_1
+		run_2_crouch_idle_3
+		run_2_crouch_idle_7
+		run_2_crouch_idle_9
+		crouch_2run_l
+		crouch_2run_r
+		crouch_2run_f
+		crouch_2run_180
+
+		//Orange Exposed Crouch Arrivals Exits
+		hm_grnd_org_exposed_crouch_arrival_l_ar_1
+		hm_grnd_org_exposed_crouch_arrival_l_ar_2
+		hm_grnd_org_exposed_crouch_arrival_l_ar_3
+		hm_grnd_org_exposed_crouch_arrival_l_ar_4
+		hm_grnd_org_exposed_crouch_arrival_l_ar_6
+		hm_grnd_org_exposed_crouch_arrival_l_ar_7
+		hm_grnd_org_exposed_crouch_arrival_l_ar_8
+		hm_grnd_org_exposed_crouch_arrival_l_ar_9
+		hm_grnd_org_exposed_crouch_arrival_r_ar_1
+		hm_grnd_org_exposed_crouch_arrival_r_ar_2
+		hm_grnd_org_exposed_crouch_arrival_r_ar_3
+		hm_grnd_org_exposed_crouch_arrival_r_ar_4
+		hm_grnd_org_exposed_crouch_arrival_r_ar_6
+		hm_grnd_org_exposed_crouch_arrival_r_ar_7
+		hm_grnd_org_exposed_crouch_arrival_r_ar_8
+		hm_grnd_org_exposed_crouch_arrival_r_ar_9
+		hm_grnd_org_exposed_crouch_exit_ar_1
+		hm_grnd_org_exposed_crouch_exit_ar_2
+		hm_grnd_org_exposed_crouch_exit_ar_3
+		hm_grnd_org_exposed_crouch_exit_ar_4
+		hm_grnd_org_exposed_crouch_exit_ar_6
+		hm_grnd_org_exposed_crouch_exit_ar_7
+		hm_grnd_org_exposed_crouch_exit_ar_8
+		hm_grnd_org_exposed_crouch_exit_ar_9
+		hm_grnd_org_exposed_crouch_exit_2hands_ar_1
+		hm_grnd_org_exposed_crouch_exit_2hands_ar_2
+		hm_grnd_org_exposed_crouch_exit_2hands_ar_3
+		hm_grnd_org_exposed_crouch_exit_2hands_ar_4
+		hm_grnd_org_exposed_crouch_exit_2hands_ar_6
+		hm_grnd_org_exposed_crouch_exit_2hands_ar_7
+		hm_grnd_org_exposed_crouch_exit_2hands_ar_8
+		hm_grnd_org_exposed_crouch_exit_2hands_ar_9
+
+		surprise_start_v1
+		surprise_stop_v1
+
+		space_surprise_stop
+
+		cqb_stop_1
+		cqb_stop_2
+		cqb_stop_2_signal
+		cqb_stop_3
+		cqb_stop_4
+		cqb_stop_6
+		cqb_stop_7
+		cqb_stop_8
+		cqb_stop_9
+
+		cqb_start_1
+		cqb_start_2
+		cqb_start_3
+		cqb_start_4
+		cqb_start_6
+		cqb_start_7
+		cqb_start_8
+		cqb_start_9
+
+		cqb_crouch_start_1
+		cqb_crouch_start_2
+		cqb_crouch_start_3
+		cqb_crouch_start_4
+		cqb_crouch_start_6
+		cqb_crouch_start_7
+		cqb_crouch_start_8
+		cqb_crouch_start_9
+
+		cqb_crouch_stop_1
+		cqb_crouch_stop_2
+		cqb_crouch_stop_3
+		cqb_crouch_stop_4
+		cqb_crouch_stop_6
+		cqb_crouch_stop_7
+		cqb_crouch_stop_8
+		cqb_crouch_stop_9
+
+		heat_approach_1
+		heat_approach_2
+		heat_approach_3
+		heat_approach_4
+		heat_approach_4a
+		heat_approach_6
+		heat_approach_8
+
+		heat_exit_1
+		heat_exit_2
+		heat_exit_3
+		heat_exit_4
+		heat_exit_6
+		heat_exit_6a
+		heat_exit_7
+		heat_exit_8
+		heat_exit_8a
+		heat_exit_8r
+		heat_exit_8l
+		heat_exit_9
+
+		//zero g - old
+
+		space_forward_to_fire
+		space_forward_to_idle_ready
+		space_idle_ready_to_forward
+		space_idle_to_aiming_move_180
+
+		space_idle_to_forward
+		space_idle_to_forward_u45
+		space_idle_to_forward_u90
+		space_idle_to_forward_l90
+		space_idle_to_forward_r90
+		space_idle_to_forward_d45
+		space_idle_to_forward_d90
+		space_forward_to_idle
+		space_forward_45u_to_idle
+		space_forward_90u_to_idle
+		space_forward_45d_to_idle
+		space_forward_90d_to_idle
+		space_aiming_move_to_idle_180
+
+
+		hm_grnd_grn_idle_stand
+
+
+
+		stand_2_prone
+		stand_2_prone_nodelta
+		hm_grnd_red_exposed_to_prone_ar
+		stand_2_prone_firing
+		crouch_2_prone
+		crouch_2_prone_firing
+		prone_2_stand
+		prone_2_stand_nodelta
+		prone_2_stand_firing
+		prone_2_crouch
+		prone_2_crouch_firing
+
+		//LMG setup
+		hm_grnd_org_prone_setup_in_lmg
+		hm_grnd_org_prone_setup_out_lmg
+
+		creepwalk_2_run
+		crouch_exposed_2_creepwalk
+
+		//Red
+		hm_grnd_red_exposed_grenade01_ar
+		hm_grnd_red_exposed_grenade02_ar
+		hm_grnd_red_prone_to_crouch_ar
+		hm_grnd_red_prone_to_stand_ar
+		hm_grnd_red_exposed_crouch_to_prone_ar
+		hm_grnd_red_exposed_crouch_to_stand_ar
+		hm_grnd_red_exposed_crouch_exit_ar_1
+		hm_grnd_red_exposed_crouch_exit_ar_2
+		hm_grnd_red_exposed_crouch_exit_ar_3
+		hm_grnd_red_exposed_crouch_exit_ar_4
+		hm_grnd_red_exposed_crouch_exit_ar_6
+		hm_grnd_red_exposed_crouch_exit_ar_7
+		hm_grnd_red_exposed_crouch_exit_ar_8
+		hm_grnd_red_exposed_crouch_exit_ar_9
+
+		//Seeker attacks
+		hm_grnd_org_exposed_seeker_attack_front01
+		hm_grnd_org_exposed_seeker_attack_loop01
+		hm_grnd_org_exposed_seeker_attack_left01
+		hm_grnd_org_exposed_seeker_attack_right01
+		hm_grnd_org_exposed_seeker_throw01
+		hm_grnd_org_exposed_seeker_attack_back01
+		hm_grnd_org_exposed_seeker_attack_loopback01
+		hm_grnd_red_civ_exposed_seeker_attack_front01
+		hm_grnd_red_civ_exposed_seeker_attack_loop01
+		hm_grnd_red_civ_exposed_seeker_attack_left01
+		hm_grnd_red_civ_exposed_seeker_attack_right01
+		hm_grnd_red_civ_exposed_seeker_attack_back01
+		hm_grnd_red_civ_exposed_seeker_attack_loopback01
+
+		//Civilian crouch arrivals & Exits
+		hm_grnd_red_civ_crouch_arrival_l_1
+		hm_grnd_red_civ_crouch_arrival_l_2
+		hm_grnd_red_civ_crouch_arrival_l_3
+		hm_grnd_red_civ_crouch_arrival_l_4
+		hm_grnd_red_civ_crouch_arrival_l_6
+		hm_grnd_red_civ_crouch_arrival_l_7
+		hm_grnd_red_civ_crouch_arrival_l_8
+		hm_grnd_red_civ_crouch_arrival_l_9
+		hm_grnd_red_civ_crouch_arrival_r_1
+		hm_grnd_red_civ_crouch_arrival_r_2
+		hm_grnd_red_civ_crouch_arrival_r_3
+		hm_grnd_red_civ_crouch_arrival_r_4
+		hm_grnd_red_civ_crouch_arrival_r_6
+		hm_grnd_red_civ_crouch_arrival_r_7
+		hm_grnd_red_civ_crouch_arrival_r_8
+		hm_grnd_red_civ_crouch_arrival_r_9
+		hm_grnd_red_civ_crouch_exit_1
+		hm_grnd_red_civ_crouch_exit_2
+		hm_grnd_red_civ_crouch_exit_3
+		hm_grnd_red_civ_crouch_exit_4
+		hm_grnd_red_civ_crouch_exit_6
+		hm_grnd_red_civ_crouch_exit_7
+		hm_grnd_red_civ_crouch_exit_8
+		hm_grnd_red_civ_crouch_exit_9
+
+		hm_grnd_red_civ_run_turn_l_1
+		hm_grnd_red_civ_run_turn_l_2
+		hm_grnd_red_civ_run_turn_l_3
+		hm_grnd_red_civ_run_turn_l_4_trip
+		hm_grnd_red_civ_run_turn_l_4
+		hm_grnd_red_civ_run_turn_l_6
+		hm_grnd_red_civ_run_turn_l_6_trip
+		hm_grnd_red_civ_run_turn_l_7
+		hm_grnd_red_civ_run_turn_l_9
+		hm_grnd_red_civ_run_turn_r_1
+		hm_grnd_red_civ_run_turn_r_2
+		hm_grnd_red_civ_run_turn_r_3
+		hm_grnd_red_civ_run_turn_r_4
+		hm_grnd_red_civ_run_turn_r_4_trip
+		hm_grnd_red_civ_run_turn_r_6
+		hm_grnd_red_civ_run_turn_r_6_trip
+		hm_grnd_red_civ_run_turn_r_7
+		hm_grnd_red_civ_run_turn_r_9
+
+		hf_grnd_red_civ_run_turn_l_1
+		hf_grnd_red_civ_run_turn_l_2
+		hf_grnd_red_civ_run_turn_l_3
+		hf_grnd_red_civ_run_turn_l_4_trip
+		hf_grnd_red_civ_run_turn_l_4
+		hf_grnd_red_civ_run_turn_l_6
+		hf_grnd_red_civ_run_turn_l_6_trip
+		hf_grnd_red_civ_run_turn_l_7
+		hf_grnd_red_civ_run_turn_l_9
+
+		hf_grnd_red_civ_run_turn_r_1
+		hf_grnd_red_civ_run_turn_r_2
+		hf_grnd_red_civ_run_turn_r_3
+		hf_grnd_red_civ_run_turn_r_4
+		hf_grnd_red_civ_run_turn_r_4_trip
+		hf_grnd_red_civ_run_turn_r_6
+		hf_grnd_red_civ_run_turn_r_6_trip
+		hf_grnd_red_civ_run_turn_r_7
+		hf_grnd_red_civ_run_turn_r_9
+
+
+
+		prone_legsstraight	// legacy, may be unnecessary
+		{
+			prone_crawl_2_prone
+			prone_crawl
+			prone_2_prone_crawl
+			prone_aim_idle
+		}
+
+		prone_modern
+		{
+			//todo: place these properly
+			prone_grenade_a
+			prone_fire_1
+			prone_fire_2
+			prone_fire_burst
+			prone_reaction_a
+			prone_reaction_b
+			prone_reload
+			prone_twitch_ammocheck
+			prone_twitch_look
+			prone_twitch_lookfast
+			prone_twitch_lookup
+			prone_twitch_scan
+
+			hm_grnd_red_prone_reload01_ar
+			hm_grnd_red_prone_reaction01_ar
+			hm_grnd_red_prone_reaction02_ar
+			hm_grnd_red_prone_grenade01_ar
+
+			//prone_twitch_ammocheck2
+			//prone_twitch_scan2
+			//end todo: place these properly
+		}
+
+		readystand_behavior
+		{
+			readystand_idle
+
+			creepwalk_2_readystand
+			readystand_2_creepwalk
+		}
+	}
+
+	prone_legs_up
+	{
+		prone_aim_feet_45up
+	}
+
+	prone_legs_down
+	{
+		prone_aim_feet_45down
+	}
+
+	//Traversals
+	//climb/jump over walls
+
+	//IW7 Traversals
+	traverse_doublejump
+	traverse_doublejump_315
+	asteroid_wallrun_L
+	asteroid_wallrun_R
+
+	//jump down anims
+	hm_grnd_org_jump_down_l
+	hm_grnd_org_jump_down_r
+
+	traverse_jumpdown_32_rail_136
+  traverse_jumpdown_rail_130
+	traverse_jumpdown_rail_96
+	traverse_jumpdown_rail_88
+	traverse_jumpdown_rail_72
+	traverse_jumpdown_rail_56
+	traverse_jumpdown_rail_40
+
+	//test anims for new wallrun
+	hm_grnd_org_jump_l
+	hm_grnd_org_jump_r
+	hm_grnd_org_doublejump_l
+	hm_grnd_org_doublejump_r
+
+	// Double jump finishing animations.
+	hm_grnd_org_jump_to_mantle_over
+	hm_grnd_org_jump_to_mantle_up
+	hm_grnd_org_jump_to_land
+
+	//wallrun arrivals
+	hm_grnd_org_wallrun_left_arrival_l_ar_1
+	hm_grnd_org_wallrun_left_arrival_r_ar_1
+	hm_grnd_org_wallrun_left_arrival_l_ar_2
+	hm_grnd_org_wallrun_left_arrival_r_ar_2
+	hm_grnd_org_wallrun_left_arrival_l_ar_3
+	hm_grnd_org_wallrun_left_arrival_r_ar_3
+	hm_grnd_org_wallrun_left_arrival_l_ar_4
+	hm_grnd_org_wallrun_left_arrival_r_ar_4
+	hm_grnd_org_wallrun_left_arrival_l_ar_6
+	hm_grnd_org_wallrun_left_arrival_r_ar_6
+	hm_grnd_org_wallrun_left_arrival_l_ar_7
+	hm_grnd_org_wallrun_left_arrival_r_ar_7
+	hm_grnd_org_wallrun_left_arrival_l_ar_8
+	hm_grnd_org_wallrun_left_arrival_r_ar_8
+	hm_grnd_org_wallrun_left_arrival_l_ar_9
+	hm_grnd_org_wallrun_left_arrival_r_ar_9
+	hm_grnd_org_wallrun_right_arrival_l_ar_1
+	hm_grnd_org_wallrun_right_arrival_r_ar_1
+	hm_grnd_org_wallrun_right_arrival_l_ar_2
+	hm_grnd_org_wallrun_right_arrival_r_ar_2
+	hm_grnd_org_wallrun_right_arrival_l_ar_3
+	hm_grnd_org_wallrun_right_arrival_r_ar_3
+	hm_grnd_org_wallrun_right_arrival_l_ar_4
+	hm_grnd_org_wallrun_right_arrival_r_ar_4
+	hm_grnd_org_wallrun_right_arrival_l_ar_6
+	hm_grnd_org_wallrun_right_arrival_r_ar_6
+	hm_grnd_org_wallrun_right_arrival_l_ar_7
+	hm_grnd_org_wallrun_right_arrival_r_ar_7
+	hm_grnd_org_wallrun_right_arrival_l_ar_8
+	hm_grnd_org_wallrun_right_arrival_r_ar_8
+	hm_grnd_org_wallrun_right_arrival_l_ar_9
+	hm_grnd_org_wallrun_right_arrival_r_ar_9
+
+	//New IW7 Traversals Core
+	hm_grnd_org_jumpup_24
+	hm_grnd_org_jumpdown_24
+	hm_grnd_org_jumpup_36
+	hm_grnd_org_jumpdown_36
+	hm_grnd_org_jumpup_48
+	hm_grnd_org_jumpdown_48
+	hm_grnd_org_jumpup_72
+	hm_grnd_org_jumpdown_72
+	hm_grnd_org_jumpup_96
+	hm_grnd_org_jumpdown_96
+	hm_grnd_org_jumpup_128
+	hm_grnd_org_jumpdown_128
+	hm_grnd_org_jumpover_36
+	hm_grnd_org_jumpover_40
+	hm_grnd_org_jumpover_52
+	hm_grnd_org_jumpover_64
+	hm_grnd_org_rail_36_jumpdown_72
+	hm_grnd_org_rail_36_jumpdown_48
+	hm_grnd_org_rail_36_jumpdown_36
+	hm_grnd_org_rail_36_jumpdown_24
+	hm_grnd_org_rail_36_jumpup_72
+	hm_grnd_org_rail_36_jumpup_48
+	hm_grnd_org_rail_36_jumpup_36
+	hm_grnd_org_rail_36_jumpup_24
+	hm_grnd_org_rail_36_jumpdown_40
+
+	//Old Traversals
+	jump_over_high_wall
+	jump_across_72
+	jump_across_100_spring
+	jump_across_100_lunge
+	jump_across_100_stumble
+	ladder_climbdown
+	ladder_climbon
+	ladder_climboff
+	ladder_climbup
+	traverse_wallhop
+	traverse_wallhop_3
+	windowclimb
+
+	traverse40
+	traverse40_2_cover
+	traverse40_death_start
+	traverse40_death_start_2
+	traverse40_death_end
+	traverse40_death_end_2
+	traverse_over_40_a_iw6
+	traverse_over_40_b_iw6
+	slide_across_car
+	slide_across_car_2_cover
+	slide_across_car_death
+	traverse90
+	traverse90_in_m
+	traverse90_in_ml
+	traverse90_in_mr
+	traverse90_start_death
+	traverse90_end_death
+
+	traverse_window_m_2_run
+	traverse_window_m_2_stop
+	traverse_window_m_2_dive
+	traverse_window_death_start
+	traverse_window_death_end
+	traverse_window_quick
+
+	traverse_stepup_52
+	traverse_stepup_52_fast
+	traverse_jumpdown_40
+	traverse_jumpdown_56
+	traverse_jumpdown_96
+	traverse_jumpdown_130
+
+
+	creepwalk_traverse_over_large
+	creepwalk_traverse_over_small
+	creepwalk_traverse_over_smaller
+	creepwalk_traverse_under
+
+	// iw6 traverses
+	traverse_jumpdown_40_iw6
+	traverse_jumpdown_56_iw6
+	traverse_jumpdown_72_iw6
+	traverse_jumpdown_88_iw6
+	traverse_72_up_run
+
+	// mp specific additive aim anims that are used when strafing
+	strafe_aim : additive
+	{
+		iw7_cp_c6_stand_strafe_aim1
+		iw7_cp_c6_stand_strafe_aim2
+		iw7_cp_c6_stand_strafe_aim3
+		iw7_cp_c6_stand_strafe_aim4
+		iw7_cp_c6_stand_strafe_aim6
+		iw7_cp_c6_stand_strafe_aim7
+		iw7_cp_c6_stand_strafe_aim8
+		iw7_cp_c6_stand_strafe_aim9
+	}
+
+	melee
+	{
+
+		run_2_melee_charge
+		stand_2_melee_1
+		melee_1
+		melee_sync_attack
+		melee_sync_defend
+
+		bog_melee_r_attack
+		bog_melee_r_defend
+
+		//flip
+		melee_f_awin_attack
+		melee_f_awin_defend
+		melee_f_awin_defend_survive
+		melee_f_dwin_attack
+		melee_f_dwin_defend
+
+		hm_grnd_org_exposed_to_melee01
+		hm_grnd_org_exposed_melee01
+		hm_grnd_org_exposed_run_to_melee01
+
+		cornersdl_melee_wina_attacker
+		cornersdl_melee_wina_defender
+		cornersdl_melee_wina_defender_survive
+		cornersdl_melee_wind_attacker
+		cornersdl_melee_wind_attacker_survive
+		cornersdl_melee_wind_defender
+		cornersdr_melee_wina_attacker
+		cornersdr_melee_wina_defender
+		cornersdr_melee_wind_attacker
+		cornersdr_melee_wind_defender
+
+		//Red
+		hm_grnd_red_exposed_melee01_ar
+		hm_grnd_red_exposed_to_melee01_ar
+		hm_grnd_red_exposed_melee02_ar
+		hm_grnd_red_exposed_to_melee02_ar
+		hm_grnd_red_exposed_stand_melee01_ar
+		hm_grnd_red_exposed_stand_melee02_ar
+
+		hm_grnd_melee02_attacker_wins_att
+		hm_grnd_melee02_attacker_wins_def
+		hm_grnd_melee02_attacker_wins_def_dies_early
+		hm_grnd_melee02_defender_wins_att
+		hm_grnd_melee02_defender_wins_def
+
+		// c6 melee kill
+		c6_grnd_red_melee_kill_victim
+
+		// c6 melee against player - rescue
+		c6_grnd_red_melee_vm_rescued_salter
+
+	}
+
+
+
+	death
+	{
+		// prone
+		prone_death_quickdeath
+		//back (only happens when a pain animation is interrupted by death).
+		// crouch
+		// crouch run
+		// stand
+
+		// run
+		death_run_onfront
+		death_run_onleft
+		death_run_forward_crumple
+		// left corner
+		// right corner
+
+		// shotgun
+		death_shotgun_spinr
+		death_shotgun_spinl
+		death_shotgun_legs
+		death_shotgun_back_v1
+
+		// sniper
+		death_stand_sniper_spin1
+		death_stand_sniper_spin2
+		death_stand_sniper_leg
+		death_stand_sniper_chest1
+		death_stand_sniper_chest2
+
+		// moto
+
+		// explosions
+		death_explosion_up10			// flies up 10 feet in the air.
+
+		death_explosion_stand_b_v1
+		death_explosion_stand_b_v2
+		death_explosion_stand_b_v3
+		death_explosion_stand_b_v4
+		death_explosion_stand_f_v1
+		death_explosion_stand_f_v2
+		death_explosion_stand_f_v3
+		death_explosion_stand_f_v4
+		death_explosion_stand_l_v1
+		death_explosion_stand_l_v2
+		death_explosion_stand_l_v3
+		death_explosion_stand_r_v1
+		death_explosion_stand_r_v2
+		death_explosion_run_f_v1
+		death_explosion_run_f_v2
+		death_explosion_run_f_v3
+		death_explosion_run_f_v4
+		death_explosion_run_b_v1
+		death_explosion_run_b_v2
+		death_explosion_run_r_v1
+		death_explosion_run_r_v2
+		death_explosion_run_l_v1
+		death_explosion_run_l_v2
+
+		// crawl
+		crawl_death_front
+
+		// scripted deaths
+
+		rpg_stand_death
+		rpg_stand_death_stagger
+
+
+		exposed_crouch_death_fetal
+		exposed_crouch_death_flip
+		exposed_crouch_death_twist
+
+		exposed_death
+		exposed_death_02
+		exposed_death_falltoknees
+		exposed_death_falltoknees_02
+		exposed_death_firing
+		exposed_death_firing_02
+		exposed_death_groin
+		exposed_death_headshot
+		exposed_death_nerve
+		exposed_death_twist
+		exposed_death_neckgrab
+		exposed_death_blowback
+		exposed_death_flop
+
+		melee_death_standing_front
+		melee_death_standing_back
+		melee_death_standing_left
+		melee_death_standing_right
+		melee_death_crouching_front
+		melee_death_crouching_back
+		melee_death_crouching_left
+		melee_death_crouching_right
+
+		stand_death_head_straight_back
+		stand_death_chest_stunned
+		stand_death_shoulder_spin
+		stand_death_crotch
+		stand_death_guts
+		stand_death_face
+
+		stand_death_tumbleback
+		stand_death_fallside
+		stand_death_tumbleforward
+		stand_death_stumbleforward
+		stand_death_leg
+		stand_death_headshot_slowfall
+		stand_death_shoulderback
+
+		pistol_death_1
+		pistol_death_2
+		pistol_death_3
+		pistol_death_4
+
+		run_death_facedown
+		run_death_fallonback
+		run_death_fallonback_no_ntrk
+		run_death_flop
+		run_death_roll
+
+		saw_gunner_death
+		saw_gunner_prone_death
+		saw_gunner_lowwall_death
+
+		//Red Deaths
+		hm_grnd_red_exposed_death_falls_5_ar
+		hm_grnd_red_exposed_crouch_death_falls_1_ar
+		hm_grnd_red_exposed_crouch_death_falls_4_ar
+		hm_grnd_red_exposed_crouch_death_falls_6_ar
+		hm_grnd_red_exposed_crouch_death_falls_3_ar
+
+
+		// longdeaths
+		stand_2_longdeath_wander_gut
+		longdeath_wander_gut
+		longdeath_wander_gut_collapse
+		longdeath_wander_gut_death
+		stand_2_longdeath_wander_leg_1
+		longdeath_wander_leg_1
+		longdeath_wander_leg_collapse_1
+		stand_2_longdeath_wander_leg_2
+		longdeath_wander_leg_2
+		longdeath_wander_leg_collapse_2
+		longdeath_wander_leg_death
+		stand_2_longdeath_gut_wounded_b
+		longdeath_gut_wounded_b_walk
+		longdeath_gut_wounded_b_collapse
+		stand_2_longdeath_leg_wounded_b_1
+		longdeath_leg_wounded_b_walk_1
+		longdeath_leg_wounded_b_collapse_1
+		stand_2_longdeath_leg_wounded_b_2
+		longdeath_leg_wounded_b_walk_2
+		longdeath_leg_wounded_b_collapse_2
+		stand_2_longdeath_gut_b
+		longdeath_gut_b_walk
+		longdeath_gut_b_impact
+		stand_2_longdeath_gut_l
+		longdeath_gut_l_walk
+		longdeath_gut_l_impact
+		stand_2_longdeath_gut_r
+		longdeath_gut_r_walk
+		longdeath_gut_r_impact
+
+		hm_grnd_org_long_death_gut_b_impact
+		hm_grnd_org_long_death_gut_b_wounded_fall
+		hm_grnd_org_long_death_gut_f_fall
+		hm_grnd_org_long_death_gut_l_impact
+		hm_grnd_org_long_death_gut_r_impact
+		hm_grnd_org_long_death_leg_b_fall01
+		hm_grnd_org_long_death_leg_b_fall02
+		hm_grnd_org_long_death_leg_f_fall01
+		hm_grnd_org_long_death_leg_f_fall02
+		hm_grnd_org_long_death_gut_f_death
+		hm_grnd_org_long_death_leg_f_death
+		hm_grnd_org_exposed_to_long_death_gut_b01
+		hm_grnd_org_exposed_to_long_death_gut_b02
+		hm_grnd_org_exposed_to_long_death_gut_b_walk
+		hm_grnd_org_exposed_to_long_death_gut_l
+		hm_grnd_org_exposed_to_long_death_gut_r
+		hm_grnd_org_exposed_to_long_death_leg_b01
+		hm_grnd_org_exposed_to_long_death_leg_b02
+		hm_grnd_org_exposed_to_long_death_leg_b_walk01
+		hm_grnd_org_exposed_to_long_death_leg_b_walk02
+		hm_grnd_org_long_death_gut_b_walk01
+		hm_grnd_org_long_death_gut_b_walk02
+		hm_grnd_org_long_death_gut_f_walk
+		hm_grnd_org_long_death_gut_l_walk
+		hm_grnd_org_long_death_gut_r_walk
+		hm_grnd_org_long_death_leg_b_walk01
+		hm_grnd_org_long_death_leg_b_walk02
+		hm_grnd_org_long_death_leg_f_walk01
+		hm_grnd_org_long_death_leg_f_walk02
+
+		// flood
+
+		//robot
+
+		//Red
+		hm_grnd_red_exposed_death_head_falls_2_ar
+		hm_grnd_red_exposed_death_head_falls_6_ar
+		hm_grnd_red_exposed_death_neck_falls_4_ar
+		hm_grnd_red_exposed_death_neck_falls_8_ar
+		hm_grnd_red_exposed_death_groin_falls_4_ar
+		hm_grnd_red_exposed_death_groin_falls_8_ar
+		hm_grnd_red_exposed_death_spins_left_falls_2_ar
+		hm_grnd_red_exposed_death_spins_left_falls_6_ar
+		hm_grnd_red_exposed_death_face_falls_7_ar
+		hm_grnd_red_exposed_death_falls01_2_ar
+		hm_grnd_red_exposed_death_falls02_2_ar
+		hm_grnd_red_exposed_death_falls03_2_ar
+		hm_grnd_red_exposed_death_falls_8_ar
+		hm_grnd_red_exposed_death_falls_9_ar
+		hm_grnd_red_exposed_death_chest_falls_7_ar
+		hm_grnd_red_exposed_death_leg_falls_8_ar
+		hm_grnd_red_exposed_death_shoulder_falls_2_ar
+		hm_grnd_red_exposed_death_stunned_falls_2_ar
+		hm_grnd_red_exposed_death_falls_knees_2_ar
+
+		//Red Shock Deaths
+		hm_grnd_org_shock_death01
+		hm_grnd_org_shock_death02
+		hm_grnd_org_shock_death03
+		hm_grnd_org_shock_death04
+		hm_grnd_org_shock_death05
+		hm_grnd_org_shock_death06
+
+
+	}
+
+	pain
+	{
+		// prone pain is in the prone section.
+		saw_gunner_pain
+		saw_gunner_prone_pain
+		saw_gunner_prone_pain2
+		saw_gunner_lowwall_pain_01
+		saw_gunner_lowwall_pain_02
+
+		//prone shock: loop, in,out
+		hm_grnd_org_prone_shock01
+		hm_grnd_org_prone_to_shock
+		hm_grnd_org_shock_to_prone
+
+		//back (only happens when another animation is interrupted by pain)
+		back_pain
+
+		exposed_crouch_pain_chest
+		exposed_crouch_pain_flinch
+		exposed_crouch_pain_headsnap
+		exposed_crouch_pain_left_arm
+		exposed_crouch_pain_right_arm
+
+		exposed_pain_2_crouch
+		//exposed_pain_back
+		exposed_pain_groin
+		//exposed_pain_left_arm
+		//exposed_pain_leg
+		exposed_pain_face
+		exposed_pain_right_arm
+
+		//shock pain crouched
+		hm_grnd_org_crouch_shock01
+		hm_grnd_org_crouch_shock02
+		hm_grnd_org_crouch_shock03
+
+		//shock pain crouch to stand
+		hm_grnd_org_stand_shock01
+		hm_grnd_org_stand_shock02
+		hm_grnd_org_stand_shock03
+		hm_grnd_org_stand_shock04
+		hm_grnd_org_stand_shock05
+
+		//red_exposed_pain
+		hm_grnd_red_exposed_pain_face_ar
+		hm_grnd_red_exposed_pain_groin_ar
+		hm_grnd_red_exposed_pain_right_arm_ar
+		hm_grnd_red_exposed_pain_to_crouch_ar
+		hm_grnd_red_exposed_crouch_pain_left_arm_ar
+		hm_grnd_red_exposed_crouch_pain_right_arm_ar
+		hm_grnd_red_exposed_crouch_pain_chest_ar
+		hm_grnd_red_exposed_crouch_extend_pain01_ar
+		hm_grnd_red_exposed_crouch_pain_flinch_ar
+		hm_grnd_red_exposed_crouch_pain_head_ar
+		hm_grnd_red_exposed_crouch_pain_leg_ar
+
+		//LMG Pain and Turret
+		hm_grnd_org_lmg_stand_pain_A
+		hm_grnd_org_lmg_crouch_pain_A
+		hm_grnd_org_lmg_stand_high_pain_A
+		hm_grnd_org_lmg_stand_pain_B
+		hm_grnd_org_lmg_stand_high_pain_B
+		hm_grnd_org_lmg_crouch_pain_B
+		hm_grnd_org_turret_stand_pain_A
+		hm_grnd_org_turret_stand_pain_B
+		hm_grnd_org_turret_crouch_pain_A
+		hm_grnd_org_turret_crouch_pain_B
+		hm_grnd_org_turret_stand_high_pain_A
+		hm_grnd_org_turret_stand_high_pain_B
+
+		//New Pain System Updates Orange
+		hm_grnd_org_exp_pain01_head
+		hm_grnd_org_exp_pain01_head_to_exp
+		hm_grnd_org_exp_pain01_head_death
+
+		hm_grnd_org_exp_pain01_l_shoulder
+		hm_grnd_org_exp_pain01_l_shoulder_to_exp
+		hm_grnd_org_exp_pain01_l_shoulder_death
+
+		hm_grnd_org_exp_pain01_r_shoulder
+		hm_grnd_org_exp_pain01_r_shoulder_to_exp
+		hm_grnd_org_exp_pain01_r_shoulder_death
+
+		hm_grnd_org_exp_pain01_stomach
+		hm_grnd_org_exp_pain01_stomach_to_exp
+		hm_grnd_org_exp_pain01_stomach_death
+
+		hm_grnd_org_exp_pain01_back
+		hm_grnd_org_exp_pain01_back_to_exp
+		hm_grnd_org_exp_pain01_back_death
+
+		hm_grnd_org_exp_pain01_l_leg
+		hm_grnd_org_exp_pain01_l_leg_to_exp_crouch
+		hm_grnd_org_exp_pain01_l_leg_death
+
+		hm_grnd_org_exp_pain01_r_leg
+		hm_grnd_org_exp_pain01_r_leg_to_exp_crouch
+		hm_grnd_org_exp_pain01_r_leg_death
+
+		hm_grnd_org_cover_stand_pain01_head
+		hm_grnd_org_cover_stand_pain01_head_to_cv_st_cr
+		hm_grnd_org_cover_stand_pain01_head_death
+
+		hm_grnd_org_cover_stand_pain01_l_shoulder
+		hm_grnd_org_cover_stand_pain01_l_shoulder_to_cv_st
+		hm_grnd_org_cover_stand_pain01_l_shoulder_death
+
+		hm_grnd_org_cover_stand_pain01_r_shoulder
+		hm_grnd_org_cover_stand_pain01_r_shoulder_to_cv_st
+		hm_grnd_org_cover_stand_pain01_r_shoulder_death
+
+		hm_grnd_org_cover_stand_pain01_stomach
+		hm_grnd_org_cover_stand_pain01_stomach_to_cv_st
+		hm_grnd_org_cover_stand_pain01_stomach_death
+
+		hm_grnd_org_cover_stand_pain01_l_leg
+		hm_grnd_org_cover_stand_pain01_l_leg_to_cv_cr
+		hm_grnd_org_cover_stand_pain01_l_leg_death
+
+		hm_grnd_org_cover_stand_pain01_r_leg
+		hm_grnd_org_cover_stand_pain01_r_leg_to_cv_cr
+		hm_grnd_org_cover_stand_pain01_r_leg_death
+
+		hm_grnd_org_cover_stand_pain01_back
+		hm_grnd_org_cover_stand_pain01_back_to_cv_st
+		hm_grnd_org_cover_stand_pain01_back_death
+
+		hm_grnd_org_cover_crouch_pain01_head
+		hm_grnd_org_cover_crouch_pain01_head_to_cv_cr
+		hm_grnd_org_cover_crouch_pain01_head_death
+
+		hm_grnd_org_cover_crouch_pain01_stomach
+		hm_grnd_org_cover_crouch_pain01_stomach_to_cv_cr
+		hm_grnd_org_cover_crouch_pain01_stomach_death
+
+		hm_grnd_org_cover_crouch_pain01_back
+		hm_grnd_org_cover_crouch_pain01_back_to_cv_st
+		hm_grnd_org_cover_crouch_pain01_back_death
+
+		hm_grnd_org_cover_left_stand_pain_head
+		hm_grnd_org_cover_left_stand_pain_head_death
+		hm_grnd_org_cover_left_stand_pain_head_to_cv_st
+
+		hm_grnd_org_cover_left_stand_pain_l_shdr
+		hm_grnd_org_cover_left_stand_pain_l_shdr_to_cv_st
+		hm_grnd_org_cover_left_stand_pain_l_shdr_death
+
+		hm_grnd_org_cover_left_stand_pain_r_shdr
+		hm_grnd_org_cover_left_stand_pain_r_shdr_to_cv_st
+		hm_grnd_org_cover_left_stand_pain_r_shdr_death
+
+		hm_grnd_org_cover_left_stand_pain_stomach
+		hm_grnd_org_cover_left_stand_pain_stomach_to_cv_st
+		hm_grnd_org_cover_left_stand_pain_stomach_death
+
+		hm_grnd_org_cover_left_stand_pain_back
+		hm_grnd_org_cover_left_stand_pain_back_to_cv_st
+		hm_grnd_org_cover_left_stand_pain_back_death
+
+		hm_grnd_org_cover_left_stand_pain_l_leg
+		hm_grnd_org_cover_left_stand_pain_l_leg_to_cv_cr
+		hm_grnd_org_cover_left_stand_pain_l_leg_death
+
+		hm_grnd_org_cover_left_stand_pain_r_leg
+		hm_grnd_org_cover_left_stand_pain_r_leg_to_cv_cr
+		hm_grnd_org_cover_left_stand_pain_r_leg_death
+
+		hm_grnd_org_cover_right_crouch_pain_head
+		hm_grnd_org_cover_right_crouch_pain_head_to_cv_cr
+		hm_grnd_org_cover_right_crouch_pain_head_death
+
+		hm_grnd_org_cover_right_crouch_pain_gut
+		hm_grnd_org_cover_right_crouch_pain_gut_to_cv_cr
+		hm_grnd_org_cover_right_crouch_pain_gut_death
+
+		hm_grnd_org_cover_right_crouch_pain_back
+		hm_grnd_org_cover_right_crouch_pain_back_to_cv_cr
+		hm_grnd_org_cover_right_crouch_pain_back_death
+		
+		hm_grnd_org_exp_crouch_pain01_l_shoulder
+		hm_grnd_org_exp_crouch_pain01_r_shoulder
+		
+		//New Pain System Updates Orange Additional Pickups
+		hm_grnd_org_exp_pain02_head
+		hm_grnd_org_exp_pain02_head_to_exp
+		hm_grnd_org_exp_pain02_head_death
+		
+		hm_grnd_org_exp_pain03_head
+		hm_grnd_org_exp_pain03_head_to_exp
+		hm_grnd_org_exp_pain03_head_death
+		
+		hm_grnd_org_exp_pain04_head
+		hm_grnd_org_exp_pain04_head_to_exp
+		hm_grnd_org_exp_pain04_head_death
+		
+		hm_grnd_org_exp_crouch_pain01_head
+		hm_grnd_org_exp_crouch_pain01_head_to_exp
+		hm_grnd_org_exp_crouch_pain01_head_death
+		
+		hm_grnd_org_exp_crouch_pain02_head
+		hm_grnd_org_exp_crouch_pain02_head_to_exp
+		hm_grnd_org_exp_crouch_pain02_head_death
+		
+		hm_grnd_org_exp_crouch_pain03_head
+		hm_grnd_org_exp_crouch_pain03_head_to_exp
+		hm_grnd_org_exp_crouch_pain03_head_death
+		
+		hm_grnd_org_exp_pain02_stomach
+		hm_grnd_org_exp_pain02_stomach_to_exp
+		hm_grnd_org_exp_pain02_stomach_death
+		
+		hm_grnd_org_exp_pain03_stomach
+		hm_grnd_org_exp_pain03_stomach_to_exp
+		hm_grnd_org_exp_pain03_stomach_death
+		
+		hm_grnd_org_exp_pain04_stomach
+		hm_grnd_org_exp_pain04_stomach_to_exp
+		hm_grnd_org_exp_pain04_stomach_death
+		
+		hm_grnd_org_exp_crouch_pain01_stomach
+		hm_grnd_org_exp_crouch_pain01_stomach_to_exp
+		hm_grnd_org_exp_crouch_pain01_stomach_death
+		
+		hm_grnd_org_exp_crouch_pain02_stomach
+		hm_grnd_org_exp_crouch_pain02_stomach_to_exp
+		hm_grnd_org_exp_crouch_pain02_stomach_death
+		
+		hm_grnd_org_exp_crouch_pain03_stomach
+		hm_grnd_org_exp_crouch_pain03_stomach_to_exp
+		hm_grnd_org_exp_crouch_pain03_stomach_death
+
+		//New Pain System Updates Red
+		hm_grnd_red_cover_stand_pain01_head
+		hm_grnd_red_cover_stand_pain01_head_to_cv_st_cr
+		hm_grnd_red_cover_stand_pain01_head_death
+
+		hm_grnd_red_cover_stand_pain01_l_shoulder
+		hm_grnd_red_cover_stand_pain01_l_shoulder_to_cv_st
+		hm_grnd_red_cover_stand_pain01_l_shoulder_death
+
+		hm_grnd_red_cover_stand_pain01_r_shoulder
+		hm_grnd_red_cover_stand_pain01_r_shoulder_to_cv_st
+		hm_grnd_red_cover_stand_pain01_r_shoulder_death
+
+		hm_grnd_red_cover_stand_pain01_stomach
+		hm_grnd_red_cover_stand_pain01_stomach_to_cv_st
+		hm_grnd_red_cover_stand_pain01_stomach_death
+
+		hm_grnd_red_cover_stand_pain01_back
+		hm_grnd_red_cover_stand_pain01_back_to_cv_st
+		hm_grnd_red_cover_stand_pain01_back_death
+
+		hm_grnd_red_cover_stand_pain01_l_leg
+		hm_grnd_red_cover_stand_pain01_l_leg_to_cv_cr
+		hm_grnd_red_cover_stand_pain01_l_leg_death
+
+		hm_grnd_red_cover_stand_pain01_r_leg
+		hm_grnd_red_cover_stand_pain01_r_leg_to_cv_cr
+		hm_grnd_red_cover_stand_pain01_r_leg_death
+
+		hm_grnd_red_cover_crouch_pain01_head
+		hm_grnd_red_cover_crouch_pain01_head_to_cv_cr
+		hm_grnd_red_cover_crouch_pain01_head_death
+
+		hm_grnd_red_cover_crouch_pain01_stomach
+		hm_grnd_red_cover_crouch_pain01_stomach_to_cv_cr
+		hm_grnd_red_cover_crouch_pain01_stomach_death
+
+		hm_grnd_red_cover_crouch_pain01_back
+		hm_grnd_red_cover_crouch_pain01_back_to_cv_st
+		hm_grnd_red_cover_crouch_pain01_back_death
+
+		hm_grnd_red_cover_right_stand_pain_head
+		hm_grnd_red_cover_right_stand_pain_head_to_cv_st
+		hm_grnd_red_cover_right_stand_pain_head_death
+
+		hm_grnd_red_cover_right_stand_pain_l_shdr
+		hm_grnd_red_cover_right_stand_pain_l_shdr_to_cv_st
+		hm_grnd_red_cover_right_stand_pain_l_shdr_death
+
+		hm_grnd_red_cover_right_stand_pain_r_shdr
+		hm_grnd_red_cover_right_stand_pain_r_shdr_to_cv_st
+		hm_grnd_red_cover_right_stand_pain_r_shdr_death
+
+		hm_grnd_red_cover_right_stand_pain_stomach
+		hm_grnd_red_cover_right_stand_pain_stomach_to_cv_st
+		hm_grnd_red_cover_right_stand_pain_stomach_death
+
+		hm_grnd_red_cover_right_stand_pain_l_leg
+		hm_grnd_red_cover_right_stand_pain_l_leg_to_cv_cr
+		hm_grnd_red_cover_right_stand_pain_l_leg_death
+
+		hm_grnd_red_cover_right_stand_pain_r_leg
+		hm_grnd_red_cover_right_stand_pain_r_leg_to_cv_cr
+		hm_grnd_red_cover_right_stand_pain_r_leg_death
+
+		hm_grnd_red_cover_right_crouch_pain_head
+		hm_grnd_red_cover_right_crouch_pain_head_to_cv_cr
+		hm_grnd_red_cover_right_crouch_pain_head_death
+
+		hm_grnd_red_cover_right_crouch_pain_gut
+		hm_grnd_red_cover_right_crouch_pain_gut_to_cv_cr
+		hm_grnd_red_cover_right_crouch_pain_gut_death
+
+		hm_grnd_red_cover_left_stand_pain_head
+		hm_grnd_red_cover_left_stand_pain_head_to_cv_st
+		hm_grnd_red_cover_left_stand_pain_head_death
+
+		hm_grnd_red_cover_left_stand_pain_l_shdr
+		hm_grnd_red_cover_left_stand_pain_l_shdr_to_cv_st
+		hm_grnd_red_cover_left_stand_pain_l_shdr_death
+
+		hm_grnd_red_cover_left_stand_pain_r_shdr
+		hm_grnd_red_cover_left_stand_pain_r_shdr_to_cv_st
+		hm_grnd_red_cover_left_stand_pain_r_shdr_death
+
+		hm_grnd_red_cover_left_stand_pain_stomach
+		hm_grnd_red_cover_left_stand_pain_stomach_to_cv_st
+		hm_grnd_red_cover_left_stand_pain_stomach_death
+
+		hm_grnd_red_cover_left_stand_pain_l_leg
+		hm_grnd_red_cover_left_stand_pain_l_leg_to_cv_cr
+		hm_grnd_red_cover_left_stand_pain_l_leg_death
+
+		hm_grnd_red_cover_left_stand_pain_r_leg
+		hm_grnd_red_cover_left_stand_pain_r_leg_to_cv_cr
+		hm_grnd_red_cover_left_stand_pain_r_leg_death
+
+		hm_grnd_red_cover_left_crouch_pain_head
+		hm_grnd_red_cover_left_crouch_pain_head_to_cv_cr
+		hm_grnd_red_cover_left_crouch_pain_head_death
+
+		hm_grnd_red_cover_left_crouch_pain_gut
+		hm_grnd_red_cover_left_crouch_pain_gut_to_cv_cr
+		hm_grnd_red_cover_left_crouch_pain_gut_death
+
+		hm_grnd_red_cover_left_crouch_pain_back
+		hm_grnd_red_cover_left_crouch_pain_back_to_cv_cr
+		hm_grnd_red_cover_left_crouch_pain_back_death
+
+		hm_grnd_org_cover_left_crouch_pain_head
+		hm_grnd_org_cover_left_crouch_pain_head_to_cv_cr
+		hm_grnd_org_cover_left_crouch_pain_head_death
+
+		hm_grnd_org_cover_left_crouch_pain_gut
+		hm_grnd_org_cover_left_crouch_pain_gut_to_cv_cr
+		hm_grnd_org_cover_left_crouch_pain_gut_death
+
+		hm_grnd_org_cover_left_crouch_pain_back
+		hm_grnd_org_cover_left_crouch_pain_back_to_cv_cr
+		hm_grnd_org_cover_left_crouch_pain_back_death
+
+		hm_grnd_org_cover_right_stand_pain_head
+		hm_grnd_org_cover_right_stand_pain_head_to_cv_st
+		hm_grnd_org_cover_right_stand_pain_head_death
+
+		hm_grnd_org_cover_right_stand_pain_l_shdr
+		hm_grnd_org_cover_right_stand_pain_l_shdr_to_cv_st
+		hm_grnd_org_cover_right_stand_pain_l_shdr_death
+
+		hm_grnd_org_cover_right_stand_pain_r_shdr
+		hm_grnd_org_cover_right_stand_pain_r_shdr_to_cv_st
+		hm_grnd_org_cover_right_stand_pain_r_shdr_death
+
+		hm_grnd_org_cover_right_stand_pain_stomach
+		hm_grnd_org_cover_right_stand_pain_stomach_to_cv_st
+		hm_grnd_org_cover_right_stand_pain_stomach_death
+
+		hm_grnd_org_cover_right_stand_pain_back
+		hm_grnd_org_cover_right_stand_pain_back_to_cv_cr
+		hm_grnd_org_cover_right_stand_pain_back_death
+
+		hm_grnd_org_cover_right_stand_pain_l_leg
+		hm_grnd_org_cover_right_stand_pain_l_leg_to_cv_cr
+		hm_grnd_org_cover_right_stand_pain_l_leg_death
+
+		hm_grnd_org_cover_right_stand_pain_r_leg
+		hm_grnd_org_cover_right_stand_pain_r_leg_to_cv_cr
+		hm_grnd_org_cover_right_stand_pain_r_leg_death
+
+
+
+		pistol_stand_pain_chest
+		pistol_stand_pain_groin
+		pistol_stand_pain_head
+		pistol_stand_pain_leftshoulder
+		pistol_stand_pain_rightshoulder
+
+		run_pain_fallonknee
+		run_pain_fallonknee_02
+		run_pain_fallonknee_03
+		run_pain_stomach
+		run_pain_stumble
+		run_pain_stomach_fast
+		run_pain_leg
+		run_pain_leg_fast
+		run_pain_shoulder
+		run_pain_fall
+		run_pain_stomach_stumble
+		run_pain_head
+
+		//stand_extendedpaina
+		stand_extendedpainb
+		stand_extendedpainc
+
+		stand_exposed_extendedpain_neck
+		stand_exposed_extendedpain_shoulderswing
+		stand_exposed_extendedpain_thigh
+		stand_exposed_extendedpain_stomach
+		stand_exposed_extendedpain_gut
+		stand_exposed_extendedpain_hip
+
+		//red extended pain
+		hm_grnd_red_exposed_extend_pain01_ar
+		hm_grnd_red_exposed_extend_pain02_ar
+
+		hm_grnd_red_exposed_extend_pain_neck_ar
+		hm_grnd_red_exposed_extend_pain_shoulder_ar
+		hm_grnd_red_exposed_extend_pain_thigh_ar
+		hm_grnd_red_exposed_extend_pain_stomach_ar
+		hm_grnd_red_exposed_extend_pain_gut_ar
+		hm_grnd_red_exposed_extend_pain_hip_ar
+
+
+		//stand_exposed_extendedpain_side	// 11 sec
+		stand_exposed_extendedpain_chest
+
+		//red estand_exposed_extendedpain_side   // 11 sec
+		hm_grnd_red_exposed_extend_pain_chest_ar
+
+		//stand_exposed_extendedpain_crotch	// similar to others
+		stand_exposed_extendedpain_feet_2_crouch
+		stand_exposed_extendedpain_head_2_crouch
+		stand_exposed_extendedpain_hip_2_crouch
+		stand_exposed_extendedpain_shoulder_2_crouch
+
+		//red stand_exposed_extendedpain_crotch	// similar to others
+		hm_grnd_red_exposed_extend_pain_head_to_crouch_ar
+		hm_grnd_red_exposed_extend_pain_shoulder_to_crouch_ar
+		hm_grnd_red_exposed_extend_pain_hip_to_crouch_ar
+		hm_grnd_red_exposed_extend_pain_feet_to_crouch_ar
+
+		stand_exposed_dive
+
+		stand_exposed_2_creepwalk
+
+		exposed_crouch_extendedpaina
+		//exposed_crouch_extendedpainb
+
+		// pain back to cover
+		corner_standl_pain_a_2_alert
+		corner_standl_pain_b_2_alert
+		corner_standr_pain_b_2_alert
+		covercrouch_pain_aim_2_hide_01
+		coverstand_pain_aim_2_hide_01
+		coverstand_pain_aim_2_hide_02
+
+		//Red
+		hm_grnd_red_cover_stand_pain_aim_to_hide01_ar
+		hm_grnd_red_cover_stand_pain_aim_to_hide02_ar
+		hm_grnd_red_cover_stand_pain_aim_to_hide03_ar
+		hm_grnd_red_cover_crouch_pain_aim_2_to_hide_ar
+
+		hm_grnd_org_cover_stand_pain_aim_to_hide01_ar
+		hm_grnd_org_cover_crouch_pain_aim_2_to_hide_ar
+
+
+	}
+
+	
+}
+
+add_fire : additive
+{
+	exposed_shoot_semi1
+	exposed_shoot_semi2
+	exposed_shoot_semi3
+	exposed_shoot_semi4
+	exposed_shoot_semi5
+
+	exposed_shoot_auto_v2
+	exposed_shoot_auto_v3
+
+	exposed_shoot_burst3
+	exposed_shoot_burst4
+	exposed_shoot_burst5
+	exposed_shoot_burst6
+
+	exposed_crouch_shoot_auto_v2
+
+	exposed_crouch_shoot_burst3
+	exposed_crouch_shoot_burst4
+	exposed_crouch_shoot_burst5
+	exposed_crouch_shoot_burst6
+
+	exposed_crouch_shoot_semi1
+	exposed_crouch_shoot_semi2
+	exposed_crouch_shoot_semi3
+	exposed_crouch_shoot_semi4
+	exposed_crouch_shoot_semi5
+
+	pistol_stand_fire_a
+
+	rpg_stand_fire
+	rpg_crouch_fire
+
+	shotgun_stand_fire_1a
+	shotgun_stand_fire_1b
+	shotgun_crouch_fire
+
+	cornerstndr_lean_auto
+	cornerstndr_lean_fire
+	cornerstndl_lean_auto
+	cornerstndl_lean_fire
+	cornercrr_lean_fire
+	cornercrr_lean_auto
+
+	hm_grnd_red_exposed_shoot_auto_01_ar
+	hm_grnd_red_exposed_shoot_auto_02_ar
+
+	hm_grnd_red_exposed_burst_03_ar
+	hm_grnd_red_exposed_burst_04_ar
+	hm_grnd_red_exposed_burst_05_ar
+	hm_grnd_red_exposed_burst_06_ar
+
+	hm_grnd_red_exposed_semi_01_ar
+	hm_grnd_red_exposed_semi_02_ar
+	hm_grnd_red_exposed_semi_03_ar
+	hm_grnd_red_exposed_semi_04_ar
+	hm_grnd_red_exposed_semi_05_ar
+
+	hm_grnd_org_cover_stand_fire_ar
+	hm_grnd_org_cover_stand_autofire_ar
+
+	cornercrl_lean_fire
+	cornercrl_lean_auto
+
+	coverstandaim_fire
+	coverstandaim_autofire
+
+	heat_stand_fire_single
+	heat_stand_fire_burst
+	heat_stand_fire_auto
+
+
+	//Orange
+	hm_grnd_org_cover_right_stand_lean_fire_ar
+	hm_grnd_org_cover_right_stand_lean_auto_ar
+	hm_grnd_org_cover_right_crouch_lean_fire_ar
+	hm_grnd_org_cover_right_crouch_lean_auto_ar
+	hm_grnd_org_cover_left_stand_lean_fire_ar
+	hm_grnd_org_cover_left_stand_lean_auto_ar
+	hm_grnd_org_cover_left_crouch_lean_fire_ar
+	hm_grnd_org_cover_left_crouch_lean_auto_ar
+
+
+	//Red
+	hm_grnd_red_cover_right_crouch_lean_fire_ar
+	hm_grnd_red_cover_right_crouch_lean_auto_ar
+	hm_grnd_red_cover_stand_autofire_ar
+	hm_grnd_red_cover_stand_fire_ar
+	hm_grnd_red_cover_right_stand_lean_fire_ar
+	hm_grnd_red_cover_right_stand_lean_auto_ar
+	hm_grnd_red_exposed_crouch_semi_01_ar
+	hm_grnd_red_exposed_crouch_semi_02_ar
+	hm_grnd_red_exposed_crouch_semi_03_ar
+	hm_grnd_red_exposed_crouch_semi_04_ar
+	hm_grnd_red_exposed_crouch_semi_05_ar
+	hm_grnd_red_exposed_crouch_shoot_auto_01_ar
+	hm_grnd_red_exposed_crouch_shoot_auto_02_ar
+	hm_grnd_red_exposed_crouch_burst_03_ar
+	hm_grnd_red_exposed_crouch_burst_04_ar
+	hm_grnd_red_exposed_crouch_burst_05_ar
+	hm_grnd_red_exposed_crouch_burst_06_ar
+	hm_grnd_red_cover_left_stand_lean_fire_ar
+	hm_grnd_red_cover_left_stand_lean_auto_ar
+	hm_grnd_red_cover_left_crouch_lean_fire_ar
+	hm_grnd_red_cover_left_crouch_lean_auto_ar
+
+	hm_grnd_red_prone_burst_03_ar
+	hm_grnd_red_prone_fire01_ar
+}
+
+
+add_idle : additive
+{
+	hm_grnd_red_exposed_idle_twitch01_ar
+	hm_grnd_red_exposed_idle_twitch02_ar
+	hm_grnd_red_exposed_idle_twitch03_ar
+
+	exposed_crouch_idle_alert_v1
+	exposed_crouch_idle_alert_v2
+	exposed_crouch_idle_alert_v3
+
+	exposed_crouch_lookaround_1
+	exposed_crouch_lookaround_2
+	exposed_crouch_lookaround_3
+	exposed_crouch_lookaround_4
+
+	cornerstndr_lean_idle
+	cornerstndl_lean_idle
+	cornercrr_lean_idle
+	cornercrl_lean_idle
+
+	//Red
+	hm_grnd_red_cover_right_crouch_lean_idle_ar
+	hm_grnd_red_cover_right_stand_lean_idle_ar
+	hm_grnd_red_exposed_crouch_idle_twitch01_ar
+	hm_grnd_red_exposed_crouch_idle_twitch02_ar
+	hm_grnd_red_exposed_crouch_idle_twitch03_ar
+	hm_grnd_red_cover_left_stand_lean_idle_ar
+	hm_grnd_red_cover_crouch_over_idle_ar
+
+	hm_grnd_red_prone_idle_ar
+	hm_grnd_red_prone_twitch01_ar
+	hm_grnd_red_prone_twitch02_ar
+	hm_grnd_red_prone_twitch03_ar
+	hm_grnd_red_prone_twitch04_ar
+	hm_grnd_red_prone_twitch05_ar
+
+	//zero g
+	hm_zg_org_exposed_idle_ar
+	hm_zg_org_cover_crouch_aim_idle_ar
+	hm_zg_org_cover_crouch_lean_idle_ar
+	hm_zg_org_cover_stand_aim_idle_ar
+	hm_zg_org_cover3d_left_lean_idle_ar
+	hm_zg_org_cover3d_right_lean_idle_ar
+	hm_zg_org_cover3d_up_lean_idle_ar
+	hm_zg_org_cover3d_up_exposed_idle_ar
+	hm_zg_org_cover3d_left_exposed_idle_ar
+	hm_zg_org_cover3d_right_exposed_idle_ar
+
+	//zero g new
+	hm_zg_red_exposed_idle_ar
+	hm_zg_red_exposed_idle_upper_twitch01_add
+	hm_zg_red_exposed_idle_upper_twitch02_add
+	hm_zg_red_exposed_idle_upper_twitch03_add
+
+	rpg_stand_idle
+	rpg_crouch_idle
+
+	prone_idle
+
+	heat_stand_idle
+
+	heat_stand_twitcha
+	heat_stand_twitchb
+	heat_stand_twitchc
+	heat_stand_scana
+	heat_stand_scanb
+
+	space_cover_r1_exposed_fire_idle
+	space_cover_l1_exposed_fire_idle
+	space_cover_u1_exposed_fire_idle
+	space_firing_idle
+}

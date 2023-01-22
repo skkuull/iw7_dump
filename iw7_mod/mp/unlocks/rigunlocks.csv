@@ -1,0 +1,6 @@
+archetype_assault,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,1,,unlocked,rigPackage:assault_1,==,TRUE,OR,unlocked,rigPackage:assault_2,==,TRUE,OR,unlocked,rigPackage:assault_3,==,TRUE
+archetype_heavy,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,1,,unlocked,rigPackage:heavy_1,==,TRUE,OR,unlocked,rigPackage:heavy_2,==,TRUE,OR,unlocked,rigPackage:heavy_3,==,TRUE
+archetype_scout,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,1,,unlocked,rigPackage:scout_1,==,TRUE,OR,unlocked,rigPackage:scout_2,==,TRUE,OR,unlocked,rigPackage:scout_3,==,TRUE
+archetype_assassin,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,15,,unlocked,rigPackage:assassin_1,==,TRUE,OR,unlocked,rigPackage:assassin_2,==,TRUE,OR,unlocked,rigPackage:assassin_3,==,TRUE
+archetype_engineer,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,31,,unlocked,rigPackage:engineer_1,==,TRUE,OR,unlocked,rigPackage:engineer_2,==,TRUE,OR,unlocked,rigPackage:engineer_3,==,TRUE
+archetype_sniper,LUA_MENU_MP_UNLOCKED_AT_PLAYER_LEVEL,36,,unlocked,rigPackage:sniper_1,==,TRUE,OR,unlocked,rigPackage:sniper_2,==,TRUE,OR,unlocked,rigPackage:sniper_3,==,TRUE

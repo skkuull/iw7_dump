@@ -1,0 +1,66 @@
+r_filmEnable                          "1"
+r_filmContrast                        "1.42"
+r_filmBrightness                      "0.26"
+r_filmDesaturation                    "0.9"
+r_filmDesaturationDark                "0.07"
+r_filmInvert                          "0"
+r_filmLightTint                       "0.63 0.59 0.525"
+r_filmMediumTint                      "0.485 0.415 0.4"
+r_filmDarkTint                        "0.465 0.195 0.2"
+
+r_primaryLightUseTweaks               "0"
+r_primaryLightTweakDiffuseStrength    "1"
+r_primaryLightTweakSpecularStrength   "1"
+r_charLightAmbient			           "0 0 0"
+
+r_viewModelPrimaryLightUseTweaks      "0"
+r_viewModelPrimaryLightTweakDiffuseStrength    "1"
+r_viewModelPrimaryLightTweakSpecularStrength   "1"
+r_viewModelLightAmbient               "0 0 0"
+
+r_volumeLightScatter                  "0"
+r_volumeLightScatterColor             "0.2 0.2 0.2"
+r_volumeLightScatterLinearAtten       "1"
+r_volumeLightScatterQuadraticAtten    "0"
+r_volumeLightScatterAngularAtten      "0.25"
+r_volumeLightScatterDepthAttenNear    "0"
+r_volumeLightScatterDepthAttenFar     "0"
+r_volumeLightScatterBackgroundDistance "100000"
+
+r_ssaoStrength                        "1"
+
+r_materialBloomIntensity              "0"
+r_materialBloomRadius                 "2"
+r_materialBloomLuminanceCutoff        "0.8"
+r_materialBloomPinch                  "0"
+r_materialBloomDesaturation           "0"
+
+r_unlitSurfaceHDRScalar               "1"
+
+colorizationSet	"near_death_colorset"
+toneMapping	"default_tone"
+
+use_existing_dvars
+use_existing_hdr_colorization
+use_existing_tone_mapping
+
+
+colorizationSetCurveLowMin "0.09"
+colorizationSetCurveLowMax "0.17"
+colorizationSetCurveHighMin "0.44"
+colorizationSetCurveHighMax "0.61"
+colorizationSetCurveMidMidpoint "0.24"
+colorizationSetCurveMidRange "0.11"
+colorizationSetCurveMidFalloff "0.11"
+colorizationLowDesaturation "0.2"
+colorizationLowPower "0.9 1.05 1.05"
+colorizationLowScale "1.3 0.85 0.85"
+colorizationLowTint "0.0 0.0 0.0"
+colorizationMidDesaturation "0.2"
+colorizationMidPower "0.9 1.05 1.05"
+colorizationMidScale "1.3 0.85 0.85"
+colorizationMidTint "0.0 0.0 0.0"
+colorizationHighDesaturation "0.2"
+colorizationHighPower "0.9 1.05 1.05"
+colorizationHighScale "1.3 0.85 0.85"
+colorizationHighTint "0.0 0.0 0.0"
